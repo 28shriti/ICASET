@@ -1,0 +1,33 @@
+.patrons {
+    max-width: 100%;
+    background-color: rgba(76, 76, 135, 0.715);
+    padding: auto;
+    height: 65vh;
+    margin: 0 2rem;
+    padding: 0 0.5rem;
+    border-radius: 1.5rem;
+
+}
+
+.patronsTitle {
+    display: flex;
+    justify-content:center;
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+
+.patronsContent {
+    width: auto;
+    height: auto;
+
+}
+
+.div1 {
+    background-color: rgb(146, 204, 255);
+    color: rgb(38, 38, 120);
+    border-radius: 5rem;
+    margin: 1.5rem;
+    padding: 0.25rem;
+    height: 4rem;
+}

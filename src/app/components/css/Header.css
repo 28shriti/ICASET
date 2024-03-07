@@ -1,0 +1,32 @@
+.header{
+    background-color: rgba(1, 1, 72, 0.53);
+    color: white;
+    max-width: 100%;
+    margin: 0;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.heading {
+    font-size: xx-large;
+    text-align: center;
+    margin: 1rem 10rem;
+}
+
+.ycce-logo {
+    width: 8rem;
+    height: 3rem;
+    box-shadow: 0 0 10px 0 black;
+  }
+
+  .icaset-logo {
+    object-fit: contain;
+    /* width: 8rem; */
+    /* height: 4rem; */
+    width: 9vw;
+    mix-blend-mode: multiply;
+    /* box-shadow: 0 0 10px 0 black; */
+  }
