@@ -7,8 +7,8 @@ const page = () => {
                 <h1 className='font-black text-2xl'>Conveyers</h1>
             </div>
             <div className='flex w-screen justify-evenly items-center my-5'>
-                <ConveyerCard />
-                <ConveyerCard />
+                <ConveyerCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'HOD, Computer Technology'} />
+                <ConveyerCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'HOD, Computer Technology'} />
             </div>
         </div>
     )
