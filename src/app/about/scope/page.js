@@ -1,3 +1,5 @@
-export default function Attend() {
-    return <p>Attend</p>
+import ComingSoon from "@/app/components/ComingSoon"
+
+export default function Scope() {
+    return <ComingSoon />
 }

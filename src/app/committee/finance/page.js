@@ -1,3 +1,5 @@
+import ComingSoon from "@/app/components/ComingSoon"
+
 export default function Finance() {
-    return <p>Finance page</p>
+    return <ComingSoon />
 }
