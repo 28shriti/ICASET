@@ -31,7 +31,7 @@ const page = () => {
                 <h1 className="font-bold text-3xl text-center pt-10 pb-5">National Advisory Board</h1>
             </div>
             <div className="flex justify-center items-center w-screen">
-                <Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border'>
+                <Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border backdrop-blur-sm backdrop-contrast-50 text-white'>
                     {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                     <TableHeader>
                         <TableRow>
