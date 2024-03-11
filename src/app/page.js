@@ -7,9 +7,7 @@ import Notice from "./components/Notice";
 
 const Home = () => {
   return (
-    <div
-      className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-cover shadow-[inset_0_0_0_1000px_#000000b9] pb-10`}
-    >
+    <div>
       <Notice />
       <div className="flex w-full justify-between p-10 mt-0">
         <div className="w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white mr-5">
