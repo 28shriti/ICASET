@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import Dropdown from "./DropDown";
-import ChildDropdown from "./ChildDropDown"
 
 const Navbar = () => {
   const about = {
@@ -16,27 +15,38 @@ const Navbar = () => {
   const board = {
     trigger: "Board",
     items: [
-      "Patrons",
-      "International Advisory Board",
-      "National Advisory Board",
+      { name: "Patrons", href: "/board/patrons" },
+      { name: "International Advisory Board", href: "/board/iab" },
+      { name: "National Advisory Board", href: "/board/nab" },
     ],
   };
   const committee = {
     trigger: "Committee",
     items: [
-      "General Chairs",
-      "Technical Program Chairs",
-      "International Publicity Chairs",
-      "National Publicity Chairs",
-      "Finance Chairs",
-      "Publication Chairs",
-      "Technical Program Committee",
-      <ChildDropdown className="ml-40 mt-[-20px]"
-        dropdown={{
-          trigger: "Organizing Committee",
-          items: ["Conveyors", "Organizing secretary", "Organizing team"],
-        }}
-      />,
+      { name: "General Chairs", href: "/committee/general" },
+      { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
+      {
+        name: "International Publicity Chairs",
+        href: "/committee/international",
+      },
+      { name: "National Publicity Chairs", href: "/committee/national" },
+      { name: "Finance Chairs", href: "/committee/finance" },
+      { name: "Publication Chairs", href: "/committee/publication" },
+      {
+        trigger: "Technical Program Committee",
+        items: [
+          { name: "International", href: "/tech-committee/international" },
+          { name: "National", href: "/tech-committee/national" },
+        ],
+      },
+      {
+        trigger: "Organizing Committee",
+        items: [
+          { name: "Conveyors", href: "/organizing-committee/conveyors" },
+          { name: "Organizing secretary", href: "/organizing-committee/conveyors" },
+          { name: "Organizing team", href: "/organizing-committee/national" },
+          ],
+      },
     ],
   };
 
