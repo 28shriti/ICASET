@@ -42,9 +42,9 @@ const Navbar = () => {
       {
         trigger: "Organizing Committee",
         items: [
-          { name: "Conveyors", href: "/organizing-committee/conveyors" },
-          { name: "Organizing secretary", href: "/organizing-committee/conveyors" },
-          { name: "Organizing team", href: "/organizing-committee/national" },
+          { name: "Conveyors", href: "/committee/organizing-committee/conveyors" },
+          { name: "Organizing secretary", href: "/committee/organizing-committee/organizing-secretary" },
+          { name: "Organizing team", href: "/committee/organizing-committee/organizing-team" },
           ],
       },
     ],
