@@ -1,20 +1,19 @@
-import React from 'react'
-import './css/Header.css';
-import ycceLogo from '../ycceLogo.jpg';
-import icasetLogo from '../icaset_logo.jpg'
-
-// import '.C:/Users/SHRITI/OneDrive/Desktop/icesat/website/icaset/src/icaset_logo.jpg'
-// import 'C:/Users/SHRITI/OneDrive/Desktop/icesat/website/icaset/src/ycceLogo.jpg'
+import React from "react";
+import Image from "next/image";
+import ycceLogo from "../ycceLogo.jpg";
+import icasetLogo from "../icaset_logo.jpg";
 
 const Header = () => {
   return (
-    <div className='header'>
-      <img src={icasetLogo} alt="icaset_Logo" className='icaset-logo' />
-      <h1 className='heading'>International Conference on Application of Science, Engineering and Application</h1>
-      <img src={ycceLogo} alt="ycce_Logo" className='ycce-logo' />
+    <div className="bg-[#31363F] text-white w-full m-0 py-[1rem] px-[3rem] flex justify-between items-center">
+      <Image src={icasetLogo} alt="icaset_Logo" className="w-[120px]" />
+      <h1 className="text-3xl text-center mx-[10rem] my-[1rem]">
+        International Conference on Application of Science, Engineering and
+        Application
+      </h1>
+      <Image src={ycceLogo} alt="ycce_Logo" className="w-[150px]" />
     </div>
-  )
-}
+  );
+};
 
-export default Header
-
+export default Header;
