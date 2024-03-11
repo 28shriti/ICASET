@@ -2,7 +2,7 @@ import ConveyerCard from "@/app/components/ConveyerCard"
 
 const page = () => {
   return (
-        <div className="overflow-x-hidden">
+        <div className="overflow-x-hidden mb-10">
             <div className='flex justify-center items-center py-5'>
                 <h1 className='font-black text-2xl'>Organizing Secretary</h1>
             </div>

@@ -20,7 +20,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         <Navbar />
-        {children}
+        <div
+      className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-center bg-cover shadow-[inset_0_0_0_1000px_#00000000] pb-10`}
+    >
+        {children}</div>
         <Footer />
         </body>
     </html>
