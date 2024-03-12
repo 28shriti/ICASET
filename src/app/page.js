@@ -43,6 +43,21 @@ const Home = () => {
           Downloads
         </Button>
       </div>
+
+      <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+      </div>
     </div>
   );
 };

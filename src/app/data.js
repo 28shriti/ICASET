@@ -67,3 +67,8 @@ export const faq = [
 ]
 
 export default data;
+
+
+//TODO: (1) styling committee conveyors
+//TODO: (2) Sponsors component
+//TODO: (1) Carousel
