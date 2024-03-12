@@ -1,5 +1,5 @@
 // 'use client'
-import { accordionData } from "@/app/data"
+import { faq } from "@/app/data"
 
 import {
     Accordion,
@@ -10,11 +10,11 @@ import {
 
 
 
-export default function Attend() {
+export default function FAQ() {
     return <Accordion type="single" collapsible >
         {/* <h1></h1> */}
         {
-            accordionData.map((val, index) => {
+            faq.map((val, index) => {
                 return (
                     <AccordionItem value={`item-${index}`}>
                         <AccordionTrigger>{val.question}</AccordionTrigger>
