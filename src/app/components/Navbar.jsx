@@ -42,11 +42,28 @@ const Navbar = () => {
       {
         trigger: "Organizing Committee",
         items: [
-          { name: "Conveyors", href: "/committee/organizing-committee/conveyors" },
-          { name: "Organizing secretary", href: "/committee/organizing-committee/organizing-secretary" },
-          { name: "Organizing team", href: "/committee/organizing-committee/organizing-team" },
-          ],
+          {
+            name: "Conveyors",
+            href: "/committee/organizing-committee/conveyors",
+          },
+          {
+            name: "Organizing secretary",
+            href: "/committee/organizing-committee/organizing-secretary",
+          },
+          {
+            name: "Organizing team",
+            href: "/committee/organizing-committee/organizing-team",
+          },
+        ],
       },
+    ],
+  };
+
+  const contact = {
+    trigger: "Contact Us",
+    items: [
+      { name: "Site", href: "/contact/site" },
+      { name: "Stay in", href: "/contact/stayin" },
     ],
   };
 
@@ -71,9 +88,8 @@ const Navbar = () => {
       <Link href="/schedule" className="item">
         Programme Schedule
       </Link>
-      <Link href="/contact" className="item">
-        Contact US
-      </Link>
+      
+      <Dropdown dropdown={contact} />
     </div>
   );
 };
