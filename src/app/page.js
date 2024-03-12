@@ -29,13 +29,10 @@ const Home = () => {
     }
 
     setCarouselIndex(api.scrollSnapList().length)
-    // setCurrent(api.selectedScrollSnap() + 1)
+    setCurrent(api.selectedScrollSnap())
 
     api.on("select", () => {
-      setCurrent(prev => {
-        if(prev > 1) return 0
-        else return prev + 1
-      })
+      setCurrent(api.selectedScrollSnap())
       console.log('hello world')
     })
   }, [api])
