@@ -11,7 +11,7 @@ const Header = () => {
         International Conference on Application of Science, Engineering and
         Technology
       </h1>
-      <Image src={ycceLogo} alt="ycce_Logo" className="w-[150px]" />
+      <Image src={'/images/ycceLogoNew.png'} alt="ycce_Logo" width={200} height={150} className="" />
     </div>
   );
 };
