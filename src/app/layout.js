@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Navbar />
         <div
-      className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-center bg-cover shadow-[inset_0_0_0_1000px_#00000000] pb-10`}
+      className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-center bg-cover shadow-[inset_0_0_0_1000px_#00000000]`}
     >
         {children}</div>
         <Footer />

@@ -9,7 +9,7 @@ const Header = () => {
       <Image src={icasetLogo} alt="icaset_Logo" className="w-[120px]" />
       <h1 className="text-3xl text-center mx-[10rem] my-[1rem] font-semibold">
         International Conference on Application of Science, Engineering and
-        Application
+        Technology
       </h1>
       <Image src={ycceLogo} alt="ycce_Logo" className="w-[150px]" />
     </div>
