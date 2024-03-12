@@ -43,13 +43,13 @@ const Home = () => {
   console.log(current)
 
   return (
-    <div>
+    <div className="pb-10">
       <Notice />
       <div className="flex w-full justify-between p-10 mt-0">
         <div className="w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white mr-5">
           <h2 className="text-center text-lg font-bold mb-5">
             International Conference on Application of Science, Engineering and
-            Application
+            Technology
           </h2>
           <p style={{ margin: "2px 0" }}>
             Organized by: Computer Technology and Computer Science and
@@ -90,6 +90,21 @@ const Home = () => {
         <Button className="text-white bg-[#31363F] hover:bg-[#222831] mx-3">
           Downloads
         </Button>
+      </div>
+
+      <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
+        <div>
+          <p>Sponsor 1</p>
+        </div>
       </div>
     </div>
   );
