@@ -32,7 +32,7 @@ function page() {
                 <h1 className="text-white text-center text-4xl font-light">Patrons</h1>
                 {patrons.map((val, index) => {
 
-                    return (<div className="bg-blue-300 gap-10 py-2 transparent items-center flex flex-row m-10  rounded-full ">
+                    return (<div className="bg-gray-300 gap-10 py-2 bg-opacity-90 items-center flex flex-row m-10  rounded-full ">
                         <div >
                             <Image src={'/images/rakhimamimg.jpeg'} width={60} height={60} className="mx-3 rounded-full"/>
                         </div>

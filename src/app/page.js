@@ -1,11 +1,25 @@
-import React from "react";
+"use client"
+
+import React, { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import data from "./data"
 import Notice from "./components/Notice";
+import Autoplay from "embla-carousel-autoplay"
+import Image from "next/image"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel"
+
 
 const Home = () => {
+
+  const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }))
+  const [carouselIndex, setCarouselIndex] = useState(0)
+
   return (
     <div>
       <Notice />
@@ -29,7 +43,14 @@ const Home = () => {
             <p className="ml-3">Date: {data.conferenceDate}</p>
           </div>
         </div>
-        <div className="w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar ml-5"></div>
+        <div className="w-1/2  h-[50vh] rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar ml-5 realative flex flex-col ">
+          <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }}>
+            <CarouselContent >
+              {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} onClick={() => console.log(index)} className="h-[50vh]"><Image src={"/images/back.jpg"} className="w-full h-full rounded-xl" width={1000} height={1000} /></CarouselItem>))}
+            </CarouselContent>
+          </Carousel>
+          
+        </div>
       </div>
 
       <div className="w-full flex px-10">
