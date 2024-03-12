@@ -28,16 +28,16 @@ const page = () => {
     return (
         <div>
             <div>
-                <h1 className="font-bold text-3xl text-center pt-10 pb-5">National Advisory Board</h1>
+                <h1 className="font-bold text-3xl text-center pt-10 text-[#31363F]">National Advisory Board</h1>
             </div>
             <div className="flex justify-center items-center w-screen">
-                <Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border backdrop-blur-sm backdrop-contrast-50 text-white'>
+                <Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border backdrop-blur-sm backdrop-contrast-[0.4] text-white'>
                     {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
                     <TableHeader>
                         <TableRow>
-                            <TableHead className='text-xl text-center'>Name</TableHead>
-                            <TableHead className='text-xl text-center'>Designation</TableHead>
-                            <TableHead className='text-xl text-center'>Profile</TableHead>
+                            <TableHead className='text-xl text-center font-bold text-[#31363F]'>Name</TableHead>
+                            <TableHead className='text-xl text-center font-bold text-[#31363F]'>Designation</TableHead>
+                            <TableHead className='text-xl text-center font-bold text-[#31363F]'>Profile</TableHead>
                         </TableRow>
                     </TableHeader>
                     <TableBody>
