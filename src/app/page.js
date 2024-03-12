@@ -7,6 +7,7 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import data from "./data"
 import Notice from "./components/Notice";
 import Autoplay from "embla-carousel-autoplay"
+import { CarouselApi } from "@/components/ui/carousel"
 import Image from "next/image"
 import {
   Carousel,
@@ -18,7 +19,25 @@ import {
 const Home = () => {
 
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: false }))
+  const [api, setApi] = useState(CarouselApi)
+  const [current, setCurrent] = useState(0)
   const [carouselIndex, setCarouselIndex] = useState(0)
+
+  React.useEffect(() => {
+    if (!api) {
+      return
+    }
+
+    setCarouselIndex(api.scrollSnapList().length)
+    setCurrent(api.selectedScrollSnap())
+
+    api.on("select", () => {
+      setCurrent(api.selectedScrollSnap())
+      console.log('hello world')
+    })
+  }, [api])
+
+  console.log(current)
 
   return (
     <div className="pb-10">
@@ -44,12 +63,17 @@ const Home = () => {
           </div>
         </div>
         <div className="w-1/2  h-[50vh] rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar ml-5 realative flex flex-col ">
-          <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }}>
+          <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }} setApi = {setApi}>
             <CarouselContent >
-              {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} onClick={() => console.log(index)} className="h-[50vh]"><Image src={"/images/back.jpg"} className="w-full h-full rounded-xl" width={1000} height={1000} /></CarouselItem>))}
+              {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} onClick={() => console.log(index)} className="h-[50vh]"><Image src={`/images/back${index+1}.jpg`} className="w-full h-full rounded-xl" width={1000} height={1000} />
+              </CarouselItem>))}
             </CarouselContent>
           </Carousel>
-          
+          <div className="flex flex-row gap-1 absolute bottom-0 mb-1.5 self-center">
+            <div className="rounded-full h-2 w-2 border border-white border-solid" style={{backgroundColor : current === 0?"white":"transparent"}}></div>
+            <div className="rounded-full h-2 w-2 border border-white border-solid" style={{backgroundColor : current === 1?"white":"transparent"}}></div>
+            <div className="rounded-full h-2 w-2 border border-white border-solid" style={{backgroundColor : current === 2?"white":"transparent"}}></div>
+          </div>
         </div>
       </div>
 
