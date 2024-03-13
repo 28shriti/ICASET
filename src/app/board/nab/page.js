@@ -8,18 +8,19 @@ import {
 } from "@/components/ui/table"
 import Link from "next/link"
 import { nationalAdvisoryBoard } from "@/app/data"
-
+import '@/app/committee/organizing-committee/conveyors/conveyor.css'
+import BoardMember from "@/app/components/BoardMember"
 
 const page = () => {
 
     return (
-        <div>
+        <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
             <div>
-                <h1 className="font-bold text-3xl text-center pt-10 text-[#31363F]">National Advisory Board</h1>
+                <h1 className="title font-black text-4xl text-center pt-10 text-white">National Advisory Board</h1>
             </div>
-            <div className="flex justify-center items-center w-screen">
-                <Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border bg-[#31363F] bg-opacity-70 text-white'>
-                    {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
+            <div className="flex flex-row flex-wrap gap-5 justify-center items-center w-screen py-10">
+                {/*<Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border bg-[#31363F] bg-opacity-70 text-white'>
+                    <TableCaption>A list of your recent invoices.</TableCaption>
                     <TableHeader>
                         <TableRow>
                             <TableHead className='text-xl text-center font-bold text-white'>Name</TableHead>
@@ -41,7 +42,10 @@ const page = () => {
                         }
                     </TableBody>
                 </Table>
-
+                    */}
+                {nationalAdvisoryBoard.map((value, key) => {
+                    return <BoardMember link={value.link} img={value.img} name={value.name} designation={value.designation} />
+                })}
             </div>
         </div>
     )
