@@ -18,7 +18,7 @@ const page = () => {
             <div>
                 <h1 className="title font-black text-4xl text-center pt-10 text-white">National Advisory Board</h1>
             </div>
-            <div className="flex flex-row flex-wrap gap-5 justify-center items-center w-screen py-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center w-screen p-10">
                 {/*<Table className='w-[70vw] ml-[15vw] mt-10 mb-10 border bg-[#31363F] bg-opacity-70 text-white'>
                     <TableCaption>A list of your recent invoices.</TableCaption>
                     <TableHeader>
@@ -43,8 +43,8 @@ const page = () => {
                     </TableBody>
                 </Table>
                     */}
-                {nationalAdvisoryBoard.map((value, key) => {
-                    return <BoardMember link={value.link} img={value.img} name={value.name} designation={value.designation} />
+                {nationalAdvisoryBoard.map((value, index) => {
+                    return <BoardMember key={index} link={value.link} img={value.img} name={value.name} designation={value.designation} />
                 })}
             </div>
         </div>

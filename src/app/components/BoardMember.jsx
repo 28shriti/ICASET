@@ -3,8 +3,8 @@ import Link from "next/link"
 
 const BoardMember = (props) => {
     return (
-        <Link href={props.link}>
-            <div className="bg-white flex items-center gap-5 rounded-full pr-5 backdrop-blur-sm backdrop-contrast-50 hover:scale-[1.05] pl-5 h-[20vh] w-[25vw]" style={{transition: 'all 0.4s'}}>
+        <Link href={props.link} className="h-full w-full">
+            <div className="bg-white flex items-center gap-5 rounded-2xl hover:scale-[1.05] p-5 h-full w-full" style={{transition: 'all 0.4s'}}>
                 <Image src={props.img} height={100} width={100} alt="img" className="rounded-full" />
                 <div>
                     <h1 className='font-extrabold'>{props.name}</h1>
