@@ -3,32 +3,32 @@
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
+    Carousel,
+    CarouselContent,
+    CarouselItem,
 } from "@/components/ui/carousel"
 import React, { useEffect, useRef, useState } from 'react'
 
 function CustomCarousel() {
 
     const plugin = useRef(Autoplay({ delay: 3000, stopOnInteraction: false }))
-  const [api, setApi] = useState(null)
-  const [current, setCurrent] = useState(0)
-  const [carouselIndex, setCarouselIndex] = useState(0)
+    const [api, setApi] = useState(null)
+    const [current, setCurrent] = useState(0)
+    const [carouselIndex, setCarouselIndex] = useState(0)
 
-  useEffect(() => {
-    if (!api) {
-      return
-    }
+    useEffect(() => {
+        if (!api) {
+            return
+        }
 
-    setCarouselIndex(api.scrollSnapList().length)
-    setCurrent(api.selectedScrollSnap())
+        setCarouselIndex(api.scrollSnapList().length)
+        setCurrent(api.selectedScrollSnap())
 
-    api.on("select", () => {
-      setCurrent(api.selectedScrollSnap())
-      console.log('hello world')
-    })
-  }, [api])
+        api.on("select", () => {
+            setCurrent(api.selectedScrollSnap())
+            console.log('hello world')
+        })
+    }, [api])
 
     return (
         <div className="flex flex-col">
