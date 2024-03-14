@@ -11,22 +11,22 @@ const data = {
 
 export const patrons = [
     {
-        image: "rakhimamimg.jpeg",
+        image: "/images/rakhimamimg.jpeg",
         name: "kfjdk",
         designation: "jfhjdkn"
     },
     {
-        image: "rakhimamimg.jpeg",
+        image: "/images/rakhimamimg.jpeg",
         name: "kfjdk",
         designation: "jfhjdkn"
     },
     {
-        image: "rakhimamimg.jpeg",
+        image: "/images/rakhimamimg.jpeg",
         name: "kfjdk",
         designation: "jfhjdkn"
     },
     {
-        image: "rakhimamimg.jpeg",
+        image: "/images/rakhimamimg.jpeg",
         name: "kfjdk",
         designation: "jfhjdkn"
     },
