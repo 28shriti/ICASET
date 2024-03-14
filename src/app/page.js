@@ -46,7 +46,7 @@ const Home = () => {
         <div className="w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white mr-5">
           <h2 className="text-center text-lg font-bold mb-5">
             International Conference on Application of Science, Engineering and
-            Technology
+            Technology - 2024
           </h2>
           <p style={{ margin: "2px 0" }}>
             Organized by: Computer Technology and Computer Science and
