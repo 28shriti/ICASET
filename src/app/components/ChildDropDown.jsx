@@ -13,7 +13,7 @@ export default function ChildDropdown({ dropdown, className }) {
       <DropdownMenuContent className={`text-white bg-[#222831] border-none ${className}`}>
       {dropdown.items.map((item, index) => {
           return item["href"] != undefined ? (
-            <Link href={item.href || "/"} key={index}>
+            <Link href={item.href || "/"} key={index} target={`${item["newTab"] != undefined ? "_blank" : "_self"}`}>
               <DropdownMenuItem>{item.name}</DropdownMenuItem>
             </Link>
           ) : (
