@@ -19,7 +19,7 @@ const Navbar = () => {
           {name: "Technology and Innovation and Development in Management", href: "/about/conference-theme/track4"},
         ]
       },
-      { name: "FAQ", href: "/about/faq" },
+      { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
   const board = {
@@ -31,10 +31,10 @@ const Navbar = () => {
     ],
   };
   const committee = {
-    trigger: "Committee",
+    trigger: "Committees",
     items: [
-      { name: "General Chairs", href: "/committee/general" },
       { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
+      { name: "General Chairs", href: "/committee/general" },
       {
         name: "International Publicity Chairs",
         href: "/committee/international",
@@ -53,15 +53,15 @@ const Navbar = () => {
         trigger: "Organizing Committee",
         items: [
           {
-            name: "Conveyors",
+            name: "Convenors",
             href: "/committee/organizing-committee/conveyors",
           },
           {
-            name: "Organizing secretary",
+            name: "Organizing Secretary",
             href: "/committee/organizing-committee/organizing-secretary",
           },
           {
-            name: "Organizing team",
+            name: "Organizing Team",
             href: "/committee/organizing-committee/organizing-team",
           },
         ],
