@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="bg-[#31363F] text-white w-full m-0 p-3 lg:py-[1rem] lg:px-[3rem] flex justify-between items-center">
       <AppProgressBar color="white"/>
-      <Image src={icasetLogo} alt="icaset_Logo" className="w-[120px] hidden md:block" />
+      <Image src={icasetLogo} alt="icaset_Logo" className="w-[120px] hidden md:block mix-blend-multiply" />
       <h1 className="text-3xl font-bold text-center md:mx-5 lg:mx-10 my-[1rem]">
         International Conference on Application of Science, Engineering and
         Technology - 2024
