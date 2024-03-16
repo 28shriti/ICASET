@@ -6,9 +6,19 @@ const Navbar = () => {
   const about = {
     trigger: "About",
     items: [
+      { name: "YCCE", href: "/about/YCCE" },
       { name: "Preamble", href: "/about/preamble" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
+      {
+        trigger: "Conference Theme",
+        items: [
+          {name: "Data Science and Machine Learning", href: "/about/conference-theme/track1"},
+          {name: "Modelling and Optimization", href: "/about/conference-theme/track2"},
+          {name: "IOT and Communications", href: "/about/conference-theme/track3"},
+          {name: "Technology and Innovation and Development in Management", href: "/about/conference-theme/track4"},
+        ]
+      },
       { name: "FAQ", href: "/about/faq" },
     ],
   };
