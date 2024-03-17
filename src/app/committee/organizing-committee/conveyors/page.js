@@ -8,8 +8,8 @@ const page = () => {
                 <h1 className='title font-black text-white text-4xl'>Conveyors</h1>
             </div>
             <div className='flex w-screen justify-evenly items-center my-5 flex-col sm:flex-row sm:h-auto h-screen'>
-                <ConveyerCard img={'/images/rakhimamimg.jpeg'} name={'Dr. Rakhi D. Wajgi'} des={'HOD'} dep={'Computer Technology'} />
-                <ConveyerCard img={'/images/lalitSirImg.jpeg'} name={'Dr. Lalit Damahe'} des={'HOD'} dep={'Computer Science and Engineering'} />
+                <ConveyerCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'Head'} dep={'Computer Technology'} />
+                <ConveyerCard img={'/images/lalitSirImg.jpeg'} name={'Lalit Damahe'} des={'Head'} dep={'Computer Science and Engineering'} />
             </div>
         </div>
     )

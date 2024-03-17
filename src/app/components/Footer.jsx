@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/app/icaset_logo.jpg"
+import Link from "next/link";
+// import logo from "@/app/icaset_logo.jpg"
 
 export default function Footer() {
     return (
@@ -8,14 +9,14 @@ export default function Footer() {
             
             <div className=" flex p-20 justify-evenly ">
 
-            <div><Image src={logo} className="h-20 w-auto" />
+            <div><Image src={'/images/icaset_logo.png'} height={100} width={100} className="mix-blend-screen" />
             ICASET
             
             </div>
             <div >
-                LOCATION
+                📍LOCATION
                 <ul className=" font-light">
-                    <li>Ycce</li>
+                    <Link href="https://ycce.edu" >YCCE</Link>
                     <li>Hingna</li>
                 </ul>
             </div>

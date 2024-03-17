@@ -6,10 +6,20 @@ const Navbar = () => {
   const about = {
     trigger: "About",
     items: [
+      { name: "YCCE", href: "/about/YCCE" },
       { name: "Preamble", href: "/about/preamble" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
-      { name: "FAQ", href: "/about/faq" },
+      {
+        trigger: "Conference Theme",
+        items: [
+          {name: "Data Science and Machine Learning", href: "/about/conference-theme/track1"},
+          {name: "Modelling and Optimization", href: "/about/conference-theme/track2"},
+          {name: "IOT and Communications", href: "/about/conference-theme/track3"},
+          {name: "Technology and Innovation and Development in Management", href: "/about/conference-theme/track4"},
+        ]
+      },
+      { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
   const board = {
@@ -21,10 +31,10 @@ const Navbar = () => {
     ],
   };
   const committee = {
-    trigger: "Committee",
+    trigger: "Committees",
     items: [
-      { name: "General Chairs", href: "/committee/general" },
       { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
+      { name: "General Chairs", href: "/committee/general" },
       {
         name: "International Publicity Chairs",
         href: "/committee/international",
@@ -43,15 +53,15 @@ const Navbar = () => {
         trigger: "Organizing Committee",
         items: [
           {
-            name: "Conveyors",
+            name: "Convenors",
             href: "/committee/organizing-committee/conveyors",
           },
           {
-            name: "Organizing secretary",
+            name: "Organizing Secretary",
             href: "/committee/organizing-committee/organizing-secretary",
           },
           {
-            name: "Organizing team",
+            name: "Organizing Team",
             href: "/committee/organizing-committee/organizing-team",
           },
         ],
