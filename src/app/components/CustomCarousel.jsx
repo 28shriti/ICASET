@@ -6,12 +6,14 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
+
 } from "@/components/ui/carousel"
 import React, { useEffect, useRef, useState } from 'react'
 
 function CustomCarousel() {
 
     const plugin = useRef(Autoplay({ delay: 3000, stopOnInteraction: false }))
+
     const [api, setApi] = useState(null)
     const [current, setCurrent] = useState(0)
     const [carouselIndex, setCarouselIndex] = useState(0)
@@ -29,11 +31,12 @@ function CustomCarousel() {
         })
     }, [api])
 
+
     return (
         <div className="flex flex-col">
             <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }} setApi={setApi}>
                 <CarouselContent >
-                    {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} className="h-[50vh]"><Image alt="image not found" src={`/images/back${index + 1}.jpg`} className="w-full h-full" width={1000} height={1000} />
+                    {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} onClick={() => console.log(index)} className="h-[50vh]"><Image src={`/images/back${index + 1}.jpg`} className="w-full h-full object-center object-cover" width={1000} height={1000} />
                     </CarouselItem>))}
                 </CarouselContent>
             </Carousel>
