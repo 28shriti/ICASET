@@ -10,24 +10,16 @@ const Navbar = () => {
       { name: "Preamble", href: "/about/preamble" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
-      {
-        trigger: "Conference Theme",
-        items: [
-          {name: "Data Science and Machine Learning", href: "/about/conference-theme/track1"},
-          {name: "Modelling and Optimization", href: "/about/conference-theme/track2"},
-          {name: "IOT and Communications", href: "/about/conference-theme/track3"},
-          {name: "Technology and Innovation and Development in Management", href: "/about/conference-theme/track4"},
-        ]
-      },
+      { name: "Conference Theme", href: "/about/conference-theme"},
+      { name: "Patrons", href: "/board/patrons" },
       { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
   const board = {
-    trigger: "Board",
+    trigger: "Advisory Board",
     items: [
-      { name: "Patrons", href: "/board/patrons" },
-      { name: "International Advisory Board", href: "/board/iab" },
-      { name: "National Advisory Board", href: "/board/nab" },
+      { name: "International", href: "/board/iab" },
+      { name: "National", href: "/board/nab" },
     ],
   };
   const committee = {
@@ -45,8 +37,8 @@ const Navbar = () => {
       {
         trigger: "Technical Program Committee",
         items: [
-          { name: "International", href: "/tech-committee/international" },
-          { name: "National", href: "/tech-committee/national" },
+          { name: "International", href: "/committee/tech-committee/international" },
+          { name: "National", href: "/committee/tech-committee/national" },
         ],
       },
       {

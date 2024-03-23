@@ -13,7 +13,7 @@ const page = () => {
                         {
                             dsmlTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
@@ -27,7 +27,7 @@ const page = () => {
                         {
                             moTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
@@ -41,7 +41,7 @@ const page = () => {
                         {
                             iotTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
@@ -55,7 +55,7 @@ const page = () => {
                         {
                             tidmTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }

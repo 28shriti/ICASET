@@ -19,7 +19,7 @@ export default function ChildDropdown({ dropdown, className }) {
           ) : (
             <ChildDropdown
               key={index}
-              className="ml-30   -mt-10"
+              className="ml-90 -mt-10"
               dropdown={item}
             />
           );

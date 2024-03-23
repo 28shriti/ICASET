@@ -28,7 +28,6 @@ function CustomCarousel() {
 
         api.on("select", () => {
             setCurrent(api.selectedScrollSnap())
-            console.log('hello world')
         })
     }, [api])
 
