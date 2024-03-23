@@ -9,15 +9,15 @@ const page = () => {
             <div>
                 <h1 className="text-white font-black text-3xl text-center py-5 pb-10">Data Science and Machine Learning</h1>
                 <div className="flex justify-center items-start">
-                    <ul className="text-white">
+                    <ol className="text-white list-item">
                         {
                             dsmlTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
-                    </ul>
+                    </ol>
                 </div>
             </div>
             <div>
@@ -27,7 +27,7 @@ const page = () => {
                         {
                             moTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
@@ -35,13 +35,13 @@ const page = () => {
                 </div>
             </div>
             <div>
-                <h1 className="text-white font-black text-3xl text-center py-5 pb-10">IoT and Communicationsa</h1>
+                <h1 className="text-white font-black text-3xl text-center py-5 pb-10">IoT and Communications</h1>
                 <div className="flex justify-center items-start">
                     <ul className="text-white">
                         {
                             iotTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
@@ -55,7 +55,7 @@ const page = () => {
                         {
                             tidmTheme.map((value, key) => {
                                 return (
-                                    <li>{value}</li>
+                                    <li key={key}>{value}</li>
                                 )
                             })
                         }
