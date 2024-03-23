@@ -52,16 +52,25 @@ const Home = () => {
 
       <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
         <div>
-          <p>Sponsor 1</p>
+          <p>Elite Global Pvt Ltd</p>
         </div>
         <div>
-          <p>Sponsor 1</p>
+          <p>Janki Electromac</p>
         </div>
         <div>
-          <p>Sponsor 1</p>
+          <p>Media Partner Lokmat </p>
         </div>
         <div>
-          <p>Sponsor 1</p>
+          <p>Technically Co-Sponsered by </p>
+        </div>
+        <div>
+          <p>Yash Earthing Pune </p>
+        </div>
+        <div>
+          <p>Skywings Technology</p>
+        </div>
+        <div>
+          <p>Crypto Forensic Technology</p>
         </div>
       </div>
     </div>
