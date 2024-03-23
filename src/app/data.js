@@ -116,7 +116,7 @@ export const nationalAdvisoryBoard = [
         link: 'https://linkedin.com'
     },
     {
-        img: '/images/nab/',
+        img: '/images/nab/tusharDesai.png',
         name: 'Tushar Desai',
         designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat',
         link: 'https://linkedin.com'
@@ -132,6 +132,102 @@ export const nationalAdvisoryBoard = [
         name: 'Annappa',
         designation: 'National Institute of Technology Surathkal, Karnataka',
         link: 'https://linkedin.com'
+    },
+]
+
+export const internationalTechProgramCommittee = [
+    {
+        image: "/images/tech-committee/international/image1.jpeg",
+        name: "Silvance Abeka",
+        designation: "University of Dar es Salaam (UDSM), Kenya"
+    },
+    {
+        image: "/images/tech-committee/international/image2.png",
+        name: "Ravindra Wasalwar",
+        designation: "Principal Engineer at T-Mobile, Ashburn, Virginia, United States"
+    },
+    {
+        image: "/images/tech-committee/international/image3.jpeg",
+        name: "Atul Madawi",
+        designation: "Java Developer at Truteq, Australia"
+    },
+    {
+        image: "/images/tech-committee/international/image4.jpeg",
+        name: "Mohd Asif Shah",
+        designation: "Kardan University Kabul, Afghanistan"
+    },
+    {
+        image: "/images/tech-committee/international/image5.png",
+        name: "Hameed R. Farhan",
+        designation: "University of Kerbala, Iraq"
+    },
+    {
+        image: "/images/tech-committee/international/image6.jpeg",
+        name: "Ousmane Thiare",
+        designation: "Gaston Berger University, Saint-Louis, Senegal"
+    },
+]
+
+export const nationalTechProgramCommittee = [
+    {
+        image: "/images/tech-committee/national/image1.jpeg",
+        name: "Sangita Nandurkar",
+        designation: "A.C.Patil College of Engineering, Kharghar, Mumbai, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image2.jpeg",
+        name: "Balu Parne",
+        designation: "Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat"
+    },
+    {
+        image: "/images/tech-committee/national/image3.jpeg",
+        name: "Shailesh Kamble",
+        designation: "Indira Gandhi Delhi Technical University for Women, New Delhi"
+    },
+    {
+        image: "/images/tech-committee/national/image4.jpeg",
+        name: "Supriya Sawwashere",
+        designation: "J D College of Engineering and Management, Nagpur, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image5.jpeg",
+        name: "Nikhil P. Wyawahare",
+        designation: "RTM Nagpur University, Nagpur, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image6.jpeg",
+        name: "Praveen Kantha",
+        designation: "Chitkara University Himachal Pradesh"
+    },
+    {
+        image: "/images/tech-committee/national/image7.jpeg",
+        name: "Deepak Sinwar",
+        designation: "Manipal University, Jaipur"
+    },
+    {
+        image: "/images/tech-committee/national/image8.png",
+        name: "Santosh Srivastava",
+        designation: "GNIOT, Greater Noida"
+    },
+    {
+        image: "/images/tech-committee/national/image9.jpeg",
+        name: "Deepshikha Tiwari",
+        designation: "Thapar Institute of Engineering and Technology, Punjab"
+    },
+    {
+        image: "/images/tech-committee/national/image10.png",
+        name: "Amit Garg",
+        designation: "Manipal University, Jaipur"
+    },
+    {
+        image: "/images/tech-committee/national/image11.jpeg",
+        name: "Sunil Kumar Maakar",
+        designation: "GNIOT, Greater Noida"
+    },
+    {
+        image: "/images/tech-committee/national/image12.jpeg",
+        name: "Shalini Goel",
+        designation: "Tecnia Institute of Advanced Studies, Delhi"
     },
 ]
 

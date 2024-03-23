@@ -11,7 +11,7 @@ function page() {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-x-5 gap-y-5'>
                     {patrons.map((val, index) => {
 
-                        return (<BoardMember img={val.image} name={val.name} designation={val.designation} link={"https://www.google.com"} />)
+                        return (<BoardMember key={index} img={val.image} name={val.name} designation={val.designation} link={"https://www.google.com"} />)
                     })}
                 </div>
             </div>
