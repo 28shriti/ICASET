@@ -347,6 +347,25 @@ export const tidmTheme = [
     "IoT data protocol: MQTT-SN, COAP, XMPP-IoT, AMQP"
 ]
 
+export const stayIns = [
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    },
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    },
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    }
+]
+
+
 export default data;
 
 
