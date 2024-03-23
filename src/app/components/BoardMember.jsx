@@ -10,6 +10,7 @@ const BoardMember = (props) => {
                 <div>
                     <h1 className='font-extrabold'>{props.name}</h1>
                     <p className='font-medium text-opacity-5'>{props.designation}</p>
+                    <p className='font-medium text-opacity-5'>{props.country}</p>
                 </div>
             </div>
         </Link>
