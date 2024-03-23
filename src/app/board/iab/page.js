@@ -43,7 +43,7 @@ const page = () => {
                 </Table> */}
 
                 {internationalAdvisoryBoard.map((value, key)=> {
-                    return <BoardMember key={key} link={value.link} name={value.name} designation={value.designation} img={value.img} />
+                    return <BoardMember key={key} link={value.link} name={value.name} designation={value.designation} country={value.country} img={value.img} />
                 })}
 
             </div>

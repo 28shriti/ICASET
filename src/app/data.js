@@ -37,44 +37,58 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/JamesFPeters.png',
         name: 'James F Peters',
-        designation: 'University of Manitoba, Winnipeg, Canada',
+        designation: 'University of Manitoba, Winnipeg',
+        country: 'Canada',
         link: 'https://www.researchgate.net/profile/James-Peters-3'
     },
     {
         img: '/images/iab/MamoonRashid.png',
         name: 'Mamoon Rashid',
-        designation: 'School of Information, Communication, and Technology, Bahrain',
+        designation: 'School of Information, Communication, and Technology',
+        country: 'Bahrain',
         link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
     },
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
         name: 'Nitaigour Premchand Mahalik',
-        designation: 'Department of Industrial Technology, California State University, Fresno, USA',
+        designation: 'Department of Industrial Technology, California State University, Fresno',
+        country: 'United States of America',
         link: 'https://scholar.google.com/citations?user=PExYiPsAAAAJ&hl=en'
     },
     {
         img: '/images/iab/SukhpalSinghGill.png',
         name: 'Sukhpal Singh Gill',
-        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London, U.K.',
+        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London',
+        country: 'United Kingdom',
         link: 'https://scholar.google.co.uk/citations?user=NHkWom4AAAAJ&hl=en'
     },
     {
         img: '/images/iab/JoachimHoltz.png',
         name: 'Joachim Holtz',
-        designation: 'University of Wuppertal, Wuppertal, Germany',
+        designation: 'University of Wuppertal, Wuppertal',
+        country: 'Germany',
         link: 'https://ieeexplore.ieee.org/author/37267042900'
     },
     {
         img: '/images/iab/RezaLangari.png',
         name: 'Reza Langari',
-        designation: 'Texas A&M University, United States',
+        designation: 'Texas A&M University',
+        country: 'United States of America',
         link: 'https://scholar.google.com/citations?user=IozzI8sAAAAJ'
     },
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Jabar H. Yousif',
-        designation: 'Sohar University, Oman',
+        designation: 'Sohar University',
+        country: 'Oman',
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
+    },
+    {
+        img: '/images/iab/JabarHYousif.png',
+        name: 'Pradeep Kumar',
+        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal, Durban',
+        country: 'South Africa',
+        link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
     },
 ]
 
@@ -131,6 +145,24 @@ export const nationalAdvisoryBoard = [
         img: '/images/nab/Annappa.png',
         name: 'Annappa',
         designation: 'National Institute of Technology Surathkal, Karnataka',
+        link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/RajeshSingh.png',
+        name: 'Rajesh Singh',
+        designation: 'Uttaranchal University, Dehradun, Uttarakhand',
+        link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/RajSingh.png',
+        name: 'Raj Singh',
+        designation: 'JAIN (Deemed-to-be University) · Bengaluru, Karnataka, India',
+        link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/GauravTrivedi.png',
+        name: 'Gaurav Trivedi',
+        designation: 'Indian Institute of Technology Guwahati, Assam',
         link: 'https://linkedin.com'
     },
 ]
