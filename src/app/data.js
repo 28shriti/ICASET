@@ -11,27 +11,27 @@ const data = {
 
 export const patrons = [
     {
-        image: "/images/dattaji.jpg",
+        image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
         designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
     },
     {
-        image: "/images/sameermeghe.jpg",
+        image: "/images/patrons/sameermeghe.jpg",
         name: "Shri Sameerji  Meghe  ",
         designation: "MLA - Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
     },
     {
-        image: "/images/ravimeghe.jpg",
+        image: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
         designation: "Secreatary, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/vrindatai.jpg",
+        image: "/images/patrons/vrindatai.jpg",
         name: "Smt. Vrindatai Meghe",
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/rakhimamimg.jpeg",
+        image: "/images/patrons/rakhimamimg.jpeg",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
