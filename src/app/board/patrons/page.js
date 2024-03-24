@@ -41,7 +41,7 @@ function page() {
                 <div className='flex flex-row flex-wrap justify-center gap-x-5 gap-y-5'>
                     {patrons.map((val, index) => {
 
-                        return (<BoardMember img={val.image} name={val.name} designation={val.designation} link={"https://www.google.com"} />)
+                        return (<BoardMember key={index} img={val.image} name={val.name} designation={val.designation} />)
                     })}
                 </div>
             </div>

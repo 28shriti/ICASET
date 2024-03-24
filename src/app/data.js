@@ -11,7 +11,7 @@ const data = {
 
 export const ourVisionary = [
     {
-        image: "/images/dattaji.jpg",
+        image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
         designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
     },
@@ -19,22 +19,22 @@ export const ourVisionary = [
 
 export const chiefPatrons = [
     {
-        image: "/images/sameermeghe.jpg",
+        image: "/images/patrons/sameermeghe.jpg",
         name: "Shri Sameerji  Meghe  ",
         designation: "MLA - Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
     },
     {
-        image: "/images/ravimeghe.jpg",
+        image: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
         designation: "Secreatary, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/vrindatai.jpg",
+        image: "/images/patrons/vrindatai.jpg",
         name: "Smt. Vrindatai Meghe",
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/rakhimamimg.jpeg",
+        image: "/images/patrons/rakhimamimg.jpeg",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -58,47 +58,124 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/JamesFPeters.png',
         name: 'James F Peters',
-        designation: 'University of Manitoba, Winnipeg, Canada',
+        designation: 'University of Manitoba, Winnipeg',
+        country: 'Canada',
         link: 'https://www.researchgate.net/profile/James-Peters-3'
     },
     {
         img: '/images/iab/MamoonRashid.png',
         name: 'Mamoon Rashid',
-        designation: 'School of Information, Communication, and Technology, Bahrain',
+        designation: 'School of Information, Communication, and Technology',
+        country: 'Bahrain',
         link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
     },
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
         name: 'Nitaigour Premchand Mahalik',
-        designation: 'Department of Industrial Technology, California State University, Fresno, USA',
+        designation: 'Department of Industrial Technology, California State University, Fresno',
+        country: 'United States of America',
         link: 'https://scholar.google.com/citations?user=PExYiPsAAAAJ&hl=en'
     },
     {
         img: '/images/iab/SukhpalSinghGill.png',
         name: 'Sukhpal Singh Gill',
-        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London, U.K.',
+        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London',
+        country: 'United Kingdom',
         link: 'https://scholar.google.co.uk/citations?user=NHkWom4AAAAJ&hl=en'
     },
     {
         img: '/images/iab/JoachimHoltz.png',
         name: 'Joachim Holtz',
-        designation: 'University of Wuppertal, Wuppertal, Germany',
+        designation: 'University of Wuppertal, Wuppertal',
+        country: 'Germany',
         link: 'https://ieeexplore.ieee.org/author/37267042900'
     },
     {
         img: '/images/iab/RezaLangari.png',
         name: 'Reza Langari',
-        designation: 'Texas A&M University, United States',
+        designation: 'Texas A&M University',
+        country: 'United States of America',
         link: 'https://scholar.google.com/citations?user=IozzI8sAAAAJ'
     },
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Jabar H. Yousif',
-        designation: 'Sohar University, Oman',
+        designation: 'Sohar University',
+        country: 'Oman',
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
+    {
+        img: '/images/iab/JabarHYousif.png',
+        name: 'Pradeep Kumar',
+        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal, Durban',
+        country: 'South Africa',
+        link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
+    },
 ]
-
+export const nationalPublicityChair = [
+    {
+        image : "/images/publicitychair/national/durgeshkumar.jpg",
+        name : "Durgesh Srivastava",
+        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
+        link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
+    },
+    {
+        image : "/images/publicitychair/national/rajeshwarisridhar.jpg",
+        name : "Rajeswari Sridhar",
+        designation : "National Institute of Technology Tiruchirappalli, Kerla",
+        link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
+    },
+    {
+        image : "/images/publicitychair/national/sayankumar.jpg",
+        name : "Sayan Ranu",
+        designation : "Indian Institute of Technology, Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
+    },
+    {
+        image : "/images/publicitychair/national/shaileshkamble.jpg",
+        name : "Shailesh Kamble",
+        designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
+    },
+    {
+        image : "/images/publicitychair/national/sandipmal.jpg",
+        name : "Sandip Mal",
+        designation : "VIT Bhopal University Madhya Pradesh",
+        link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
+    },
+    {
+        image : "/images/publicitychair/national/gunvantichellamuthu.jpg",
+        name : "Gunavathi C",
+        designation : "VIT University, Vellore TamilNadu",
+        link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
+    },
+    {
+        image : "/images/publicitychair/national/rameshchandra.jpg",
+        name : "Ramesh Chandra",
+        designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
+        link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
+    },
+    {
+        image : "/images/publicitychair/national/shailajapatil.jpg",
+        name : "Shaileja Patil",
+        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
+        link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
+    },
+]
+export const internationalPublicityChair =[
+    {
+        img: '/images/publicitychair/international/ajaykumar.jpg',
+        name: 'Ajay Kumar',
+        designation: 'Guizhou Normal University China',
+        link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
+    },
+    {
+        img: '/images/publicitychair/international/pramoudgaur.jpg',
+        name: 'Pramod Gaur',
+        designation: 'Nottingham Trent University Nottingham United Kingdom',
+        link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
+    }
+]
 export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
@@ -137,7 +214,7 @@ export const nationalAdvisoryBoard = [
         link: 'https://linkedin.com'
     },
     {
-        img: '/images/nab/',
+        img: '/images/nab/tusharDesai.png',
         name: 'Tushar Desai',
         designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat',
         link: 'https://linkedin.com'
@@ -153,6 +230,122 @@ export const nationalAdvisoryBoard = [
         name: 'Annappa',
         designation: 'National Institute of Technology Surathkal, Karnataka',
         link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/RajeshSingh.png',
+        name: 'Rajesh Singh',
+        designation: 'Uttaranchal University, Dehradun, Uttarakhand',
+        link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/RajSingh.png',
+        name: 'Raj Singh',
+        designation: 'JAIN (Deemed-to-be University) · Bengaluru, Karnataka, India',
+        link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/GauravTrivedi.png',
+        name: 'Gaurav Trivedi',
+        designation: 'Indian Institute of Technology Guwahati, Assam',
+        link: 'https://linkedin.com'
+    },
+]
+
+export const internationalTechProgramCommittee = [
+    {
+        image: "/images/tech-committee/international/image1.jpeg",
+        name: "Silvance Abeka",
+        designation: "University of Dar es Salaam (UDSM), Kenya"
+    },
+    {
+        image: "/images/tech-committee/international/image2.png",
+        name: "Ravindra Wasalwar",
+        designation: "Principal Engineer at T-Mobile, Ashburn, Virginia, United States"
+    },
+    {
+        image: "/images/tech-committee/international/image3.jpeg",
+        name: "Atul Madawi",
+        designation: "Java Developer at Truteq, Australia"
+    },
+    {
+        image: "/images/tech-committee/international/image4.jpeg",
+        name: "Mohd Asif Shah",
+        designation: "Kardan University Kabul, Afghanistan"
+    },
+    {
+        image: "/images/tech-committee/international/image5.png",
+        name: "Hameed R. Farhan",
+        designation: "University of Kerbala, Iraq"
+    },
+    {
+        image: "/images/tech-committee/international/image6.jpeg",
+        name: "Ousmane Thiare",
+        designation: "Gaston Berger University, Saint-Louis, Senegal"
+    },
+]
+
+
+
+export const nationalTechProgramCommittee = [
+    {
+        image: "/images/tech-committee/national/image1.jpeg",
+        name: "Sangita Nandurkar",
+        designation: "A.C.Patil College of Engineering, Kharghar, Mumbai, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image2.jpeg",
+        name: "Balu Parne",
+        designation: "Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat"
+    },
+    {
+        image: "/images/tech-committee/national/image3.jpeg",
+        name: "Shailesh Kamble",
+        designation: "Indira Gandhi Delhi Technical University for Women, New Delhi"
+    },
+    {
+        image: "/images/tech-committee/national/image4.jpeg",
+        name: "Supriya Sawwashere",
+        designation: "J D College of Engineering and Management, Nagpur, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image5.jpeg",
+        name: "Nikhil P. Wyawahare",
+        designation: "RTM Nagpur University, Nagpur, Maharashtra"
+    },
+    {
+        image: "/images/tech-committee/national/image6.jpeg",
+        name: "Praveen Kantha",
+        designation: "Chitkara University Himachal Pradesh"
+    },
+    {
+        image: "/images/tech-committee/national/image7.jpeg",
+        name: "Deepak Sinwar",
+        designation: "Manipal University, Jaipur"
+    },
+    {
+        image: "/images/tech-committee/national/image8.png",
+        name: "Santosh Srivastava",
+        designation: "GNIOT, Greater Noida"
+    },
+    {
+        image: "/images/tech-committee/national/image9.jpeg",
+        name: "Deepshikha Tiwari",
+        designation: "Thapar Institute of Engineering and Technology, Punjab"
+    },
+    {
+        image: "/images/tech-committee/national/image10.png",
+        name: "Amit Garg",
+        designation: "Manipal University, Jaipur"
+    },
+    {
+        image: "/images/tech-committee/national/image11.jpeg",
+        name: "Sunil Kumar Maakar",
+        designation: "GNIOT, Greater Noida"
+    },
+    {
+        image: "/images/tech-committee/national/image12.jpeg",
+        name: "Shalini Goel",
+        designation: "Tecnia Institute of Advanced Studies, Delhi"
     },
 ]
 
@@ -234,6 +427,25 @@ export const tidmTheme = [
     "Cloud Computing and IoT",
     "IoT data protocol: MQTT-SN, COAP, XMPP-IoT, AMQP"
 ]
+
+export const stayIns = [
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    },
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    },
+    {
+        name: "Random",
+        image: "/images/background.jpg",
+        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+    }
+]
+
 
 export default data;
 
