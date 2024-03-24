@@ -95,6 +95,34 @@ export const internationalAdvisoryBoard = [
         country: 'South Africa',
         link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
     },
+    {
+        img: '/images/iab/MuftiMahmud.png',
+        name: 'Mufti Mahmud',
+        designation: 'Nottingham Trent University',
+        country: 'United Kingdom',
+        link: 'https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/ValentinaEmiliaBalas.png',
+        name: 'Valentina Emilia Balas',
+        designation: 'Aurel Vlaicu University of Arad / Academy of Romanian Scientists',
+        country: 'Romania',
+        link: 'https://scholar.google.com/citations?user=XaktX0wAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/MShamimKaiser.png',
+        name: 'M. Shamim Kaiser',
+        designation: 'Institute of Information Technology, Jahangirnagar University, Dhaka-1342',
+        country: 'Bangladesh',
+        link: 'https://scholar.google.com/citations?user=yjrSXiEAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/ChakchaiSoIn.png',
+        name: 'Chakchai So-In',
+        designation: 'College of Computing, Khon Kaen University',
+        country: 'Thailand',
+        link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
+    },
 ]
 export const nationalPublicityChair = [
     {
@@ -232,6 +260,84 @@ export const nationalAdvisoryBoard = [
         name: 'Gaurav Trivedi',
         designation: 'Indian Institute of Technology Guwahati, Assam',
         link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/OmprakashGKakde.png',
+        name: 'Omprakash G. Kakde',
+        designation: 'Indian Institute of Information Technology, Nagpur',
+        link: 'https://scholar.google.co.in/citations?user=E5ErZ2UAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ParthaPratimRoy.png',
+        name: 'Partha Pratim Roy',
+        designation: 'Indian Institute of Technology, Roorkee',
+        link: 'https://scholar.google.ca/citations?user=moDpyKkAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/SarojKumarBiswas.png',
+        name: 'Saroj Kumar Biswas',
+        designation: 'NIT, Silchar',
+        link: 'https://scholar.google.com/citations?user=5poSUEQAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/NilanjanDey.png',
+        name: 'Nilanjan Dey',
+        designation: 'Techno International New Town, Kolkata',
+        link: 'https://scholar.google.co.in/citations?user=uZmrRHAAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/VijayBhaskarSemwal.png',
+        name: 'Vijay Bhaskar Semwal',
+        designation: 'MANIT, Bhopal',
+        link: 'https://scholar.google.co.in/citations?user=cPorLCwAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ParikshitMahalle.png',
+        name: 'Parikshit Mahalle',
+        designation: 'Vishwakarma Institute, Pune',
+        link: 'https://scholar.google.co.in/citations?user=44SjKmAAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ChittaranjanHota.png',
+        name: 'Chittaranjan Hota',
+        designation: 'BITS, Hyderabad',
+        link: 'https://scholar.google.co.in/citations?user=tFy6PS4AAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/AnilLimaye.png',
+        name: 'Anil Limaye',
+        designation: 'Indian Institute of Technology, Guwahati',
+        link: 'https://scholar.google.com/citations?user=9dpdzWEAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/PradeepkumarMallick.png',
+        name: 'Pradeepkumar Mallick',
+        designation: 'KIIT University, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=Vo6vDTUAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/TanupriyaChoudhury.png',
+        name: 'Tanupriya Choudhury',
+        designation: 'Graphic Era University, Dehradun',
+        link: 'https://scholar.google.co.in/citations?user=tsbYDewAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/DebahutiMishra.png',
+        name: 'Debahuti Mishra',
+        designation: 'Siksha O Anusandhan University, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=k1pS2AQAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ShrikantaPatnaik.png',
+        name: 'Shrikanta Patnaik',
+        designation: 'Interscience Institute of Management & Technology, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=TmbH6b0AAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/MadhuriBhavsar.png',
+        name: 'Madhuri Bhavsar',
+        designation: 'Nirma University, Ahmedabad',
+        link: 'https://scholar.google.com/citations?user=i3XuX9AAAAAJ&hl=en'
     },
 ]
 
