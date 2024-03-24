@@ -13,6 +13,10 @@ import BoardMember from "@/app/components/BoardMember"
 
 const page = () => {
 
+    const board = Array.from(nationalAdvisoryBoard).sort((a, b) => {
+        return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
+      });
+
     return (
         <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
             <div className="w-auto flex justify-center">
@@ -43,7 +47,7 @@ const page = () => {
                     </TableBody>
                 </Table>
                     */}
-                {nationalAdvisoryBoard.map((value, index) => {
+                {board.map((value, index) => {
                     return <BoardMember key={index} link={value.link} img={value.img} name={value.name} designation={value.designation} />
                 })}
             </div>
