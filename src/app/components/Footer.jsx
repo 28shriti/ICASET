@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#222831]  text-white p-20 flex justify-center">
+        <footer className="w-full bg-[#222831]  text-white p-20 pb-0 flex justify-center">
             
         <div style={{ marginRight : "60px",width:"400px",height : "300px"}}>
             <Image src={'/images/icaset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" hidden md:block mix-blend-screen object-cover object-center" />

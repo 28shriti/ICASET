@@ -4,7 +4,7 @@ import BoardMember from '@/app/components/BoardMember'
 
 function page() {
     return (
-        <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 py-10">
+        <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 pb-10">
             <div className="flex-column mx-auto w-full rounded-lg px-10 py-4 self-center bg-opacity-60 h-auto overflow-y-auto no-scrollbar">
                 <div className='flex flex-row justify-center items-center'>
                     <div className='bg-white h-[1px] w-[30%]'></div>
