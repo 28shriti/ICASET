@@ -9,12 +9,15 @@ const data = {
     ]
 }
 
-export const patrons = [
+export const ourVisionary = [
     {
         image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
         designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
     },
+]
+
+export const chiefPatrons = [
     {
         image: "/images/patrons/sameermeghe.jpg",
         name: "Shri Sameerji  Meghe  ",
@@ -34,6 +37,19 @@ export const patrons = [
         image: "/images/patrons/rakhimamimg.jpeg",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
+    },
+]
+
+export const patrons = [
+    {
+        image : "/images/upwaghe.png",
+        name : "Dr. U.P. Waghe",
+        designation : "Principal, YCCE"
+    },
+    {
+        image : "/images/upwaghe.png",
+        name : "Dr. Manali M. Kshirsagar",
+        designation : "Technical Advisor, MGI"
     },
 ]
 
