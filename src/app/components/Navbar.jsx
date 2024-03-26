@@ -18,8 +18,8 @@ const Navbar = () => {
   const board = {
     trigger: "Advisory Board",
     items: [
-      { name: "International", href: "/board/iab" },
-      { name: "National", href: "/board/nab" },
+      { name: "International", href: "/board" },
+      { name: "National", href: "/board#nab" },
     ],
   };
   const committee = {
