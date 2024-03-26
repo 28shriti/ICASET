@@ -5,6 +5,7 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import data from "./data"
 import Notice from "./components/Notice";
 import CustomCarousel from "./components/CustomCarousel";
+import Sponsors from "./components/Sponsors";
 
 
 const Home = () => {
@@ -51,27 +52,7 @@ const Home = () => {
       </div>
 
       <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
-        <div>
-          <p>Elite Global Pvt Ltd</p>
-        </div>
-        <div>
-          <p>Janki Electromac</p>
-        </div>
-        <div>
-          <p>Media Partner Lokmat </p>
-        </div>
-        <div>
-          <p>Technically Co-Sponsered by </p>
-        </div>
-        <div>
-          <p>Yash Earthing Pune </p>
-        </div>
-        <div>
-          <p>Skywings Technology</p>
-        </div>
-        <div>
-          <p>Crypto Forensic Technology</p>
-        </div>
+        <Sponsors />
       </div>
     </div>
   );
