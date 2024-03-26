@@ -1,8 +1,8 @@
 import Image from 'next/image'
 
-const ConveyerCard = (props) => {
+const ConvenorCard = (props) => {
     return (
-        <div className='bg-[#31363F] pb-3 pt-10 px-3  shadow-white w-[270px] text-center hover:scale-[1.05] cursor-pointer h-[300px]' style={{boxShadow: '5px 5px 15px black', transition: 'all 0.4s'}}>
+        <div className='bg-[#31363F] bg-opacity-70 pb-3 pt-10 px-3 rounded-2xl shadow-white w-[270px] text-center hover:scale-[1.05] cursor-pointer h-[300px]' style={{ transition: 'all 0.4s'}}>
             <div className='flex justify-center items-center'>
                 <Image src={props.img} height={125} width={125} alt='rakhi-mam-img' className='rounded-full border-white border-2' />
                 {/* <Image src={props.img} height={170} width={170} alt='rakhi-mam-img' style={{borderRadius: '50%'}} /> */}
@@ -16,4 +16,4 @@ const ConveyerCard = (props) => {
     )
 }
 
-export default ConveyerCard
+export default ConvenorCard

@@ -1,5 +1,4 @@
 import { nationalTechProgramCommittee } from "@/app/data"
-import '@/app/committee/organizing-committee/conveyors/conveyor.css'
 import BoardMember from "@/app/components/BoardMember"
 
 const page = () => {

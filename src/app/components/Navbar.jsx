@@ -46,15 +46,15 @@ const Navbar = () => {
         items: [
           {
             name: "Convenors",
-            href: "/committee/organizing-committee/conveyors",
+            href: "/committee/organizing-committee#",
           },
           {
             name: "Organizing Secretary",
-            href: "/committee/organizing-committee/organizing-secretary",
+            href: "/committee/organizing-committee#organizing-secretary",
           },
           {
             name: "Organizing Team",
-            href: "/committee/organizing-committee/organizing-team",
+            href: "/committee/organizing-committee#organizing-team",
           },
         ],
       },
