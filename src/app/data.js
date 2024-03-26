@@ -607,6 +607,7 @@ export const stayIns = [
     
 ]
 
+export const sites = []
 
 export default data;
 

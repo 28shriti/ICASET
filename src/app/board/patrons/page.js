@@ -15,8 +15,8 @@ function page() {
                     {ourVisionary.map((val, index) => {
 
                         return (
-                            <div className='w-[30rem]'>
-                                <BoardMember key={index} img={val.image} name={val.name} designation={val.designation} />
+                            <div className='w-[30rem]' key={index}>
+                                <BoardMember img={val.image} name={val.name} designation={val.designation} />
                             </div>
                         )
                     })}
@@ -45,8 +45,8 @@ function page() {
                     {patrons.map((val, index) => {
 
                         return (
-                            <div className='w-[30rem]'>
-                                <BoardMember key={index} img={val.image} name={val.name} designation={val.designation} />
+                            <div className='w-[30rem]' key={index}>
+                                <BoardMember img={val.image} name={val.name} designation={val.designation} />
                             </div>
                         )
                     })}

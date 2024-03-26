@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { sites } from "@/app/data";
 
 export default function Site() {

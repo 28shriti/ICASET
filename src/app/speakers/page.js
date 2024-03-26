@@ -9,7 +9,7 @@ export default function KeynoteSpeakers() {
                 return (
                 <div key={index} className="w-full flex flex-col bg-[#222831] bg-opacity-70 rounded-xl text-white p-3">
                     <div className="flex w-full items-center">
-                        <Image src={`/images/${speaker.image}`} width={1000} height={1000} className="object-cover object-center rounded-lg w-48 h-48" alt="speaker image" />
+                        <Image src={`/images/speakers/${speaker.image}`} width={1000} height={1000} className="object-cover object-center rounded-lg w-48 h-48" alt="speaker image" />
                         <div className="p-5 w-full">
                             <p className="text-lg font-bold">{speaker.name}</p>
                             <p>{speaker.designation}</p>
