@@ -3,8 +3,8 @@ import React from 'react'
 
 const Sponsors = () => {
     return (
-        <div className='w-[100vw]'>
-            <h3 className='font-black text-3xl text-center pb-10'>Sponsors</h3>
+        <div className='w-[100vw] bg-[url("/images/sponsorsBg.png")] text-white p-10'>
+            <h3 className='font-black text-4xl text-center pb-10'>Our Associates</h3>
             <div className='flex flex-col gap-5'>
                 <div className='flex justify-evenly'>
                     <div className='flex flex-col gap-2'>

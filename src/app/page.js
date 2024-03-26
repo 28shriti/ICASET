@@ -51,7 +51,7 @@ const Home = () => {
         </Button>
       </div>
 
-      <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
+      <div className="w-full bg-white justify-between flex mt-10 -mb-10">
         <Sponsors />
       </div>
     </div>

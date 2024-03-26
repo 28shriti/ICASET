@@ -11,9 +11,10 @@ export default function StayIn() {
 
             <div className="flex flex-col items-center px-5 sm:px-24 md:px-40 py-10 gap-10">
                 {stayIns.map((place, index) => {
+                    console.log("/images/hotels/" + place.image)
                     return (
                         <div key={index} className={`w-full flex flex-col md:flex-row bg-[#31363F] bg-opacity-70 rounded-2xl shadow-md shadow-black items-center lg:items-start ${index % 2 != 0 && "md:flex-row-reverse"}`}>
-                            <Image src={place.image} width={1000} height={1000} className={`object-cover object-center w-full md:w-1/3 min-w-[100px] md:min-w-[300px] rounded-2xl ${index % 2 != 0 ? "md:rounded-l-none" : "md:rounded-r-none"}`} alt="place to stay in" />
+                            <Image src={`/images/hotels/${place.image}`} width={1000} height={1000} className={`object-cover object-center h-full w-full md:w-1/3 min-w-[100px] md:min-w-[300px] rounded-2xl ${index % 2 != 0 ? "md:rounded-l-none" : "md:rounded-r-none"}`} alt="place to stay in" />
                             <div className="p-10 text-white">
                                 <h2 className="font-bold text-xl pb-2">{index + 1}. {place.name}</h2>
                                 <p>{place.description}</p>
