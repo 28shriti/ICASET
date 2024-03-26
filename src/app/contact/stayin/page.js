@@ -6,7 +6,7 @@ export default function StayIn() {
     return (
         <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50" >
             <div className="w-auto flex justify-center">
-                <h1 className="title font-black text-4xl text-center mt-10 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Popular places</h1>
+                <h1 className="title font-black text-4xl text-center mt-10 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Stay INN</h1>
             </div>
 
             <div className="flex flex-col items-center px-5 sm:px-24 md:px-40 py-10 gap-10">

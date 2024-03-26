@@ -536,20 +536,61 @@ export const tidmTheme = [
 
 export const stayIns = [
     {
-        name: "Random",
+        name: "Radisson Blu Hotel",
         image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+        description: "Carlson Rezidor introduces the Radisson Blu Hotel Nagpur, a modern, stylish property in central India, perfect for business and leisure travelers, offering stunning accommodations and prime location."
     },
     {
-        name: "Random",
+        name: "Le Meridian",
         image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+        description: "Le Méridien Nagpur offers luxury, convenience, and chic comfort, conveniently located near Dr. Babasaheb Ambedkar International Airport and key business hubs."
     },
     {
-        name: "Random",
+        name: "Hotel Pride",
         image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
-    }
+        description: "Pride Hotels Group, founded in Pune in 1988, offers exceptional Indian hospitality across Ahmedabad, Mussoorie, Pune, and Nagpur. Their hotels and resorts blend contemporary comfort with traditional warmth, offering authentic Indian hospitality with local cuisine, music, and tuberose aromas."
+    },
+    {
+        name: "Center Point Ramdaspeth",
+        image: "/images/background.jpg",
+        description: "Hotel Centre Point, a leading hospitality establishment in Orange City, has been providing exceptional service since 1988. With a focus on warmth, comfort, and charm, the hotel strives to exceed guest expectations."
+    },
+    {
+        name: "Hotel Hardeo, near Burdim",
+        image: "/images/background.jpg",
+        description: "Experience luxury at our iconic Nagpur City hotel, offering sophisticated amenities, breathtaking views, and attentive staff. Enjoy world-class dining, serene relaxation, and a journey that redefines luxury hospitality."
+    },
+    {
+        name: "Orient Group of Hotels",
+        image: "/images/background.jpg",
+        description: "Orient Group of Hotels, a 40-year-old organization based in Nagpur, India, is dedicated to excellence, adaptability, and putting people first. Located in various sectors, they strive to exceed guests' expectations, motivate staff, and produce outstanding outcomes."
+    },
+    {
+        name: "Airport Centre Point",
+        image: "/images/background.jpg",
+        description: "Hotel Airport Centre Point is a boutique hotel offering classic hospitality, high service standards, and innovation. Located near Nagpur International Airport, it provides affordable room rates and personalized 24-hour service."
+    },
+    {
+        name: "Tuli Imperial",
+        image: "/images/background.jpg",
+        description: "Tuli Group, central India's top chain of hotels and resorts, has been providing reliable service since 2013. With five beautifully designed properties, they prioritize guests' needs and offer a variety of experiences for leisure, family, and business."
+    },
+    {
+        name: "Tuli International",
+        image: "/images/background.jpg",
+        description: "The Tuli International Hotel in Nagpur offers a blend of regal heritage and modern elegance, blending sophisticated hospitality with individualized service and rich cultural influences, making each visit a celebration."
+    },
+    {
+        name: "Hotel Ashoka",
+        image: "/images/background.jpg",
+        description: "Hotel Ashok in Nagpur offers top-notch service, accommodations, fine dining, live music, and desserts since 2011. With 57 rooms, in-house salon, coffee shop, banquet halls, and local business partnerships, guests can enjoy true hospitality."
+    },
+    {
+        name: "Orange Tree Hotel",
+        image: "/images/background.jpg",
+        description: "Orange Tree Hotels, a 3-star Nagpur lodging, offers comfort, features like dry cleaning, laundry, and concierge service, and is conveniently located near attractions like Sitabuldi Fort and Gandhisagar Lake."
+    },
+    
 ]
 
 
