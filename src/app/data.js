@@ -3,6 +3,29 @@ const data = {
     conferenceDate: "4 May 2024",
 }
 
+export const dates = [
+    {
+        event: "Date of Paper Submission",
+        date: "1 July, 2024",
+    },
+    {
+        event: "Paper Acceptance Notification",
+        date: "15 August, 2024",
+    },
+    {
+        event: "Camera Ready Paper Submission",
+        date: "30 September, 2024",
+    },
+    {
+        event: "Last date of Paper Registration",
+        date: "30 October, 2024",
+    },
+    {
+        event: "Conference Date",
+        date: "November 22-23, 2024",
+    },
+]
+
 export const keynoteSpeakers = [
   {
     name: "NILANJAN DEY",
@@ -97,84 +120,84 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JamesFPeters.png',
         name: 'James F Peters',
         designation: 'University of Manitoba, Winnipeg',
-        country: 'Canada',
+        country: 'CANADA',
         link: 'https://www.researchgate.net/profile/James-Peters-3'
     },
     {
         img: '/images/iab/MamoonRashid.png',
         name: 'Mamoon Rashid',
         designation: 'School of Information, Communication, and Technology',
-        country: 'Bahrain',
+        country: 'BAHRAIN',
         link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
     },
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
         name: 'Nitaigour Premchand Mahalik',
         designation: 'Department of Industrial Technology, California State University, Fresno',
-        country: 'United States of America',
+        country: 'UNITED STATES OF AMERICA',
         link: 'https://scholar.google.com/citations?user=PExYiPsAAAAJ&hl=en'
     },
     {
         img: '/images/iab/SukhpalSinghGill.png',
         name: 'Sukhpal Singh Gill',
         designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London',
-        country: 'United Kingdom',
+        country: 'UNITED KINGDOM',
         link: 'https://scholar.google.co.uk/citations?user=NHkWom4AAAAJ&hl=en'
     },
     {
         img: '/images/iab/JoachimHoltz.png',
         name: 'Joachim Holtz',
         designation: 'University of Wuppertal, Wuppertal',
-        country: 'Germany',
+        country: 'GERMANY',
         link: 'https://ieeexplore.ieee.org/author/37267042900'
     },
     {
         img: '/images/iab/RezaLangari.png',
         name: 'Reza Langari',
         designation: 'Texas A&M University',
-        country: 'United States of America',
+        country: 'UNITED STATES OF AMERICA',
         link: 'https://scholar.google.com/citations?user=IozzI8sAAAAJ'
     },
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Jabar H. Yousif',
         designation: 'Sohar University',
-        country: 'Oman',
+        country: 'OMAN',
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Pradeep Kumar',
         designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal, Durban',
-        country: 'South Africa',
+        country: 'SOUTH AFRICA',
         link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
     },
     {
         img: '/images/iab/MuftiMahmud.png',
         name: 'Mufti Mahmud',
         designation: 'Nottingham Trent University',
-        country: 'United Kingdom',
+        country: 'UNITED KINGDOM',
         link: 'https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en'
     },
     {
         img: '/images/iab/ValentinaEmiliaBalas.png',
         name: 'Valentina Emilia Balas',
         designation: 'Aurel Vlaicu University of Arad / Academy of Romanian Scientists',
-        country: 'Romania',
+        country: 'ROMANIA',
         link: 'https://scholar.google.com/citations?user=XaktX0wAAAAJ&hl=en'
     },
     {
         img: '/images/iab/MShamimKaiser.png',
         name: 'M. Shamim Kaiser',
         designation: 'Institute of Information Technology, Jahangirnagar University, Dhaka-1342',
-        country: 'Bangladesh',
+        country: 'BANGLADESH',
         link: 'https://scholar.google.com/citations?user=yjrSXiEAAAAJ&hl=en'
     },
     {
         img: '/images/iab/ChakchaiSoIn.png',
         name: 'Chakchai So-In',
         designation: 'College of Computing, Khon Kaen University',
-        country: 'Thailand',
+        country: 'THAILAND',
         link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
 ]

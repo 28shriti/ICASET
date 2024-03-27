@@ -9,8 +9,8 @@ const BoardMember = (props) => {
                 <Image src={props.img} height={500} width={500} alt="img" className="rounded-full w-[100px] h-[100px] object-center object-cover" />
                 <div>
                     <h1 className='font-extrabold'>{props.name}</h1>
-                    <p className='font-medium text-opacity-5'>{props.designation}</p>
-                    {props["country"] != undefined && (<p className='font-medium text-opacity-5'>{props.country}</p>)}
+                    <p className='font-medium text-opacity-5 opacity-80 text-sm pt-1'>{props.designation}</p>
+                    {props["country"] != undefined && (<p className='font-medium text-opacity-5 opacity-80 text-sm pt-1'>{props.country}</p>)}
                 </div>
             </div>
         </Link>
