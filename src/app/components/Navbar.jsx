@@ -24,6 +24,7 @@ const Navbar = () => {
       { name: "YCCE", href: "/about/YCCE" },
       { name: "Conference", href: "/about/conference" },
       { name: "Preamble", href: "/about/preamble" },
+      { name: "Patrons", href: "/board/patrons" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
       { name: "Conference Theme", href: "/about/conference-theme" },
@@ -44,10 +45,12 @@ const Navbar = () => {
       { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
       { name: "General Chairs", href: "/committee/general" },
       {
-        name: "International Publicity Chairs",
-        href: "/committee/international",
+        trigger: "Publicity Chairs",
+        items: [
+          { name: "International", href: "/committee/publicity" },
+          { name: "National", href: "/committee/publicity#npc" },
+        ]
       },
-      { name: "National Publicity Chairs", href: "/committee/national" },
       { name: "Finance Chairs", href: "/committee/finance" },
       { name: "Publication Chairs", href: "/committee/publication" },
       {

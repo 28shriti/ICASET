@@ -251,7 +251,8 @@ export const nationalPublicityChair = [
         link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
 ]
-export const internationalPublicityChair =[
+
+export const internationalPublicityChair = [
     {
         img: '/images/publicitychair/international/ajaykumar.jpg',
         name: 'Ajay Kumar',
@@ -259,12 +260,13 @@ export const internationalPublicityChair =[
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
-        img: '/images/publicitychair/international/pramoudgaur.jpg',
+        img: '/images/publicitychair/international/pramodgaur.jpg',
         name: 'Pramod Gaur',
         designation: 'Nottingham Trent University Nottingham United Kingdom',
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     }
 ]
+
 export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
@@ -451,7 +453,22 @@ export const internationalTechProgramCommittee = [
     },
 ]
 
-
+export const generalChair = [
+    {
+        img: '/images/general/upwaghe.png',
+        name: 'Dr. U. P. Waghe',
+        designation: 'Yeshwantrao Chavan College of Engineering, Nagpur',
+        country: 'India',
+        link: 'https://scholar.google.co.in/citations?user=EwHdjW8AAAAJ&hl=en'
+    },
+    {
+        img: '/images/general/ManaliKshirsagar.jpg',
+        name: 'Dr. M. M. Kshirsagar',
+        designation: 'Yeshwantrao Chavan College of Engineering, Nagpur',
+        country: 'India',
+        link: 'https://scholar.google.com.sg/citations?user=yKroYN0AAAAJ&hl=en'
+    }
+]
 
 export const nationalTechProgramCommittee = [
     {
