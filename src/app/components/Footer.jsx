@@ -26,7 +26,7 @@ export default function Footer() {
             <ul>
                 <li>Phone no :<a href="tel:9322549802">+91-9999999999</a> </li>
                 <li>Email : @ycce.edu</li>
-                <li><Link href="https://ycce.edu/" className="item">ycce.edu</Link></li>
+                <li>YCCE Nagpur</li>
             </ul>
         </div>
         </footer>

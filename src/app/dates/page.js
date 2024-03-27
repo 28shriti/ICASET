@@ -1,6 +1,12 @@
 import ComingSoon from "../components/ComingSoon"
 import { dates } from "../data"
 
+
+export const metadata = {
+    title: "Important Dates - ICASET",
+}
+
+
 export default function ImportantDates() {
     return (
         <div className='pb-10 bg-[url("/images/sponsorsBg.png")]'>
@@ -20,7 +26,7 @@ export default function ImportantDates() {
                     <div className="timeline-middle">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-5 w-5"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clipRule="evenodd" /></svg>
                     </div>
-                    <div className="timeline-start md:text-end mb-10">
+                    <div className="timeline-start md:text-end mb-10 bg-white text-black p-2 rounded-md">
                         <time className="font-mono italic">{dates[0].date}</time>
                         <div className="text-lg font-black">{dates[0].event}</div>
                     </div>
