@@ -6,11 +6,11 @@ const data = {
 export const dates = [
     {
         event: "Date of Paper Submission",
-        date: "1 July, 2024",
+        date: "15 July, 2024",
     },
     {
         event: "Paper Acceptance Notification",
-        date: "15 August, 2024",
+        date: "30 August, 2024",
     },
     {
         event: "Camera Ready Paper Submission",
@@ -18,7 +18,7 @@ export const dates = [
     },
     {
         event: "Last date of Paper Registration",
-        date: "30 October, 2024",
+        date: "15 October, 2024",
     },
     {
         event: "Conference Date",
