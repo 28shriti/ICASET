@@ -27,7 +27,7 @@ export default function Footer() {
             <ul>
                 <li>Phone no : 9322549802</li>
                 <li>Email : @ycce.edu</li>
-                <li>YCCE Nagpurs</li>
+                <li>YCCE Nagpur</li>
             </ul>
         </div>
 
