@@ -635,72 +635,72 @@ export const stayIns = [
 export const sites = [
     {
         name: "Ganesh Tekdi Mandir",
-        image: "",
+        image: "image1.jpg",
         description: "Welcome to Ganesh Tekdi, Nagpur - a revered site of devotion and tranquility. Constructed atop a hill, this ancient temple, also known as Tekdi Ganapati Temple, has been a focal point of spirituality for over 250 years. Initially a modest structure, it underwent significant expansion in 1984, thanks to the efforts of devoted individuals and contributions from generous devotees. Notably, in 1995, additional land was sanctioned for further expansion, facilitating the temple's continued growth. Today, plans are underway to enhance the temple's surroundings with features like lawns, water fountains, and a free parking zone. Come, experience the serenity and divine presence at Ganesh Tekdi, Nagpur."
     },
     {
         name: "Zero Miles",
-        image: "",
+        image: "image2.avif",
         description: "Zero Mile Stone, erected in 1907 during the Great Trigonometrical Survey of India, stands as a historic monument in Nagpur, Maharashtra. Comprising a sandstone pillar and a GTS Standard Bench Mark, the monument symbolizes a significant point in Indian geography. Despite misconceptions about its purpose as the geographical center of colonial India, it remains a notable landmark. Situated in Nagpur, the city holds geographical significance being centrally located among major Indian metros. The Times of India took responsibility for maintaining the monument from 2008 onwards."
     },
     {
         name: "Koradi Mata Mandir",
-        image: "",
+        image: "image3.jpg",
         description: "In ancient times, the region now known as Koradi was called Jakhapur, ruled by King Jholan. Despite having seven sons, his heart yearned for a daughter. Through devout rituals, he prayed for divine intervention. In response, a daughter of unparalleled beauty was born, embodying the presence of Adi Shakti, the primal energy of the universe. She became King Jholan's guiding light, offering clarity in decision-making and unwavering support in times of hardship."
     },
     {
         name: "BAPS SwamiNarayan Temple, Wathoda",
-        image: "",
+        image: "image4.jpg",
         description: "Pramukh Swami Maharaj sowed the seeds of satsang in 1976 when he visited the Vidarbha region. In 1993, Pramukh Swami Maharaj performed the murti-pratishtha of the hari mandir in the suburb of Vardhmannagar. Thereafter, in 1997, Swamishri inaugurated The Swaminarayan School. In 2004, the groundbreaking ceremony for the shikharbaddh mandir in the suburb of Wathoda was performed. The murti-pratishtha of the newly constructed shikharbaddh mandir was performed in 2013."
     },
     {
         name: "Ambazari Lake + Vivekanand Smarak Ambazari",
-        image: "",
+        image: "image5.jpg",
         description: "After a delay of three years, Swami Vivekanandamemorial is set to become a reality. Country’s tallest bronze statue of Vivekananda was installed at the memorial site on Sunday. However, the memorial will be dedicated to the public on September 11. The memorial is being built at Ambazari lake’s overflow point, which is also the origin of Nag river in city. The project has been planned in such a manner that lake water will be visible in the background of the statue."
     },
     {
         name: "Kasturchand Park",
-        image: "",
+        image: "image6.png",
         description: "Kasturchand ParkThe ground generally known as KP was part of the land ceded to East India Company by the treaty of 1818. It was under the control of British army (Madras Army) for many years. It had built few building on this ground as arsenal and had stored several tons of explosive gunpowder till late 19th century."
     },
     {
         name: "Balasaheb Thakrey GoreWada Zoo",
-        image: "",
+        image: "image7.webp",
         description: "Gorewada Zoo, now named Balasaheb Thackeray Gorewada International Zoological Park, was inaugurated by Hon. Chief Minister Shri. Uddhav Balasaheb Thackeray on January 26, 2021, and opened to the public on January 27, 2021. Envisioned as India's largest zoological park with international components, it spans 539 hectares and includes features like Indian Safari, African Safari, Night Safari, and an Archeological Theme Park. Currently, the Indian Safari section is open to the public."
     },
     {
         name: "Futala Lake",
-        image: "",
+        image: "image8.jpeg",
         description: "Discover the revitalized beauty of Futala Lake in Nagpur's western region. Originally built two centuries ago, this historic lake underwent extensive renovation in 2003 with support from NIT and the state government. The restoration included desilting, pathway construction, landscaping, and installation of decorative elements such as lamps and benches. Colorful fountains and high masts now illuminate the area, while amenities like an Immersion Ghat and sand beach enhance its appeal. Futala Lake is now a picturesque destination for leisure and relaxation."
     },
     {
         name: "Deekshabhoomi",
-        image: "",
+        image: "image9.jpg",
         description: "Discover Deekshabhoomi, a sacred monument in Nagpur, Maharashtra, where Dr. B. R. Ambedkar embraced Buddhism with thousands of followers on October 14, 1956. This historic event marked a revival of Buddhism in India and serves as a pilgrimage site for millions annually. Deekshabhoomi symbolizes social revolution and is a testament to Ambedkar's vision of a more equitable society. Visit the site to pay homage and witness the world's largest stupa, erected in his memory."
     },
     {
         name: "Dragon Place",
-        image: "",
+        image: "image10.jpg",
         description: "The Dragon Palace Temple, also known as the Lotus Temple of Nagpur, is a Buddhist temple located in Kamptee, Maharashtra, India. Established in 1999 with funding from the Japan-based Ogawa Society, the temple complex is home to a revered sandalwood idol associated with the Buddha. It serves as a pilgrimage site for Buddhist practitioners, attracting visitors seeking spiritual solace and enlightenment."
     },
     {
         name: "Hedgewar Smruti Mandir",
-        image: "",
+        image: "image11.jpg",
         description: "Hedgewar Smruti Mandir (HSM) is a memorial located in Reshimbagh, Nagpur, Maharashtra, India, dedicated to K. B. Hedgewar and M. S. Golwalkar, the founding leaders of the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization. Inaugurated in 1962, HSM was granted tourism status by the Maharashtra Tourism Development Corporation (MTDC) in 2017, although this decision has been surrounded by controversy."
     },
     {
         name: "Ramtek Gad Mandir",
-        image: "",
+        image: "image12.jpg",
         description: "The present temple is believed to have been built by the King of Nagpur Raghuji Bhonsale, after his victory over fort of Deogarh in Chindwara. This place is also famous for its relation with Great poet Kalidasa. Kalidasa has written Meghdootum in hills of Ramtek. Late Indian Prime Minister Mr."
     },
     {
         name: "Khindsi Lake",
-        image: "",
+        image: "image13.jpg",
         description: "Khindsi Lake, nestled amidst lush forests, is a picturesque destination located approximately 3.5 kilometers from Ramtek and 53 kilometers from Nagpur. A beloved tourist spot for Vidarbha residents, visitors can enjoy various recreational activities such as boating in motorboats, pedal boats, rowing boats, and water scooters on the lake. Additionally, an adventure park for children and jungle trekking opportunities are available nearby, making Khindsi Lake an ideal destination for nature lovers and adventure enthusiasts alike."
     },
     {
         name: "Pench National Park",
-        image: "",
+        image: "image14.jpg",
         description: "It is famous for its ferocious Bengal Tigers that boasts a significant amount of tourism in the park. At present, there are around 50 tigers residing in the prey-rich woodlands of park's region. Besides this, the park also has 39 species of mammals 13 species of reptiles and 3 species of amphibians."
     }
 ]
