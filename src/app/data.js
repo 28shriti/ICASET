@@ -203,49 +203,49 @@ export const internationalAdvisoryBoard = [
 ]
 export const nationalPublicityChair = [
     {
-        image : "/images/publicitychair/national/durgeshkumar.jpg",
+        img : "/images/publicitychair/national/durgeshkumar.jpg",
         name : "Durgesh Srivastava",
         designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
         link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
     },
     {
-        image : "/images/publicitychair/national/rajeshwarisridhar.jpg",
+        img : "/images/publicitychair/national/rajeshwarisridhar.jpg",
         name : "Rajeswari Sridhar",
         designation : "National Institute of Technology Tiruchirappalli, Kerla",
         link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
-        image : "/images/publicitychair/national/sayankumar.jpg",
+        img : "/images/publicitychair/national/sayankumar.jpg",
         name : "Sayan Ranu",
         designation : "Indian Institute of Technology, Delhi",
         link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
     },
     {
-        image : "/images/publicitychair/national/shaileshkamble.jpg",
+        img : "/images/publicitychair/national/shaileshkamble.jpg",
         name : "Shailesh Kamble",
         designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
         link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
     },
     {
-        image : "/images/publicitychair/national/sandipmal.jpg",
+        img : "/images/publicitychair/national/sandipmal.jpg",
         name : "Sandip Mal",
         designation : "VIT Bhopal University Madhya Pradesh",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
-        image : "/images/publicitychair/national/gunvantichellamuthu.jpg",
+        img : "/images/publicitychair/national/gunvantichellamuthu.jpg",
         name : "Gunavathi C",
         designation : "VIT University, Vellore TamilNadu",
         link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        image : "/images/publicitychair/national/rameshchandra.jpg",
+        img : "/images/publicitychair/national/rameshchandra.jpg",
         name : "Ramesh Chandra",
         designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
         link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
     },
     {
-        image : "/images/publicitychair/national/shailajapatil.jpg",
+        img : "/images/publicitychair/national/shailajapatil.jpg",
         name : "Shaileja Patil",
         designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
         link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
