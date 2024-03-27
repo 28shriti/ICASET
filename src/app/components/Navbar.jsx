@@ -1,6 +1,21 @@
 import React from "react";
 import Link from "next/link";
 import Dropdown from "./DropDown";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 
 const Navbar = () => {
   const about = {
@@ -10,7 +25,7 @@ const Navbar = () => {
       { name: "Preamble", href: "/about/preamble" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
-      { name: "Conference Theme", href: "/about/conference-theme"},
+      { name: "Conference Theme", href: "/about/conference-theme" },
       { name: "Patrons", href: "/board/patrons" },
       { name: "FAQs", href: "/about/faq", newTab: true },
     ],
@@ -69,29 +84,61 @@ const Navbar = () => {
     ],
   };
 
-  return (
-    <div className="flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
-      <Link href="/" className="item">
-        Home
-      </Link>
-      <Dropdown dropdown={about} />
-      <Dropdown dropdown={board} />
-      <Dropdown dropdown={committee} />
+  function ChildAccordion(props) {
+    return (
+      <Accordion type="single" collapsible>
+        <AccordionItem value={props.trigger}>
+          <AccordionTrigger>{props.trigger}</AccordionTrigger>
+          <AccordionContent>
+            
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    )
+  }
 
-      <Link href="/speakers" className="item">
-        Keynote Speakers{" "}
-      </Link>
-      <Link href="/dates" className="item">
-        Important Dates
-      </Link>
-      <Link href="/registration" className="item">
-        Registration{" "}
-      </Link>
-      <Link href="/schedule" className="item">
-        Programme Schedule
-      </Link>
-      
-      <Dropdown dropdown={contact} />
+  return (
+    <div>
+      <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
+        <Link href="/" className="item">
+          Home
+        </Link>
+        <Dropdown dropdown={about} />
+        <Dropdown dropdown={board} />
+        <Dropdown dropdown={committee} />
+
+        <Link href="/speakers" className="item">
+          Keynote Speakers{" "}
+        </Link>
+        <Link href="/dates" className="item">
+          Important Dates
+        </Link>
+        <Link href="/registration" className="item">
+          Registration{" "}
+        </Link>
+        <Link href="/schedule" className="item">
+          Programme Schedule
+        </Link>
+
+        <Dropdown dropdown={contact} />
+      </div>
+
+      <Sheet>
+        <SheetTrigger className="block lg:hidden">Open</SheetTrigger>
+        <SheetContent>
+          {/* <SheetHeader>
+            <SheetTitle>Are you absolutely sure?</SheetTitle>
+            <SheetDescription>
+              This action cannot be undone. This will permanently delete your account
+              and remove your data from our servers.
+            </SheetDescription>
+          </SheetHeader> */}
+
+
+
+        </SheetContent>
+      </Sheet>
+
     </div>
   );
 };
