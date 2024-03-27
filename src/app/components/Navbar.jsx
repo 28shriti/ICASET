@@ -22,7 +22,6 @@ const Navbar = () => {
     trigger: "About",
     items: [
       { name: "YCCE", href: "/about/YCCE" },
-      { name: "Conference", href: "/about/conference" },
       { name: "Preamble", href: "/about/preamble" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
