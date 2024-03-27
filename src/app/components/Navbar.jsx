@@ -52,8 +52,8 @@ const Navbar = () => {
       {
         trigger: "Technical Program Committee",
         items: [
-          { name: "International", href: "/committee/tech-committee/international" },
-          { name: "National", href: "/committee/tech-committee/national" },
+          { name: "International", href: "/committee/tech-committee" },
+          { name: "National", href: "/committee/tech-committee/#ntpc" },
         ],
       },
       {
@@ -65,11 +65,11 @@ const Navbar = () => {
           },
           {
             name: "Organizing Secretary",
-            href: "/committee/organizing-committee#organizing-secretary",
+            href: "/committee/organizing-committee/#organizing-secretary",
           },
           {
             name: "Organizing Team",
-            href: "/committee/organizing-committee#organizing-team",
+            href: "/committee/organizing-committee/#organizing-team",
           },
         ],
       },

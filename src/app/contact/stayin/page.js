@@ -15,7 +15,7 @@ export default function StayIn() {
                             {/* <div className="w-1/3 h-full">
                                 <Image src={`/images/hotels/${place.image}`} width={1000} height={1000} className={`object-cover object-center h-[15rem] md:w-[10rem] lg:w-[20rem] min-w-[100px] md:min-w-[300px] rounded-2xl ${index % 2 != 0 ? "md:rounded-l-none" : "md:rounded-r-none"}`} alt="place to stay in" />
                             </div> */}
-                            <div className={`flex items-center justify-center w-full lg:w-1/3 bg-cover bg-center p-32 rounded-2xl ${index % 2 != 0 ? "md:rounded-l-none" : "md:rounded-r-none"}`} style={{ backgroundImage: `url('/images/hotels/${place.image}');` }}></div>
+                            <div className={`flex items-center justify-center w-full lg:w-1/3 bg-cover bg-center p-32 rounded-2xl ${index % 2 != 0 ? "md:rounded-l-none" : "md:rounded-r-none"}`} style={{ backgroundImage: `url('/images/hotels/${place.image}')` }}></div>
                             <div className="p-10 text-white">
                                 <h2 className="font-bold text-xl pb-2">{index + 1}. {place.name}</h2>
                                 <p>{place.description}</p>

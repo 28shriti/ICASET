@@ -51,7 +51,7 @@ export const ourVisionary = [
     {
         image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
-        designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
+        designation: "Chairman, Nagar Yuvak Shikshan Sanstha"
     },
 ]
 
@@ -64,7 +64,7 @@ export const chiefPatrons = [
     {
         image: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
-        designation: "Secreatary, Nagar Yuvak Shikshan Sanstha "
+        designation: "Secretary, Nagar Yuvak Shikshan Sanstha "
     },
     {
         image: "/images/patrons/vrindatai.jpg",
@@ -72,7 +72,7 @@ export const chiefPatrons = [
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/rakhimamimg.jpeg",
+        image: "/images/patrons/HemantThakare.webp",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -85,7 +85,7 @@ export const patrons = [
         designation : "Principal, YCCE"
     },
     {
-        image : "/images/upwaghe.png",
+        image : "/images/patrons/ManaliKshirsagar.jpg",
         name : "Dr. Manali M. Kshirsagar",
         designation : "Technical Advisor, MGI"
     },
