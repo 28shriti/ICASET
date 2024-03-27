@@ -23,6 +23,7 @@ const Navbar = () => {
     items: [
       { name: "YCCE", href: "/about/YCCE" },
       { name: "Preamble", href: "/about/preamble" },
+      { name: "Patrons", href: "/board/patrons" },
       { name: "Who can attend", href: "/about/attend" },
       { name: "Scope and benefits", href: "/about/scope" },
       { name: "Conference Theme", href: "/about/conference-theme" },
@@ -40,15 +41,17 @@ const Navbar = () => {
   const committee = {
     trigger: "Committees",
     items: [
-      { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
-      { name: "General Chairs", href: "/committee/general" },
+      { name: "Technical Program Chairs", href: "/committee" },
+      { name: "General Chairs", href: "/committee#generalChairs" },
       {
-        name: "International Publicity Chairs",
-        href: "/committee/international",
+        trigger: "Publicity Chairs",
+        items: [
+          { name: "International", href: "/committee#ipc" },
+          { name: "National", href: "/committee#npc" },
+        ]
       },
-      { name: "National Publicity Chairs", href: "/committee/national" },
-      { name: "Finance Chairs", href: "/committee/finance" },
-      { name: "Publication Chairs", href: "/committee/publication" },
+      { name: "Finance Chairs", href: "/committee#financeChairs" },
+      { name: "Publication Chairs", href: "/committee#publicationChairs" },
       {
         trigger: "Technical Program Committee",
         items: [
