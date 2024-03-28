@@ -1,5 +1,10 @@
 import ComingSoon from "../components/ComingSoon";
+import MainContainer from "../components/MainContainer";
 
 export default function Registration() {
-    return <ComingSoon />
+    return (
+        <MainContainer>
+            <ComingSoon />
+        </MainContainer>
+    )
 }

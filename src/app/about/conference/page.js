@@ -1,5 +1,10 @@
 import ComingSoon from "@/app/components/ComingSoon"
+import MainContainer from "@/app/components/MainContainer"
 
 export default function Conference() {
-    return <ComingSoon />
+    return (
+        <MainContainer>
+            <ComingSoon />
+        </MainContainer>
+    )
 }

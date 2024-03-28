@@ -149,7 +149,7 @@ const Navbar = () => {
             <div className="w-[3.5vw] rounded bg-white h-[2px]"></div>
           </SheetTrigger>
         </div>
-        <SheetContent className="bg-[#222831]">
+        <SheetContent className="bg-[#222831] border-l-0">
           <SheetHeader>
             <SheetTitle className="text-white">ICAASET-2024</SheetTitle>
             <SheetDescription>
@@ -159,7 +159,7 @@ const Navbar = () => {
 
           <Accordion type="single" collapsible className="my-10">
             <AccordionLink href="/" trigger="Home" className="text-white"/>
-            <CustomAccordionItem dropdown={about} className="text-white"/>
+            <CustomAccordionItem dropdown={about} className="text-white border-0"/>
             <CustomAccordionItem dropdown={board} className="text-white"/>
             <CustomAccordionItem dropdown={committee} className="text-white"/>
             <AccordionLink href="/speakers" trigger="Keynote Speakers" className="text-white"/>
