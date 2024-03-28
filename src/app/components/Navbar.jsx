@@ -100,7 +100,7 @@ const Navbar = () => {
 
   function CustomAccordionItem({ dropdown, className }) {
     return dropdown["trigger"] != undefined ? (
-      <AccordionItem value={dropdown.trigger}>
+      <AccordionItem value={dropdown.trigger} className="text-white">
         <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
         <AccordionContent>
           <Accordion type="single" collapsible>
@@ -142,30 +142,34 @@ const Navbar = () => {
       </div>
 
       <Sheet>
-        <div className="flex lg:hidden p-3 lg:-0 justify-end sticky top-0 z-10">
-          <SheetTrigger>Open</SheetTrigger>
+        <div className="flex lg:hidden p-3 lg:-0 justify-end z-10 absolute top-0 right-0 w-0">
+          <SheetTrigger className="flex flex-col gap-1">
+            <div className="w-[3.5vw] rounded bg-white h-[2px]"></div>
+            <div className="w-[3.5vw] rounded bg-white h-[2px]"></div>
+            <div className="w-[3.5vw] rounded bg-white h-[2px]"></div>
+          </SheetTrigger>
         </div>
-        <SheetContent>
+        <SheetContent className="bg-[#222831]">
           <SheetHeader>
-            <SheetTitle>ICAASET-2024</SheetTitle>
+            <SheetTitle className="text-white">ICAASET-2024</SheetTitle>
             <SheetDescription>
               International Conference on Application of Science, Engineering and Technology - 2024
             </SheetDescription>
           </SheetHeader>
 
           <Accordion type="single" collapsible className="my-10">
-            <AccordionLink href="/" trigger="Home" />
-            <CustomAccordionItem dropdown={about} />
-            <CustomAccordionItem dropdown={board} />
-            <CustomAccordionItem dropdown={committee} />
-            <AccordionLink href="/speakers" trigger="Keynote Speakers" />
+            <AccordionLink href="/" trigger="Home" className="text-white"/>
+            <CustomAccordionItem dropdown={about} className="text-white"/>
+            <CustomAccordionItem dropdown={board} className="text-white"/>
+            <CustomAccordionItem dropdown={committee} className="text-white"/>
+            <AccordionLink href="/speakers" trigger="Keynote Speakers" className="text-white"/>
 
-            <CustomAccordionItem dropdown={forAuthors} />
-            <AccordionLink href="/registration" trigger="Registration" />
+            <CustomAccordionItem dropdown={forAuthors}className="text-white" />
+            <AccordionLink href="/registration" trigger="Registration" className="text-white"/>
 
-            <AccordionLink href="/schedule" trigger="Programme Schedule" />
+            <AccordionLink href="/schedule" trigger="Programme Schedule" className="text-white"/>
 
-            <AccordionLink href="/contact" trigger="Contact Us" />
+            <AccordionLink href="/contact" trigger="Contact Us" className="text-white"/>
 
           </Accordion>
 
