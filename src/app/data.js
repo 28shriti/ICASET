@@ -261,7 +261,7 @@ export const internationalPublicityChair = [
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
-        img: '/images/publicitychair/international/pramoudgaur.jpg',
+        img: '/images/publicitychair/international/pramodgaur.jpg',
         name: 'Pramod Gaur',
         designation: 'Nottingham Trent University Nottingham',
         country: 'UNITED KINGDOM',
