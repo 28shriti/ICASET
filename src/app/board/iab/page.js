@@ -1,17 +1,20 @@
-import {
-    Table,
-    TableBody,
-    TableCell,
-    TableHead,
-    TableHeader,
-    TableRow,
-} from "@/components/ui/table"
-import Link from "next/link"
+// import {
+//     Table,
+//     TableBody,
+//     TableCell,
+//     TableHead,
+//     TableHeader,
+//     TableRow,
+// } from "@/components/ui/table"
+// import Link from "next/link"
 import { internationalAdvisoryBoard } from "@/app/data"
-import '@/app/committee/organizing-committee/conveyors/conveyor.css'
 import BoardMember from "@/app/components/BoardMember"
 
 const page = () => {
+
+    const board = Array.from(internationalAdvisoryBoard).sort((a, b) => {
+        return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
+      });
 
     return (
         <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
@@ -42,7 +45,7 @@ const page = () => {
                     </TableBody>
                 </Table> */}
 
-                {internationalAdvisoryBoard.map((value, key)=> {
+                {board.map((value, key)=> {
                     return <BoardMember key={key} link={value.link} name={value.name} designation={value.designation} country={value.country} img={value.img} />
                 })}
 

@@ -1,36 +1,33 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-// import logo from "@/app/icaset_logo.jpg"
 
 export default function Footer() {
     return (
-        <footer className="w-full bg-[#222831]  text-white">
-            
-            <div className=" flex p-20 justify-evenly ">
-
-            <div><Image src={'/images/icaset_logo.png'} height={100} width={100} className="mix-blend-screen" />
-            ICASET
-            
+        <footer className="w-full bg-[#222831]  text-white md:p-20 py-5 flex flex-col md:flex-row justify-center items-center">
+            <div className=" m-auto md:mr-[60px] md:w-[400px] md:h-[300px] flex flex-col items-center" >
+                <Image src={'/images/ICAASET_LOGO_2024-removebg-preview.png'} width={200} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
+                <p className='text-left text-md px-3'>
+                International Conference on Application of Advancement in Science, Engineering and Technology - 2024</p>
             </div>
-            <div >
-                📍LOCATION
-                <ul className=" font-light">
-                    <Link href="https://ycce.edu" >YCCE</Link>
-                    <li>Hingna</li>
-                </ul>
-            </div>
-
-            <div>GET IN TOUCH
+            <div className='m-auto md:m-[60px] md:w-[400px] md:h-[300px]' >
+                <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Quick Links </h1>
                 <ul>
-                    <li>Call : 91-0909586049587</li>
+
+                    <li>•<Link href="/" className="item"> Home </Link></li>
+                    <li>•<Link href="/about/preamble" className="item"> About</Link></li>
+                    <li>•<Link href="/dates" className="item"> Important Dates</Link></li>
+                    <li>•<Link href="/authors/Call for Paper" className="item"> Call for Paper</Link></li>
                 </ul>
             </div>
-
+            <div className='m-auto md:m-[60px] md:w-[400px] md:h-[300px]' >
+                <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Get in Touch </h1>
+                <ul>
+                    <li>Phone no :<a href="tel:9322549802">+91-9999999999</a> </li>
+                    <li>Email : @ycce.edu</li>
+                    <li><a href="https://ycce.edu/">YCCE</a> </li>
+                </ul>
             </div>
-
-           <center><div>© 2024 ICASET - All rights reserved.</div></center> 
-
         </footer>
     );
 }

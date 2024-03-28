@@ -1,44 +1,59 @@
 import React from "react";
 import Link from "next/link";
 import Dropdown from "./DropDown";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 
 const Navbar = () => {
   const about = {
     trigger: "About",
     items: [
       { name: "YCCE", href: "/about/YCCE" },
-      { name: "Preamble", href: "/about/preamble" },
-      { name: "Who can attend", href: "/about/attend" },
-      { name: "Scope and benefits", href: "/about/scope" },
-      { name: "Conference Theme", href: "/about/conference-theme"},
-      { name: "Patrons", href: "/board/patrons" },
+      { name: "Patrons", href: "/about/YCCE#patrons" },
+      { name: "Welcome to ICASET-2024", href: "/about/conference" },
+      { name: "Conference Theme and Scope", href: "/about/conference#themeAndScope" },
       { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
   const board = {
     trigger: "Advisory Board",
     items: [
-      { name: "International", href: "/board/iab" },
-      { name: "National", href: "/board/nab" },
+      { name: "International", href: "/board" },
+      { name: "National", href: "/board#nab" },
     ],
   };
   const committee = {
     trigger: "Committees",
     items: [
-      { name: "Technical Program Chairs", href: "/committee/technical-chairs" },
-      { name: "General Chairs", href: "/committee/general" },
+      { name: "Technical Program Chairs", href: "/committee" },
+      { name: "General Chairs", href: "/committee#generalChairs" },
       {
-        name: "International Publicity Chairs",
-        href: "/committee/international",
+        trigger: "Publicity Chairs",
+        items: [
+          { name: "International", href: "/committee#ipc" },
+          { name: "National", href: "/committee#npc" },
+        ]
       },
-      { name: "National Publicity Chairs", href: "/committee/national" },
-      { name: "Finance Chairs", href: "/committee/finance" },
-      { name: "Publication Chairs", href: "/committee/publication" },
+      { name: "Finance Chairs", href: "/committee#financeChairs" },
+      { name: "Publication Chairs", href: "/committee#publicationChairs" },
       {
         trigger: "Technical Program Committee",
         items: [
-          { name: "International", href: "/committee/tech-committee/international" },
-          { name: "National", href: "/committee/tech-committee/national" },
+          { name: "International", href: "/committee/tech-committee" },
+          { name: "National", href: "/committee/tech-committee/#ntpc" },
         ],
       },
       {
@@ -46,52 +61,117 @@ const Navbar = () => {
         items: [
           {
             name: "Convenors",
-            href: "/committee/organizing-committee/conveyors",
+            href: "/committee/organizing-committee#",
           },
           {
             name: "Organizing Secretary",
-            href: "/committee/organizing-committee/organizing-secretary",
+            href: "/committee/organizing-committee/#organizing-secretary",
           },
           {
             name: "Organizing Team",
-            href: "/committee/organizing-committee/organizing-team",
+            href: "/committee/organizing-committee/#organizing-team",
           },
         ],
       },
     ],
   };
 
-  const contact = {
-    trigger: "Contact Us",
+  const forAuthors = {
+    trigger: "For Authors",
     items: [
-      { name: "Site", href: "/contact/site" },
-      { name: "Stay in", href: "/contact/stayin" },
-    ],
+      { name: "Call for Paper", href: "/authors/cfp" },
+      { name: "Important Dates", href: "/authors/dates" },
+      { name: "Paper Format", href: "/authors/format" },
+      { name: "Paper Submission", href: "/authors/submission" },
+      { name: "Publication", href: "/authors/publication" }
+    ]
+  }
+
+  const contact = {
+    name: "Contact Us",
+    href: "/contact"
   };
 
-  return (
-    <div className="flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
-      <Link href="/" className="item">
-        Home
-      </Link>
-      <Dropdown dropdown={about} />
-      <Dropdown dropdown={board} />
-      <Dropdown dropdown={committee} />
+  function AccordionLink({ href, trigger, className }) {
+    return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
+      {trigger}
+    </Link>
+  }
 
-      <Link href="/speakers" className="item">
-        Keynote Speakers{" "}
-      </Link>
-      <Link href="/dates" className="item">
-        Important Dates
-      </Link>
-      <Link href="/registration" className="item">
-        Registration{" "}
-      </Link>
-      <Link href="/schedule" className="item">
-        Programme Schedule
-      </Link>
-      
-      <Dropdown dropdown={contact} />
+  function CustomAccordionItem({ dropdown, className }) {
+    return dropdown["trigger"] != undefined ? (
+      <AccordionItem value={dropdown.trigger}>
+        <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
+        <AccordionContent>
+          <Accordion type="single" collapsible>
+            {dropdown.items.map((item, index) => {
+              return <CustomAccordionItem key={index} dropdown={item} />
+            })}
+          </Accordion>
+        </AccordionContent>
+      </AccordionItem>
+    ) : (<AccordionLink href={dropdown.href} trigger={dropdown.name} />)
+
+  }
+
+  return (
+    <div>
+      <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
+        <Link href="/" className="item">
+          Home
+        </Link>
+        <Dropdown dropdown={about} />
+        <Dropdown dropdown={board} />
+        <Dropdown dropdown={committee} />
+
+        <Link href="/speakers" className="item">
+          Keynote Speakers
+        </Link>
+
+        <Dropdown dropdown={forAuthors} />
+
+        <Link href="/registration" className="item">
+          Registration
+        </Link>
+        <Link href="/schedule" className="item">
+          Programme Schedule
+        </Link>
+        <Link href="/contact" className="item">
+          Contact Us
+        </Link>
+      </div>
+
+      <Sheet>
+        <div className="flex lg:hidden p-3 lg:-0 justify-end sticky top-0 z-10">
+          <SheetTrigger>Open</SheetTrigger>
+        </div>
+        <SheetContent>
+          <SheetHeader>
+            <SheetTitle>ICAASET-2024</SheetTitle>
+            <SheetDescription>
+              International Conference on Application of Science, Engineering and Technology - 2024
+            </SheetDescription>
+          </SheetHeader>
+
+          <Accordion type="single" collapsible className="my-10">
+            <AccordionLink href="/" trigger="Home" />
+            <CustomAccordionItem dropdown={about} />
+            <CustomAccordionItem dropdown={board} />
+            <CustomAccordionItem dropdown={committee} />
+            <AccordionLink href="/speakers" trigger="Keynote Speakers" />
+
+            <CustomAccordionItem dropdown={forAuthors} />
+            <AccordionLink href="/registration" trigger="Registration" />
+
+            <AccordionLink href="/schedule" trigger="Programme Schedule" />
+
+            <AccordionLink href="/contact" trigger="Contact Us" />
+
+          </Accordion>
+
+        </SheetContent>
+      </Sheet>
+
     </div>
   );
 };

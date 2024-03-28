@@ -18,12 +18,12 @@ export default function Dropdown({ dropdown, className }) {
         {dropdown.items.map((item, index) => {
           return item["href"] != undefined ? (
             <Link href={item.href || "/"} key={index} target={`${item["newTab"] != undefined ? "_blank" : "_self"}`}>
-              <DropdownMenuItem>{item.name}</DropdownMenuItem>
+              <DropdownMenuItem className="text-nowrap">{item.name}</DropdownMenuItem>
             </Link>
           ) : (
             <ChildDropdown
             key={index}
-              className="ml-80 -mt-10"
+              className="absolute left-28 -top-10"
               dropdown={item}
             />
           );

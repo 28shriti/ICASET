@@ -1,13 +1,75 @@
+
 const data = {
     notice: "This is the notice in marquee tag",
     conferenceDate: "4 May 2024",
-    keynoteSpeakers: [
-        { name: "Random 1", image: "rakhimamimg.jpeg" },
-        { name: "Random 2", image: "rakhimamimg.jpeg" },
-        { name: "Random 3", image: "rakhimamimg.jpeg" },
-        { name: "Ramdom 4", image: "rakhimamimg.jpeg" },
-    ]
 }
+
+export const dates = [
+    {
+        event: "Date of Paper Submission",
+        date: "15 July, 2024",
+    },
+    {
+        event: "Paper Acceptance Notification",
+        date: "30 August, 2024",
+    },
+    {
+        event: "Camera Ready Paper Submission",
+        date: "30 September, 2024",
+    },
+    {
+        event: "Last date of Paper Registration",
+        date: "15 October, 2024",
+    },
+    {
+        event: "Conference Date",
+        date: "November 22-23, 2024",
+    },
+]
+
+export const keynoteSpeakers = [
+  {
+    name: "NILANJAN DEY",
+    image: "image1.png",
+    designation: "Associate Professor",
+    department: "Department of Computer Science and Engineering",
+    institute: "Techno International New Town, Kolkata, INDIA",
+    description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
+  },
+  {
+    name: "MUFTI MAHMUD",
+    image: "image2.png",
+    designation: "Associate Professor (Cognitive Computing)",
+    department: "Department of Computer Science",
+    institute: "Nottingham Trent University (NTU), UK",
+    description: "Dr Mahmud was appointed to the University Shadow Executive Team (USET) in 2022, providing specialist input to the University Executive Team and Vice-Chancellor on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). Particularly, he shadows the Pro Vice-Chancellor (Research and Innovation) in matters related to the development of the research environment at NTU and its five strategic research themes from the EDI viewpoint. He is the Coordinator of the Computer Science and Informatics (B11) Unit of Assessment of Research Excellence Framework at NTU and the research group leader of the Cognitive Computing & Brain Informatics (CCBI) research group, and deputy group leader of the Interactive Systems Research Group (ISRG). He is also an active member of the Computing and Informatics Research Centre (CIRC) and the Medical Technologies Innovation Facility (MTIF). He has served as a member of the NTU Distance Learning Governance, Operation and Steering Committee and the International Mobility Committee. He is a Fellow of the Higher Education Academy, a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE) and the Association of Computing Machinery (ACM), and a professional member of the British Computer Society (BCS). Dr Mahmud is a Section Editor (Big Data Analytics) of the Cognitive Computation journal, Regional Editor (Europe) of the Brain Informatics journal and Associate Editor (neuroprosthetics) of the Frontiers in Neuroscience journal."
+  },
+  {
+    name: "VALENTINA EMILA BALAS",
+    image: "image3.png",
+    designation: "Associate Professor",
+    department: "Department of Automatics and Applied Software",
+    institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
+    description: "She holds a Ph.D. in Applied Electronics and Telecommunications from Polytechnic University of Timisoara since 2003. She is author of more than 140 research papers in refereed journals and International Conferences. Her research interests are in Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements and System Theory. She is Editor-in Chief to International Journal of Advanced Intelligence Paradigms (IJAIP), member in Editorial Boards for national and international journals, serves as reviewer for many International Journals and conferences and is evaluator expert for national and international projects. She participated in many international conferences as General Chair, Organizer, Session Chair and member in International Program Committee. She was mentor for many student teams in Microsoft (Imagine Cup), Google and IEEE competitions in the last six years. Dr. Valentina Balas has a great experience in research projects. She is a member of EUSFLAT, ACM and a Senior Member IEEE, member in TC – Fuzzy Systems (IEEE CIS), member in TC - Emergent Technologies (IEEE CIS), member in TC – Soft Computing (IEEE SMCS) and also a member in IFAC - TC 3.2 Computational Intelligence in Control."
+  },
+  {
+    name: "M. SHAMIN KAISER",
+    image: "image4.png",
+    designation: "Professor",
+    department: "Institute of Information Technology",
+    institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
+    description: "He received his Bachelor's and Master's degrees in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh in 2002 and 2004 respectively, and the Ph. D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand, in 2010. He worked as a postdoc fellow in the Big data and Cyber Security Lab of Anglia Ruskin University, UK from 2017-2018. He also worked as a Special Research Student at the Wireless Signal Processing and Networking Lab (Adachi Lab) of Tohoku University, Japan in 2008. His current research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. He has authored more than 150 papers in different peer-reviewed journals and conferences. He is an Academic Editor of Plos One Journal; Associate Editor of the IEEE Access and Cognitive Computation Journal, Guest Editor of Brain Informatics Journal, IJACI (IGI Global), Electronics MDPI, Frontiers in Neuroinformatics, and Cognitive Computation Journal. Dr. Kaiser is a Life Member of Bangladesh Electronic Society; Bangladesh Physical Society and NOAMI. He is also a senior member of IEEE, USA, and IEICE, Japan, and an active volunteer of the IEEE Bangladesh Section. He is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
+  },
+  {
+    name: "MUKESH PUND",
+    image: "image5.png",
+    designation: "Chief Scientist",
+    department: "CSIR-National Institute of Science Communication and Policy Research",
+    institute: "New Delhi, INDIA",
+    description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
+  }
+]
+  
 
 export const ourVisionary = [
     {
@@ -34,7 +96,7 @@ export const chiefPatrons = [
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/rakhimamimg.jpeg",
+        image: "/images/patrons/HemantThakare.webp",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -42,12 +104,12 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
-        image : "/images/upwaghe.png",
+        image : "/images/patrons/upwaghe.png",
         name : "Dr. U.P. Waghe",
         designation : "Principal, YCCE"
     },
     {
-        image : "/images/upwaghe.png",
+        image : "/images/patrons/ManaliKshirsagar.jpg",
         name : "Dr. Manali M. Kshirsagar",
         designation : "Technical Advisor, MGI"
     },
@@ -72,15 +134,15 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
         name: 'Nitaigour Premchand Mahalik',
-        designation: 'Department of Industrial Technology, California State University, Fresno',
-        country: 'United States of America',
+        designation: 'Department of Industrial Technology, California State University',
+        country: 'USA',
         link: 'https://scholar.google.com/citations?user=PExYiPsAAAAJ&hl=en'
     },
     {
         img: '/images/iab/SukhpalSinghGill.png',
         name: 'Sukhpal Singh Gill',
-        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London',
-        country: 'United Kingdom',
+        designation: 'Queen Mary University of London',
+        country: 'UK',
         link: 'https://scholar.google.co.uk/citations?user=NHkWom4AAAAJ&hl=en'
     },
     {
@@ -94,7 +156,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/RezaLangari.png',
         name: 'Reza Langari',
         designation: 'Texas A&M University',
-        country: 'United States of America',
+        country: 'USA',
         link: 'https://scholar.google.com/citations?user=IozzI8sAAAAJ'
     },
     {
@@ -107,9 +169,37 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Pradeep Kumar',
-        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal, Durban',
-        country: 'South Africa',
+        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal',
+        country: 'SOUTH AFRICA',
         link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/MuftiMahmud.png',
+        name: 'Mufti Mahmud',
+        designation: 'Nottingham Trent University',
+        country: 'UK',
+        link: 'https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/ValentinaEmiliaBalas.png',
+        name: 'Valentina Emilia Balas',
+        designation: 'Aurel Vlaicu University of Arad / Academy of Romanian Scientists',
+        country: 'Romania',
+        link: 'https://scholar.google.com/citations?user=XaktX0wAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/MShamimKaiser.png',
+        name: 'M. Shamim Kaiser',
+        designation: 'Institute of Information Technology, Jahangirnagar University',
+        country: 'BANGLADESH',
+        link: 'https://scholar.google.com/citations?user=yjrSXiEAAAAJ&hl=en'
+    },
+    {
+        img: '/images/iab/ChakchaiSoIn.png',
+        name: 'Chakchai So-In',
+        designation: 'College of Computing, Khon Kaen University',
+        country: 'Thailand',
+        link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
 ]
 export const nationalPublicityChair = [
@@ -122,7 +212,7 @@ export const nationalPublicityChair = [
     {
         image : "/images/publicitychair/national/rajeshwarisridhar.jpg",
         name : "Rajeswari Sridhar",
-        designation : "National Institute of Technology Tiruchirappalli, Kerla",
+        designation : "National Institute of Technology Tiruchirappalli, Kerala",
         link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
@@ -140,7 +230,7 @@ export const nationalPublicityChair = [
     {
         image : "/images/publicitychair/national/sandipmal.jpg",
         name : "Sandip Mal",
-        designation : "VIT Bhopal University Madhya Pradesh",
+        designation : "VIT Bhopal University, Madhya Pradesh",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
@@ -180,7 +270,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
         name: 'Mukesh A Zaveri',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat ',
+        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
         link: 'mazaveri@coed.svnit.ac.in'
     },
     {
@@ -192,37 +282,37 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/SridharPatnaik.png',
         name: 'Sridhar Patnaik',
-        designation: 'Birla Institute of Technology, Mesra, Ranchi, Jharkhand',
+        designation: 'Birla Institute of Technology, Mesra, Ranchi',
         link: 'https://www.bitmesra.ac.in/Display_My_Profile_00983KKj893L?id=%252frY80NB4KITbG4EBZLIMQOnmcAfksFw8hhZVH4%252bPVJA%253d'
     },
     {
         img: '/images/nab/SanjayKumarSingh.png',
         name: 'Sanjay Kumar Singh',
-        designation: 'Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh',
+        designation: 'Indian Institute of Technology (BHU), Varanasi',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/NalinakshVyas.png',
         name: 'Nalinaksh Vyas',
-        designation: 'Indian Institute of Technology, Kanpur, Uttar Pradesh',
+        designation: 'Indian Institute of Technology, Kanpur',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/AshishDarpe.png',
         name: 'Ashish Darpe',
-        designation: 'Indian Institute of Technology Delhi',
+        designation: 'Indian Institute of Technology, Delhi',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/tusharDesai.png',
         name: 'Tushar Desai',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat',
+        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajeevSrivastava.png',
         name: 'Rajeev Srivastava',
-        designation: 'Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh',
+        designation: 'Indian Institute of Technology (BHU), Varanasi',
         link: 'https://linkedin.com'
     },
     {
@@ -234,20 +324,98 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/RajeshSingh.png',
         name: 'Rajesh Singh',
-        designation: 'Uttaranchal University, Dehradun, Uttarakhand',
+        designation: 'Uttaranchal University, Dehradun',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajSingh.png',
         name: 'Raj Singh',
-        designation: 'JAIN (Deemed-to-be University) · Bengaluru, Karnataka, India',
+        designation: 'JAIN (Deemed-to-be University), Bengaluru',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/GauravTrivedi.png',
         name: 'Gaurav Trivedi',
-        designation: 'Indian Institute of Technology Guwahati, Assam',
+        designation: 'Indian Institute of Technology Guwahati',
         link: 'https://linkedin.com'
+    },
+    {
+        img: '/images/nab/OmprakashGKakde.png',
+        name: 'Omprakash G. Kakde',
+        designation: 'Indian Institute of Information Technology, Nagpur',
+        link: 'https://scholar.google.co.in/citations?user=E5ErZ2UAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ParthaPratimRoy.png',
+        name: 'Partha Pratim Roy',
+        designation: 'Indian Institute of Technology, Roorkee',
+        link: 'https://scholar.google.ca/citations?user=moDpyKkAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/SarojKumarBiswas.png',
+        name: 'Saroj Kumar Biswas',
+        designation: 'NIT, Silchar',
+        link: 'https://scholar.google.com/citations?user=5poSUEQAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/NilanjanDey.png',
+        name: 'Nilanjan Dey',
+        designation: 'Techno International New Town, Kolkata',
+        link: 'https://scholar.google.co.in/citations?user=uZmrRHAAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/VijayBhaskarSemwal.png',
+        name: 'Vijay Bhaskar Semwal',
+        designation: 'MANIT, Bhopal',
+        link: 'https://scholar.google.co.in/citations?user=cPorLCwAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ParikshitMahalle.png',
+        name: 'Parikshit Mahalle',
+        designation: 'Vishwakarma Institute of Technology, Pune',
+        link: 'https://scholar.google.co.in/citations?user=44SjKmAAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ChittaranjanHota.png',
+        name: 'Chittaranjan Hota',
+        designation: 'BITS, Hyderabad',
+        link: 'https://scholar.google.co.in/citations?user=tFy6PS4AAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/AnilLimaye.png',
+        name: 'Anil Limaye',
+        designation: 'Indian Institute of Technology, Guwahati',
+        link: 'https://scholar.google.com/citations?user=9dpdzWEAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/PradeepkumarMallick.png',
+        name: 'Pradeepkumar Mallick',
+        designation: 'KIIT University, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=Vo6vDTUAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/TanupriyaChoudhury.png',
+        name: 'Tanupriya Choudhury',
+        designation: 'Graphic Era University, Dehradun',
+        link: 'https://scholar.google.co.in/citations?user=tsbYDewAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/DebahutiMishra.png',
+        name: 'Debahuti Mishra',
+        designation: 'Siksha O Anusandhan University, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=k1pS2AQAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/ShrikantaPatnaik.png',
+        name: 'Shrikanta Patnaik',
+        designation: 'Interscience Institute of Management & Technology, Bhubaneswar',
+        link: 'https://scholar.google.com/citations?user=TmbH6b0AAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/MadhuriBhavsar.png',
+        name: 'Madhuri Bhavsar',
+        designation: 'Nirma University, Ahmedabad',
+        link: 'https://scholar.google.com/citations?user=i3XuX9AAAAAJ&hl=en'
     },
 ]
 
@@ -430,22 +598,136 @@ export const tidmTheme = [
 
 export const stayIns = [
     {
-        name: "Random",
-        image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+        name: "Radisson Blu Hotel",
+        image: "1.Radisson Blu.jpg",
+        description: "Carlson Rezidor introduces the Radisson Blu Hotel Nagpur, a modern, stylish property in central India, perfect for business and leisure travelers, offering stunning accommodations and prime location."
     },
     {
-        name: "Random",
-        image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
+        name: "Le Meridian",
+        image: "2..Le Meridian.webp",
+        description: "Le Méridien Nagpur offers luxury, convenience, and chic comfort, conveniently located near Dr. Babasaheb Ambedkar International Airport and key business hubs."
     },
     {
-        name: "Random",
-        image: "/images/background.jpg",
-        description: "description fdiljjjjjnjes wenfkjewn fiewnf iuewnf fwen ufiwenfsnfo iuewnfwsl;kefn weiufn szkfn ewipao nfwekfn weiulfn skelf n"
-    }
+        name: "Hotel Pride",
+        image: "3. Hotel Pride.png",
+        description: "Pride Hotels Group, founded in Pune in 1988, offers exceptional Indian hospitality across Ahmedabad, Mussoorie, Pune, and Nagpur. Their hotels and resorts blend contemporary comfort with traditional warmth, offering authentic Indian hospitality with local cuisine, music, and tuberose aromas."
+    },
+    {
+        name: "Center Point, Ramdaspeth",
+        image: "4. CP-Ramdaspeth.jpg",
+        description: "Hotel Centre Point, a leading hospitality establishment in Orange City, has been providing exceptional service since 1988. With a focus on warmth, comfort, and charm, the hotel strives to exceed guest expectations."
+    },
+    {
+        name: "Hotel Hardeo, near Burdim",
+        image: "5. Hotel Hardeo.jpg",
+        description: "Experience luxury at our iconic Nagpur City hotel, offering sophisticated amenities, breathtaking views, and attentive staff. Enjoy world-class dining, serene relaxation, and a journey that redefines luxury hospitality."
+    },
+    {
+        name: "Orient Group of Hotels",
+        image: "6. Orient.png",
+        description: "Orient Group of Hotels, a 40-year-old organization based in Nagpur, India, is dedicated to excellence, adaptability, and putting people first. Located in various sectors, they strive to exceed guests' expectations, motivate staff, and produce outstanding outcomes."
+    },
+    {
+        name: "Airport Centre Point",
+        image: "7. Airport-CP.png",
+        description: "Hotel Airport Centre Point is a boutique hotel offering classic hospitality, high service standards, and innovation. Located near Nagpur International Airport, it provides affordable room rates and personalized 24-hour service."
+    },
+    {
+        name: "Tuli Imperial",
+        image: "8.Tuli-Imperial.jpg",
+        description: "Tuli Group, central India's top chain of hotels and resorts, has been providing reliable service since 2013. With five beautifully designed properties, they prioritize guests' needs and offer a variety of experiences for leisure, family, and business."
+    },
+    {
+        name: "Tuli International",
+        image: "9.Tuli-International.jpg",
+        description: "The Tuli International Hotel in Nagpur offers a blend of regal heritage and modern elegance, blending sophisticated hospitality with individualized service and rich cultural influences, making each visit a celebration."
+    },
+    {
+        name: "Hotel Ashoka",
+        image: "10. Ashoka.jpg",
+        description: "Hotel Ashok in Nagpur offers top-notch service, accommodations, fine dining, live music, and desserts since 2011. With 57 rooms, in-house salon, coffee shop, banquet halls, and local business partnerships, guests can enjoy true hospitality."
+    },
+    {
+        name: "Orange Tree Hotel",
+        image: "11. Orange-Tree.webp",
+       
+        description: "Orange Tree Hotels, a 3-star Nagpur lodging, offers comfort, features like dry cleaning, laundry, and concierge service, and is conveniently located near attractions like Sitabuldi Fort and Gandhisagar Lake."
+    },
+    
 ]
 
+export const sites = [
+    {
+        name: "Ganesh Tekdi Mandir",
+        image: "",
+        description: "Welcome to Ganesh Tekdi, Nagpur - a revered site of devotion and tranquility. Constructed atop a hill, this ancient temple, also known as Tekdi Ganapati Temple, has been a focal point of spirituality for over 250 years. Initially a modest structure, it underwent significant expansion in 1984, thanks to the efforts of devoted individuals and contributions from generous devotees. Notably, in 1995, additional land was sanctioned for further expansion, facilitating the temple's continued growth. Today, plans are underway to enhance the temple's surroundings with features like lawns, water fountains, and a free parking zone. Come, experience the serenity and divine presence at Ganesh Tekdi, Nagpur."
+    },
+    {
+        name: "Zero Miles",
+        image: "",
+        description: "Zero Mile Stone, erected in 1907 during the Great Trigonometrical Survey of India, stands as a historic monument in Nagpur, Maharashtra. Comprising a sandstone pillar and a GTS Standard Bench Mark, the monument symbolizes a significant point in Indian geography. Despite misconceptions about its purpose as the geographical center of colonial India, it remains a notable landmark. Situated in Nagpur, the city holds geographical significance being centrally located among major Indian metros. The Times of India took responsibility for maintaining the monument from 2008 onwards."
+    },
+    {
+        name: "Koradi Mata Mandir",
+        image: "",
+        description: "In ancient times, the region now known as Koradi was called Jakhapur, ruled by King Jholan. Despite having seven sons, his heart yearned for a daughter. Through devout rituals, he prayed for divine intervention. In response, a daughter of unparalleled beauty was born, embodying the presence of Adi Shakti, the primal energy of the universe. She became King Jholan's guiding light, offering clarity in decision-making and unwavering support in times of hardship."
+    },
+    {
+        name: "BAPS SwamiNarayan Temple, Wathoda",
+        image: "",
+        description: "Pramukh Swami Maharaj sowed the seeds of satsang in 1976 when he visited the Vidarbha region. In 1993, Pramukh Swami Maharaj performed the murti-pratishtha of the hari mandir in the suburb of Vardhmannagar. Thereafter, in 1997, Swamishri inaugurated The Swaminarayan School. In 2004, the groundbreaking ceremony for the shikharbaddh mandir in the suburb of Wathoda was performed. The murti-pratishtha of the newly constructed shikharbaddh mandir was performed in 2013."
+    },
+    {
+        name: "Ambazari Lake + Vivekanand Smarak Ambazari",
+        image: "",
+        description: "After a delay of three years, Swami Vivekanandamemorial is set to become a reality. Country’s tallest bronze statue of Vivekananda was installed at the memorial site on Sunday. However, the memorial will be dedicated to the public on September 11. The memorial is being built at Ambazari lake’s overflow point, which is also the origin of Nag river in city. The project has been planned in such a manner that lake water will be visible in the background of the statue."
+    },
+    {
+        name: "Kasturchand Park",
+        image: "",
+        description: "Kasturchand ParkThe ground generally known as KP was part of the land ceded to East India Company by the treaty of 1818. It was under the control of British army (Madras Army) for many years. It had built few building on this ground as arsenal and had stored several tons of explosive gunpowder till late 19th century."
+    },
+    {
+        name: "Balasaheb Thakrey GoreWada Zoo",
+        image: "",
+        description: "Gorewada Zoo, now named Balasaheb Thackeray Gorewada International Zoological Park, was inaugurated by Hon. Chief Minister Shri. Uddhav Balasaheb Thackeray on January 26, 2021, and opened to the public on January 27, 2021. Envisioned as India's largest zoological park with international components, it spans 539 hectares and includes features like Indian Safari, African Safari, Night Safari, and an Archeological Theme Park. Currently, the Indian Safari section is open to the public."
+    },
+    {
+        name: "Futala Lake",
+        image: "",
+        description: "Discover the revitalized beauty of Futala Lake in Nagpur's western region. Originally built two centuries ago, this historic lake underwent extensive renovation in 2003 with support from NIT and the state government. The restoration included desilting, pathway construction, landscaping, and installation of decorative elements such as lamps and benches. Colorful fountains and high masts now illuminate the area, while amenities like an Immersion Ghat and sand beach enhance its appeal. Futala Lake is now a picturesque destination for leisure and relaxation."
+    },
+    {
+        name: "Deekshabhoomi",
+        image: "",
+        description: "Discover Deekshabhoomi, a sacred monument in Nagpur, Maharashtra, where Dr. B. R. Ambedkar embraced Buddhism with thousands of followers on October 14, 1956. This historic event marked a revival of Buddhism in India and serves as a pilgrimage site for millions annually. Deekshabhoomi symbolizes social revolution and is a testament to Ambedkar's vision of a more equitable society. Visit the site to pay homage and witness the world's largest stupa, erected in his memory."
+    },
+    {
+        name: "Dragon Place",
+        image: "",
+        description: "The Dragon Palace Temple, also known as the Lotus Temple of Nagpur, is a Buddhist temple located in Kamptee, Maharashtra, India. Established in 1999 with funding from the Japan-based Ogawa Society, the temple complex is home to a revered sandalwood idol associated with the Buddha. It serves as a pilgrimage site for Buddhist practitioners, attracting visitors seeking spiritual solace and enlightenment."
+    },
+    {
+        name: "Hedgewar Smruti Mandir",
+        image: "",
+        description: "Hedgewar Smruti Mandir (HSM) is a memorial located in Reshimbagh, Nagpur, Maharashtra, India, dedicated to K. B. Hedgewar and M. S. Golwalkar, the founding leaders of the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization. Inaugurated in 1962, HSM was granted tourism status by the Maharashtra Tourism Development Corporation (MTDC) in 2017, although this decision has been surrounded by controversy."
+    },
+    {
+        name: "Ramtek Gad Mandir",
+        image: "",
+        description: "The present temple is believed to have been built by the King of Nagpur Raghuji Bhonsale, after his victory over fort of Deogarh in Chindwara. This place is also famous for its relation with Great poet Kalidasa. Kalidasa has written Meghdootum in hills of Ramtek. Late Indian Prime Minister Mr."
+    },
+    {
+        name: "Khindsi Lake",
+        image: "",
+        description: "Khindsi Lake, nestled amidst lush forests, is a picturesque destination located approximately 3.5 kilometers from Ramtek and 53 kilometers from Nagpur. A beloved tourist spot for Vidarbha residents, visitors can enjoy various recreational activities such as boating in motorboats, pedal boats, rowing boats, and water scooters on the lake. Additionally, an adventure park for children and jungle trekking opportunities are available nearby, making Khindsi Lake an ideal destination for nature lovers and adventure enthusiasts alike."
+    },
+    {
+        name: "Pench National Park",
+        image: "",
+        description: "It is famous for its ferocious Bengal Tigers that boasts a significant amount of tourism in the park. At present, there are around 50 tigers residing in the prey-rich woodlands of park's region. Besides this, the park also has 39 species of mammals 13 species of reptiles and 3 species of amphibians."
+    }
+]
 
 export default data;
 
