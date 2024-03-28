@@ -1,30 +1,8 @@
+
 const data = {
     notice: "This is the notice in marquee tag",
     conferenceDate: "4 May 2024",
 }
-
-export const dates = [
-    {
-        event: "Date of Paper Submission",
-        date: "15 July, 2024",
-    },
-    {
-        event: "Paper Acceptance Notification",
-        date: "30 August, 2024",
-    },
-    {
-        event: "Camera Ready Paper Submission",
-        date: "30 September, 2024",
-    },
-    {
-        event: "Last date of Paper Registration",
-        date: "15 October, 2024",
-    },
-    {
-        event: "Conference Date",
-        date: "November 22-23, 2024",
-    },
-]
 
 export const keynoteSpeakers = [
   {
@@ -74,7 +52,7 @@ export const ourVisionary = [
     {
         image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
-        designation: "Chairman, Nagar Yuvak Shikshan Sanstha"
+        designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
     },
 ]
 
@@ -87,7 +65,7 @@ export const chiefPatrons = [
     {
         image: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
-        designation: "Secretary, Nagar Yuvak Shikshan Sanstha "
+        designation: "Secreatary, Nagar Yuvak Shikshan Sanstha "
     },
     {
         image: "/images/patrons/vrindatai.jpg",
@@ -95,7 +73,7 @@ export const chiefPatrons = [
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/HemantThakare.webp",
+        image: "/images/patrons/rakhimamimg.jpeg",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -103,12 +81,12 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
-        image : "/images/patrons/upwaghe.png",
+        image : "/images/upwaghe.png",
         name : "Dr. U.P. Waghe",
         designation : "Principal, YCCE"
     },
     {
-        image : "/images/patrons/ManaliKshirsagar.jpg",
+        image : "/images/upwaghe.png",
         name : "Dr. Manali M. Kshirsagar",
         designation : "Technical Advisor, MGI"
     },
@@ -120,14 +98,14 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JamesFPeters.png',
         name: 'James F Peters',
         designation: 'University of Manitoba, Winnipeg',
-        country: 'CANADA',
+        country: 'Canada',
         link: 'https://www.researchgate.net/profile/James-Peters-3'
     },
     {
         img: '/images/iab/MamoonRashid.png',
         name: 'Mamoon Rashid',
         designation: 'School of Information, Communication, and Technology',
-        country: 'BAHRAIN',
+        country: 'Bahrain',
         link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
     },
     {
@@ -148,7 +126,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JoachimHoltz.png',
         name: 'Joachim Holtz',
         designation: 'University of Wuppertal, Wuppertal',
-        country: 'GERMANY',
+        country: 'Germany',
         link: 'https://ieeexplore.ieee.org/author/37267042900'
     },
     {
@@ -162,7 +140,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JabarHYousif.png',
         name: 'Jabar H. Yousif',
         designation: 'Sohar University',
-        country: 'OMAN',
+        country: 'Oman',
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
@@ -183,7 +161,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/ValentinaEmiliaBalas.png',
         name: 'Valentina Emilia Balas',
         designation: 'Aurel Vlaicu University of Arad / Academy of Romanian Scientists',
-        country: 'ROMANIA',
+        country: 'Romania',
         link: 'https://scholar.google.com/citations?user=XaktX0wAAAAJ&hl=en'
     },
     {
@@ -197,62 +175,61 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/ChakchaiSoIn.png',
         name: 'Chakchai So-In',
         designation: 'College of Computing, Khon Kaen University',
-        country: 'THAILAND',
+        country: 'Thailand',
         link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
 ]
 export const nationalPublicityChair = [
     {
-        img : "/images/publicitychair/national/durgeshkumar.jpg",
+        image : "/images/publicitychair/national/durgeshkumar.jpg",
         name : "Durgesh Srivastava",
         designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
         link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
     },
     {
-        img : "/images/publicitychair/national/rajeshwarisridhar.jpg",
+        image : "/images/publicitychair/national/rajeshwarisridhar.jpg",
         name : "Rajeswari Sridhar",
         designation : "National Institute of Technology Tiruchirappalli, Kerala",
         link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
-        img : "/images/publicitychair/national/sayankumar.jpg",
+        image : "/images/publicitychair/national/sayankumar.jpg",
         name : "Sayan Ranu",
         designation : "Indian Institute of Technology, Delhi",
         link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
     },
     {
-        img : "/images/publicitychair/national/shaileshkamble.jpg",
+        image : "/images/publicitychair/national/shaileshkamble.jpg",
         name : "Shailesh Kamble",
         designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
         link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
     },
     {
-        img : "/images/publicitychair/national/sandipmal.jpg",
+        image : "/images/publicitychair/national/sandipmal.jpg",
         name : "Sandip Mal",
         designation : "VIT Bhopal University, Madhya Pradesh",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
-        img : "/images/publicitychair/national/gunvantichellamuthu.jpg",
+        image : "/images/publicitychair/national/gunvantichellamuthu.jpg",
         name : "Gunavathi C",
         designation : "VIT University, Vellore TamilNadu",
         link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img : "/images/publicitychair/national/rameshchandra.jpg",
+        image : "/images/publicitychair/national/rameshchandra.jpg",
         name : "Ramesh Chandra",
         designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
         link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
     },
     {
-        img : "/images/publicitychair/national/shailajapatil.jpg",
+        image : "/images/publicitychair/national/shailajapatil.jpg",
         name : "Shaileja Patil",
         designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
         link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
 ]
-
-export const internationalPublicityChair = [
+export const internationalPublicityChair =[
     {
         img: '/images/publicitychair/international/ajaykumar.jpg',
         name: 'Ajay Kumar',
@@ -260,13 +237,12 @@ export const internationalPublicityChair = [
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
-        img: '/images/publicitychair/international/pramodgaur.jpg',
+        img: '/images/publicitychair/international/pramoudgaur.jpg',
         name: 'Pramod Gaur',
         designation: 'Nottingham Trent University Nottingham United Kingdom',
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     }
 ]
-
 export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
@@ -453,22 +429,7 @@ export const internationalTechProgramCommittee = [
     },
 ]
 
-export const generalChair = [
-    {
-        img: '/images/general/upwaghe.png',
-        name: 'Dr. U. P. Waghe',
-        designation: 'Yeshwantrao Chavan College of Engineering, Nagpur',
-        country: 'India',
-        link: 'https://scholar.google.co.in/citations?user=EwHdjW8AAAAJ&hl=en'
-    },
-    {
-        img: '/images/general/ManaliKshirsagar.jpg',
-        name: 'Dr. M. M. Kshirsagar',
-        designation: 'Yeshwantrao Chavan College of Engineering, Nagpur',
-        country: 'India',
-        link: 'https://scholar.google.com.sg/citations?user=yKroYN0AAAAJ&hl=en'
-    }
-]
+
 
 export const nationalTechProgramCommittee = [
     {
@@ -675,72 +636,72 @@ export const stayIns = [
 export const sites = [
     {
         name: "Ganesh Tekdi Mandir",
-        image: "image1.jpg",
+        image: "",
         description: "Welcome to Ganesh Tekdi, Nagpur - a revered site of devotion and tranquility. Constructed atop a hill, this ancient temple, also known as Tekdi Ganapati Temple, has been a focal point of spirituality for over 250 years. Initially a modest structure, it underwent significant expansion in 1984, thanks to the efforts of devoted individuals and contributions from generous devotees. Notably, in 1995, additional land was sanctioned for further expansion, facilitating the temple's continued growth. Today, plans are underway to enhance the temple's surroundings with features like lawns, water fountains, and a free parking zone. Come, experience the serenity and divine presence at Ganesh Tekdi, Nagpur."
     },
     {
         name: "Zero Miles",
-        image: "image2.avif",
+        image: "",
         description: "Zero Mile Stone, erected in 1907 during the Great Trigonometrical Survey of India, stands as a historic monument in Nagpur, Maharashtra. Comprising a sandstone pillar and a GTS Standard Bench Mark, the monument symbolizes a significant point in Indian geography. Despite misconceptions about its purpose as the geographical center of colonial India, it remains a notable landmark. Situated in Nagpur, the city holds geographical significance being centrally located among major Indian metros. The Times of India took responsibility for maintaining the monument from 2008 onwards."
     },
     {
         name: "Koradi Mata Mandir",
-        image: "image3.jpg",
+        image: "",
         description: "In ancient times, the region now known as Koradi was called Jakhapur, ruled by King Jholan. Despite having seven sons, his heart yearned for a daughter. Through devout rituals, he prayed for divine intervention. In response, a daughter of unparalleled beauty was born, embodying the presence of Adi Shakti, the primal energy of the universe. She became King Jholan's guiding light, offering clarity in decision-making and unwavering support in times of hardship."
     },
     {
         name: "BAPS SwamiNarayan Temple, Wathoda",
-        image: "image4.jpg",
+        image: "",
         description: "Pramukh Swami Maharaj sowed the seeds of satsang in 1976 when he visited the Vidarbha region. In 1993, Pramukh Swami Maharaj performed the murti-pratishtha of the hari mandir in the suburb of Vardhmannagar. Thereafter, in 1997, Swamishri inaugurated The Swaminarayan School. In 2004, the groundbreaking ceremony for the shikharbaddh mandir in the suburb of Wathoda was performed. The murti-pratishtha of the newly constructed shikharbaddh mandir was performed in 2013."
     },
     {
         name: "Ambazari Lake + Vivekanand Smarak Ambazari",
-        image: "image5.jpg",
+        image: "",
         description: "After a delay of three years, Swami Vivekanandamemorial is set to become a reality. Country’s tallest bronze statue of Vivekananda was installed at the memorial site on Sunday. However, the memorial will be dedicated to the public on September 11. The memorial is being built at Ambazari lake’s overflow point, which is also the origin of Nag river in city. The project has been planned in such a manner that lake water will be visible in the background of the statue."
     },
     {
         name: "Kasturchand Park",
-        image: "image6.png",
+        image: "",
         description: "Kasturchand ParkThe ground generally known as KP was part of the land ceded to East India Company by the treaty of 1818. It was under the control of British army (Madras Army) for many years. It had built few building on this ground as arsenal and had stored several tons of explosive gunpowder till late 19th century."
     },
     {
         name: "Balasaheb Thakrey GoreWada Zoo",
-        image: "image7.webp",
+        image: "",
         description: "Gorewada Zoo, now named Balasaheb Thackeray Gorewada International Zoological Park, was inaugurated by Hon. Chief Minister Shri. Uddhav Balasaheb Thackeray on January 26, 2021, and opened to the public on January 27, 2021. Envisioned as India's largest zoological park with international components, it spans 539 hectares and includes features like Indian Safari, African Safari, Night Safari, and an Archeological Theme Park. Currently, the Indian Safari section is open to the public."
     },
     {
         name: "Futala Lake",
-        image: "image8.jpeg",
+        image: "",
         description: "Discover the revitalized beauty of Futala Lake in Nagpur's western region. Originally built two centuries ago, this historic lake underwent extensive renovation in 2003 with support from NIT and the state government. The restoration included desilting, pathway construction, landscaping, and installation of decorative elements such as lamps and benches. Colorful fountains and high masts now illuminate the area, while amenities like an Immersion Ghat and sand beach enhance its appeal. Futala Lake is now a picturesque destination for leisure and relaxation."
     },
     {
         name: "Deekshabhoomi",
-        image: "image9.jpg",
+        image: "",
         description: "Discover Deekshabhoomi, a sacred monument in Nagpur, Maharashtra, where Dr. B. R. Ambedkar embraced Buddhism with thousands of followers on October 14, 1956. This historic event marked a revival of Buddhism in India and serves as a pilgrimage site for millions annually. Deekshabhoomi symbolizes social revolution and is a testament to Ambedkar's vision of a more equitable society. Visit the site to pay homage and witness the world's largest stupa, erected in his memory."
     },
     {
         name: "Dragon Place",
-        image: "image10.jpg",
+        image: "",
         description: "The Dragon Palace Temple, also known as the Lotus Temple of Nagpur, is a Buddhist temple located in Kamptee, Maharashtra, India. Established in 1999 with funding from the Japan-based Ogawa Society, the temple complex is home to a revered sandalwood idol associated with the Buddha. It serves as a pilgrimage site for Buddhist practitioners, attracting visitors seeking spiritual solace and enlightenment."
     },
     {
         name: "Hedgewar Smruti Mandir",
-        image: "image11.jpg",
+        image: "",
         description: "Hedgewar Smruti Mandir (HSM) is a memorial located in Reshimbagh, Nagpur, Maharashtra, India, dedicated to K. B. Hedgewar and M. S. Golwalkar, the founding leaders of the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization. Inaugurated in 1962, HSM was granted tourism status by the Maharashtra Tourism Development Corporation (MTDC) in 2017, although this decision has been surrounded by controversy."
     },
     {
         name: "Ramtek Gad Mandir",
-        image: "image12.jpg",
+        image: "",
         description: "The present temple is believed to have been built by the King of Nagpur Raghuji Bhonsale, after his victory over fort of Deogarh in Chindwara. This place is also famous for its relation with Great poet Kalidasa. Kalidasa has written Meghdootum in hills of Ramtek. Late Indian Prime Minister Mr."
     },
     {
         name: "Khindsi Lake",
-        image: "image13.jpg",
+        image: "",
         description: "Khindsi Lake, nestled amidst lush forests, is a picturesque destination located approximately 3.5 kilometers from Ramtek and 53 kilometers from Nagpur. A beloved tourist spot for Vidarbha residents, visitors can enjoy various recreational activities such as boating in motorboats, pedal boats, rowing boats, and water scooters on the lake. Additionally, an adventure park for children and jungle trekking opportunities are available nearby, making Khindsi Lake an ideal destination for nature lovers and adventure enthusiasts alike."
     },
     {
         name: "Pench National Park",
-        image: "image14.jpg",
+        image: "",
         description: "It is famous for its ferocious Bengal Tigers that boasts a significant amount of tourism in the park. At present, there are around 50 tigers residing in the prey-rich woodlands of park's region. Besides this, the park also has 39 species of mammals 13 species of reptiles and 3 species of amphibians."
     }
 ]
