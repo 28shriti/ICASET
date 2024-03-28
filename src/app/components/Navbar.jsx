@@ -147,9 +147,9 @@ const Navbar = () => {
         </div>
         <SheetContent>
           <SheetHeader>
-            <SheetTitle>ICAASET-2024</SheetTitle>
+            <SheetTitle>IC-ASET-2024</SheetTitle>
             <SheetDescription>
-              International Conference on Application of Science, Engineering and Technology - 2024
+              International Conference on Applications of Science, Engineering and Technology - 2024
             </SheetDescription>
           </SheetHeader>
 

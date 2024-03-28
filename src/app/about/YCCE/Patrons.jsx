@@ -28,7 +28,7 @@ function Patrons() {
                     <h1 className="title font-black text-4xl text-center my-14 mx-5 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Chief Patrons</h1>
                     <div className='bg-white h-[1px] w-[30%] hidden sm:inline'></div>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-x-5 gap-y-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-center gap-x-5 gap-y-5 px-3 md:px-5 lg:mx-20 lg:px-20'>
                     {chiefPatrons.map((val, index) => {
 
                         return (<BoardMember key={index} img={val.image} name={val.name} designation={val.designation} />)
