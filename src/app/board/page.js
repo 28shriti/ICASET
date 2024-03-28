@@ -28,7 +28,7 @@ const page = () => {
             <Title>National Advisory Board</Title>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center w-screen p-10">
                 {nab.map((value, index) => {
-                    return <BoardMember key={index} link={value.link} img={value.img} name={value.name} designation={value.designation} />
+                    return <BoardMember key={index} link={value.link} img={value.img} name={value.name} designation={value.designation} country={value.country} />
                 })}
             </div>
         </div>
