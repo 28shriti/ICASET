@@ -22,12 +22,9 @@ const Navbar = () => {
     trigger: "About",
     items: [
       { name: "YCCE", href: "/about/YCCE" },
-      { name: "Preamble", href: "/about/preamble" },
-      { name: "Patrons", href: "/board/patrons" },
-      { name: "Who can attend", href: "/about/attend" },
-      { name: "Scope and benefits", href: "/about/scope" },
-      { name: "Conference Theme", href: "/about/conference-theme" },
-      { name: "Patrons", href: "/board/patrons" },
+      { name: "Patrons", href: "/about/YCCE#patrons" },
+      { name: "Welcome to ICASET-2024", href: "/about/conference" },
+      { name: "Conference Theme and Scope", href: "/about/conference#themeAndScope" },
       { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
@@ -79,25 +76,42 @@ const Navbar = () => {
     ],
   };
 
-  const contact = {
-    trigger: "Contact Us",
+  const forAuthors = {
+    trigger: "For Authors",
     items: [
-      { name: "Site", href: "/contact/site" },
-      { name: "Stay in", href: "/contact/stayin" },
-    ],
+      { name: "Call for Paper", href: "/authors/cfp" },
+      { name: "Important Dates", href: "/authors/dates" },
+      { name: "Paper Format", href: "/authors/format" },
+      { name: "Paper Submission", href: "/authors/submission" },
+      { name: "Publication", href: "/authors/publication" }
+    ]
+  }
+
+  const contact = {
+    name: "Contact Us",
+    href: "/contact"
   };
 
-  function ChildAccordion(props) {
-    return (
-      <Accordion type="single" collapsible>
-        <AccordionItem value={props.trigger}>
-          <AccordionTrigger>{props.trigger}</AccordionTrigger>
-          <AccordionContent>
-            
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
-    )
+  function AccordionLink({ href, trigger, className }) {
+    return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
+      {trigger}
+    </Link>
+  }
+
+  function CustomAccordionItem({ dropdown, className }) {
+    return dropdown["trigger"] != undefined ? (
+      <AccordionItem value={dropdown.trigger}>
+        <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
+        <AccordionContent>
+          <Accordion type="single" collapsible>
+            {dropdown.items.map((item, index) => {
+              return <CustomAccordionItem key={index} dropdown={item} />
+            })}
+          </Accordion>
+        </AccordionContent>
+      </AccordionItem>
+    ) : (<AccordionLink href={dropdown.href} trigger={dropdown.name} />)
+
   }
 
   return (
@@ -111,33 +125,49 @@ const Navbar = () => {
         <Dropdown dropdown={committee} />
 
         <Link href="/speakers" className="item">
-          Keynote Speakers{" "}
+          Keynote Speakers
         </Link>
-        <Link href="/dates" className="item">
-          Important Dates
-        </Link>
+
+        <Dropdown dropdown={forAuthors} />
+
         <Link href="/registration" className="item">
-          Registration{" "}
+          Registration
         </Link>
         <Link href="/schedule" className="item">
           Programme Schedule
         </Link>
-
-        <Dropdown dropdown={contact} />
+        <Link href="/contact" className="item">
+          Contact Us
+        </Link>
       </div>
 
       <Sheet>
-        <SheetTrigger className="block lg:hidden">Open</SheetTrigger>
+        <div className="flex lg:hidden p-3 lg:-0 justify-end sticky top-0 z-10">
+          <SheetTrigger>Open</SheetTrigger>
+        </div>
         <SheetContent>
-          {/* <SheetHeader>
-            <SheetTitle>Are you absolutely sure?</SheetTitle>
+          <SheetHeader>
+            <SheetTitle>ICAASET-2024</SheetTitle>
             <SheetDescription>
-              This action cannot be undone. This will permanently delete your account
-              and remove your data from our servers.
+              International Conference on Application of Science, Engineering and Technology - 2024
             </SheetDescription>
-          </SheetHeader> */}
+          </SheetHeader>
 
+          <Accordion type="single" collapsible className="my-10">
+            <AccordionLink href="/" trigger="Home" />
+            <CustomAccordionItem dropdown={about} />
+            <CustomAccordionItem dropdown={board} />
+            <CustomAccordionItem dropdown={committee} />
+            <AccordionLink href="/speakers" trigger="Keynote Speakers" />
 
+            <CustomAccordionItem dropdown={forAuthors} />
+            <AccordionLink href="/registration" trigger="Registration" />
+
+            <AccordionLink href="/schedule" trigger="Programme Schedule" />
+
+            <AccordionLink href="/contact" trigger="Contact Us" />
+
+          </Accordion>
 
         </SheetContent>
       </Sheet>
