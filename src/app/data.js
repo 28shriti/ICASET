@@ -111,15 +111,15 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
         name: 'Nitaigour Premchand Mahalik',
-        designation: 'Department of Industrial Technology, California State University, Fresno',
-        country: 'United States of America',
+        designation: 'Department of Industrial Technology, California State University',
+        country: 'USA',
         link: 'https://scholar.google.com/citations?user=PExYiPsAAAAJ&hl=en'
     },
     {
         img: '/images/iab/SukhpalSinghGill.png',
         name: 'Sukhpal Singh Gill',
-        designation: 'School of Electronic Engineering and Computer Science, Queen Mary University of London',
-        country: 'United Kingdom',
+        designation: 'Queen Mary University of London',
+        country: 'UK',
         link: 'https://scholar.google.co.uk/citations?user=NHkWom4AAAAJ&hl=en'
     },
     {
@@ -133,7 +133,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/RezaLangari.png',
         name: 'Reza Langari',
         designation: 'Texas A&M University',
-        country: 'United States of America',
+        country: 'USA',
         link: 'https://scholar.google.com/citations?user=IozzI8sAAAAJ'
     },
     {
@@ -146,15 +146,15 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/JabarHYousif.png',
         name: 'Pradeep Kumar',
-        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal, Durban',
-        country: 'South Africa',
+        designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal',
+        country: 'SOUTH AFRICA',
         link: 'https://scholar.google.co.za/citations?user=CL6DQN4AAAAJ&hl=en'
     },
     {
         img: '/images/iab/MuftiMahmud.png',
         name: 'Mufti Mahmud',
         designation: 'Nottingham Trent University',
-        country: 'United Kingdom',
+        country: 'UK',
         link: 'https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en'
     },
     {
@@ -167,8 +167,8 @@ export const internationalAdvisoryBoard = [
     {
         img: '/images/iab/MShamimKaiser.png',
         name: 'M. Shamim Kaiser',
-        designation: 'Institute of Information Technology, Jahangirnagar University, Dhaka-1342',
-        country: 'Bangladesh',
+        designation: 'Institute of Information Technology, Jahangirnagar University',
+        country: 'BANGLADESH',
         link: 'https://scholar.google.com/citations?user=yjrSXiEAAAAJ&hl=en'
     },
     {
@@ -189,7 +189,7 @@ export const nationalPublicityChair = [
     {
         image : "/images/publicitychair/national/rajeshwarisridhar.jpg",
         name : "Rajeswari Sridhar",
-        designation : "National Institute of Technology Tiruchirappalli, Kerla",
+        designation : "National Institute of Technology Tiruchirappalli, Kerala",
         link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
@@ -207,7 +207,7 @@ export const nationalPublicityChair = [
     {
         image : "/images/publicitychair/national/sandipmal.jpg",
         name : "Sandip Mal",
-        designation : "VIT Bhopal University Madhya Pradesh",
+        designation : "VIT Bhopal University, Madhya Pradesh",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
@@ -247,7 +247,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
         name: 'Mukesh A Zaveri',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat ',
+        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
         link: 'mazaveri@coed.svnit.ac.in'
     },
     {
@@ -259,37 +259,37 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/SridharPatnaik.png',
         name: 'Sridhar Patnaik',
-        designation: 'Birla Institute of Technology, Mesra, Ranchi, Jharkhand',
+        designation: 'Birla Institute of Technology, Mesra, Ranchi',
         link: 'https://www.bitmesra.ac.in/Display_My_Profile_00983KKj893L?id=%252frY80NB4KITbG4EBZLIMQOnmcAfksFw8hhZVH4%252bPVJA%253d'
     },
     {
         img: '/images/nab/SanjayKumarSingh.png',
         name: 'Sanjay Kumar Singh',
-        designation: 'Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh',
+        designation: 'Indian Institute of Technology (BHU), Varanasi',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/NalinakshVyas.png',
         name: 'Nalinaksh Vyas',
-        designation: 'Indian Institute of Technology, Kanpur, Uttar Pradesh',
+        designation: 'Indian Institute of Technology, Kanpur',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/AshishDarpe.png',
         name: 'Ashish Darpe',
-        designation: 'Indian Institute of Technology Delhi',
+        designation: 'Indian Institute of Technology, Delhi',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/tusharDesai.png',
         name: 'Tushar Desai',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat',
+        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajeevSrivastava.png',
         name: 'Rajeev Srivastava',
-        designation: 'Indian Institute of Technology, BHU, Varanasi, Uttar Pradesh',
+        designation: 'Indian Institute of Technology (BHU), Varanasi',
         link: 'https://linkedin.com'
     },
     {
@@ -301,19 +301,19 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/RajeshSingh.png',
         name: 'Rajesh Singh',
-        designation: 'Uttaranchal University, Dehradun, Uttarakhand',
+        designation: 'Uttaranchal University, Dehradun',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajSingh.png',
         name: 'Raj Singh',
-        designation: 'JAIN (Deemed-to-be University) · Bengaluru, Karnataka, India',
+        designation: 'JAIN (Deemed-to-be University), Bengaluru',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/GauravTrivedi.png',
         name: 'Gaurav Trivedi',
-        designation: 'Indian Institute of Technology Guwahati, Assam',
+        designation: 'Indian Institute of Technology Guwahati',
         link: 'https://linkedin.com'
     },
     {
@@ -349,7 +349,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/ParikshitMahalle.png',
         name: 'Parikshit Mahalle',
-        designation: 'Vishwakarma Institute, Pune',
+        designation: 'Vishwakarma Institute of Technology, Pune',
         link: 'https://scholar.google.co.in/citations?user=44SjKmAAAAAJ&hl=en'
     },
     {
