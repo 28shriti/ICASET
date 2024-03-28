@@ -25,6 +25,96 @@ export const dates = [
         event: "Conference Date",
         date: "November 22-23, 2024",
     },
+<<<<<<< HEAD
+]
+
+export const keynoteSpeakers = [
+<<<<<<< HEAD
+    {
+        name: "NILANJAN DEY",
+        image: "image1.png",
+        designation: "Associate Professor",
+        department: "Department of Computer Science and Engineering",
+        institute: "Techno International New Town, Kolkata, INDIA",
+        description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
+    },
+    {
+        name: "MUFTI MAHMUD",
+        image: "image2.png",
+        designation: "Associate Professor (Cognitive Computing)",
+        department: "Department of Computer Science",
+        institute: "Nottingham Trent University (NTU), UK",
+        description: "Dr Mahmud was appointed to the University Shadow Executive Team (USET) in 2022, providing specialist input to the University Executive Team and Vice-Chancellor on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). Particularly, he shadows the Pro Vice-Chancellor (Research and Innovation) in matters related to the development of the research environment at NTU and its five strategic research themes from the EDI viewpoint. He is the Coordinator of the Computer Science and Informatics (B11) Unit of Assessment of Research Excellence Framework at NTU and the research group leader of the Cognitive Computing & Brain Informatics (CCBI) research group, and deputy group leader of the Interactive Systems Research Group (ISRG). He is also an active member of the Computing and Informatics Research Centre (CIRC) and the Medical Technologies Innovation Facility (MTIF). He has served as a member of the NTU Distance Learning Governance, Operation and Steering Committee and the International Mobility Committee. He is a Fellow of the Higher Education Academy, a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE) and the Association of Computing Machinery (ACM), and a professional member of the British Computer Society (BCS). Dr Mahmud is a Section Editor (Big Data Analytics) of the Cognitive Computation journal, Regional Editor (Europe) of the Brain Informatics journal and Associate Editor (neuroprosthetics) of the Frontiers in Neuroscience journal."
+    },
+    {
+        name: "VALENTINA EMILA BALAS",
+        image: "image3.png",
+        designation: "Associate Professor",
+        department: "Department of Automatics and Applied Software",
+        institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
+        description: "She holds a Ph.D. in Applied Electronics and Telecommunications from Polytechnic University of Timisoara since 2003. She is author of more than 140 research papers in refereed journals and International Conferences. Her research interests are in Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements and System Theory. She is Editor-in Chief to International Journal of Advanced Intelligence Paradigms (IJAIP), member in Editorial Boards for national and international journals, serves as reviewer for many International Journals and conferences and is evaluator expert for national and international projects. She participated in many international conferences as General Chair, Organizer, Session Chair and member in International Program Committee. She was mentor for many student teams in Microsoft (Imagine Cup), Google and IEEE competitions in the last six years. Dr. Valentina Balas has a great experience in research projects. She is a member of EUSFLAT, ACM and a Senior Member IEEE, member in TC – Fuzzy Systems (IEEE CIS), member in TC - Emergent Technologies (IEEE CIS), member in TC – Soft Computing (IEEE SMCS) and also a member in IFAC - TC 3.2 Computational Intelligence in Control."
+    },
+    {
+        name: "M. SHAMIN KAISER",
+        image: "image4.png",
+        designation: "Professor",
+        department: "Institute of Information Technology",
+        institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
+        description: "He received his Bachelor's and Master's degrees in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh in 2002 and 2004 respectively, and the Ph. D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand, in 2010. He worked as a postdoc fellow in the Big data and Cyber Security Lab of Anglia Ruskin University, UK from 2017-2018. He also worked as a Special Research Student at the Wireless Signal Processing and Networking Lab (Adachi Lab) of Tohoku University, Japan in 2008. His current research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. He has authored more than 150 papers in different peer-reviewed journals and conferences. He is an Academic Editor of Plos One Journal; Associate Editor of the IEEE Access and Cognitive Computation Journal, Guest Editor of Brain Informatics Journal, IJACI (IGI Global), Electronics MDPI, Frontiers in Neuroinformatics, and Cognitive Computation Journal. Dr. Kaiser is a Life Member of Bangladesh Electronic Society; Bangladesh Physical Society and NOAMI. He is also a senior member of IEEE, USA, and IEICE, Japan, and an active volunteer of the IEEE Bangladesh Section. He is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
+    },
+    {
+        name: "MUKESH PUND",
+        image: "image5.png",
+        designation: "Chief Scientist",
+        department: "CSIR-National Institute of Science Communication and Policy Research",
+        institute: "New Delhi, INDIA",
+        description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
+    }
+]
+
+=======
+  {
+    name: "NILANJAN DEY",
+    image: "image1.png",
+    designation: "Associate Professor",
+    department: "Department of Computer Science and Engineering",
+    institute: "Techno International New Town, Kolkata, INDIA",
+    description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
+  },
+  {
+    name: "MUFTI MAHMUD",
+    image: "image2.png",
+    designation: "Associate Professor (Cognitive Computing)",
+    department: "Department of Computer Science",
+    institute: "Nottingham Trent University (NTU), UK",
+    description: "Dr Mahmud was appointed to the University Shadow Executive Team (USET) in 2022, providing specialist input to the University Executive Team and Vice-Chancellor on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). Particularly, he shadows the Pro Vice-Chancellor (Research and Innovation) in matters related to the development of the research environment at NTU and its five strategic research themes from the EDI viewpoint. He is the Coordinator of the Computer Science and Informatics (B11) Unit of Assessment of Research Excellence Framework at NTU and the research group leader of the Cognitive Computing & Brain Informatics (CCBI) research group, and deputy group leader of the Interactive Systems Research Group (ISRG). He is also an active member of the Computing and Informatics Research Centre (CIRC) and the Medical Technologies Innovation Facility (MTIF). He has served as a member of the NTU Distance Learning Governance, Operation and Steering Committee and the International Mobility Committee. He is a Fellow of the Higher Education Academy, a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE) and the Association of Computing Machinery (ACM), and a professional member of the British Computer Society (BCS). Dr Mahmud is a Section Editor (Big Data Analytics) of the Cognitive Computation journal, Regional Editor (Europe) of the Brain Informatics journal and Associate Editor (neuroprosthetics) of the Frontiers in Neuroscience journal."
+  },
+  {
+    name: "VALENTINA EMILA BALAS",
+    image: "image3.png",
+    designation: "Associate Professor",
+    department: "Department of Automatics and Applied Software",
+    institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
+    description: "She holds a Ph.D. in Applied Electronics and Telecommunications from Polytechnic University of Timisoara since 2003. She is author of more than 140 research papers in refereed journals and International Conferences. Her research interests are in Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements and System Theory. She is Editor-in Chief to International Journal of Advanced Intelligence Paradigms (IJAIP), member in Editorial Boards for national and international journals, serves as reviewer for many International Journals and conferences and is evaluator expert for national and international projects. She participated in many international conferences as General Chair, Organizer, Session Chair and member in International Program Committee. She was mentor for many student teams in Microsoft (Imagine Cup), Google and IEEE competitions in the last six years. Dr. Valentina Balas has a great experience in research projects. She is a member of EUSFLAT, ACM and a Senior Member IEEE, member in TC – Fuzzy Systems (IEEE CIS), member in TC - Emergent Technologies (IEEE CIS), member in TC – Soft Computing (IEEE SMCS) and also a member in IFAC - TC 3.2 Computational Intelligence in Control."
+  },
+  {
+    name: "M. SHAMIN KAISER",
+    image: "image4.png",
+    designation: "Professor",
+    department: "Institute of Information Technology",
+    institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
+    description: "He received his Bachelor's and Master's degrees in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh in 2002 and 2004 respectively, and the Ph. D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand, in 2010. He worked as a postdoc fellow in the Big data and Cyber Security Lab of Anglia Ruskin University, UK from 2017-2018. He also worked as a Special Research Student at the Wireless Signal Processing and Networking Lab (Adachi Lab) of Tohoku University, Japan in 2008. His current research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. He has authored more than 150 papers in different peer-reviewed journals and conferences. He is an Academic Editor of Plos One Journal; Associate Editor of the IEEE Access and Cognitive Computation Journal, Guest Editor of Brain Informatics Journal, IJACI (IGI Global), Electronics MDPI, Frontiers in Neuroinformatics, and Cognitive Computation Journal. Dr. Kaiser is a Life Member of Bangladesh Electronic Society; Bangladesh Physical Society and NOAMI. He is also a senior member of IEEE, USA, and IEICE, Japan, and an active volunteer of the IEEE Bangladesh Section. He is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
+  },
+  {
+    name: "MUKESH PUND",
+    image: "image5.png",
+    designation: "Chief Scientist",
+    department: "CSIR-National Institute of Science Communication and Policy Research",
+    institute: "New Delhi, INDIA",
+    description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
+  }
+=======
+>>>>>>> 523d15b8b2c441e2bf2961b34afdbb95a3976d43
 ]
 
 export const keynoteSpeakers = [
@@ -70,6 +160,7 @@ export const keynoteSpeakers = [
     }
 ]
 
+>>>>>>> main
 
 export const ourVisionary = [
     {
@@ -104,6 +195,7 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
+<<<<<<< HEAD
         image: "/images/upwaghe.png",
         name: "Dr. U.P. Waghe",
         designation: "Principal, YCCE"
@@ -112,6 +204,27 @@ export const patrons = [
         image: "/images/upwaghe.png",
         name: "Dr. Manali M. Kshirsagar",
         designation: "Technical Advisor, MGI"
+=======
+<<<<<<< HEAD
+        image : "/images/patrons/upwaghe.png",
+        name : "Dr. U.P. Waghe",
+        designation : "Principal, YCCE"
+    },
+    {
+        image : "/images/patrons/ManaliKshirsagar.jpg",
+        name : "Dr. Manali M. Kshirsagar",
+        designation : "Technical Advisor, MGI"
+=======
+        image: "/images/upwaghe.png",
+        name: "Dr. U.P. Waghe",
+        designation: "Principal, YCCE"
+    },
+    {
+        image: "/images/upwaghe.png",
+        name: "Dr. Manali M. Kshirsagar",
+        designation: "Technical Advisor, MGI"
+>>>>>>> 523d15b8b2c441e2bf2961b34afdbb95a3976d43
+>>>>>>> main
     },
 ]
 

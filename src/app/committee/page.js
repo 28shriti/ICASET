@@ -22,7 +22,6 @@ const page = () => {
     return (
         <MainContainer>
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
-                <Title>Technical Program Chairs</Title>
 
                 <div style={{ display: "hidden" }} id="generalChairs"></div> {/* Anchor */}
                 <Title>General Chairs</Title>
@@ -32,7 +31,10 @@ const page = () => {
                     })}
                 </div>
 
+                <Title>Technical Program Chairs</Title>
+
                 <div style={{ display: "hidden" }} id="ipc"></div> {/* Anchor */}
+
                 <Title>International Publicity Chairs</Title>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center w-screen p-10">
                     {internationPublicity.map((value, index) => {
@@ -48,11 +50,11 @@ const page = () => {
                     })}
                 </div>
 
-                <div style={{ display: "hidden" }} id="financeChairs"></div> {/* Anchor */}
-                <Title>Finance Chairs</Title>
-
                 <div style={{ display: "hidden" }} id="publicationChairs"></div> {/* Anchor */}
                 <Title>Publication Chairs</Title>
+
+                <div style={{ display: "hidden" }} id="financeChairs"></div> {/* Anchor */}
+                <Title>Finance Chairs</Title>
 
             </div>
         </MainContainer>
