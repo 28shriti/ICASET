@@ -1,5 +1,4 @@
-import ComingSoon from "../components/ComingSoon"
-import { dates } from "../data"
+import { dates } from "@/app/data"
 
 
 export const metadata = {

@@ -1,5 +1,5 @@
 import ComingSoon from "@/app/components/ComingSoon"
 
-export default function Scope() {
+export default function Conference() {
     return <ComingSoon />
 }

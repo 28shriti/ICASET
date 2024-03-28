@@ -103,7 +103,7 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
-        image : "/images/upwaghe.png",
+        image : "/images/patrons/upwaghe.png",
         name : "Dr. U.P. Waghe",
         designation : "Principal, YCCE"
     },
