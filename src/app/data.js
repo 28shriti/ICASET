@@ -166,7 +166,7 @@ export const internationalAdvisoryBoard = [
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
-        img: '/images/iab/JabarHYousif.png',
+        img: '/images/defaultImage.jpg',
         name: 'Pradeep Kumar',
         designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal',
         country: 'SOUTH AFRICA',
@@ -239,7 +239,7 @@ export const nationalPublicityChair = [
         link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img : "/images/publicitychair/national/rameshchandra.jpg",
+        img : "/images/defaultImage.jpg",
         name : "Ramesh Chandra",
         designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
         link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
@@ -256,13 +256,15 @@ export const internationalPublicityChair = [
     {
         img: '/images/publicitychair/international/ajaykumar.jpg',
         name: 'Ajay Kumar',
-        designation: 'Guizhou Normal University China',
+        designation: 'Guizhou Normal University',
+        country: 'CHINA',
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
         img: '/images/publicitychair/international/pramodgaur.jpg',
         name: 'Pramod Gaur',
-        designation: 'Nottingham Trent University Nottingham United Kingdom',
+        designation: 'Nottingham Trent University Nottingham',
+        country: 'UNITED KINGDOM',
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     }
 ]

@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function ImportantDates() {
     return (
-        <div className='pb-10 bg-[url("/images/sponsorsBg.png")]'>
+        <div className='pb-10 bg-black bg-opacity-70'>
             {/* <div className="flex justify-center items-center w-[50vw] gap-7 flex-col">
                 {dates.map((value, key) => {
                     return (
