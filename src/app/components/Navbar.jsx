@@ -92,22 +92,25 @@ const Navbar = () => {
     href: "/contact"
   };
 
+  function AccordionLink({ href, trigger, className }) {
+    return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
+      {trigger}
+    </Link>
+  }
+
   function CustomAccordionItem({ dropdown, className }) {
     return dropdown["trigger"] != undefined ? (
       <AccordionItem value={dropdown.trigger}>
-        <AccordionTrigger>{dropdown.trigger}</AccordionTrigger>
+        <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
         <AccordionContent>
-        <Accordion type="single" collapsible>
-          {dropdown.items.map((item, index) => {
-            return <CustomAccordionItem key={index} dropdown={item} />
-          })}
+          <Accordion type="single" collapsible>
+            {dropdown.items.map((item, index) => {
+              return <CustomAccordionItem key={index} dropdown={item} />
+            })}
           </Accordion>
         </AccordionContent>
       </AccordionItem>
-    ) : (
-      <Link href={dropdown.href} className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-        {dropdown.name}
-      </Link>)
+    ) : (<AccordionLink href={dropdown.href} trigger={dropdown.name} />)
 
   }
 
@@ -122,13 +125,13 @@ const Navbar = () => {
         <Dropdown dropdown={committee} />
 
         <Link href="/speakers" className="item">
-          Keynote Speakers{" "}
+          Keynote Speakers
         </Link>
 
         <Dropdown dropdown={forAuthors} />
 
         <Link href="/registration" className="item">
-          Registration{" "}
+          Registration
         </Link>
         <Link href="/schedule" className="item">
           Programme Schedule
@@ -146,30 +149,24 @@ const Navbar = () => {
           <SheetHeader>
             <SheetTitle>ICAASET-2024</SheetTitle>
             <SheetDescription>
-            International Conference on Application of Science, Engineering and Technology - 2024
+              International Conference on Application of Science, Engineering and Technology - 2024
             </SheetDescription>
           </SheetHeader>
 
           <Accordion type="single" collapsible className="my-10">
-            <Link href="/" className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-              Home
-            </Link>
+            <AccordionLink href="/" trigger="Home" />
             <CustomAccordionItem dropdown={about} />
             <CustomAccordionItem dropdown={board} />
             <CustomAccordionItem dropdown={committee} />
-            <Link href="/speakers" className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-              Keynote Speakers
-            </Link>
+            <AccordionLink href="/speakers" trigger="Keynote Speakers" />
+
             <CustomAccordionItem dropdown={forAuthors} />
-            <Link href="/registration" className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-              Registration
-            </Link>
-            <Link href="/schedule" className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-              Programme Schedule
-            </Link>
-            <Link href="/contact" className="item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline">
-              Contact Us
-            </Link>
+            <AccordionLink href="/registration" trigger="Registration" />
+
+            <AccordionLink href="/schedule" trigger="Programme Schedule" />
+
+            <AccordionLink href="/contact" trigger="Contact Us" />
+
           </Accordion>
 
         </SheetContent>
