@@ -38,8 +38,8 @@ const Navbar = () => {
   const committee = {
     trigger: "Committees",
     items: [
-      { name: "Technical Program Chairs", href: "/committee" },
       { name: "General Chairs", href: "/committee#generalChairs" },
+      { name: "Technical Program Chairs", href: "/committee" },
       {
         trigger: "Publicity Chairs",
         items: [
@@ -47,8 +47,8 @@ const Navbar = () => {
           { name: "National", href: "/committee#npc" },
         ]
       },
-      { name: "Finance Chairs", href: "/committee#financeChairs" },
       { name: "Publication Chairs", href: "/committee#publicationChairs" },
+      { name: "Finance Chairs", href: "/committee#financeChairs" },
       {
         trigger: "Technical Program Committee",
         items: [

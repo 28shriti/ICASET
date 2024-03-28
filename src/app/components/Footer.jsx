@@ -7,7 +7,7 @@ export default function Footer() {
         <footer>
         <div className="w-full bg-[#222831]  text-white md:p-2 py-5 flex flex-col md:flex-row justify-center items-center">
             <div className=" m-auto md:mr-[60px] md:w-[400px] md:h-[200px] flex flex-col items-center">
-                <Image src={'/images/icaset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
+                <Image src={'/images/ic-aset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
                 <p className='md:text-left text-md px-3 text-center'>
                     International Conference on Applications of Science, Engineering and
                     Technology - 2024</p>
