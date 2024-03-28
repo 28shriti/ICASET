@@ -5,6 +5,7 @@ import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import data from "./data"
 import Notice from "./components/Notice";
 import CustomCarousel from "./components/CustomCarousel";
+import Sponsors from "./components/Sponsors";
 
 
 const Home = () => {
@@ -13,8 +14,8 @@ const Home = () => {
   return (
     <div className="pb-10">
       <Notice />
-      <div className="flex w-full justify-between p-10 mt-0">
-        <div className="w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white mr-5">
+      <div className="flex flex-col md:flex-row w-full justify-between p-5 md:p-10 mt-0 gap-5">
+        <div className="w-full md:w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white">
           <h2 className="text-center text-lg font-bold mb-5">
             International Conference on Application of Science, Engineering and
             Technology - 2024
@@ -33,36 +34,25 @@ const Home = () => {
             <p className="ml-3">Date: {data.conferenceDate}</p>
           </div>
         </div>
-        <div className="w-1/2  h-[50vh] rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar ml-5 realative flex flex-col overflow-hidden">
+        <div className="w-full md:w-1/2  h-[50vh] rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar realative flex flex-col overflow-hidden">
           <CustomCarousel/>
         </div>
       </div>
 
-      <div className="w-full flex px-10">
-        <Button className="text-white bg-[#31363F] hover:bg-[#222831] mr-3">
+      <div className="w-full flex flex-wrap px-5 md:px-10 gap-3">
+        <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
           Paper Submission
         </Button>
-        <Button className="text-white bg-[#31363F] hover:bg-[#222831] mx-3">
+        <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
           Registration
         </Button>
-        <Button className="text-white bg-[#31363F] hover:bg-[#222831] mx-3">
+        <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
           Downloads
         </Button>
       </div>
 
-      <div className="w-full bg-white justify-between flex p-10 mt-10 -mb-10">
-        <div>
-          <p>Sponsor 1</p>
-        </div>
-        <div>
-          <p>Sponsor 1</p>
-        </div>
-        <div>
-          <p>Sponsor 1</p>
-        </div>
-        <div>
-          <p>Sponsor 1</p>
-        </div>
+      <div className="w-full bg-white justify-between flex mt-10 -mb-10">
+        <Sponsors />
       </div>
     </div>
   );
