@@ -271,151 +271,176 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
         name: 'Mukesh A Zaveri',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
+        designation: 'Sardar Vallabhbhai National Institute of Technology',
+        country: 'SURAT',
         link: 'mazaveri@coed.svnit.ac.in'
     },
     {
         img: '/images/nab/RabiNandaBhaumik.png',
         name: 'Rabi Nanda Bhaumik',
-        designation: 'Tripura University, Tripura',
+        designation: 'Tripura University',
+        country: 'TRIPURA',
         link: 'https://www.linkedin.com/in/rabinandabhaumik/?originalSubdomain=in'
     },
     {
         img: '/images/nab/SridharPatnaik.png',
         name: 'Sridhar Patnaik',
-        designation: 'Birla Institute of Technology, Mesra, Ranchi',
+        designation: 'Birla Institute of Technology',
+        country: 'RANCHI',
         link: 'https://www.bitmesra.ac.in/Display_My_Profile_00983KKj893L?id=%252frY80NB4KITbG4EBZLIMQOnmcAfksFw8hhZVH4%252bPVJA%253d'
     },
     {
         img: '/images/nab/SanjayKumarSingh.png',
         name: 'Sanjay Kumar Singh',
-        designation: 'Indian Institute of Technology (BHU), Varanasi',
+        designation: 'Indian Institute of Technology (BHU)',
+        country: 'VARANASI',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/NalinakshVyas.png',
         name: 'Nalinaksh Vyas',
-        designation: 'Indian Institute of Technology, Kanpur',
+        designation: 'Indian Institute of Technology',
+        country: 'KANPUR',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/AshishDarpe.png',
         name: 'Ashish Darpe',
-        designation: 'Indian Institute of Technology, Delhi',
+        designation: 'Indian Institute of Technology',
+        country: 'DELHI',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/tusharDesai.png',
         name: 'Tushar Desai',
-        designation: 'Sardar Vallabhbhai National Institute of Technology, Surat',
+        designation: 'Sardar Vallabhbhai National Institute of Technology',
+        country: 'SURAT',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajeevSrivastava.png',
         name: 'Rajeev Srivastava',
-        designation: 'Indian Institute of Technology (BHU), Varanasi',
+        designation: 'Indian Institute of Technology (BHU)',
+        country: 'VARANASI',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/Annappa.png',
         name: 'Annappa',
-        designation: 'National Institute of Technology Surathkal, Karnataka',
+        designation: 'National Institute of Technology karnataka,',
+        country: 'SURATHKAL',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajeshSingh.png',
         name: 'Rajesh Singh',
-        designation: 'Uttaranchal University, Dehradun',
+        designation: 'Uttaranchal University',
+        country: 'DEHRADUN',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/RajSingh.png',
         name: 'Raj Singh',
-        designation: 'JAIN (Deemed-to-be University), Bengaluru',
+        designation: 'JAIN (Deemed-to-be University)',
+        country: 'BENGALURU',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/GauravTrivedi.png',
         name: 'Gaurav Trivedi',
-        designation: 'Indian Institute of Technology Guwahati',
+        designation: 'Indian Institute of Technology',
+        country: 'GUWAHATI',
         link: 'https://linkedin.com'
     },
     {
         img: '/images/nab/OmprakashGKakde.png',
         name: 'Omprakash G. Kakde',
-        designation: 'Indian Institute of Information Technology, Nagpur',
+        designation: 'Indian Institute of Information Technology',
+        country: 'NAGPUR',
         link: 'https://scholar.google.co.in/citations?user=E5ErZ2UAAAAJ&hl=en'
     },
     {
         img: '/images/nab/ParthaPratimRoy.png',
         name: 'Partha Pratim Roy',
-        designation: 'Indian Institute of Technology, Roorkee',
+        designation: 'Indian Institute of Technology',
+        country: 'ROORKEE',
         link: 'https://scholar.google.ca/citations?user=moDpyKkAAAAJ&hl=en'
     },
     {
         img: '/images/nab/SarojKumarBiswas.png',
         name: 'Saroj Kumar Biswas',
-        designation: 'NIT, Silchar',
+        designation: 'National Institute of Technology',
+        country: 'SILCHAR',
         link: 'https://scholar.google.com/citations?user=5poSUEQAAAAJ&hl=en'
     },
     {
         img: '/images/nab/NilanjanDey.png',
         name: 'Nilanjan Dey',
-        designation: 'Techno International New Town, Kolkata',
+        designation: 'Techno International New Town',
+        country: 'KOLKATA',
         link: 'https://scholar.google.co.in/citations?user=uZmrRHAAAAAJ&hl=en'
     },
     {
         img: '/images/nab/VijayBhaskarSemwal.png',
         name: 'Vijay Bhaskar Semwal',
-        designation: 'MANIT, Bhopal',
+        designation: 'Maulana Azad National Institute of Technology',
+        country: 'BHOPAL',
         link: 'https://scholar.google.co.in/citations?user=cPorLCwAAAAJ&hl=en'
     },
     {
         img: '/images/nab/ParikshitMahalle.png',
         name: 'Parikshit Mahalle',
-        designation: 'Vishwakarma Institute of Technology, Pune',
+        designation: 'Vishwakarma Institute of Information Technology',
+        country: 'PUNE',
         link: 'https://scholar.google.co.in/citations?user=44SjKmAAAAAJ&hl=en'
     },
     {
         img: '/images/nab/ChittaranjanHota.png',
         name: 'Chittaranjan Hota',
-        designation: 'BITS, Hyderabad',
+        designation: 'BITS',
+        country: 'HYDERABAD',
         link: 'https://scholar.google.co.in/citations?user=tFy6PS4AAAAJ&hl=en'
     },
     {
         img: '/images/nab/AnilLimaye.png',
         name: 'Anil Limaye',
-        designation: 'Indian Institute of Technology, Guwahati',
+        designation: 'Indian Institute of Technology',
+        country: 'GUWAHATI',
         link: 'https://scholar.google.com/citations?user=9dpdzWEAAAAJ&hl=en'
     },
     {
         img: '/images/nab/PradeepkumarMallick.png',
         name: 'Pradeepkumar Mallick',
-        designation: 'KIIT University, Bhubaneswar',
+        designation: 'KIIT University',
+        country: 'BHUBANESWAR',
         link: 'https://scholar.google.com/citations?user=Vo6vDTUAAAAJ&hl=en'
     },
     {
         img: '/images/nab/TanupriyaChoudhury.png',
         name: 'Tanupriya Choudhury',
-        designation: 'Graphic Era University, Dehradun',
+        designation: 'Graphic Era University',
+        country: 'DEHRADUN',
         link: 'https://scholar.google.co.in/citations?user=tsbYDewAAAAJ&hl=en'
     },
     {
         img: '/images/nab/DebahutiMishra.png',
         name: 'Debahuti Mishra',
-        designation: 'Siksha O Anusandhan University, Bhubaneswar',
+        designation: 'Siksha O Anusandhan University',
+        country: 'BHUBANESWAR',
         link: 'https://scholar.google.com/citations?user=k1pS2AQAAAAJ&hl=en'
     },
     {
         img: '/images/nab/ShrikantaPatnaik.png',
         name: 'Shrikanta Patnaik',
-        designation: 'Interscience Institute of Management & Technology, Bhubaneswar',
+        designation: 'Interscience Institute of Management & Technology',
+        country: 'BHUBANESWAR',
         link: 'https://scholar.google.com/citations?user=TmbH6b0AAAAJ&hl=en'
     },
     {
         img: '/images/nab/MadhuriBhavsar.png',
         name: 'Madhuri Bhavsar',
-        designation: 'Nirma University, Ahmedabad',
+        designation: 'Nirma University',
+        country: 'AHMEDABAD',
         link: 'https://scholar.google.com/citations?user=i3XuX9AAAAAJ&hl=en'
     },
 ]
