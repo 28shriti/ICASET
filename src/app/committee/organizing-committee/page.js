@@ -12,7 +12,7 @@ const OrganizingCommittee = () => {
             </div>
             <div className='flex w-screen justify-evenly items-center my-5 flex-col sm:flex-row sm:h-auto h-screen'>
                 <ConvenorCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'Head'} dep={'Computer Technology'} />
-                <ConvenorCard img={'/images/lalitSirImg.jpeg'} name={'Lalit Damahe'} des={'Head'} dep={'Computer Science and Engineering'} />
+                <ConvenorCard img={'/images/lalitSirImg.jpeg'} name={'Lalit B. Damahe'} des={'Head'} dep={'Computer Science and Engineering'} />
             </div>
 
             <div style={{display: "none"}} id="organizing-secretary"></div> {/* Anchor */}
