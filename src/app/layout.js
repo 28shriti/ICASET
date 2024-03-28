@@ -3,9 +3,6 @@ import "./globals.css";
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,14 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="no-scrollbar">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <body className={inter.className}>
-        <Header />
-        <Navbar />
-        <div
-          className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-center bg-cover bg-fixed shadow-[inset_0_0_0_1000px_#00000000]`}
-        >
           {children}
-        </div>
-        <Footer />
       </body>
     </html>
   );
