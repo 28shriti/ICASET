@@ -128,7 +128,7 @@ export const internationalAdvisoryBoard = [
         name: 'Mamoon Rashid',
         designation: 'School of Information, Communication, and Technology',
         country: 'BAHRAIN',
-        link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
+        link: 'https://scholar.google.com/citations?hl=en&user=RVP-_mIAAAAJ&view_op=list_works&authuser=3&gmla=AKKJWFd-8hQyUofCIX94TmaQzQGDPvh4PWv0rA0cJmSWHgxqBYPpZ2k-2dLeoxauWqIK4vo86NyhSWk6PdiGjmPnOAOvvtBzmQO9Bw'
     },
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
@@ -254,25 +254,25 @@ export const nationalPublicityChair = [
         img: "/images/publicitychair/national/mihirmohanty.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University, Bhubaneswar",
-        "webpage": "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
+        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
       },
       {
         img: "/images/publicitychair/national/joyeetasingha.jpg",
         name: "Joyeeta Singha",
         designation: "LNM Institute of Information Technology, Jaipur",
-        "webpage": "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
+        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
       },
       {
         img: "/images/publicitychair/national/.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology, Kurukshetra",
-        "webpage": "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
+        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
-        "webpage": "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
+        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
       }
 ]
 
@@ -280,56 +280,65 @@ export const internationalPublicityChair = [
     {
         img: '/images/publicitychair/international/ajaykumar.jpg',
         name: 'Ajay Kumar',
-        designation: 'Guizhou Normal University China',
+        designation: 'Guizhou Normal University',
+        country: 'CHINA',
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
         img: '/images/publicitychair/international/pramodgaur.jpg',
         name: 'Pramod Gaur',
-        designation: 'Nottingham Trent University Nottingham United Kingdom',
+        designation: 'Nottingham Trent University',
+        country: 'UK',
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     },
     {
         img: "",
         name: "Roshan G Ragel",
-        designation: "University of Peradeniya, SRILANKA",
+        designation: "University of Peradeniya",
+        country: 'SRILANKA',
         link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Gül Erkol Bayram",
-        designation: "Sinop University, TURKEY",
+        designation: "Sinop University",
+        country: 'TURKEY',
         link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
       },
       {
         img: "",
         name: "Mohammad Sajid Mohammadi",
-        designation: "Onaizah Colleges, SAUDI ARABIA",
+        designation: "Onaizah Colleges",
+        country: 'SAUDI ARABIA',
         link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Mihir Narayan Mohanty",
-        designation: "Siksha O Anusandhan University, Bhubaneswar",
-        "webpage": "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
+        designation: "Siksha O Anusandhan University",
+        country: 'BHUBANESWAR',
+        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Joyeeta Singha",
-        designation: "LNM Institute of Information Technology, Jaipur",
-        "webpage": "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
+        designation: "LNM Institute of Information Technology",
+        country: 'JAIPUR',
+        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Ghanapriya Singh",
-        designation: "National Institute of Technology, Kurukshetra",
-        "webpage": "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
+        designation: "National Institute of Technology",
+        country: 'KURUKSHETRA',
+        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Amit Kant Pandit",
-        designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
-        "webpage": "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
+        designation: "Shri Mata Vaishno Devi University",
+        country: 'JAMMU & KASHMIR',
+        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
       }
 ]
 
@@ -592,25 +601,29 @@ export const technicalProgramChairs = [
     {
         img: "",
         name: "Nileshsingh V. Thakur",
-        designation: "Yeshwantrao Chavan College of Engineering, INDIA",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=xZbSxmsAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Kavita R. Singh",
-        designation: "Yeshwantrao Chavan College of Engineering, INDIA",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=GvBndh8AAAAJ&hl=en"
       },
       {
         img: "",
         name: "Mufti Mahmud",
-        designation: "Nottingham Trent University, UK",
+        designation: "Nottingham Trent University",
+        country: 'UK',
         link: "https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en"
       },
       {
         img: "",
         name: "Chakchai So-In",
-        designation: "College of Computing, Khon Kaen University, THAILAND",
+        designation: "College of Computing, Khon Kaen University",
+        country: 'THAILAND',
         link: "https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en"
       }
 ]
@@ -682,7 +695,8 @@ export const digitalChairs = [
     {
         img: "",
         name: "Nikhil S. Mangrulkar",
-        designation: "Assistant Professor, Computer Technology, YCCE, Nagpur",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'NAGPUR',
         link: ""
     }
 ]
