@@ -36,8 +36,13 @@ function CustomCarousel() {
         <div className="flex flex-col">
             <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }} setApi={setApi}>
                 <CarouselContent >
-                    {Array.from({ length: 3 }).map((_, index) => (<CarouselItem key={index} onClick={() => console.log(index)} className="h-[50vh]"><Image src={`/images/back${index + 1}.jpg`} className="w-full h-full object-center object-cover" width={1000} height={1000} alt="Carousel Image" />
-                    </CarouselItem>))}
+                    {Array.from({ length: 3 }).map((_, index) => (
+                        <CarouselItem key={index} onClick={() => console.log(index)} className="h-[30vh] md:h-[50vh]">
+                            <div className="p-5 w-full h-full">
+                                <Image src={`/images/back${index + 1}.jpg`} className="w-full h-full object-center object-cover rounded-lg" width={500} height={500} alt="Carousel Image" loading="eager" />
+                            </div>
+                        </CarouselItem>
+                    ))}
                 </CarouselContent>
             </Carousel>
             <div className="flex flex-row gap-1 absolute bottom-0 mb-1.5 self-center">

@@ -38,8 +38,8 @@ const Navbar = () => {
   const committee = {
     trigger: "Committees",
     items: [
-      { name: "General Chairs", href: "/committee#generalChairs" },
-      { name: "Technical Program Chairs", href: "/committee" },
+      { name: "General Chairs", href: "/committee" },
+      { name: "Technical Program Chairs", href: "/committee#techProgramChairs" },
       {
         trigger: "Publicity Chairs",
         items: [
@@ -49,6 +49,7 @@ const Navbar = () => {
       },
       { name: "Publication Chairs", href: "/committee#publicationChairs" },
       { name: "Finance Chairs", href: "/committee#financeChairs" },
+      { name: "Digital Chairs", href: "/committee#digitalChairs" },
       {
         trigger: "Technical Program Committee",
         items: [
@@ -94,7 +95,7 @@ const Navbar = () => {
 
   function AccordionLink({ href, trigger, className }) {
     return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
-      {trigger}
+      <p className="w-full">{trigger}</p>
     </Link>
   }
 
