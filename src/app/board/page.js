@@ -26,7 +26,6 @@ const page = () => {
                 </div>
 
                 <div style={{ display: "none" }} id="nab"></div> {/* Anchor */}
-            {/* </div> */}
             <Title>National Advisory Board</Title>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center w-screen p-10">
                 {nab.map((value, index) => {

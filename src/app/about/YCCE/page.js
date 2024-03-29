@@ -12,9 +12,8 @@ export default function YCCE() {
                         <h1 className=" flex justify-center font-bold pb-10 text-5xl text-[#333]">About YCCE</h1>
                         <div className="flex flex-col items-center lg:items-start lg:flex-row-reverse gap-5 pb-5">
                             <Image src="/images/background.jpg" alt="/" width={550} height={70} className=" flex -left-12 rounded-2xl" />
-                            <p className="text-justify">{aboutYCCE[0]}</p>
+                            <p className="text-justify leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg">{aboutYCCE}</p>
                         </div>
-                        <p className="text-justify">{aboutYCCE[1]}</p>
                     </div>
 
                     <Patrons />

@@ -38,8 +38,8 @@ const Navbar = () => {
   const committee = {
     trigger: "Committees",
     items: [
-      { name: "Technical Program Chairs", href: "/committee" },
-      { name: "General Chairs", href: "/committee#generalChairs" },
+      { name: "General Chairs", href: "/committee" },
+      { name: "Technical Program Chairs", href: "/committee#techProgramChairs" },
       {
         trigger: "Publicity Chairs",
         items: [
@@ -47,8 +47,9 @@ const Navbar = () => {
           { name: "National", href: "/committee#npc" },
         ]
       },
-      { name: "Finance Chairs", href: "/committee#financeChairs" },
       { name: "Publication Chairs", href: "/committee#publicationChairs" },
+      { name: "Finance Chairs", href: "/committee#financeChairs" },
+      { name: "Digital Chairs", href: "/committee#digitalChairs" },
       {
         trigger: "Technical Program Committee",
         items: [
@@ -94,13 +95,13 @@ const Navbar = () => {
 
   function AccordionLink({ href, trigger, className }) {
     return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
-      {trigger}
+      <p className="w-full">{trigger}</p>
     </Link>
   }
 
   function CustomAccordionItem({ dropdown, className }) {
     return dropdown["trigger"] != undefined ? (
-      <AccordionItem value={dropdown.trigger}>
+      <AccordionItem value={dropdown.trigger} className="text-white">
         <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
         <AccordionContent>
           <Accordion type="single" collapsible>
@@ -142,30 +143,34 @@ const Navbar = () => {
       </div>
 
       <Sheet>
-        <div className="flex lg:hidden p-3 lg:-0 justify-end sticky top-0 z-10">
-          <SheetTrigger>Open</SheetTrigger>
+        <div className="flex lg:hidden p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
+          <SheetTrigger className="flex flex-col gap-[0.3vh]">
+            <div className="w-[6vw] h-1 bg-white rounded"></div>
+            <div className="w-[6vw] h-1 bg-white rounded"></div>
+            <div className="w-[6vw] h-1 bg-white rounded"></div>
+          </SheetTrigger>
         </div>
-        <SheetContent>
+        <SheetContent className="bg-[#222831]">
           <SheetHeader>
-            <SheetTitle>ICAASET-2024</SheetTitle>
+            <SheetTitle className="text-white">IC-ASET-2024</SheetTitle>
             <SheetDescription>
-              International Conference on Application of Science, Engineering and Technology - 2024
+              International Conference on Applications of Science, Engineering and Technology - 2024
             </SheetDescription>
           </SheetHeader>
 
           <Accordion type="single" collapsible className="my-10">
-            <AccordionLink href="/" trigger="Home" />
-            <CustomAccordionItem dropdown={about} />
-            <CustomAccordionItem dropdown={board} />
-            <CustomAccordionItem dropdown={committee} />
-            <AccordionLink href="/speakers" trigger="Keynote Speakers" />
+            <AccordionLink href="/" trigger="Home" className="text-white"/>
+            <CustomAccordionItem dropdown={about} className="text-white"/>
+            <CustomAccordionItem dropdown={board} className="text-white"/>
+            <CustomAccordionItem dropdown={committee} className="text-white"/>
+            <AccordionLink href="/speakers" trigger="Keynote Speakers" className="text-white"/>
 
-            <CustomAccordionItem dropdown={forAuthors} />
-            <AccordionLink href="/registration" trigger="Registration" />
+            <CustomAccordionItem dropdown={forAuthors} className="text-white"/>
+            <AccordionLink href="/registration" trigger="Registration" className="text-white"/>
 
-            <AccordionLink href="/schedule" trigger="Programme Schedule" />
+            <AccordionLink href="/schedule" trigger="Programme Schedule" className="text-white"/>
 
-            <AccordionLink href="/contact" trigger="Contact Us" />
+            <AccordionLink href="/contact" trigger="Contact Us" className="text-white"/>
 
           </Accordion>
 

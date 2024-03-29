@@ -27,7 +27,7 @@ export default function KeynoteSpeakers() {
                                 </div>
                             </div>
 
-                            <div className="py-3">
+                            <div className="py-3 text-justify text-sm">
                                 {speaker.description}
                             </div>
                         </div>

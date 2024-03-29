@@ -7,7 +7,7 @@ import Navbar from "@/app/components/Navbar";
 const MainContainer = ({ children }) => {
     return (
         <div
-            className={`bg-[url('/images/background.jpg')] bg-no-repeat bg-center bg-cover bg-fixed shadow-[inset_0_0_0_1000px_#00000000]`}
+            className={`bg-[url('/images/background-compressed-resized.webp')] bg-no-repeat bg-center bg-cover bg-fixed shadow-[inset_0_0_0_1000px_#00000000]`}
         >
             <Header />
             <Navbar />

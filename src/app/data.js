@@ -1,4 +1,3 @@
-
 const data = {
     notice: "This is the notice in marquee tag",
     conferenceDate: "4 May 2024",
@@ -28,54 +27,54 @@ export const dates = [
 ]
 
 export const keynoteSpeakers = [
-    {
-        name: "NILANJAN DEY",
-        image: "image1.png",
-        designation: "Associate Professor",
-        department: "Department of Computer Science and Engineering",
-        institute: "Techno International New Town, Kolkata, INDIA",
-        description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
-    },
-    {
-        name: "MUFTI MAHMUD",
-        image: "image2.png",
-        designation: "Associate Professor (Cognitive Computing)",
-        department: "Department of Computer Science",
-        institute: "Nottingham Trent University (NTU), UK",
-        description: "Dr Mahmud was appointed to the University Shadow Executive Team (USET) in 2022, providing specialist input to the University Executive Team and Vice-Chancellor on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). Particularly, he shadows the Pro Vice-Chancellor (Research and Innovation) in matters related to the development of the research environment at NTU and its five strategic research themes from the EDI viewpoint. He is the Coordinator of the Computer Science and Informatics (B11) Unit of Assessment of Research Excellence Framework at NTU and the research group leader of the Cognitive Computing & Brain Informatics (CCBI) research group, and deputy group leader of the Interactive Systems Research Group (ISRG). He is also an active member of the Computing and Informatics Research Centre (CIRC) and the Medical Technologies Innovation Facility (MTIF). He has served as a member of the NTU Distance Learning Governance, Operation and Steering Committee and the International Mobility Committee. He is a Fellow of the Higher Education Academy, a Senior Member of the Institute of Electrical and Electronics Engineers (IEEE) and the Association of Computing Machinery (ACM), and a professional member of the British Computer Society (BCS). Dr Mahmud is a Section Editor (Big Data Analytics) of the Cognitive Computation journal, Regional Editor (Europe) of the Brain Informatics journal and Associate Editor (neuroprosthetics) of the Frontiers in Neuroscience journal."
-    },
-    {
-        name: "VALENTINA EMILA BALAS",
-        image: "image3.png",
-        designation: "Associate Professor",
-        department: "Department of Automatics and Applied Software",
-        institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
-        description: "She holds a Ph.D. in Applied Electronics and Telecommunications from Polytechnic University of Timisoara since 2003. She is author of more than 140 research papers in refereed journals and International Conferences. Her research interests are in Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements and System Theory. She is Editor-in Chief to International Journal of Advanced Intelligence Paradigms (IJAIP), member in Editorial Boards for national and international journals, serves as reviewer for many International Journals and conferences and is evaluator expert for national and international projects. She participated in many international conferences as General Chair, Organizer, Session Chair and member in International Program Committee. She was mentor for many student teams in Microsoft (Imagine Cup), Google and IEEE competitions in the last six years. Dr. Valentina Balas has a great experience in research projects. She is a member of EUSFLAT, ACM and a Senior Member IEEE, member in TC – Fuzzy Systems (IEEE CIS), member in TC - Emergent Technologies (IEEE CIS), member in TC – Soft Computing (IEEE SMCS) and also a member in IFAC - TC 3.2 Computational Intelligence in Control."
-    },
-    {
-        name: "M. SHAMIN KAISER",
-        image: "image4.png",
-        designation: "Professor",
-        department: "Institute of Information Technology",
-        institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
-        description: "He received his Bachelor's and Master's degrees in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh in 2002 and 2004 respectively, and the Ph. D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand, in 2010. He worked as a postdoc fellow in the Big data and Cyber Security Lab of Anglia Ruskin University, UK from 2017-2018. He also worked as a Special Research Student at the Wireless Signal Processing and Networking Lab (Adachi Lab) of Tohoku University, Japan in 2008. His current research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. He has authored more than 150 papers in different peer-reviewed journals and conferences. He is an Academic Editor of Plos One Journal; Associate Editor of the IEEE Access and Cognitive Computation Journal, Guest Editor of Brain Informatics Journal, IJACI (IGI Global), Electronics MDPI, Frontiers in Neuroinformatics, and Cognitive Computation Journal. Dr. Kaiser is a Life Member of Bangladesh Electronic Society; Bangladesh Physical Society and NOAMI. He is also a senior member of IEEE, USA, and IEICE, Japan, and an active volunteer of the IEEE Bangladesh Section. He is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
-    },
-    {
-        name: "MUKESH PUND",
-        image: "image5.png",
-        designation: "Chief Scientist",
-        department: "CSIR-National Institute of Science Communication and Policy Research",
-        institute: "New Delhi, INDIA",
-        description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
-    }
+  {
+    name: "NILANJAN DEY",
+    image: "image1.png",
+    designation: "Associate Professor",
+    department: "Department of Computer Science and Engineering",
+    institute: "Techno International New Town, Kolkata, INDIA",
+    description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
+  },
+  {
+    name: "MUFTI MAHMUD",
+    image: "image2.png",
+    designation: "Associate Professor (Cognitive Computing)",
+    department: "Department of Computer Science",
+    institute: "Nottingham Trent University (NTU), UK",
+    description: "Dr Mahmud, appointed to the University Shadow Executive Team in 2022, provides expert input on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). He shadows the Pro Vice-Chancellor in research and innovation matters, focusing on the development of the research environment at NTU and its strategic research themes. Dr Mahmud is the Coordinator of the Computer Science and Informatics Unit of Assessment of Research Excellence Framework, research group leader of the Cognitive Computing & Brain Informatics research group, and deputy group leader of the Interactive Systems Research Group. He is an active member of the Computing and Informatics Research Centre and the Medical Technologies Innovation Facility. Dr Mahmud is a Fellow of the Higher Education Academy, Senior Member of the Institute of Electrical and Electronics Engineers, Association of Computing Machinery, and professional member of the British Computer Society."
+  },
+  {
+    name: "VALENTINA EMILA BALAS",
+    image: "image3.png",
+    designation: "Associate Professor",
+    department: "Department of Automatics and Applied Software",
+    institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
+    description: "Dr. Valentina Balas, a Ph.D. in Applied Electronics and Telecommunications from the Polytechnic University of Timisoara, has published over 140 research papers in refereed journals and international conferences. Her research interests include Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements, and System Theory. She is an editor-in-chief for the International Journal of Advanced Intelligence Paradigms (IJAIP), member of Editorial Boards for national and international journals, and evaluator expert for national and international projects. Balas has also mentored student teams in Microsoft, Google, and IEEE competitions. She is a member of various organizations, including EUSFLAT, ACM, IEEE, TC – Fuzzy Systems, TC - Emergent Technologies, TC – Soft Computing, and IFAC - TC 3.2 Computational Intelligence in Control."
+  },
+  {
+    name: "M. SHAMIN KAISER",
+    image: "image4.png",
+    designation: "Professor",
+    department: "Institute of Information Technology",
+    institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
+    description: "Dr. Kaiser holds a Bachelor's and Master's degree in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh, and a Ph.D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand. He worked as a postdoc fellow at Anglia Ruskin University's Big data and Cyber Security Lab and as a Special Research Student at Tohoku University's Wireless Signal Processing and Networking Lab. His research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. Dr. Kaiser has authored over 150 papers in various peer-reviewed journals and conferences. He is a member of several societies, including the Bangladesh Electronic Society, Bangladesh Physical Society, and NOAMI, and is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
+  },
+  {
+    name: "MUKESH PUND",
+    image: "image5.png",
+    designation: "Chief Scientist",
+    department: "CSIR-National Institute of Science Communication and Policy Research",
+    institute: "New Delhi, INDIA",
+    description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
+  }
 ]
-
+  
 
 export const ourVisionary = [
     {
         image: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
-        designation: "Chirman, Nagar Yuvak Shikshan Sanstha"
+        designation: "Chairman, Nagar Yuvak Shikshan Sanstha"
     },
 ]
 
@@ -88,7 +87,7 @@ export const chiefPatrons = [
     {
         image: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
-        designation: "Secreatary, Nagar Yuvak Shikshan Sanstha "
+        designation: "Secretary, Nagar Yuvak Shikshan Sanstha "
     },
     {
         image: "/images/patrons/vrindatai.jpg",
@@ -96,7 +95,7 @@ export const chiefPatrons = [
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/rakhimamimg.jpeg",
+        image: "/images/patrons/HemantThakare.webp",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -104,14 +103,14 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
-        image: "/images/upwaghe.png",
-        name: "Dr. U.P. Waghe",
-        designation: "Principal, YCCE"
+        image : "/images/patrons/upwaghe.png",
+        name : "Dr. U.P. Waghe",
+        designation : "Principal, YCCE"
     },
     {
-        image: "/images/upwaghe.png",
-        name: "Dr. Manali M. Kshirsagar",
-        designation: "Technical Advisor, MGI"
+        image : "/images/patrons/ManaliKshirsagar.jpg",
+        name : "Dr. Manali M. Kshirsagar",
+        designation : "Technical Advisor, MGI"
     },
 ]
 
@@ -121,15 +120,15 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JamesFPeters.png',
         name: 'James F Peters',
         designation: 'University of Manitoba, Winnipeg',
-        country: 'Canada',
+        country: 'CANADA',
         link: 'https://www.researchgate.net/profile/James-Peters-3'
     },
     {
         img: '/images/iab/MamoonRashid.png',
         name: 'Mamoon Rashid',
         designation: 'School of Information, Communication, and Technology',
-        country: 'Bahrain',
-        link: 'https://www.researchgate.net/profile/Mamoon-Rashid-7'
+        country: 'BAHRAIN',
+        link: 'https://scholar.google.com/citations?hl=en&user=RVP-_mIAAAAJ&view_op=list_works&authuser=3&gmla=AKKJWFd-8hQyUofCIX94TmaQzQGDPvh4PWv0rA0cJmSWHgxqBYPpZ2k-2dLeoxauWqIK4vo86NyhSWk6PdiGjmPnOAOvvtBzmQO9Bw'
     },
     {
         img: '/images/iab/NitaigourPremchandMahalik.png',
@@ -149,7 +148,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JoachimHoltz.png',
         name: 'Joachim Holtz',
         designation: 'University of Wuppertal, Wuppertal',
-        country: 'Germany',
+        country: 'GERMANY',
         link: 'https://ieeexplore.ieee.org/author/37267042900'
     },
     {
@@ -163,11 +162,11 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/JabarHYousif.png',
         name: 'Jabar H. Yousif',
         designation: 'Sohar University',
-        country: 'Oman',
+        country: 'OMAN',
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
-        img: '/images/defaultImage.jpg',
+        img: '/images/iab/JabarHYousif.png',
         name: 'Pradeep Kumar',
         designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal',
         country: 'SOUTH AFRICA',
@@ -184,7 +183,7 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/ValentinaEmiliaBalas.png',
         name: 'Valentina Emilia Balas',
         designation: 'Aurel Vlaicu University of Arad / Academy of Romanian Scientists',
-        country: 'Romania',
+        country: 'ROMANIA',
         link: 'https://scholar.google.com/citations?user=XaktX0wAAAAJ&hl=en'
     },
     {
@@ -198,76 +197,151 @@ export const internationalAdvisoryBoard = [
         img: '/images/iab/ChakchaiSoIn.png',
         name: 'Chakchai So-In',
         designation: 'College of Computing, Khon Kaen University',
-        country: 'Thailand',
+        country: 'THAILAND',
         link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
 ]
 export const nationalPublicityChair = [
     {
-        img: "/images/publicitychair/national/durgeshkumar.jpg",
-        name: "Durgesh Srivastava",
-        designation: "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
-        link: "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
+        img : "/images/chairs/durgeshkumar.jpg",
+        name : "Durgesh Srivastava",
+        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
+        link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
     },
     {
-        img: "/images/publicitychair/national/rajeshwarisridhar.jpg",
-        name: "Rajeswari Sridhar",
-        designation: "National Institute of Technology Tiruchirappalli, Kerala",
-        link: "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
+        img : "/images/chairs/rajeshwarisridhar.jpg",
+        name : "Rajeswari Sridhar",
+        designation : "National Institute of Technology Tiruchirappalli, Kerala",
+        link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
-        img: "/images/publicitychair/national/sayankumar.jpg",
-        name: "Sayan Ranu",
-        designation: "Indian Institute of Technology, Delhi",
-        link: "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
+        img : "/images/chairs/sayankumar.jpg",
+        name : "Sayan Ranu",
+        designation : "Indian Institute of Technology, Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
     },
     {
-        img: "/images/publicitychair/national/shaileshkamble.jpg",
-        name: "Shailesh Kamble",
-        designation: "Indira Gandhi Delhi Technical University for Women, New Delhi",
-        link: "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
+        img : "/images/chairs/shaileshkamble.jpg",
+        name : "Shailesh Kamble",
+        designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
     },
     {
-        img: "/images/publicitychair/national/sandipmal.jpg",
-        name: "Sandip Mal",
-        designation: "VIT Bhopal University, Madhya Pradesh",
-        link: "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
+        img : "/images/chairs/sandipmal.jpg",
+        name : "Sandip Mal",
+        designation : "VIT Bhopal University, Madhya Pradesh",
+        link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
-        img: "/images/publicitychair/national/gunvantichellamuthu.jpg",
-        name: "Gunavathi C",
-        designation: "VIT University, Vellore TamilNadu",
-        link: "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
+        img : "/images/chairs/gunvantichellamuthu.jpg",
+        name : "Gunavathi C",
+        designation : "VIT University, Vellore TamilNadu",
+        link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img: "/images/defaultImage.jpg",
-        name: "Ramesh Chandra",
-        designation: "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
-        link: "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
+        img : "/images/chairs/rameshchandra.jpg",
+        name : "Ramesh Chandra",
+        designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
+        link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
     },
     {
-        img: "/images/publicitychair/national/shailajapatil.jpg",
-        name: "Shaileja Patil",
-        designation: "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
-        link: "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
+        img : "/images/chairs/shailajapatil.jpg",
+        name : "Shaileja Patil",
+        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
+        link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
+    {
+        img: "/images/chairs/mihirmohanty.jpg",
+        name: "Mihir Narayan Mohanty",
+        designation: "Siksha O Anusandhan University, Bhubaneswar",
+        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
+      },
+      {
+        img: "/images/chairs/joyeetasingha.jpg",
+        name: "Joyeeta Singha",
+        designation: "LNM Institute of Information Technology, Jaipur",
+        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
+      },
+      {
+        img: "/images/chairs/.jpg",
+        name: "Ghanapriya Singh",
+        designation: "National Institute of Technology, Kurukshetra",
+        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Amit Kant Pandit",
+        designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
+      }
 ]
+
 export const internationalPublicityChair = [
     {
-        img: '/images/publicitychair/international/ajaykumar.jpg',
+        img: '/images/chairs/ajaykumar.jpg',
         name: 'Ajay Kumar',
         designation: 'Guizhou Normal University',
         country: 'CHINA',
         link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
     },
     {
-        img: '/images/publicitychair/international/pramodgaur.jpg',
+        img: '/images/chairs/pramodgaur.jpg',
         name: 'Pramod Gaur',
-        designation: 'Nottingham Trent University Nottingham',
-        country: 'UNITED KINGDOM',
+        designation: 'Nottingham Trent University',
+        country: 'UK',
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
-    }
+    },
+    {
+        img: "",
+        name: "Roshan G Ragel",
+        designation: "University of Peradeniya",
+        country: 'SRILANKA',
+        link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Gül Erkol Bayram",
+        designation: "Sinop University",
+        country: 'TURKEY',
+        link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
+      },
+      {
+        img: "",
+        name: "Mohammad Sajid Mohammadi",
+        designation: "Onaizah Colleges",
+        country: 'SAUDI ARABIA',
+        link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Mihir Narayan Mohanty",
+        designation: "Siksha O Anusandhan University",
+        country: 'BHUBANESWAR',
+        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Joyeeta Singha",
+        designation: "LNM Institute of Information Technology",
+        country: 'JAIPUR',
+        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Ghanapriya Singh",
+        designation: "National Institute of Technology",
+        country: 'KURUKSHETRA',
+        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
+      },
+      {
+        img: "",
+        name: "Amit Kant Pandit",
+        designation: "Shri Mata Vaishno Devi University",
+        country: 'JAMMU & KASHMIR',
+        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
+      }
 ]
+
 export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/MukeshAZaveri.png',
@@ -446,6 +520,33 @@ export const nationalAdvisoryBoard = [
     },
 ]
 
+export const publicationChairs = [
+    {
+        img: "/images/chairs/thakurSirImg.png",
+        name: "Nileshsingh V. Thakur",
+        designation: "Yeshwantrao Chavan College of Engineering, INDIA",
+        link: ""
+      },
+      {
+        img: "/images/chairs/kavitaMamImg.jpg",
+        name: "Kavita R. Singh",
+        designation: "Yeshwantrao Chavan College of Engineering, INDIA",
+        link: ""
+      },
+      {
+        img: "/images/defaultImage.jpg",
+        name: "Prarthana A. Deshkar",
+        designation: "Assistant Professor, Computer Technology, YCCE, INDIA",
+        link: ""
+      },
+      {
+        img: "/images/defaultImage.jpg",
+        name: "Roshani S. Khedgaonkar",
+        designation: "Assistant Professor, Computer Technology, YCCE, INDIA",
+        link: ""
+      }
+]
+
 export const internationalTechProgramCommittee = [
     {
         image: "/images/tech-committee/international/image1.jpeg",
@@ -494,6 +595,37 @@ export const generalChair = [
         country: 'India',
         link: 'https://scholar.google.com.sg/citations?user=yKroYN0AAAAJ&hl=en'
     }
+]
+
+export const technicalProgramChairs = [
+    {
+        img: "/images/chairs/thakurSirImg.png",
+        name: "Nileshsingh V. Thakur",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'INDIA',
+        link: "https://scholar.google.co.in/citations?user=xZbSxmsAAAAJ&hl=en"
+      },
+      {
+        img: "/images/chairs/kavitaMamImg.jpg",
+        name: "Kavita R. Singh",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'INDIA',
+        link: "https://scholar.google.co.in/citations?user=GvBndh8AAAAJ&hl=en"
+      },
+      {
+        img: "/images/chairs/MuftiMahmud.png",
+        name: "Mufti Mahmud",   
+        designation: "Nottingham Trent University",
+        country: 'UK',
+        link: "https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en"
+      },
+      {
+        img: "/images/chairs/ChakchaiSoIn.png",
+        name: "Chakchai So-In",
+        designation: "College of Computing, Khon Kaen University",
+        country: 'THAILAND',
+        link: "https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en"
+      }
 ]
 
 export const nationalTechProgramCommittee = [
@@ -559,6 +691,18 @@ export const nationalTechProgramCommittee = [
     },
 ]
 
+export const digitalChairs = [
+    {
+        img: "",
+        name: "Nikhil S. Mangrulkar",
+        designation: "Yeshwantrao Chavan College of Engineering",
+        country: 'NAGPUR',
+        link: ""
+    }
+]
+
+
+
 export const faq = [
     { question: "question ", answer: "answer" },
     { question: "question ", answer: "answer" },
@@ -567,8 +711,7 @@ export const faq = [
 ]
 
 export const aboutYCCE = [
-    "The college is guided by the Academic Advisory Board consisting of eminent academicians from the prestigious technical institutes in India and USA. The college is having well qualified and experienced senior faculty members. Yeshwantrao Chavan College of Engineering (YCCE) is renowned for Engineering Education and Research. For over 36 years, it has successfully nurtured young engineering professionals, becoming a sought-after destination for students aspiring to higher technical education and placement in the competitive software and core industries. It offers a rare combination of respected scholars, international footprint and interdisciplinary studies A premier institute, YCCE became one of the few selected well-performing colleges for Government of India’s Technical Education Quality Improvement Program (TEQIP Phase I), funded by the World Bank. With the TEQIP financial aid, the Institution has created state-of-the-art infrastructure, laboratories, computational facilities, library etc YCCE has become the First private engineering college to acquire ‘Autonomous’ status in Central India.Under the new status, the first batch of students commenced their B.E. and M.Tech. courses from the academic session 2010-2011.",
-    " In the year 2016-17, UGC peer team visited YCCE & granted ‘Extension of Autonomy’ for 6 years (2016-2022). Quality assurance through Accreditation and Re-Accreditation of UG & PG programs by National Board of Accreditation (NBA), New Delhi Since 2003 B.E. Mechanical Engg., B.E. Civil Engg., B.E. Electrical Engg., B.E. Electronics & Telecomm. Engg., B.E. Electronics Engg. and B.E. Information Tech. programs are Accredited by National Board of Accreditation (NBA), New Delhi upto June 2023. M.Tech. Structural Engg, M.Tech. Integrated Power System and M.Tech. CAD-CAM are also Accredited by National Board of Accreditation (NBA), New Delhi upto June 2019 Accreditation with ‘A’ Grade by UGC National Assessment and Accreditation Council (NAAC), Bangalore Received ISTE National Award 2014 for being the “Best Private Engineering College” in the Country. All India 32nd Rank, 23rd Rank amongst Self-Financing & 4th Rank in West Zone by DataQuest-CMR Ranking-2020 All India 134th Rank amoungst IIT’s, NIT’s, Government and Autonomous Engineering Institutions by NIRF, MHRD, Govt. of India, 2019. Ranked amongst Top 150 Engineering Institutions all over India including IITs, NITs, Govt. & Autonomous Engineering Institution by NIRF, MHRD, Govt. of India in 2017 and also in 2018. All India 93rd rank amongst IITs, NITs,Govt. & Autonomous Engineering Institution by NIRF, MHRD, Govt. of India, 2016 Received 2nd prize for YCCE Magzine from RTMNU, Nagpur in 2019-20. Awarded ‘A’ Grade by the Government of Maharashtra in the year 2002-2003 All technical departments of the Institution are recognized as a center for Higher Learning and Research for pursuing Ph.D. by RTM Nagpur University. At Present about 44 scholars have registered for Ph. D. research programs and about 110 candidates have been awarded Doctoral (Ph.D) degree. In last 5 Years, the institute has received financial assistance of Rs. 5.5 Cr. from various funding agencies like AICTE, DST, UGC etc. Innovation Gallery for displaying innovative UG/PG project work of students MSME technology business incubators under ASPIRE ( A scheme for promotion of innovation, rural industries and entrepreneurship) & business incubator under a scheme for development of managerial and entrepreneur skills through incubator. Nodal Centre for “Smart India Hackathon”, an initiative of MHRD Govt. of India. Accreditation by repeated corporates/industries like TCS, Capgemini, Wipro etc. for enhancing student’s placement and internship."
+    "Yeshwantrao Chavan College of Engineering (YCCE) is a renowned institution for engineering education and research, having nurtured young engineering professionals for over 36 years. As a premier institute, YCCE was one of the few selected well-performing colleges for the Government of India's Technical Education Quality Improvement Program (TEQIP Phase I), funded by the World Bank. With TEQIP financial aid, the institution has created state-of-the-art infrastructure, laboratories, computational facilities, and libraries.YCCE became the first private engineering college to acquire 'Autonomous' status in Central India, allowing the first batch of students to commence their B.E. and M.Tech. courses from the academic session 2010-2011. In 2016-17, the UGC peer team granted 'Extension of Autonomy' for 6 years (2016-2022).The institution has received quality assurance through accreditation and re-accreditation of UG & PG programs by the National Board of Accreditation (NBA), New Delhi since 2003. The B.E. Mechanical Engg., B.E. Civil Engg., B.E. Electrical Engg., B.E. Electronics & Telecomm. Engg., B.E. Electronics Engg., and B.E. Information Tech. programs are accredited by NBA up to June 2023.YCCE has received numerous awards, including the ISTE National Award 2014 for being the 'Best Private Engineering College' in the Country, All India 32nd Rank, 23rd Rank amongst Self-Financing & 4th Rank in West Zone by DataQuest-CMR Ranking-2020, All India 134th Rank amongst IITs, NITs, Government and Autonomous Engineering Institutions by NIRF, MHRD, Govt. of India, 2019.Over the last five years, the institute has received financial assistance of Rs. 5.5 Cr. from various funding agencies like AICTE, DST, and UGC."
 ]
 
 export const dsmlTheme = [
@@ -692,81 +835,81 @@ export const stayIns = [
     {
         name: "Orange Tree Hotel",
         image: "11. Orange-Tree.webp",
-
+       
         description: "Orange Tree Hotels, a 3-star Nagpur lodging, offers comfort, features like dry cleaning, laundry, and concierge service, and is conveniently located near attractions like Sitabuldi Fort and Gandhisagar Lake."
     },
-
+    
 ]
 
 export const sites = [
     {
         name: "Ganesh Tekdi Mandir",
-        image: "",
+        image: "image1.jpg",
         description: "Welcome to Ganesh Tekdi, Nagpur - a revered site of devotion and tranquility. Constructed atop a hill, this ancient temple, also known as Tekdi Ganapati Temple, has been a focal point of spirituality for over 250 years. Initially a modest structure, it underwent significant expansion in 1984, thanks to the efforts of devoted individuals and contributions from generous devotees. Notably, in 1995, additional land was sanctioned for further expansion, facilitating the temple's continued growth. Today, plans are underway to enhance the temple's surroundings with features like lawns, water fountains, and a free parking zone. Come, experience the serenity and divine presence at Ganesh Tekdi, Nagpur."
     },
     {
         name: "Zero Miles",
-        image: "",
+        image: "image2.avif",
         description: "Zero Mile Stone, erected in 1907 during the Great Trigonometrical Survey of India, stands as a historic monument in Nagpur, Maharashtra. Comprising a sandstone pillar and a GTS Standard Bench Mark, the monument symbolizes a significant point in Indian geography. Despite misconceptions about its purpose as the geographical center of colonial India, it remains a notable landmark. Situated in Nagpur, the city holds geographical significance being centrally located among major Indian metros. The Times of India took responsibility for maintaining the monument from 2008 onwards."
     },
     {
         name: "Koradi Mata Mandir",
-        image: "",
+        image: "image3.jpg",
         description: "In ancient times, the region now known as Koradi was called Jakhapur, ruled by King Jholan. Despite having seven sons, his heart yearned for a daughter. Through devout rituals, he prayed for divine intervention. In response, a daughter of unparalleled beauty was born, embodying the presence of Adi Shakti, the primal energy of the universe. She became King Jholan's guiding light, offering clarity in decision-making and unwavering support in times of hardship."
     },
     {
         name: "BAPS SwamiNarayan Temple, Wathoda",
-        image: "",
+        image: "image4.jpg",
         description: "Pramukh Swami Maharaj sowed the seeds of satsang in 1976 when he visited the Vidarbha region. In 1993, Pramukh Swami Maharaj performed the murti-pratishtha of the hari mandir in the suburb of Vardhmannagar. Thereafter, in 1997, Swamishri inaugurated The Swaminarayan School. In 2004, the groundbreaking ceremony for the shikharbaddh mandir in the suburb of Wathoda was performed. The murti-pratishtha of the newly constructed shikharbaddh mandir was performed in 2013."
     },
     {
         name: "Ambazari Lake + Vivekanand Smarak Ambazari",
-        image: "",
+        image: "image5.jpg",
         description: "After a delay of three years, Swami Vivekanandamemorial is set to become a reality. Country’s tallest bronze statue of Vivekananda was installed at the memorial site on Sunday. However, the memorial will be dedicated to the public on September 11. The memorial is being built at Ambazari lake’s overflow point, which is also the origin of Nag river in city. The project has been planned in such a manner that lake water will be visible in the background of the statue."
     },
     {
         name: "Kasturchand Park",
-        image: "",
+        image: "image6.png",
         description: "Kasturchand ParkThe ground generally known as KP was part of the land ceded to East India Company by the treaty of 1818. It was under the control of British army (Madras Army) for many years. It had built few building on this ground as arsenal and had stored several tons of explosive gunpowder till late 19th century."
     },
     {
         name: "Balasaheb Thakrey GoreWada Zoo",
-        image: "",
+        image: "image7.webp",
         description: "Gorewada Zoo, now named Balasaheb Thackeray Gorewada International Zoological Park, was inaugurated by Hon. Chief Minister Shri. Uddhav Balasaheb Thackeray on January 26, 2021, and opened to the public on January 27, 2021. Envisioned as India's largest zoological park with international components, it spans 539 hectares and includes features like Indian Safari, African Safari, Night Safari, and an Archeological Theme Park. Currently, the Indian Safari section is open to the public."
     },
     {
         name: "Futala Lake",
-        image: "",
+        image: "image8.jpeg",
         description: "Discover the revitalized beauty of Futala Lake in Nagpur's western region. Originally built two centuries ago, this historic lake underwent extensive renovation in 2003 with support from NIT and the state government. The restoration included desilting, pathway construction, landscaping, and installation of decorative elements such as lamps and benches. Colorful fountains and high masts now illuminate the area, while amenities like an Immersion Ghat and sand beach enhance its appeal. Futala Lake is now a picturesque destination for leisure and relaxation."
     },
     {
         name: "Deekshabhoomi",
-        image: "",
+        image: "image9.jpg",
         description: "Discover Deekshabhoomi, a sacred monument in Nagpur, Maharashtra, where Dr. B. R. Ambedkar embraced Buddhism with thousands of followers on October 14, 1956. This historic event marked a revival of Buddhism in India and serves as a pilgrimage site for millions annually. Deekshabhoomi symbolizes social revolution and is a testament to Ambedkar's vision of a more equitable society. Visit the site to pay homage and witness the world's largest stupa, erected in his memory."
     },
     {
         name: "Dragon Place",
-        image: "",
+        image: "image10.jpg",
         description: "The Dragon Palace Temple, also known as the Lotus Temple of Nagpur, is a Buddhist temple located in Kamptee, Maharashtra, India. Established in 1999 with funding from the Japan-based Ogawa Society, the temple complex is home to a revered sandalwood idol associated with the Buddha. It serves as a pilgrimage site for Buddhist practitioners, attracting visitors seeking spiritual solace and enlightenment."
     },
     {
         name: "Hedgewar Smruti Mandir",
-        image: "",
+        image: "image11.jpg",
         description: "Hedgewar Smruti Mandir (HSM) is a memorial located in Reshimbagh, Nagpur, Maharashtra, India, dedicated to K. B. Hedgewar and M. S. Golwalkar, the founding leaders of the Rashtriya Swayamsevak Sangh (RSS), a Hindu nationalist organization. Inaugurated in 1962, HSM was granted tourism status by the Maharashtra Tourism Development Corporation (MTDC) in 2017, although this decision has been surrounded by controversy."
     },
     {
         name: "Ramtek Gad Mandir",
-        image: "",
+        image: "image12.jpg",
         description: "The present temple is believed to have been built by the King of Nagpur Raghuji Bhonsale, after his victory over fort of Deogarh in Chindwara. This place is also famous for its relation with Great poet Kalidasa. Kalidasa has written Meghdootum in hills of Ramtek. Late Indian Prime Minister Mr."
     },
     {
         name: "Khindsi Lake",
-        image: "",
+        image: "image13.jpg",
         description: "Khindsi Lake, nestled amidst lush forests, is a picturesque destination located approximately 3.5 kilometers from Ramtek and 53 kilometers from Nagpur. A beloved tourist spot for Vidarbha residents, visitors can enjoy various recreational activities such as boating in motorboats, pedal boats, rowing boats, and water scooters on the lake. Additionally, an adventure park for children and jungle trekking opportunities are available nearby, making Khindsi Lake an ideal destination for nature lovers and adventure enthusiasts alike."
     },
     {
         name: "Pench National Park",
-        image: "",
+        image: "image14.jpg",
         description: "It is famous for its ferocious Bengal Tigers that boasts a significant amount of tourism in the park. At present, there are around 50 tigers residing in the prey-rich woodlands of park's region. Besides this, the park also has 39 species of mammals 13 species of reptiles and 3 species of amphibians."
     }
 ]

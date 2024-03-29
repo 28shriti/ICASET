@@ -19,7 +19,7 @@ const Home = () => {
         <div className="flex flex-col md:flex-row w-full justify-between p-5 md:p-10 mt-0 gap-5">
           <div className="w-full md:w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white">
             <h2 className="text-center text-lg font-bold mb-5">
-              International Conference on Application of Science, Engineering and
+              International Conference on Applications of Science, Engineering and
               Technology - 2024
             </h2>
             <p style={{ margin: "2px 0" }}>
@@ -36,7 +36,7 @@ const Home = () => {
               <p className="ml-3">Date: {data.conferenceDate}</p>
             </div>
           </div>
-          <div className="w-full md:w-1/2  h-[50vh] rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar realative flex flex-col overflow-hidden">
+          <div className="w-full md:w-1/2 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar realative flex flex-col overflow-hidden">
             <CustomCarousel />
           </div>
         </div>
