@@ -2,7 +2,8 @@ import { dates } from "@/app/data"
 import MainContainer from "@/app/components/MainContainer"
 
 export const metadata = {
-    title: "Important Dates - ICASET",
+    title: "Important Dates",
+    description: 'This page contains all the important dates for the conference'
 }
 
 

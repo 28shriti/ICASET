@@ -1,6 +1,11 @@
 import ConvenorCard from '@/app/components/ConvenorCard'
 import MainContainer from '@/app/components/MainContainer'
 
+export const metadata = {
+    title: 'Organizing Committee',
+    description: 'Know about the Conveners, Organizing Secretary and the organizing team members'
+}
+
 const OrganizingCommittee = () => {
     return (
         <MainContainer>

@@ -200,6 +200,13 @@ export const internationalAdvisoryBoard = [
         country: 'THAILAND',
         link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
+    {
+        img: '/images/iab/AndrzejSkowron.jpeg',
+        name: 'Andrzej Skowron',
+        designation: 'University of Warsaw',
+        country: 'Poland',
+        link: 'https://scholar.google.com/citations?user=fYu9ryIAAAAJ&hl=pl'
+    },
 ]
 export const nationalPublicityChair = [
     {
