@@ -69,7 +69,6 @@ export const keynoteSpeakers = [
   }
 ]
   
-
 export const ourVisionary = [
     {
         image: "/images/patrons/dattaji.jpg",
@@ -113,7 +112,6 @@ export const patrons = [
         designation : "Technical Advisor, MGI"
     },
 ]
-
 
 export const internationalAdvisoryBoard = [
     {
@@ -200,146 +198,6 @@ export const internationalAdvisoryBoard = [
         country: 'THAILAND',
         link: 'https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en'
     },
-]
-export const nationalPublicityChair = [
-    {
-        img : "/images/publicitychair/national/durgeshkumar.jpg",
-        name : "Durgesh Srivastava",
-        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
-        link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
-    },
-    {
-        img : "/images/publicitychair/national/rajeshwarisridhar.jpg",
-        name : "Rajeswari Sridhar",
-        designation : "National Institute of Technology Tiruchirappalli, Kerala",
-        link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
-    },
-    {
-        img : "/images/publicitychair/national/sayankumar.jpg",
-        name : "Sayan Ranu",
-        designation : "Indian Institute of Technology, Delhi",
-        link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
-    },
-    {
-        img : "/images/publicitychair/national/shaileshkamble.jpg",
-        name : "Shailesh Kamble",
-        designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
-        link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
-    },
-    {
-        img : "/images/publicitychair/national/sandipmal.jpg",
-        name : "Sandip Mal",
-        designation : "VIT Bhopal University, Madhya Pradesh",
-        link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
-    },
-    {
-        img : "/images/publicitychair/national/gunvantichellamuthu.jpg",
-        name : "Gunavathi C",
-        designation : "VIT University, Vellore TamilNadu",
-        link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
-    },
-    {
-        img : "/images/publicitychair/national/rameshchandra.jpg",
-        name : "Ramesh Chandra",
-        designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
-        link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
-    },
-    {
-        img : "/images/publicitychair/national/shailajapatil.jpg",
-        name : "Shaileja Patil",
-        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
-        link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
-    },
-    {
-        img: "/images/publicitychair/national/mihirmohanty.jpg",
-        name: "Mihir Narayan Mohanty",
-        designation: "Siksha O Anusandhan University, Bhubaneswar",
-        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
-      },
-      {
-        img: "/images/publicitychair/national/joyeetasingha.jpg",
-        name: "Joyeeta Singha",
-        designation: "LNM Institute of Information Technology, Jaipur",
-        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
-      },
-      {
-        img: "/images/publicitychair/national/.jpg",
-        name: "Ghanapriya Singh",
-        designation: "National Institute of Technology, Kurukshetra",
-        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Amit Kant Pandit",
-        designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
-        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
-      }
-]
-
-export const internationalPublicityChair = [
-    {
-        img: '/images/publicitychair/international/ajaykumar.jpg',
-        name: 'Ajay Kumar',
-        designation: 'Guizhou Normal University',
-        country: 'CHINA',
-        link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
-    },
-    {
-        img: '/images/publicitychair/international/pramodgaur.jpg',
-        name: 'Pramod Gaur',
-        designation: 'Nottingham Trent University',
-        country: 'UK',
-        link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
-    },
-    {
-        img: "",
-        name: "Roshan G Ragel",
-        designation: "University of Peradeniya",
-        country: 'SRILANKA',
-        link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Gül Erkol Bayram",
-        designation: "Sinop University",
-        country: 'TURKEY',
-        link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
-      },
-      {
-        img: "",
-        name: "Mohammad Sajid Mohammadi",
-        designation: "Onaizah Colleges",
-        country: 'SAUDI ARABIA',
-        link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Mihir Narayan Mohanty",
-        designation: "Siksha O Anusandhan University",
-        country: 'BHUBANESWAR',
-        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Joyeeta Singha",
-        designation: "LNM Institute of Information Technology",
-        country: 'JAIPUR',
-        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Ghanapriya Singh",
-        designation: "National Institute of Technology",
-        country: 'KURUKSHETRA',
-        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
-      },
-      {
-        img: "",
-        name: "Amit Kant Pandit",
-        designation: "Shri Mata Vaishno Devi University",
-        country: 'JAMMU & KASHMIR',
-        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
-      }
 ]
 
 export const nationalAdvisoryBoard = [
@@ -520,15 +378,128 @@ export const nationalAdvisoryBoard = [
     },
 ]
 
+export const internationalPublicityChair = [
+    {
+        img: '/images/publicitychair/international/ajaykumar.jpg',
+        name: 'Ajay Kumar',
+        designation: 'Guizhou Normal University',
+        country: 'CHINA',
+        link: 'https://scholar.google.com/citations?user=Tzzs0zIAAAAJ&hl=en'
+    },
+    {
+        img: '/images/publicitychair/international/pramodgaur.jpg',
+        name: 'Pramod Gaur',
+        designation: 'Nottingham Trent University',
+        country: 'UK',
+        link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
+    },
+    {
+        img: "/images/publicitychair/international/roshanragel.jpg",
+        name: "Roshan G Ragel",
+        designation: "University of Peradeniya",
+        country: 'SRILANKA',
+        link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
+      },
+      {
+        img: "/images/publicitychair/international/guibayram.jpg",
+        name: "Gül Erkol Bayram",
+        designation: "Sinop University",
+        country: 'TURKEY',
+        link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
+      },
+      {
+        img: "/images/publicitychair/international/mohhamadmohammadi.png",
+        name: "Mohammad Sajid Mohammadi",
+        designation: "Onaizah Colleges",
+        country: 'SAUDI ARABIA',
+        link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
+      },
+]
+
+export const nationalPublicityChair = [
+    {
+        img : "/images/publicitychair/national/durgeshkumar.jpg",
+        name : "Durgesh Srivastava",
+        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
+        link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
+    },
+    {
+        img : "/images/publicitychair/national/rajeshwarisridhar.jpg",
+        name : "Rajeswari Sridhar",
+        designation : "National Institute of Technology Tiruchirappalli, Kerala",
+        link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
+    },
+    {
+        img : "/images/publicitychair/national/sayankumar.jpg",
+        name : "Sayan Ranu",
+        designation : "Indian Institute of Technology, Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
+    },
+    {
+        img : "/images/publicitychair/national/shaileshkamble.jpg",
+        name : "Shailesh Kamble",
+        designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
+        link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
+    },
+    {
+        img : "/images/publicitychair/national/sandipmal.jpg",
+        name : "Sandip Mal",
+        designation : "VIT Bhopal University, Madhya Pradesh",
+        link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
+    },
+    {
+        img : "/images/publicitychair/national/gunvantichellamuthu.jpg",
+        name : "Gunavathi C",
+        designation : "VIT University, Vellore TamilNadu",
+        link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
+    },
+    {
+        img : "/images/publicitychair/national/rameshchandra.jpg",
+        name : "Ramesh Chandra",
+        designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
+        link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
+    },
+    {
+        img : "/images/publicitychair/national/shailajapatil.jpg",
+        name : "Shaileja Patil",
+        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
+        link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
+    },
+    {
+        img: "/images/publicitychair/national/mihirmohanty.jpg",
+        name: "Mihir Narayan Mohanty",
+        designation: "Siksha O Anusandhan University, Bhubaneswar",
+        link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
+      },
+      {
+        img: "/images/publicitychair/national/joyeetasingha.jpg",
+        name: "Joyeeta Singha",
+        designation: "LNM Institute of Information Technology, Jaipur",
+        link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
+      },
+      {
+        img: "/images/publicitychair/national/ghanapriyasingh.jpg",
+        name: "Ghanapriya Singh",
+        designation: "National Institute of Technology, Kurukshetra",
+        link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
+      },
+      {
+        img: "/images/publicitychair/national/amitpandit.jpg",
+        name: "Amit Kant Pandit",
+        designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+        link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
+      },
+]
+
 export const publicationsChairs = [
     {
-        img: "",
+        img: "/images/publicationchair/thakurSirImg.png",
         name: "Nileshsingh V. Thakur",
         designation: "Yeshwantrao Chavan College of Engineering, INDIA",
         link: ""
       },
       {
-        img: "",
+        img: "/images/publicationchair/kavitaMamImg.jpg",
         name: "Kavita R. Singh",
         designation: "Yeshwantrao Chavan College of Engineering, INDIA",
         link: ""
@@ -599,28 +570,28 @@ export const generalChair = [
 
 export const technicalProgramChairs = [
     {
-        img: "",
+        img: "/images/technicalprogramchair/thakurSirImg.png",
         name: "Nileshsingh V. Thakur",
         designation: "Yeshwantrao Chavan College of Engineering",
         country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=xZbSxmsAAAAJ&hl=en"
       },
       {
-        img: "",
+        img: "/images/technicalprogramchair/kavitaMamImg.jpg",
         name: "Kavita R. Singh",
         designation: "Yeshwantrao Chavan College of Engineering",
         country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=GvBndh8AAAAJ&hl=en"
       },
       {
-        img: "",
+        img: "/images/technicalprogramchair/muftimahmud.jpg",
         name: "Mufti Mahmud",
         designation: "Nottingham Trent University",
         country: 'UK',
         link: "https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en"
       },
       {
-        img: "",
+        img: "/images/technicalprogramchair/chakchaisoin.jpg",
         name: "Chakchai So-In",
         designation: "College of Computing, Khon Kaen University",
         country: 'THAILAND',
@@ -700,8 +671,6 @@ export const digitalChairs = [
         link: ""
     }
 ]
-
-
 
 export const faq = [
     { question: "question ", answer: "answer" },
