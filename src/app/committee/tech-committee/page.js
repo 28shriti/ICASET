@@ -4,6 +4,11 @@ import { nationalTechProgramCommittee } from "@/app/data"
 import BoardMember from "@/app/components/BoardMember"
 import MainContainer from "@/app/components/MainContainer";
 
+export const metadata = {
+    title: 'Technical Program Committee',
+    description: 'Know about the International and National Program Committee members'
+}
+
 const page = () => {
 
     const itpc = Array.from(internationalTechProgramCommittee).sort((a, b) => {

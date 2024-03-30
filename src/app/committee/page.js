@@ -3,6 +3,11 @@ import BoardMember from "@/app/components/BoardMember"
 import Title from "@/app/components/Title";
 import MainContainer from "@/app/components/MainContainer";
 
+export const metadata = {
+    title: 'Chairs',
+    description: 'Know about the General Chairs, Technical Program Chairs, International Publicity Chairs, National Publicity Chairs, Publication Chairs, Digital Chairs and Finance Chairs'
+}
+
 const page = () => {
 
     const internationPublicity = Array.from(internationalPublicityChair).sort((a, b) => {

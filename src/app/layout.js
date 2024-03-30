@@ -7,8 +7,11 @@ config.autoAddCss = false
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "ICASET-2024",
-  description: "International Conference on Application of Science, Engineering and Technology",
+  title: {
+    default: "ICASET-2024",
+    template: '%s - ICASET-2024',
+  },
+  description: " Welcome to the official website of International Conference on Applications of Science, Engineering and Technology",
 };
 
 export default function RootLayout({ children }) {

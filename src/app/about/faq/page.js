@@ -10,6 +10,11 @@ import {
 
 import MainContainer from "@/app/components/MainContainer"
 
+export const metadata = {
+    title: 'FAQs',
+    description: 'Get the answers to all the FAQs here',
+}
+
 export default function FAQ() {
     return (
         <MainContainer>

@@ -3,6 +3,11 @@ import { aboutYCCE } from "@/app/data"
 import Image from "next/image"
 import MainContainer from "@/app/components/MainContainer"
 
+export const metadata = {
+    title: 'About YCCE',
+    description: 'This is the webpage of About YCCE',
+}
+
 export default function YCCE() {
     return (
         <MainContainer>

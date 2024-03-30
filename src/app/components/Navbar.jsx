@@ -116,7 +116,7 @@ const Navbar = () => {
   }
 
   return (
-    <div>
+    <div className="sticky top-0 z-20">
       <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
         <Link href="/" className="item">
           Home
