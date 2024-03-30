@@ -695,10 +695,246 @@ export const digitalChairs = [
     {
         img: "",
         name: "Nikhil S. Mangrulkar",
-        designation: "Yeshwantrao Chavan College of Engineering",
+        designation: "Assistant Professor, Computer Technology, YCCE",
+        country: 'NAGPUR',
+        link: ""
+    },
+    {
+        img: "",
+        name: "Priyanka P. More",
+        designation: "Assistant Professor, Computer Science and Engineering, YCCE",
         country: 'NAGPUR',
         link: ""
     }
+]
+
+export const organizingCommitte = [
+  {
+    title: "Publicity Chair",
+    members: [
+      {
+        img: "",
+        name: "Prarthana A. Deshkar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Publicity Chair"
+      },
+      {
+        img: "",
+        name: "Roshani S. Khedgaonkar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Publicity Chair"
+      },
+      {
+        img: "",
+        name: "PRATIBHA P. WAGHALE",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Publicity Chair"
+      },
+      {
+        img: "",
+        name: "NIKITA P. GIRADKAR",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Publicity Chair"
+      }
+    ]
+  },
+  {
+    title: "Registration and Budgeting",
+    members: [
+      {
+        img: "",
+        name: "Praful V. Barekar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Registration and Budgeting"
+      },
+      {
+        img: "",
+        name: "Prachi A. Bainwalwar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Registration and Budgeting"
+      },
+      {
+        img: "",
+        name: "RUPA A. FADNAVIS",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Registration and Budgeting"
+      },
+      {
+        img: "",
+        name: "AMITA P. MESHRAM",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Registration and Budgeting"
+      }
+    ]
+  },
+  {
+    title: "Technical Session Arrangement and Support",
+    members: [
+      {
+        img: "",
+        name: "Ganesh Yenurkar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      },
+      {
+        img: "",
+        name: "Praful V. Barekar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      },
+      {
+        img: "",
+        name: "Nilesh U. Sambhe",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      },
+      {
+        img: "",
+        name: "FAZIL A. SHEIKH",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      },
+      {
+        img: "",
+        name: "JIWAN N. DEHANKAR",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      },
+      {
+        img: "",
+        name: "AMRUTA T. PAUL",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Technical Session Arrangement and Support"
+      }
+    ]
+  },
+  {
+    title: "Transport and Accommodation",
+    members: [
+      {
+        img: "",
+        name: "Sanjay P. Pande",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Transport and Accommodation"
+      },
+      {
+        img: "",
+        name: "MILIND C. TOTE",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Transport and Accommodation"
+      }
+    ]
+  },
+  {
+    title: "Hall and Venue Management",
+    members: [
+      {
+        img: "",
+        name: "Smita R. Kapse",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Hall and Venue Management"
+      },
+      {
+        img: "",
+        name: "Supriya S. Thombre",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Hall and Venue Management"
+      },
+      {
+        img: "",
+        name: "Shweta A. Gode",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Hall and Venue Management"
+      },
+      {
+        img: "",
+        name: "BHARATI A. KARARE",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Hall and Venue Management"
+      },
+      {
+        img: "",
+        name: "RENUKA D. KADU",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Hall and Venue Management"
+      },
+      {
+        img: "",
+        name: "CHANCHLA A. TRIPATHI",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Hall and Venue Management"
+      }
+    ]
+  },
+  {
+    title: "Catering Management",
+    members: [
+      {
+        img: "",
+        name: "Roshan S. Bhanuse",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Catering Management"
+      },
+      {
+        img: "",
+        name: "Shweta N. Jain",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Catering Management"
+      },
+      {
+        img: "",
+        name: "Sharyau R. Kawale",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Catering Management"
+      },
+      {
+        img: "",
+        name: "SHRADDHA G. VAIDYA",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Catering Management"
+      },
+      {
+        img: "",
+        name: "PRIYANKA PITALE",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Catering Management"
+      },
+      {
+        img: "",
+        name: "VIBHAKTI N. BAGADE",
+        designation: "Assistant Professor, Computer Science and Engineering",
+        link: "",
+        department: "Catering Management"
+      }
+    ]
+  }
 ]
 
 
