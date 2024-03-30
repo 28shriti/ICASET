@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ConvenorCard = (props) => {
+const BoardVertical = (props) => {
     return (
-        <Link href={props.link}>
+        <Link href={props["link"] != undefined ? props.link : "#"} target={props["link"] != undefined ? "_blank" : "_self"}>
             <div className='bg-[#31363F] bg-opacity-70 pb-3 pt-10 px-3 rounded-2xl shadow-white w-[270px] h-[321px] text-center hover:scale-[1.05] cursor-pointer' style={{ transition: 'all 0.4s' }}>
                 <div className='flex justify-center items-center'>
                     <Image src={props.img} height={321} width={125} alt='rakhi-mam-img' className='rounded-full border-white border-2 w-[125px] h-[125px]' />
@@ -19,4 +19,4 @@ const ConvenorCard = (props) => {
     )
 }
 
-export default ConvenorCard
+export default BoardVertical
