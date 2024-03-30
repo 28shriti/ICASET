@@ -276,7 +276,7 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
         link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
@@ -299,49 +299,49 @@ export const internationalPublicityChair = [
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     },
     {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Roshan G Ragel",
         designation: "University of Peradeniya",
         country: 'SRILANKA',
         link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Gül Erkol Bayram",
         designation: "Sinop University",
         country: 'TURKEY',
         link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Mohammad Sajid Mohammadi",
         designation: "Onaizah Colleges",
         country: 'SAUDI ARABIA',
         link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University",
         country: 'BHUBANESWAR',
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Joyeeta Singha",
         designation: "LNM Institute of Information Technology",
         country: 'JAIPUR',
         link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology",
         country: 'KURUKSHETRA',
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University",
         country: 'JAMMU & KASHMIR',
@@ -700,14 +700,14 @@ export const nationalTechProgramCommittee = [
 
 export const digitalChairs = [
     {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Nikhil S. Mangrulkar",
         designation: "Assistant Professor, Computer Technology, YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Priyanka P. More",
         designation: "Assistant Professor, Computer Science and Engineering, YCCE",
         country: 'NAGPUR',
@@ -720,28 +720,28 @@ export const organizingCommitte = [
     title: "Publicity Chair",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Prarthana A. Deshkar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Publicity Chair"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Roshani S. Khedgaonkar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Publicity Chair"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "PRATIBHA P. WAGHALE",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Publicity Chair"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "NIKITA P. GIRADKAR",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
@@ -753,28 +753,28 @@ export const organizingCommitte = [
     title: "Registration and Budgeting",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Praful V. Barekar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Registration and Budgeting"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Prachi A. Bainwalwar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Registration and Budgeting"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "RUPA A. FADNAVIS",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Registration and Budgeting"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "AMITA P. MESHRAM",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
@@ -786,42 +786,42 @@ export const organizingCommitte = [
     title: "Technical Session Arrangement and Support",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Ganesh Yenurkar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Technical Session Arrangement and Support"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Praful V. Barekar",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Technical Session Arrangement and Support"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Nilesh U. Sambhe",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Technical Session Arrangement and Support"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "FAZIL A. SHEIKH",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Technical Session Arrangement and Support"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "JIWAN N. DEHANKAR",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Technical Session Arrangement and Support"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "AMRUTA T. PAUL",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
@@ -833,14 +833,14 @@ export const organizingCommitte = [
     title: "Transport and Accommodation",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Sanjay P. Pande",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Transport and Accommodation"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "MILIND C. TOTE",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
@@ -852,42 +852,42 @@ export const organizingCommitte = [
     title: "Hall and Venue Management",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Smita R. Kapse",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Hall and Venue Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Supriya S. Thombre",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Hall and Venue Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Shweta A. Gode",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Hall and Venue Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "BHARATI A. KARARE",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Hall and Venue Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "RENUKA D. KADU",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Hall and Venue Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "CHANCHLA A. TRIPATHI",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
@@ -899,42 +899,42 @@ export const organizingCommitte = [
     title: "Catering Management",
     members: [
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Roshan S. Bhanuse",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Catering Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Shweta N. Jain",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Catering Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "Sharyau R. Kawale",
         designation: "Assistant Professor, Computer Technology",
         link: "",
         department: "Catering Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "SHRADDHA G. VAIDYA",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Catering Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "PRIYANKA PITALE",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
         department: "Catering Management"
       },
       {
-        img: "",
+         img: "/images/defaultImage.jpg",
         name: "VIBHAKTI N. BAGADE",
         designation: "Assistant Professor, Computer Science and Engineering",
         link: "",
