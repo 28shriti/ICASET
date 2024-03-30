@@ -60,7 +60,7 @@ const OrganizingCommittee = () => {
                             <div className="flex flex-wrap gap-5 margin-auto w-full justify-center items-center pt-5">
                                 {committee.members.map((member, memberIndex) => {
                                     return (
-                                        <BoardVertical key={memberIndex} img={member["img"] ? member.img : "/images/defaultImage.jpg"} name={member.name} link={member.link || "#"} designation={member.designation} country={member.department} />
+                                        <BoardVertical key={memberIndex} img={member["img"] ? member.img : "/images/defaultImage.jpg"} name={member.name} link={member.link || "#"} designation={member.designation} />
                                     )
                                 })}
                             </div>
