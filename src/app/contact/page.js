@@ -1,5 +1,6 @@
 import React from 'react'
 import MainContainer from '../components/MainContainer'
+import ComingSoon from '../components/ComingSoon'
 
 export const metadata = {
     title: 'Contact Us',
@@ -9,7 +10,7 @@ export const metadata = {
 const page = () => {
   return (
     <MainContainer>
-        Contact us page
+        <ComingSoon />
     </MainContainer>
   )
 }
