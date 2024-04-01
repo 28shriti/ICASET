@@ -19,7 +19,7 @@ const OrganizingCommittee = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2 w-full gap-5'>
                     <div>
                         <div className='flex flex-row justify-center items-center'>
-                            <h1 id="convenors" className="title font-black text-4xl text-center my-5 mx-0 md:my-14 md:mx-5 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Conveners</h1>
+                            <h1 id="convenors" className="title font-black text-4xl text-center my-5 mx-0 md:my-14 md:mx-5 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Convenors</h1>
                         </div>
                         <div className='flex w-full justify-left md:justify-evenly gap-5 items-center flex-col sm:flex-row h-auto'>
                             <ConvenorCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'Head'} dep={'Computer Technology'} />
