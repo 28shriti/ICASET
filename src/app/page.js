@@ -20,7 +20,7 @@ const Home = () => {
               and Technology - 2024
             </h2>
             <p style={{ margin: "2px 0" }}>
-              Collaboratively Organized by: Computer Technology and Computer
+              Jointly Organized by: Computer Technology and Computer
               Science & Engineering
             </p>
             <p>

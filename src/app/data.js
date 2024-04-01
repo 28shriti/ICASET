@@ -439,7 +439,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/defaultImage.jpg',
         name: 'Santosh Kumar',
-        designation: 'Dr. S. P. Mukherjee International Institute of Information Technology ',
+        designation: 'Institute of Information Technology',
         country: 'Naya Raipur',
         link: 'https://scholar.google.com/citations?user=pxdk-dkAAAAJ&hl=en'
     },
