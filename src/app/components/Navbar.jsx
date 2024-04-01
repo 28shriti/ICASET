@@ -8,14 +8,13 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet"
+} from "@/components/ui/sheet";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-
+} from "@/components/ui/accordion";
 
 const Navbar = () => {
   const about = {
@@ -23,8 +22,11 @@ const Navbar = () => {
     items: [
       { name: "YCCE", href: "/about/YCCE" },
       { name: "Patrons", href: "/about/YCCE#patrons" },
-      { name: "Welcome to ICASET-2024", href: "/about/conference" },
-      { name: "Conference Theme and Scope", href: "/about/conference#themeAndScope" },
+      { name: "Welcome to IC-ASET24", href: "/about/conference" },
+      {
+        name: "Conference Theme and Scope",
+        href: "/about/conference#themeAndScope",
+      },
       { name: "FAQs", href: "/about/faq", newTab: true },
     ],
   };
@@ -39,13 +41,16 @@ const Navbar = () => {
     trigger: "Committees",
     items: [
       { name: "General Chairs", href: "/committee" },
-      { name: "Technical Program Chairs", href: "/committee#techProgramChairs" },
+      {
+        name: "Technical Program Chairs",
+        href: "/committee#techProgramChairs",
+      },
       {
         trigger: "Publicity Chairs",
         items: [
           { name: "International", href: "/committee#ipc" },
           { name: "National", href: "/committee#npc" },
-        ]
+        ],
       },
       { name: "Publication Chairs", href: "/committee#publicationChairs" },
       { name: "Digital Chairs", href: "/committee#digitalChairs" },
@@ -85,39 +90,47 @@ const Navbar = () => {
       { name: "Important Dates", href: "/authors/dates" },
       { name: "Paper Format", href: "/authors/format" },
       { name: "Paper Submission", href: "/authors/submission" },
-      { name: "Publication", href: "/authors/publication" }
-    ]
-  }
+      { name: "Publication", href: "/authors/publication" },
+    ],
+  };
 
   const contact = {
     name: "Contact Us",
-    href: "/contact"
+    href: "/contact",
   };
 
   function AccordionLink({ href, trigger, className }) {
-    return <Link href={href} className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}>
-      <p className="w-full">{trigger}</p>
-    </Link>
+    return (
+      <Link
+        href={href}
+        className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}
+      >
+        <p className="w-full">{trigger}</p>
+      </Link>
+    );
   }
 
   function CustomAccordionItem({ dropdown, className }) {
     return dropdown["trigger"] != undefined ? (
       <AccordionItem value={dropdown.trigger} className="text-white">
-        <AccordionTrigger className={className}>{dropdown.trigger}</AccordionTrigger>
+        <AccordionTrigger className={className}>
+          {dropdown.trigger}
+        </AccordionTrigger>
         <AccordionContent>
           <Accordion type="single" collapsible>
             {dropdown.items.map((item, index) => {
-              return <CustomAccordionItem key={index} dropdown={item} />
+              return <CustomAccordionItem key={index} dropdown={item} />;
             })}
           </Accordion>
         </AccordionContent>
       </AccordionItem>
-    ) : (<AccordionLink href={dropdown.href} trigger={dropdown.name} />)
-
+    ) : (
+      <AccordionLink href={dropdown.href} trigger={dropdown.name} />
+    );
   }
 
   return (
-    <div className="sticky top-0 z-20">
+    <div className="sticky top-0 z-20 mb-10 lg:mb-0">
       <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
         <Link href="/" className="item">
           Home
@@ -144,40 +157,54 @@ const Navbar = () => {
       </div>
 
       <Sheet>
-        <div className="flex lg:hidden p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
+        <div className="flex lg:hidden bg-[#222831] w-full py-3 pr-2 p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
           <SheetTrigger className="flex flex-col gap-[0.3vh]">
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
           </SheetTrigger>
         </div>
-        <SheetContent className="bg-[#222831]">
+        <SheetContent className="bg-[#222831] overflow-x-auto no-scrollbar">
           <SheetHeader>
             <SheetTitle className="text-white">IC-ASET-2024</SheetTitle>
             <SheetDescription>
-              International Conference on Applications of Science, Engineering and Technology - 2024
+              International Conference on Applications of Science, Engineering
+              and Technology - 2024
             </SheetDescription>
           </SheetHeader>
 
           <Accordion type="single" collapsible className="my-10">
-            <AccordionLink href="/" trigger="Home" className="text-white"/>
-            <CustomAccordionItem dropdown={about} className="text-white"/>
-            <CustomAccordionItem dropdown={board} className="text-white"/>
-            <CustomAccordionItem dropdown={committee} className="text-white"/>
-            <AccordionLink href="/speakers" trigger="Keynote Speakers" className="text-white"/>
+            <AccordionLink href="/" trigger="Home" className="text-white" />
+            <CustomAccordionItem dropdown={about} className="text-white" />
+            <CustomAccordionItem dropdown={board} className="text-white" />
+            <CustomAccordionItem dropdown={committee} className="text-white" />
+            <AccordionLink
+              href="/speakers"
+              trigger="Keynote Speakers"
+              className="text-white"
+            />
 
-            <CustomAccordionItem dropdown={forAuthors} className="text-white"/>
-            <AccordionLink href="/registration" trigger="Registration" className="text-white"/>
+            <CustomAccordionItem dropdown={forAuthors} className="text-white" />
+            <AccordionLink
+              href="/registration"
+              trigger="Registration"
+              className="text-white"
+            />
 
-            <AccordionLink href="/schedule" trigger="Programme Schedule" className="text-white"/>
+            <AccordionLink
+              href="/schedule"
+              trigger="Programme Schedule"
+              className="text-white"
+            />
 
-            <AccordionLink href="/contact" trigger="Contact Us" className="text-white"/>
-
+            <AccordionLink
+              href="/contact"
+              trigger="Contact Us"
+              className="text-white"
+            />
           </Accordion>
-
         </SheetContent>
       </Sheet>
-
     </div>
   );
 };
