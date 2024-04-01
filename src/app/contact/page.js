@@ -14,7 +14,7 @@ const page = () => {
       <div className='h-[80vh] bg-black bg-opacity-70 backdrop-blur-sm'>
         <h3 className='text-white text-center py-10 font-extrabold text-3xl'>Contact Us!</h3>
         <div className='w-full flex justify-center items-center'>
-          <ContactCard img='/images/defaultImage.jpg' name='Nikhil Mangrulkar' mobile='+91 9876543210' email='nm@ycce.in' />
+          <ContactCard img='/images/defaultImage.jpg' name='Nikhil Mangrulkar' mobile='+91-9876543210' email='nm@ycce.in' />
         </div>
       </div>
     </MainContainer>
