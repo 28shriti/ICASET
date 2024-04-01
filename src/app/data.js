@@ -578,7 +578,7 @@ export const internationalTechProgramCommittee = [
     {
         image: "/images/tech-committee/international/image3.jpeg",
         name: "Atul Madawi",
-        designation: "Java Developer at Truteq",
+        designation: "Truteq",
         country:"Australia"
     },
     {
@@ -654,63 +654,73 @@ export const nationalTechProgramCommittee = [
         image: "/images/tech-committee/national/image1.jpeg",
         name: "Sangita Nandurkar",
         designation: "A.C.Patil College of Engineering",
-        country:"Mumbai"
+        country:"MUMBAI"
     },
     {
         image: "/images/tech-committee/national/image2.jpeg",
         name: "Balu Parne",
         designation: "Sardar Vallabhbhai National Institute of Technology",
-        country:"Surat"
+        country:"SURAT"
     },
     {
         image: "/images/tech-committee/national/image3.jpeg",
         name: "Shailesh Kamble",
-        designation: "Indira Gandhi Delhi Technical University for Women, New Delhi"
+        designation: "Indira Gandhi Delhi Technical University for Women",
+        country:  "NEW DELHI"
     },
     {
         image: "/images/tech-committee/national/image4.jpeg",
         name: "Supriya Sawwashere",
-        designation: "J D College of Engineering and Management, Nagpur, Maharashtra"
+        designation: "J D College of Engineering and Management",
+        country: "NAGPUR"
     },
     {
         image: "/images/tech-committee/national/image5.jpeg",
         name: "Nikhil P. Wyawahare",
-        designation: "RTM Nagpur University, Nagpur, Maharashtra"
+        designation: "RTM Nagpur University",
+        country: "NAGPUR"
     },
     {
         image: "/images/tech-committee/national/image6.jpeg",
         name: "Praveen Kantha",
-        designation: "Chitkara University Himachal Pradesh"
+        designation: "Chitkara University",
+        country: "SOLAN"
     },
     {
         image: "/images/tech-committee/national/image7.jpeg",
         name: "Deepak Sinwar",
-        designation: "Manipal University, Jaipur"
+        designation: "Manipal University",
+        country: "JAIPUR"
     },
     {
         image: "/images/tech-committee/national/image8.png",
         name: "Santosh Srivastava",
-        designation: "GNIOT, Greater Noida"
+        designation: "Greater Noida Institute of Technology",
+        country: "GREATER NOIDA"
     },
     {
         image: "/images/tech-committee/national/image9.jpeg",
         name: "Deepshikha Tiwari",
-        designation: "Thapar Institute of Engineering and Technology, Punjab"
+        designation: "Thapar Institute of Engineering and Technology",
+        country: "PATIALA"
     },
     {
         image: "/images/tech-committee/national/image10.png",
         name: "Amit Garg",
-        designation: "Manipal University, Jaipur"
+        designation: "Manipal University",
+        country: "JAIPUR"
     },
     {
         image: "/images/tech-committee/national/image11.jpeg",
         name: "Sunil Kumar Maakar",
-        designation: "GNIOT, Greater Noida"
+        designation: "Greater Noida Institute of Technology",
+        country: "GREATER NOIDA"
     },
     {
         image: "/images/tech-committee/national/image12.jpeg",
         name: "Shalini Goel",
-        designation: "Tecnia Institute of Advanced Studies, Delhi"
+        designation: "Tecnia Institute of Advanced Studies",
+        country: "DELHI"
     },
 ]
 
@@ -718,14 +728,14 @@ export const digitalChairs = [
     {
          img: "/images/defaultImage.jpg",
         name: "Nikhil S. Mangrulkar",
-        designation: "Assistant Professor, Computer Technology, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
          img: "/images/defaultImage.jpg",
         name: "Priyanka P. More",
-        designation: "Assistant Professor, Computer Science and Engineering, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     }
