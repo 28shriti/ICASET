@@ -58,7 +58,7 @@ const OrganizingCommittee = () => {
                     return (
                         <div key={index}>
                             <Title>{committee.title}</Title>
-                            <ProfileGrid data={committee.members} vertical />
+                            <ProfileGrid data={committee.members} hybrid />
                         </div>
                     )
                 })}

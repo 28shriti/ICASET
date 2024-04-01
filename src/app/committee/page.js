@@ -46,12 +46,12 @@ const page = () => {
                     })}
                 </div> */}
 
-                <ProfileGrid data={generalChair} vertical />
+                <ProfileGrid data={generalChair} hybrid />
 
                 <div style={{ display: "hidden" }} id="techProgramChairs"></div> {/* Anchor */}
 
                 <Title>Technical Program Chairs</Title>
-                <ProfileGrid data={techProgramChairs} vertical />
+                <ProfileGrid data={techProgramChairs} hybrid />
 
 
                 <div style={{ display: "hidden" }} id="ipc"></div> {/* Anchor */}
@@ -62,19 +62,19 @@ const page = () => {
                         return <BoardMember key={index} link={value.link} img={value.img} name={value.name} designation={value.designation} />
                     })}
                 </div> */}
-                <ProfileGrid data={internationPublicity} vertical />
+                <ProfileGrid data={internationPublicity} hybrid />
 
                 <div style={{ display: "hidden" }} id="npc"></div> {/* Anchor */}
                 <Title>National Publicity Chairs</Title>
-                <ProfileGrid data={nationalPublicity} vertical />
+                <ProfileGrid data={nationalPublicity} hybrid />
 
                 <div style={{ display: "hidden" }} id="publicationChairs"></div> {/* Anchor */}
                 <Title>Publication Chairs</Title>
-                <ProfileGrid data={publication} vertical />
+                <ProfileGrid data={publication} hybrid />
 
                 <div style={{ display: "hidden" }} id="digitalChairs"></div> {/* Anchor */}
                 <Title>Digital Chairs</Title>
-                <ProfileGrid data={digital} vertical />
+                <ProfileGrid data={digital} hybrid />
 
                 <div style={{ display: "hidden" }} id="financeChairs"></div> {/* Anchor */}
                 <Title className="hidden">Finance Chairs</Title>

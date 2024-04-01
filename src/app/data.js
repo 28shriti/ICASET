@@ -52,7 +52,7 @@ export const keynoteSpeakers = [
     description: "Dr. Valentina Balas, a Ph.D. in Applied Electronics and Telecommunications from the Polytechnic University of Timisoara, has published over 140 research papers in refereed journals and international conferences. Her research interests include Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements, and System Theory. She is an editor-in-chief for the International Journal of Advanced Intelligence Paradigms (IJAIP), member of Editorial Boards for national and international journals, and evaluator expert for national and international projects. Balas has also mentored student teams in Microsoft, Google, and IEEE competitions. She is a member of various organizations, including EUSFLAT, ACM, IEEE, TC – Fuzzy Systems, TC - Emergent Technologies, TC – Soft Computing, and IFAC - TC 3.2 Computational Intelligence in Control."
   },
   {
-    name: "M. SHAMIN KAISER",
+    name: "M. SHAMIM KAISER",
     image: "image4.png",
     designation: "Professor",
     department: "Institute of Information Technology",
@@ -82,7 +82,7 @@ export const chiefPatrons = [
     {
         img: "/images/patrons/sameermeghe.jpg",
         name: "Shri Sameerji  Meghe  ",
-        designation: "MLA - Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
+        designation: "MLA-Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
     },
     {
         img: "/images/patrons/ravimeghe.jpg",
@@ -283,14 +283,14 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
       },
       {
-        img: "/images/chairs/.jpg",
+        // img: "/images/chairs/.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology",
         country:"Kurukshetra",
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
-         img: "/images/defaultImage.jpg",
+        //  img: "/images/defaultImage.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University",
         country:"Katra",
@@ -564,53 +564,114 @@ export const publicationChairs = [
 
 export const internationalTechProgramCommittee = [
     {
-        image: "/images/tech-committee/international/image1.jpeg",
+        img: "/images/tech-committee/international/image1.jpeg",
         name: "Silvance Abeka",
         designation: "University of Dar es Salaam (UDSM)",
         country:"Kenya"
     },
     {
-        image: "/images/tech-committee/international/image2.png",
+        img: "/images/tech-committee/international/image2.png",
         name: "Ravindra Wasalwar",
         designation: "T-Mobile",
         country :"USA"
     },
     {
-        image: "/images/tech-committee/international/image3.jpeg",
+        img: "/images/tech-committee/international/image3.jpeg",
         name: "Atul Madawi",
-        designation: "Truteq",
+        designation: "Java Developer at Truteq",
         country:"Australia"
     },
     {
-        image: "/images/tech-committee/international/image4.jpeg",
+        img: "/images/tech-committee/international/image4.jpeg",
         name: "Mohd Asif Shah",
         designation: "Kardan University Kabul",
         country:"Afghanistan"
     },
     {
-        image: "/images/tech-committee/international/image5.png",
+        img: "/images/tech-committee/international/image5.png",
         name: "Hameed R. Farhan",
         designation: "University of Kerbala",
         country:"Iraq"
     },
     {
-        image: "/images/tech-committee/international/image6.jpeg",
+        img: "/images/tech-committee/international/image6.jpeg",
         name: "Ousmane Thiare",
         designation: "Gaston Berger University",
         country:"Senegal"
     },
+
+    {
+        name: "Simona Verde",
+        designation: "Institute for the electromagnetic sensing of the environment IREA-CNR",
+        country: "Italy",
+        link: "https://scholar.google.it/citations?user=XS3LZTAAAAAJ&hl=it"
+    },
+    {
+        name: "Sachin Jain",
+        designation: "Oklahoma State University",
+        country: "USA",
+        link: "https://scholar.google.co.in/citations?user=hMzzRJQAAAAJ&hl=en"
+    },
+    {
+        name: "Dac-Nhuong Le",
+        designation: "Haiphong University",
+        country: "Vietnam",
+        link: "https://scholar.google.com/citations?user=8aJUMoQAAAAJ&hl=en"
+    },
+    {
+        name: "Ema Rachmawati",
+        designation: "Telkom University",
+        country: "Indonesia",
+        link: "https://scholar.google.com/citations?user=Rna3FmQAAAAJ&hl=en"
+    },
+    {
+        name: "Shen-Lung Peng",
+        designation: "",
+        country: "",
+        link: ""
+    },
+    {
+        name: "Dr. Tariq Masood",
+        designation: "",
+        country: "",
+        link: ""
+    },
+    {
+        name: "Arshiya Ansari",
+        designation: "",
+        country: "",
+        link: ""
+    },
+    {
+        name: "Marcin Maria Ganza-Paprzycki",
+        designation: "",
+        country: "",
+        link: ""
+    },
+    {
+        name: "Hicham Berkouk",
+        designation: "",
+        country: "",
+        link: ""
+    },
+    {
+        name: "Messaoud Amairi",
+        designation: "",
+        country: "",
+        link: ""
+    }
 ]
 
 export const generalChair = [
     {
-        img: '/images/general/upwaghe.png',
+        img: '/images/chairs/upwaghe.png',
         name: 'Dr. U. P. Waghe',
         designation: 'YCCE',
         country: 'Nagpur',
         link: 'https://scholar.google.co.in/citations?user=EwHdjW8AAAAJ&hl=en'
     },
     {
-        img: '/images/general/ManaliKshirsagar.jpg',
+        img: '/images/chairs/ManaliKshirsagar.jpg',
         name: 'Dr. M. M. Kshirsagar',
         designation: 'YCCE',
         country: 'Nagpur',
@@ -651,76 +712,366 @@ export const technicalProgramChairs = [
 
 export const nationalTechProgramCommittee = [
     {
-        image: "/images/tech-committee/national/image1.jpeg",
+        img: "/images/tech-committee/national/image1.jpeg",
         name: "Sangita Nandurkar",
         designation: "A.C.Patil College of Engineering",
-        country:"MUMBAI"
+        country:"Mumbai"
     },
     {
-        image: "/images/tech-committee/national/image2.jpeg",
+        img: "/images/tech-committee/national/image2.jpeg",
         name: "Balu Parne",
         designation: "Sardar Vallabhbhai National Institute of Technology",
-        country:"SURAT"
+        country:"Surat"
     },
     {
-        image: "/images/tech-committee/national/image3.jpeg",
+        img: "/images/tech-committee/national/image3.jpeg",
         name: "Shailesh Kamble",
-        designation: "Indira Gandhi Delhi Technical University for Women",
-        country:  "NEW DELHI"
+        designation: "Indira Gandhi Delhi Technical University for Women, New Delhi"
     },
     {
-        image: "/images/tech-committee/national/image4.jpeg",
+        img: "/images/tech-committee/national/image4.jpeg",
         name: "Supriya Sawwashere",
-        designation: "J D College of Engineering and Management",
-        country: "NAGPUR"
+        designation: "J D College of Engineering and Management, Nagpur, Maharashtra"
     },
     {
-        image: "/images/tech-committee/national/image5.jpeg",
+        img: "/images/tech-committee/national/image5.jpeg",
         name: "Nikhil P. Wyawahare",
-        designation: "RTM Nagpur University",
-        country: "NAGPUR"
+        designation: "RTM Nagpur University, Nagpur, Maharashtra"
     },
     {
-        image: "/images/tech-committee/national/image6.jpeg",
+        img: "/images/tech-committee/national/image6.jpeg",
         name: "Praveen Kantha",
-        designation: "Chitkara University",
-        country: "SOLAN"
+        designation: "Chitkara University Himachal Pradesh"
     },
     {
-        image: "/images/tech-committee/national/image7.jpeg",
+        img: "/images/tech-committee/national/image7.jpeg",
         name: "Deepak Sinwar",
-        designation: "Manipal University",
-        country: "JAIPUR"
+        designation: "Manipal University, Jaipur"
     },
     {
-        image: "/images/tech-committee/national/image8.png",
+        img: "/images/tech-committee/national/image8.png",
         name: "Santosh Srivastava",
-        designation: "Greater Noida Institute of Technology",
-        country: "GREATER NOIDA"
+        designation: "GNIOT, Greater Noida"
     },
     {
-        image: "/images/tech-committee/national/image9.jpeg",
+        img: "/images/tech-committee/national/image9.jpeg",
         name: "Deepshikha Tiwari",
-        designation: "Thapar Institute of Engineering and Technology",
-        country: "PATIALA"
+        designation: "Thapar Institute of Engineering and Technology, Punjab"
     },
     {
-        image: "/images/tech-committee/national/image10.png",
+        img: "/images/tech-committee/national/image10.png",
         name: "Amit Garg",
-        designation: "Manipal University",
-        country: "JAIPUR"
+        designation: "Manipal University, Jaipur"
     },
     {
-        image: "/images/tech-committee/national/image11.jpeg",
+        img: "/images/tech-committee/national/image11.jpeg",
         name: "Sunil Kumar Maakar",
-        designation: "Greater Noida Institute of Technology",
-        country: "GREATER NOIDA"
+        designation: "GNIOT, Greater Noida"
     },
     {
-        image: "/images/tech-committee/national/image12.jpeg",
+        img: "/images/tech-committee/national/image12.jpeg",
         name: "Shalini Goel",
-        designation: "Tecnia Institute of Advanced Studies",
-        country: "DELHI"
+        designation: "Tecnia Institute of Advanced Studies, Delhi"
+    },
+    {
+        name: "Tushar Champaneria",
+        designation: "Government Engineering College, Modasa",
+        country: "India",
+        link: "https://scholar.google.co.in/citations?user=MzGL_rMAAAAJ&hl=en"
+    },
+    {
+        name: "Vishwanath Bijalwan",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Sandip Satapaty",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Shubhendukumar Pani",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Ram Mangrulkar",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Pallavi Chavan",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Brojo Kishore",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Raghvenra Agrawal",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Haribhau Bhapkar",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Krishnakant Adhiya",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Kadiyan, IGDTUW",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Shailesh D. Kamble, IGDTUW",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Vijaysingh Rathore",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Narendra Kumar Kamila",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "A Senthil Kumaran",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Jyotir Moy Chatterjee",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Akash Bhoi",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Samarjit Borah",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Vinod Kimbahune",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Girish Patnaik",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Vijender Solanki",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Pankaj Dadheech",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Mahesh Bundele",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Vishal Jain",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Mamta Mittal",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Amit Khaparde",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "DrSiva Ganesh Malla",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Mayur Akewar",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Phiroj Sheikh",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Rajkumar R",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Vijay Gadicha",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "DrSudipta Das",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Dr-Santar Singh",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Nallasamy Sengottaiyan",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Yashbir Singh",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "DrDinesh H A",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Dr-Kapil K Wankhade",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Shikha Maheshwari",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Navin Kashyap",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Anand Prakash Shukla",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Gitanjali Shinde",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Shafi Pathan",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Sabu M Thampi",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "DrJagannath Samanta",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Tribeni Prasad Banerjee",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Shyam Akashe",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Rajesh Prasad",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Dhanraj Dhotre",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Pushpajit Khaire",
+        designation: "",
+        country: "India",
+        link: ""
+    },
+    {
+        name: "Manoj Soni, BITS",
+        designation: "",
+        country: "India",
+        link: ""
     },
 ]
 
@@ -728,14 +1079,14 @@ export const digitalChairs = [
     {
          img: "/images/defaultImage.jpg",
         name: "Nikhil S. Mangrulkar",
-        designation: "YCCE",
+        designation: "Assistant Professor, Computer Technology, YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
          img: "/images/defaultImage.jpg",
         name: "Priyanka P. More",
-        designation: "YCCE",
+        designation: "Assistant Professor, Computer Science and Engineering, YCCE",
         country: 'NAGPUR',
         link: ""
     }

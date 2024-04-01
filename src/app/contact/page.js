@@ -1,7 +1,7 @@
 import React from 'react'
 import MainContainer from '../components/MainContainer'
-// import ComingSoon from '../components/ComingSoon'
 import ContactCard from '../components/ContactCard'
+import Title from '../components/Title'
 
 export const metadata = {
   title: 'Contact Us',
@@ -11,13 +11,19 @@ export const metadata = {
 const page = () => {
   return (
     <MainContainer>
-      <div className='h-[80vh] bg-black bg-opacity-70 backdrop-blur-sm'>
-        <h3 className='text-white text-center py-10 font-extrabold text-3xl'>Contact Us!</h3>
-        <div className='w-full flex justify-center items-center'>
-          <ContactCard img='/images/defaultImage.jpg' name='Nikhil Mangrulkar' mobile='+91 9876543210' email='nm@ycce.in' />
+      <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
+        <div className='h-[80vh] bg-opacity-70 backdrop-blur-sm flex flex-col items-center gap-10'>
+          <Title>Contact Us</Title>
+          <div className='w-full flex justify-center items-center px-10'>
+            <ContactCard img='/images/defaultImage.jpg' name='Kavita Singh' mobile='+91 8275783031' email='ksingh@ycce.in' />
+          </div>
+
+          <div className='w-full flex justify-center items-center px-10'>
+            <ContactCard img='/images/defaultImage.jpg' name='Nikhil Mangrulkar' mobile='+91 776788776' email='nikhil.mangrulkar@ycce.in' />
+          </div>
         </div>
       </div>
-    </MainContainer>
+    </MainContainer >
   )
 }
 
