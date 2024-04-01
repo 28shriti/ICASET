@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
         </div>
         <div className=" flex justify-center items-center p-5 bg-[#222831] text-white">
-                    @2024 IC-ASET - All Right Reserved 
+                    Copyright © 2024 IC-ASET - All Right Reserved 
             </div>
             
         </footer>
