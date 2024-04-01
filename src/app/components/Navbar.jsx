@@ -116,7 +116,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="sticky top-0 z-20">
+    <div className="sticky top-0 z-20 mb-10 lg:mb-0">
       <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
         <Link href="/" className="item">
           Home
@@ -143,11 +143,11 @@ const Navbar = () => {
       </div>
 
       <Sheet>
-        <div className="flex lg:hidden p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
+        <div className="flex lg:hidden bg-[#222831] w-full py-3 pr-2 :p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
           <SheetTrigger className="flex flex-col gap-[0.3vh]">
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
-            <div className="w-[6vw] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
           </SheetTrigger>
         </div>
         <SheetContent className="bg-[#222831]">

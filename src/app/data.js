@@ -72,7 +72,7 @@ export const keynoteSpeakers = [
 
 export const ourVisionary = [
     {
-        image: "/images/patrons/dattaji.jpg",
+        img: "/images/patrons/dattaji.jpg",
         name: "Hon. Shri. Dattaji Meghe",
         designation: "Chairman, Nagar Yuvak Shikshan Sanstha"
     },
@@ -80,22 +80,22 @@ export const ourVisionary = [
 
 export const chiefPatrons = [
     {
-        image: "/images/patrons/sameermeghe.jpg",
+        img: "/images/patrons/sameermeghe.jpg",
         name: "Shri Sameerji  Meghe  ",
         designation: "MLA - Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
     },
     {
-        image: "/images/patrons/ravimeghe.jpg",
+        img: "/images/patrons/ravimeghe.jpg",
         name: "Shri. Raviji Meghe",
         designation: "Secretary, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/vrindatai.jpg",
+        img: "/images/patrons/vrindatai.jpg",
         name: "Smt. Vrindatai Meghe",
         designation: "Chief Advisor, Nagar Yuvak Shikshan Sanstha "
     },
     {
-        image: "/images/patrons/HemantThakare.webp",
+        img: "/images/patrons/HemantThakare.webp",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI, India"
     },
@@ -103,12 +103,12 @@ export const chiefPatrons = [
 
 export const patrons = [
     {
-        image : "/images/patrons/upwaghe.png",
+        img : "/images/patrons/upwaghe.png",
         name : "Dr. U.P. Waghe",
         designation : "Principal, YCCE"
     },
     {
-        image : "/images/patrons/ManaliKshirsagar.jpg",
+        img : "/images/patrons/ManaliKshirsagar.jpg",
         name : "Dr. Manali M. Kshirsagar",
         designation : "Technical Advisor, MGI"
     },
