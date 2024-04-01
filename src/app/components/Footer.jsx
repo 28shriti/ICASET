@@ -37,12 +37,12 @@ export default function Footer() {
            
             <h1 style={{ fontSize: "20px", color: "cyan" ,display : "flex" ,justifyContent : "space-evenly",padding : "10px"}}>Developer Team </h1>
             <div className="flex-wrap" style={{display : "flex" ,justifyContent : "space-evenly"}}>
-                 <Link href='/'>Shriti Nandanwar</Link>
-                   <Link href='/'>Rushikesh Munne</Link> 
-                   <Link href='/'>Om Mane</Link> 
-                   <Link href='/'>Piyush Bhoyar</Link> 
+                 <Link href='https://www.linkedin.com/in/shriti-nandanwar-ba9b06257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Shriti Nandanwar</Link>
+                   <Link href='https://www.linkedin.com/in/rushikeshmunne/'>Rushikesh Munne</Link> 
+                   <Link href='https://www.linkedin.com/in/om-mane-20479a25b/'>Om Mane</Link> 
+                   <Link href='https://www.linkedin.com/in/piyush-bhoyar-b130a6256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>Piyush Bhoyar</Link> 
                    <Link href='/'>Pranav Suryavanshi</Link> 
-                   <Link href='/'>Yash Ghogre</Link> 
+                   <Link href='http://portfolio-yashghogre.vercel.app'>Yash Ghogre</Link> 
             </div>
         </div>
         <div className=" flex justify-center items-center p-5 bg-[#222831] text-white">
