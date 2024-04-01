@@ -2,6 +2,11 @@ import Image from "next/image"
 import { keynoteSpeakers } from "@/app/data"
 import MainContainer from "../components/MainContainer";
 
+export const metadata = {
+    title: 'Keynote Speakers',
+    description: 'Know about the Keynote Speakers at the Conference'
+}
+
 export default function KeynoteSpeakers() {
 
     const speakers = Array.from(keynoteSpeakers).sort((a, b) => {

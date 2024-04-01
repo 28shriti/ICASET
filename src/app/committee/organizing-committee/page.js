@@ -1,5 +1,13 @@
 import ConvenorCard from '@/app/components/ConvenorCard'
 import MainContainer from '@/app/components/MainContainer'
+import Title from '@/app/components/Title'
+import { organizingCommitte } from '@/app/data'
+import BoardVertical from "@/app/components/BoardVertical"
+
+export const metadata = {
+    title: 'Organizing Committee',
+    description: 'Know about the Conveners, Organizing Secretary and the organizing team members'
+}
 
 const OrganizingCommittee = () => {
     return (
@@ -40,10 +48,26 @@ const OrganizingCommittee = () => {
                     <div className='bg-white h-[1px] w-[30%]'></div>
                 </div>
 
-                <div className='flex w-screen justify-left md:justify-evenly gap-5 items-center my-5 flex-col sm:flex-row'>
+                {/* <div className='flex w-screen justify-left md:justify-evenly gap-5 items-center my-5 flex-col sm:flex-row'>
                     <ConvenorCard img={'/images/Nikhilsir.jpeg'} name={'Nikhil Mangrulkar'} des={'Professor'} dep={'Computer Technology'} />
                     <ConvenorCard img={'/images/priyanka_mam.jpg'} name={'Priyanka More'} des={'Professor'} dep={'Computer Science and Engineering'} />
-                </div>
+                </div> */}
+
+                {organizingCommitte.map((committee, index) => {
+                    return (
+                        <div key={index}>
+                            <Title>{committee.title}</Title>
+                            <div className="flex flex-wrap gap-5 margin-auto w-full justify-center items-center pt-5">
+                                {committee.members.map((member, memberIndex) => {
+                                    return (
+                                        <BoardVertical key={memberIndex} img={member["img"] ? member.img : "/images/defaultImage.jpg"} name={member.name} link={member.link || "#"} designation={member.designation} />
+                                    )
+                                })}
+                            </div>
+                        </div>
+                    )
+                })}
+
             </div>
         </MainContainer>
     )

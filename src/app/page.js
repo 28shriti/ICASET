@@ -63,4 +63,5 @@ const Home = () => {
     </MainContainer>
   );
 };
+
 export default Home;

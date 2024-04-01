@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer>
-        <div className="w-full bg-[#222831]  text-white md:p-2 py-5 flex flex-col md:flex-row justify-center items-center">
+        <div className="w-full bg-[#31363F]  text-white md:p-2 py-5 flex flex-col md:flex-row justify-center items-center">
             <div className=" m-auto md:mr-[60px] md:w-[400px] md:h-[200px] flex flex-col items-center">
                 <Image src={'/images/ic-aset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
                 <p className='md:text-left text-md px-3 text-center'>
@@ -44,7 +44,7 @@ export default function Footer() {
                    <Link href='/'>Yash Ghogre</Link> 
             </div>
         </div>
-        <div className=" flex justify-center items-center p-5 bg-white">
+        <div className=" flex justify-center items-center p-5 bg-[#222831] text-white">
                     @2024 IC-ASET - All Right Reserved 
             </div>
             
