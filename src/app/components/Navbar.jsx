@@ -48,8 +48,9 @@ const Navbar = () => {
         ]
       },
       { name: "Publication Chairs", href: "/committee#publicationChairs" },
-      { name: "Finance Chairs", href: "/committee#financeChairs" },
       { name: "Digital Chairs", href: "/committee#digitalChairs" },
+      { name: "Finance Chairs", href: "/committee#financeChairs" },
+
       {
         trigger: "Technical Program Committee",
         items: [
