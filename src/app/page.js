@@ -18,12 +18,12 @@ const Home = () => {
         <Notice />
         <div className="flex flex-col md:flex-row w-full justify-between p-5 md:p-10 mt-0 gap-5">
           <div className="w-full md:w-1/2 flex flex-col h-[50vh] p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white">
-            <h2 className="text-center text-2xl font-bold mb-5">
+            <h2 className="text-center text-lg font-bold mb-5">
               International Conference on Applications of Science, Engineering and
               Technology - 2024
             </h2>
             <p style={{ margin: "2px 0" }}>
-              Organized by: Computer Technology and Computer Science and
+              Collaboratively Organized by: Computer Technology and Computer Science &
               Engineering
             </p>
             <p>
