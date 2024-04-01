@@ -166,7 +166,7 @@ export const internationalAdvisoryBoard = [
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
-        img: '/images/iab/JabarHYousif.png',
+        img: '/images/defaultImage.jpg',
         name: 'Pradeep Kumar',
         designation: 'School of Engineering, Howard College Campus University of KwaZulu-Natal',
         country: 'SOUTH AFRICA',
@@ -212,73 +212,85 @@ export const nationalPublicityChair = [
     {
         img : "/images/chairs/durgeshkumar.jpg",
         name : "Durgesh Srivastava",
-        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University, Punjab",
+        designation : "Chitkara University Institute of Engineering & Technology, Chitkara University",
+        country: "PUNJAB",
         link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
     },
     {
         img : "/images/chairs/rajeshwarisridhar.jpg",
         name : "Rajeswari Sridhar",
-        designation : "National Institute of Technology Tiruchirappalli, Kerala",
+        designation : "National Institute of Technology Tiruchirappalli",
+        country: "KERALA",
         link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
         img : "/images/chairs/sayankumar.jpg",
         name : "Sayan Ranu",
-        designation : "Indian Institute of Technology, Delhi",
+        designation : "Indian Institute of Technology",
+        country: "DELHI",
         link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
     },
     {
         img : "/images/chairs/shaileshkamble.jpg",
         name : "Shailesh Kamble",
         designation : "Indira Gandhi Delhi Technical University for Women, New Delhi",
+        country: "DELHI",
         link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
     },
     {
         img : "/images/chairs/sandipmal.jpg",
         name : "Sandip Mal",
-        designation : "VIT Bhopal University, Madhya Pradesh",
+        designation : "Vellore Institute of Technology, Bhopal University",
+        country: "MADHYA PRADESH",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
         img : "/images/chairs/gunvantichellamuthu.jpg",
         name : "Gunavathi C",
-        designation : "VIT University, Vellore TamilNadu",
+        designation : "Vellore Institute of Technology University, Vellore",
+        country: "TAMIL NADU",
         link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
         img : "/images/chairs/rameshchandra.jpg",
         name : "Ramesh Chandra",
-        designation : "Wegrow India Research & Innovation LLP Dhenkanal, Odisha",
+        designation : "Wegrow India Research & Innovation LLP Dhenkanal",
+        country: "ODISHA",
         link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
     },
     {
         img : "/images/chairs/shailajapatil.jpg",
         name : "Shaileja Patil",
-        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad Maharashtra",
+        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering Pimpri-Chinchwad",
+        country: "MAHARASHTRA",
         link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
     {
         img: "/images/chairs/mihirmohanty.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University, Bhubaneswar",
+        country: "CHATTISGARH",
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
       },
       {
         img: "/images/chairs/joyeetasingha.jpg",
         name: "Joyeeta Singha",
         designation: "LNM Institute of Information Technology, Jaipur",
+        country: "RAJASTHAN",
         link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
       },
       {
         img: "/images/chairs/.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology, Kurukshetra",
+        country: 'HARYANA',
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
       },
       {
          img: "/images/defaultImage.jpg",
         name: "Amit Kant Pandit",
-        designation: "Shri Mata Vaishno Devi University, Katra, Jammu & Kashmir",
+        designation: "Shri Mata Vaishno Devi University, Katra",
+        country: "JAMMU & KASHMIR",
         link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
       }
 ]
@@ -479,7 +491,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/ChittaranjanHota.png',
         name: 'Chittaranjan Hota',
-        designation: 'BITS',
+        designation: 'Birla Institute of Technology & Science',
         country: 'HYDERABAD',
         link: 'https://scholar.google.co.in/citations?user=tFy6PS4AAAAJ&hl=en'
     },
@@ -620,19 +632,19 @@ export const technicalProgramChairs = [
         link: "https://scholar.google.co.in/citations?user=GvBndh8AAAAJ&hl=en"
       },
       {
+        img: "/images/chairs/ChakchaiSoIn.png",
+        name: "Chakchai So-In",
+        designation: "College of Computing, Khon Kaen University",
+        country: 'THAILAND',
+        link: "https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en"
+      },
+      {
         img: "/images/chairs/MuftiMahmud.png",
         name: "Mufti Mahmud",   
         designation: "Nottingham Trent University",
         country: 'UK',
         link: "https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en"
       },
-      {
-        img: "/images/chairs/ChakchaiSoIn.png",
-        name: "Chakchai So-In",
-        designation: "College of Computing, Khon Kaen University",
-        country: 'THAILAND',
-        link: "https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en"
-      }
 ]
 
 export const nationalTechProgramCommittee = [
@@ -702,14 +714,14 @@ export const digitalChairs = [
     {
          img: "/images/defaultImage.jpg",
         name: "Nikhil S. Mangrulkar",
-        designation: "Assistant Professor, Computer Technology, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
          img: "/images/defaultImage.jpg",
         name: "Priyanka P. More",
-        designation: "Assistant Professor, Computer Science and Engineering, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     }
