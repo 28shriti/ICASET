@@ -43,13 +43,13 @@ const Home = () => {
 
         <div className="w-full flex flex-wrap px-5 md:px-10 gap-3">
           <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
-            Paper Submission
+            <a href="/papersubmission">Paper Submission</a>
           </Button>
           <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
-            Registration
+            <a href="/registration">Registration</a>
           </Button>
           <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
-            Downloads
+          <a href="/downloads">Downloads</a>
           </Button>
         </div>
 
