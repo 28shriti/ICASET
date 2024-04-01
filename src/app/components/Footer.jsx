@@ -19,7 +19,7 @@ export default function Footer() {
                     <li>•<Link href="/" className="item"> Home </Link></li>
                     <li>•<Link href="/about/conference" className="item"> About</Link></li>
                     <li>•<Link href="/authors/dates" className="item"> Important Dates</Link></li>
-                    <li>•<Link href="/author/callforpaper" className="item"> Call For Paper</Link></li>
+                    <li>•<Link href="/authors/cfp" className="item"> Call For Paper</Link></li>
                 </ul>
             </div>
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
