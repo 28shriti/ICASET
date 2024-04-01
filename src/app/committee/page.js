@@ -91,7 +91,7 @@ const page = () => {
                 </div>
 
                 <div style={{ display: "hidden" }} id="financeChairs"></div> {/* Anchor */}
-                <Title>Finance Chairs</Title>
+                <Title className="hidden">Finance Chairs</Title>
 
             </div>
         </MainContainer>
