@@ -25,9 +25,10 @@ export default function Footer() {
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Get in Touch </h1>
                 <ul>
-                    <li>Phone no :<a href="tel:9322549802">+91-</a> </li>
-                    <li>Email : @ycce.edu</li>
-                    <li><Link href="https://ycce.edu/" className="item">YCCE</Link></li>
+                    <li><Link href="https://ycce.edu/" className="item">YCCE official website</Link></li>
+                    <li>Phone no : +91-8275783031 </li>
+                    <li>Email : ksingh@ycce.edu</li>
+
                 </ul>
             </div>
         </div>
