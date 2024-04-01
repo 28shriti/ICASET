@@ -1,8 +1,8 @@
 import { internationalTechProgramCommittee } from "@/app/data"
 import { nationalTechProgramCommittee } from "@/app/data"
-
-import BoardMember from "@/app/components/BoardMember"
 import MainContainer from "@/app/components/MainContainer";
+import ProfileGrid from "@/app/components/ProfileGrid";
+import Title from "@/app/components/Title";
 
 export const metadata = {
     title: 'Technical Program Committee',
@@ -22,27 +22,26 @@ const page = () => {
     return (
         <MainContainer>
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
-                <div className="w-auto flex justify-center">
-                    <h1 className="title font-black text-4xl text-center mt-10 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">International Technical Program committee</h1>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-screen p-10 gap-5">
+                <Title>Technical Program Committee</Title>
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-screen p-10 gap-5">
                     {itpc.map((value, key) => {
                         return <BoardMember key={key} name={value.name} designation={value.designation} img={value.image} />
                     })}
 
-                </div>
+                </div> */}
+                <Title>International</Title>
+                <ProfileGrid data={itpc} hybrid />
 
                 <div style={{ display: "none" }} id="ntpc"></div> {/* Anchor */}
 
-                <div className="w-auto flex justify-center">
-                    <h1 className="title font-black text-4xl text-center mt-10 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">National Technical Program committee</h1>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-screen p-10 gap-5">
+                <Title>National</Title>
+                {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-screen p-10 gap-5">
                     {ntpc.map((value, key) => {
                         return <BoardMember key={key} name={value.name} designation={value.designation} img={value.image} />
                     })}
 
-                </div>
+                </div> */}
+                <ProfileGrid data={ntpc} hybrid />
             </div>
         </MainContainer>
     )

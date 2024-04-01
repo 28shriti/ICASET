@@ -19,15 +19,16 @@ export default function Footer() {
                     <li>•<Link href="/" className="item"> Home </Link></li>
                     <li>•<Link href="/about/conference" className="item"> About</Link></li>
                     <li>•<Link href="/authors/dates" className="item"> Important Dates</Link></li>
-                    <li>•<Link href="/author/callforpaper" className="item"> Call For Paper</Link></li>
+                    <li>•<Link href="/authors/cfp" className="item"> Call For Paper</Link></li>
                 </ul>
             </div>
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Get in Touch </h1>
                 <ul>
-                    <li>Phone no :<a href="tel:9322549802">+91-</a> </li>
-                    <li>Email : @ycce.edu</li>
-                    <li><Link href="https://ycce.edu/" className="item">YCCE</Link></li>
+                    <li><Link href="https://ycce.edu/" className="item">YCCE official website</Link></li>
+                    <li>Phone no : +91-8275783031 </li>
+                    <li>Email : ksingh@ycce.edu</li>
+
                 </ul>
             </div>
         </div>
@@ -36,16 +37,16 @@ export default function Footer() {
            
             <h1 style={{ fontSize: "20px", color: "cyan" ,display : "flex" ,justifyContent : "space-evenly",padding : "10px"}}>Developer Team </h1>
             <div className="flex-wrap" style={{display : "flex" ,justifyContent : "space-evenly"}}>
-                 <Link href='/'>Shriti Nandanwar</Link>
-                   <Link href='/'>Rushikesh Munne</Link> 
-                   <Link href='/'>Om Mane</Link> 
-                   <Link href='/'>Piyush Bhoyar</Link> 
+                 <Link href='https://www.linkedin.com/in/shriti-nandanwar-ba9b06257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Shriti Nandanwar</Link>
+                   <Link href='https://www.linkedin.com/in/rushikeshmunne/'>Rushikesh Munne</Link> 
+                   <Link href='https://www.linkedin.com/in/om-mane-20479a25b/'>Om Mane</Link> 
+                   <Link href='https://www.linkedin.com/in/piyush-bhoyar-b130a6256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'>Piyush Bhoyar</Link> 
                    <Link href='/'>Pranav Suryavanshi</Link> 
-                   <Link href='/'>Yash Ghogre</Link> 
+                   <Link href='http://portfolio-yashghogre.vercel.app'>Yash Ghogre</Link> 
             </div>
         </div>
         <div className=" flex justify-center items-center p-5 bg-[#222831] text-white">
-                    @2024 IC-ASET - All Right Reserved 
+                    Copyright © 2024 IC-ASET - All Rights Reserved 
             </div>
             
         </footer>
