@@ -36,7 +36,7 @@ export default function ProfileGrid({
               {designation}
             </h4>
             <h4 className="font-medium text-opacity-[0.6] text-white">
-              {country.toUpperCase()}
+              {country}
             </h4>
           </div>
         </div>
