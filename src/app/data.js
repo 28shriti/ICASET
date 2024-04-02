@@ -439,7 +439,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/defaultImage.jpg',
         name: 'Santosh Kumar',
-        designation: 'Institute of Information Technology',
+        designation: 'Institute Of Information Technology',
         country: 'Naya Raipur',
         link: 'https://scholar.google.com/citations?user=pxdk-dkAAAAJ&hl=en'
     },
