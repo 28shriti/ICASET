@@ -272,7 +272,7 @@ export const nationalPublicityChair = [
         img: "/images/chairs/mihirmohanty.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University",
-        country: "BHUMBANESHWAR",
+        country: "BHUBANESHWAR",
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
     },
     {
