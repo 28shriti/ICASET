@@ -103,7 +103,7 @@ const Navbar = () => {
     return (
       <Link
         href={href}
-        className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}
+        className={"item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}"}
       >
         <p className="w-full">{trigger}</p>
       </Link>

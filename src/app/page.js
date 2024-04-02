@@ -4,9 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import data from "./data";
 import Notice from "./components/Notice";
-import CustomCarousel from "./components/CustomCarousel";
+// import CustomCarousel from "./components/CustomCarousel";
+import dynamic from "next/dynamic"
 import Sponsors from "./components/Sponsors";
 import MainContainer from "./components/MainContainer";
+
+const CustomCarousel = dynamic(() => import("./components/CustomCarousel"));
+
 
 const Home = () => {
   return (

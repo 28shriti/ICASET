@@ -169,7 +169,7 @@ export const internationalAdvisoryBoard = [
         link: 'https://scholar.google.com/citations?hl=en&user=5Rk8FeQAAAAJ'
     },
     {
-        img: '/images/iab/JabarHYousif.png',
+        img: '/images/defaultImage.jpg',
         name: 'Pradeep Kumar',
         designation: 'Howard College Campus University of KwaZulu-Natal',
         country: 'SOUTH AFRICA',
@@ -243,14 +243,14 @@ export const nationalPublicityChair = [
     {
         img : "/images/chairs/sandipmal.jpg",
         name : "Sandip Mal",
-        designation : "VIT Bhopal University",
+        designation : "Vellore Institute of Technology, Bhopal University",
         country: "Sehore",
         link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
         img : "/images/chairs/gunvantichellamuthu.jpg",
         name : "Gunavathi C",
-        designation : "VIT University",
+        designation : "Vellore Institute of Technology",
         country: "Vellore",
         link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
@@ -475,7 +475,7 @@ export const nationalAdvisoryBoard = [
     {
         img: '/images/nab/ChittaranjanHota.png',
         name: 'Chittaranjan Hota',
-        designation: 'BITS',
+        designation: 'Birla Institute of Technology and Science',
         country: 'HYDERABAD',
         link: 'https://scholar.google.co.in/citations?user=tFy6PS4AAAAJ&hl=en'
     },

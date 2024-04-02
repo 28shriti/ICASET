@@ -14,6 +14,7 @@ export default function ProfileGrid({
     designation,
     country,
   }) {
+    
     return (
       <Link href={link} target={link != "#" ? "_blank" : "_self"}>
         <div
