@@ -99,11 +99,12 @@ const Navbar = () => {
     href: "/contact",
   };
 
-  function AccordionLink({ href, trigger, className }) {
+  function AccordionLink({ href, trigger, className, newTab }) {
     return (
       <Link
         href={href}
-        className={"item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}"}
+        className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline text-white ${className}`}
+        target={newTab ? "_blank" : "_self"}
       >
         <p className="w-full">{trigger}</p>
       </Link>
@@ -125,7 +126,7 @@ const Navbar = () => {
         </AccordionContent>
       </AccordionItem>
     ) : (
-      <AccordionLink href={dropdown.href} trigger={dropdown.name} />
+      <AccordionLink href={dropdown.href} trigger={dropdown.name} newTab={dropdown.newTab} />
     );
   }
 
@@ -174,33 +175,30 @@ const Navbar = () => {
           </SheetHeader>
 
           <Accordion type="single" collapsible className="my-10">
-            <AccordionLink href="/" trigger="Home" className="text-white" />
-            <CustomAccordionItem dropdown={about} className="text-white" />
-            <CustomAccordionItem dropdown={board} className="text-white" />
-            <CustomAccordionItem dropdown={committee} className="text-white" />
+            <AccordionLink href="/" trigger="Home" />
+            <CustomAccordionItem dropdown={about} />
+            <CustomAccordionItem dropdown={board} />
+            <CustomAccordionItem dropdown={committee} />
             <AccordionLink
               href="/speakers"
               trigger="Keynote Speakers"
               className="text-white"
             />
 
-            <CustomAccordionItem dropdown={forAuthors} className="text-white" />
+            <CustomAccordionItem dropdown={forAuthors} />
             <AccordionLink
               href="/registration"
               trigger="Registration"
-              className="text-white"
             />
 
             <AccordionLink
               href="/schedule"
               trigger="Programme Schedule"
-              className="text-white"
             />
 
             <AccordionLink
               href="/contact"
               trigger="Contact Us"
-              className="text-white"
             />
           </Accordion>
         </SheetContent>
