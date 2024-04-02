@@ -27,48 +27,48 @@ export const dates = [
 ]
 
 export const keynoteSpeakers = [
-  {
-    name: "NILANJAN DEY",
-    image: "image1.png",
-    designation: "Associate Professor",
-    department: "Department of Computer Science and Engineering",
-    institute: "Techno International New Town, Kolkata, INDIA",
-    description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
-  },
-  {
-    name: "MUFTI MAHMUD",
-    image: "image2.png",
-    designation: "Associate Professor (Cognitive Computing)",
-    department: "Department of Computer Science",
-    institute: "Nottingham Trent University (NTU), UK",
-    description: "Dr Mahmud, appointed to the University Shadow Executive Team in 2022, provides expert input on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). He shadows the Pro Vice-Chancellor in research and innovation matters, focusing on the development of the research environment at NTU and its strategic research themes. Dr Mahmud is the Coordinator of the Computer Science and Informatics Unit of Assessment of Research Excellence Framework, research group leader of the Cognitive Computing & Brain Informatics research group, and deputy group leader of the Interactive Systems Research Group. He is an active member of the Computing and Informatics Research Centre and the Medical Technologies Innovation Facility. Dr Mahmud is a Fellow of the Higher Education Academy, Senior Member of the Institute of Electrical and Electronics Engineers, Association of Computing Machinery, and professional member of the British Computer Society."
-  },
-  {
-    name: "VALENTINA EMILA BALAS",
-    image: "image3.png",
-    designation: "Associate Professor",
-    department: "Department of Automatics and Applied Software",
-    institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
-    description: "Dr. Valentina Balas, a Ph.D. in Applied Electronics and Telecommunications from the Polytechnic University of Timisoara, has published over 140 research papers in refereed journals and international conferences. Her research interests include Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements, and System Theory. She is an editor-in-chief for the International Journal of Advanced Intelligence Paradigms (IJAIP), member of Editorial Boards for national and international journals, and evaluator expert for national and international projects. Balas has also mentored student teams in Microsoft, Google, and IEEE competitions. She is a member of various organizations, including EUSFLAT, ACM, IEEE, TC – Fuzzy Systems, TC - Emergent Technologies, TC – Soft Computing, and IFAC - TC 3.2 Computational Intelligence in Control."
-  },
-  {
-    name: "M. SHAMIM KAISER",
-    image: "image4.png",
-    designation: "Professor",
-    department: "Institute of Information Technology",
-    institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
-    description: "Dr. Kaiser holds a Bachelor's and Master's degree in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh, and a Ph.D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand. He worked as a postdoc fellow at Anglia Ruskin University's Big data and Cyber Security Lab and as a Special Research Student at Tohoku University's Wireless Signal Processing and Networking Lab. His research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. Dr. Kaiser has authored over 150 papers in various peer-reviewed journals and conferences. He is a member of several societies, including the Bangladesh Electronic Society, Bangladesh Physical Society, and NOAMI, and is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
-  },
-  {
-    name: "MUKESH PUND",
-    image: "image5.png",
-    designation: "Chief Scientist",
-    department: "CSIR-National Institute of Science Communication and Policy Research",
-    institute: "New Delhi, INDIA",
-    description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
-  }
+    {
+        name: "NILANJAN DEY",
+        image: "image1.png",
+        designation: "Associate Professor",
+        department: "Department of Computer Science and Engineering",
+        institute: "Techno International New Town, Kolkata, INDIA",
+        description: "He is a visiting fellow of the University of Reading, UK. He also holds a position of Adjunct Professor at Ton Duc Thang University, Ho Chi Minh City, Vietnam. Previously, he held an honorary position of Visiting Scientist at Global Biomedical Technologies Inc., CA, USA (2012–2015). He was awarded his PhD from Jadavpur University in 2015. He is the Editor-in-Chief of the International Journal of Ambient Computing and Intelligence (IGI Global). He is the Series Co-Editor of Springer Tracts in Nature-Inspired Computing (SpringerNature), Data-Intensive Research (SpringerNature), Advances in Ubiquitous Sensing Applications for Healthcare (Elsevier). He is having 110 books (authored and edited) and over 300 publications in the area of medical imaging, machine learning, computer aided diagnosis, data mining, etc. (over 20,000 Citations, 70 h-index). Furthermore, he is the Fellow of IETE and Senior member of IEEE."
+    },
+    {
+        name: "MUFTI MAHMUD",
+        image: "image2.png",
+        designation: "Associate Professor (Cognitive Computing)",
+        department: "Department of Computer Science",
+        institute: "Nottingham Trent University (NTU), UK",
+        description: "Dr Mahmud, appointed to the University Shadow Executive Team in 2022, provides expert input on strategic policy and direction matters related to Equality, Diversity & Inclusion (EDI). He shadows the Pro Vice-Chancellor in research and innovation matters, focusing on the development of the research environment at NTU and its strategic research themes. Dr Mahmud is the Coordinator of the Computer Science and Informatics Unit of Assessment of Research Excellence Framework, research group leader of the Cognitive Computing & Brain Informatics research group, and deputy group leader of the Interactive Systems Research Group. He is an active member of the Computing and Informatics Research Centre and the Medical Technologies Innovation Facility. Dr Mahmud is a Fellow of the Higher Education Academy, Senior Member of the Institute of Electrical and Electronics Engineers, Association of Computing Machinery, and professional member of the British Computer Society."
+    },
+    {
+        name: "VALENTINA EMILA BALAS",
+        image: "image3.png",
+        designation: "Associate Professor",
+        department: "Department of Automatics and Applied Software",
+        institute: "Faculty of Engineering, University “Aurel Vlaicu” Arad, ROMANIA",
+        description: "Dr. Valentina Balas, a Ph.D. in Applied Electronics and Telecommunications from the Polytechnic University of Timisoara, has published over 140 research papers in refereed journals and international conferences. Her research interests include Intelligent Systems, Fuzzy Control, Soft Computing, Smart Sensors, Information Fusion, Modeling and Simulation, Electronics, Measurements, and System Theory. She is an editor-in-chief for the International Journal of Advanced Intelligence Paradigms (IJAIP), member of Editorial Boards for national and international journals, and evaluator expert for national and international projects. Balas has also mentored student teams in Microsoft, Google, and IEEE competitions. She is a member of various organizations, including EUSFLAT, ACM, IEEE, TC – Fuzzy Systems, TC - Emergent Technologies, TC – Soft Computing, and IFAC - TC 3.2 Computational Intelligence in Control."
+    },
+    {
+        name: "M. SHAMIM KAISER",
+        image: "image4.png",
+        designation: "Professor",
+        department: "Institute of Information Technology",
+        institute: "Jahangirnagar University, Savar, Dhaka-1342, BANGLADESH",
+        description: "Dr. Kaiser holds a Bachelor's and Master's degree in Applied Physics Electronics and Communication Engineering from the University of Dhaka, Bangladesh, and a Ph.D. degree in Telecommunication Engineering from the Asian Institute of Technology (AIT) Pathumthani, Thailand. He worked as a postdoc fellow at Anglia Ruskin University's Big data and Cyber Security Lab and as a Special Research Student at Tohoku University's Wireless Signal Processing and Networking Lab. His research interests include Data Analytics, Machine Learning, Wireless Network & Signal processing, Cognitive Radio networks, Big IoT data, Healthcare, Neuroinformatics, and Cyber Security. Dr. Kaiser has authored over 150 papers in various peer-reviewed journals and conferences. He is a member of several societies, including the Bangladesh Electronic Society, Bangladesh Physical Society, and NOAMI, and is the founding Chapter Chair of the IEEE Bangladesh Section Computer Society Chapter."
+    },
+    {
+        name: "MUKESH PUND",
+        image: "image5.png",
+        designation: "Chief Scientist",
+        department: "CSIR-National Institute of Science Communication and Policy Research",
+        institute: "New Delhi, INDIA",
+        description: "Head, Digital Information Resources & Information Technology Division; Coordinator/Project Leader, National Knowledge Resource Consortium (NKRC); Principal Investigator, Pravasi Bharatiya Academic and Scientific Sampark (PRABHASS) Digital Platform; Served as Head, Information and Resources Management Division; Served as Nodal Officer, CSIR Integrated Skill Initiative Project etc. Worked as Senior Principal Scientist and Principal Scientist at CSIR-National Institute of Science Communication and Information Resources and National Focal Point Coordinator, India, SAARC Documentation Centre, New Delhi",
+    }
 ]
-  
+
 
 export const ourVisionary = [
     {
@@ -98,22 +98,22 @@ export const chiefPatrons = [
         img: "/images/patrons/HemantThakare.webp",
         name: "Dr. Hemant Thakare",
         designation: "COO,Ceinsys Tech. Ltd. President, IEI",
-        country : "India"
+        country: "India"
     },
 ]
 
 export const patrons = [
     {
-        img : "/images/patrons/upwaghe.png",
-        name : "Dr. U.P. Waghe",
-        designation : "Principal, YCCE",
-        country : "Nagpur"
+        img: "/images/patrons/upwaghe.png",
+        name: "Dr. U.P. Waghe",
+        designation: "Principal, YCCE",
+        country: "NAGPUR"
     },
     {
-        img : "/images/patrons/ManaliKshirsagar.jpg",
-        name : "Dr. Manali M. Kshirsagar",
-        designation : "Technical Advisor, MGI",
-        country : "Nagpur"
+        img: "/images/patrons/ManaliKshirsagar.jpg",
+        name: "Dr. Manali M. Kshirsagar",
+        designation: "Technical Advisor, MGI",
+        country: "NAGPUR"
     },
 ]
 
@@ -213,89 +213,89 @@ export const internationalAdvisoryBoard = [
 ]
 export const nationalPublicityChair = [
     {
-        img : "/images/chairs/durgeshkumar.jpg",
-        name : "Durgesh Srivastava",
-        designation : "Chitkara University",
-        country : "Patiala",
-        link : "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
+        img: "/images/chairs/durgeshkumar.jpg",
+        name: "Durgesh Srivastava",
+        designation: "Chitkara University",
+        country: "PATIALA",
+        link: "https://scholar.google.co.in/citations?hl=en&user=2j7mye8AAAAJ"
     },
     {
-        img : "/images/chairs/rajeshwarisridhar.jpg",
-        name : "Rajeswari Sridhar",
-        designation : "National Institute of Technology Tiruchirappalli",
-        country : "Tiruchirappalli",
-        link : "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
+        img: "/images/chairs/rajeshwarisridhar.jpg",
+        name: "Rajeswari Sridhar",
+        designation: "National Institute of Technology Tiruchirappalli",
+        country: "TIRUCHIRAPALLI",
+        link: "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
     {
-        img : "/images/chairs/sayankumar.jpg",
-        name : "Sayan Ranu",
-        designation : "Indian Institute of Technology",
-        country : "Delhi",
-        link : "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
+        img: "/images/chairs/sayankumar.jpg",
+        name: "Sayan Ranu",
+        designation: "Indian Institute of Technology",
+        country: "DELHI",
+        link: "https://scholar.google.co.in/citations?hl=en&user=K4w5qYUAAAAJ"
     },
     {
-        img : "/images/chairs/shaileshkamble.jpg",
-        name : "Shailesh Kamble",
-        designation : "Indira Gandhi Delhi Technical University for Women",
-        country : "New Delhi",
-        link : "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
+        img: "/images/chairs/shaileshkamble.jpg",
+        name: "Shailesh Kamble",
+        designation: "Indira Gandhi Delhi Technical University for Women",
+        country: "NEW DELHI",
+        link: "https://scholar.google.co.in/citations?hl=en&user=C0KFG4oAAAAJ"
     },
     {
-        img : "/images/chairs/sandipmal.jpg",
-        name : "Sandip Mal",
-        designation : "Vellore Institute of Technology, Bhopal University",
-        country: "Sehore",
-        link : "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
+        img: "/images/chairs/sandipmal.jpg",
+        name: "Sandip Mal",
+        designation: "Vellore Institute of Technology, Bhopal University",
+        country: "SEHORE",
+        link: "https://scholar.google.co.in/citations?hl=en&user=vU77q-4AAAAJ"
     },
     {
-        img : "/images/chairs/gunvantichellamuthu.jpg",
-        name : "Gunavathi C",
-        designation : "Vellore Institute of Technology",
-        country: "Vellore",
-        link : "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
+        img: "/images/chairs/gunvantichellamuthu.jpg",
+        name: "Gunavathi C",
+        designation: "Vellore Institute of Technology",
+        country: "VELLORE",
+        link: "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img : "/images/chairs/rameshchandra.jpg",
-        name : "Ramesh Chandra",
-        designation : "Wegrow India Research & Innovation LLP Dhenkanal",
-        country:"Dhenkanal",
-        link : "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
+        img: "/images/chairs/rameshchandra.jpg",
+        name: "Ramesh Chandra",
+        designation: "Wegrow India Research & Innovation LLP Dhenkanal",
+        country: "DHENKANAL",
+        link: "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
     },
     {
-        img : "/images/chairs/shailajapatil.jpg",
-        name : "Shaileja Patil",
-        designation : "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering",
-        country: "Pimpri-Chinchwad",
-        link : "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
+        img: "/images/chairs/shailajapatil.jpg",
+        name: "Shaileja Patil",
+        designation: "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering",
+        country: "PIMPRI-CHINCHWAD",
+        link: "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
     {
         img: "/images/chairs/mihirmohanty.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University",
-        country:" Bhubaneswar",
+        country: "BHUBANESHWAR",
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
-      },
-      {
+    },
+    {
         img: "/images/chairs/joyeetasingha.jpg",
         name: "Joyeeta Singha",
         designation: "LNM Institute of Information Technology ",
-        country:"Jaipur",
+        country: "JAIPUR",
         link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
-      },
-      {
+    },
+    {
         // img: "/images/chairs/.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology",
-        country:"Kurukshetra",
+        country: "KURUKSHETRA",
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
-      },
-      {
+    },
+    {
         //  img: "/images/defaultImage.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University",
-        country:"Katra",
+        country: "KATRA",
         link: "https://scholar.google.com/citations?user=-zBnSesAAAAJ&hl=en"
-      }
+    }
 ]
 
 export const internationalPublicityChair = [
@@ -314,26 +314,26 @@ export const internationalPublicityChair = [
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     },
     {
-         img: "/images/defaultImage.jpg",
+        img: "/images/defaultImage.jpg",
         name: "Roshan G Ragel",
         designation: "University of Peradeniya",
         country: 'SRILANKA',
         link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
-      },
-      {
-         img: "/images/defaultImage.jpg",
+    },
+    {
+        img: "/images/defaultImage.jpg",
         name: "Gül Erkol Bayram",
         designation: "Sinop University",
         country: 'TURKEY',
         link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
-      },
-      {
-         img: "/images/defaultImage.jpg",
+    },
+    {
+        img: "/images/defaultImage.jpg",
         name: "Mohammad Sajid Mohammadi",
         designation: "Onaizah Colleges",
         country: 'SAUDI ARABIA',
         link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
-      },
+    },
 
 ]
 
@@ -440,10 +440,10 @@ export const nationalAdvisoryBoard = [
         img: '/images/defaultImage.jpg',
         name: 'Santosh Kumar',
         designation: 'Institute of Information Technology',
-        country: 'Naya Raipur',
+        country: 'NAYA RAIPUR',
         link: 'https://scholar.google.com/citations?user=pxdk-dkAAAAJ&hl=en'
     },
-    
+
     {
         img: '/images/nab/SarojKumarBiswas.png',
         name: 'Saroj Kumar Biswas',
@@ -527,39 +527,45 @@ export const publicationChairs = [
     {
         img: "/images/chairs/thakurSirImg.png",
         name: "Nileshsingh V. Thakur",
-        designation: "YCCE, INDIA",
+        designation: "YCCE",
+        country: "INDIA",
         link: "https://www.researchgate.net/profile/Nileshsingh-Thakur"
-      },
-      {
+    },
+    {
         img: "/images/chairs/kavitaMamImg.jpg",
         name: "Kavita R. Singh",
-        designation: "YCCE, INDIA",
+        designation: "YCCE",
+        country: "INDIA",
         link: ""
-      },
-      {
+    },
+    {
         img: "/images/defaultImage.jpg",
         name: "Prarthana A. Deshkar",
-        designation: "YCCE, INDIA",
+        designation: "YCCE",
+        country: "INDIA",
         link: ""
-      },
-      {
+    },
+    {
         img: "/images/defaultImage.jpg",
         name: "Roshani S. Khedgaonkar",
-        designation: "YCCE, INDIA",
+        designation: "YCCE",
+        country : "INDIA",
         link: ""
-      },
-      {
+    },
+    {
         img: "/images/defaultImage.jpg",
-       name: "Pratibha P. Waghale",
-       designation: "YCCE, INDIA",
-       link: ""
-     },
-     {
+        name: "Pratibha P. Waghale",
+        designation: "YCCE",
+        country : "INDIA",
+        link: ""
+    },
+    {
         img: "/images/defaultImage.jpg",
-       name: "Nikita P. Giradkar",
-       designation: "YCCE, INDIA",
-       link: ""
-     }
+        name: "Nikita P. Giradkar",
+        designation: "YCCE",
+        country : "INDIA",
+        link: ""
+    }
 ]
 
 export const internationalTechProgramCommittee = [
@@ -567,43 +573,43 @@ export const internationalTechProgramCommittee = [
         img: "/images/tech-committee/international/image1.jpeg",
         name: "Silvance Abeka",
         designation: "University of Dar es Salaam (UDSM)",
-        country:"Kenya"
+        country: "KENYA"
     },
     {
         img: "/images/tech-committee/international/image2.png",
         name: "Ravindra Wasalwar",
         designation: "T-Mobile",
-        country :"USA"
+        country: "USA"
     },
     {
         img: "/images/tech-committee/international/image3.jpeg",
         name: "Atul Madawi",
         designation: "Java Developer at Truteq",
-        country:"Australia"
+        country: "AUSTRALIA"
     },
     {
         img: "/images/tech-committee/international/image4.jpeg",
         name: "Mohd Asif Shah",
         designation: "Kardan University Kabul",
-        country:"Afghanistan"
+        country: "AFGHANISTAN"
     },
     {
         img: "/images/tech-committee/international/image5.png",
         name: "Hameed R. Farhan",
         designation: "University of Kerbala",
-        country:"Iraq"
+        country: "IRAQ"
     },
     {
         img: "/images/tech-committee/international/image6.jpeg",
         name: "Ousmane Thiare",
         designation: "Gaston Berger University",
-        country:"Senegal"
+        country: "SENEGAL"
     },
 
     {
         name: "Simona Verde",
         designation: "Institute for the electromagnetic sensing of the environment IREA-CNR",
-        country: "Italy",
+        country: "ITALY",
         link: "https://scholar.google.it/citations?user=XS3LZTAAAAAJ&hl=it"
     },
     {
@@ -615,13 +621,13 @@ export const internationalTechProgramCommittee = [
     {
         name: "Dac-Nhuong Le",
         designation: "Haiphong University",
-        country: "Vietnam",
+        country: "VIETNAM",
         link: "https://scholar.google.com/citations?user=8aJUMoQAAAAJ&hl=en"
     },
     {
         name: "Ema Rachmawati",
         designation: "Telkom University",
-        country: "Indonesia",
+        country: "INDONESIA",
         link: "https://scholar.google.com/citations?user=Rna3FmQAAAAJ&hl=en"
     },
     {
@@ -667,14 +673,14 @@ export const generalChair = [
         img: '/images/chairs/upwaghe.png',
         name: 'Dr. U. P. Waghe',
         designation: 'YCCE',
-        country: 'Nagpur',
+        country: 'NAGPUR',
         link: 'https://scholar.google.co.in/citations?user=EwHdjW8AAAAJ&hl=en'
     },
     {
         img: '/images/chairs/ManaliKshirsagar.jpg',
         name: 'Dr. M. M. Kshirsagar',
         designation: 'YCCE',
-        country: 'Nagpur',
+        country: 'NAGPUR',
         link: 'https://scholar.google.com.sg/citations?user=yKroYN0AAAAJ&hl=en'
     }
 ]
@@ -686,28 +692,28 @@ export const technicalProgramChairs = [
         designation: "YCCE",
         country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=xZbSxmsAAAAJ&hl=en"
-      },
-      {
+    },
+    {
         img: "/images/chairs/kavitaMamImg.jpg",
         name: "Kavita R. Singh",
         designation: "YCCE",
         country: 'INDIA',
         link: "https://scholar.google.co.in/citations?user=GvBndh8AAAAJ&hl=en"
-      },
-      {
+    },
+    {
         img: "/images/chairs/MuftiMahmud.png",
-        name: "Mufti Mahmud",   
+        name: "Mufti Mahmud",
         designation: "Nottingham Trent University",
         country: 'UK',
         link: "https://scholar.google.co.in/citations?user=L8em2YoAAAAJ&hl=en"
-      },
-      {
+    },
+    {
         img: "/images/chairs/ChakchaiSoIn.png",
         name: "Chakchai So-In",
         designation: "College of Computing, Khon Kaen University",
         country: 'THAILAND',
         link: "https://scholar.google.com/citations?user=0jtFgaAAAAAJ&hl=en"
-      }
+    }
 ]
 
 export const nationalTechProgramCommittee = [
@@ -715,13 +721,13 @@ export const nationalTechProgramCommittee = [
         img: "/images/tech-committee/national/image1.jpeg",
         name: "Sangita Nandurkar",
         designation: "A.C.Patil College of Engineering",
-        country:"Mumbai"
+        country: "MUMBAI"
     },
     {
         img: "/images/tech-committee/national/image2.jpeg",
         name: "Balu Parne",
         designation: "Sardar Vallabhbhai National Institute of Technology",
-        country:"Surat"
+        country: "SURAT"
     },
     {
         img: "/images/tech-committee/national/image3.jpeg",
@@ -776,516 +782,516 @@ export const nationalTechProgramCommittee = [
     {
         name: "Tushar Champaneria",
         designation: "Government Engineering College, Modasa",
-        country: "India",
+        country: "INDIA",
         link: "https://scholar.google.co.in/citations?user=MzGL_rMAAAAJ&hl=en"
     },
     {
         name: "Vishwanath Bijalwan",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Sandip Satapaty",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Shubhendukumar Pani",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Ram Mangrulkar",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Pallavi Chavan",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Brojo Kishore",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Raghvenra Agrawal",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Haribhau Bhapkar",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Krishnakant Adhiya",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Kadiyan, IGDTUW",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Shailesh D. Kamble, IGDTUW",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Vijaysingh Rathore",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Narendra Kumar Kamila",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "A Senthil Kumaran",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Jyotir Moy Chatterjee",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Akash Bhoi",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Samarjit Borah",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Vinod Kimbahune",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Girish Patnaik",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Vijender Solanki",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Pankaj Dadheech",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Mahesh Bundele",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Vishal Jain",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Mamta Mittal",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Amit Khaparde",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "DrSiva Ganesh Malla",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Mayur Akewar",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Phiroj Sheikh",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Rajkumar R",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Vijay Gadicha",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "DrSudipta Das",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Dr-Santar Singh",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Nallasamy Sengottaiyan",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Yashbir Singh",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "DrDinesh H A",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Dr-Kapil K Wankhade",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Shikha Maheshwari",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Navin Kashyap",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Anand Prakash Shukla",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Gitanjali Shinde",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Shafi Pathan",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Sabu M Thampi",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "DrJagannath Samanta",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Tribeni Prasad Banerjee",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Shyam Akashe",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Rajesh Prasad",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Dhanraj Dhotre",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Pushpajit Khaire",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
     {
         name: "Manoj Soni, BITS",
         designation: "",
-        country: "India",
+        country: "INDIA",
         link: ""
     },
 ]
 
 export const digitalChairs = [
     {
-         img: "/images/defaultImage.jpg",
+        img: "/images/defaultImage.jpg",
         name: "Nikhil S. Mangrulkar",
-        designation: "Assistant Professor, Computer Technology, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
-         img: "/images/defaultImage.jpg",
+        img: "/images/defaultImage.jpg",
         name: "Priyanka P. More",
-        designation: "Assistant Professor, Computer Science and Engineering, YCCE",
+        designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     }
 ]
 
 export const organizingCommitte = [
-  {
-    title: "Registration and Budgeting",
-    members: [
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Praful V. Barekar",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Registration and Budgeting"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Prachi A. Bainwalwar",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Registration and Budgeting"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Rupa A. Fadnavis",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Registration and Budgeting"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Amita P. Meshram",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Registration and Budgeting"
-      }
-    ]
-  },
-  {
-    title: "Technical Session Arrangement and Support",
-    members: [
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Ganesh Yenurkar",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Praful V. Barekar",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Nilesh U. Sambhe",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Fazil A. Sheikh",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Jiwan N. Dehankar",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Amruta T. Paul",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Technical Session Arrangement and Support"
-      }
-    ]
-  },
-  {
-    title: "Transport and Accommodation",
-    members: [
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Sanjay P. Pande",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Transport and Accommodation"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "MILIND C. TOTE",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Transport and Accommodation"
-      }
-    ]
-  },
-  {
-    title: "Hall and Venue Management",
-    members: [
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Smita R. Kapse",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Hall and Venue Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Supriya S. Thombre",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Hall and Venue Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Shweta A. Gode",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Hall and Venue Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Bharati A. Karare",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Hall and Venue Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Renuka D. Kadu",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Hall and Venue Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Chanchla A. Tripathi",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Hall and Venue Management"
-      }
-    ]
-  },
-  {
-    title: "Catering Management",
-    members: [
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Roshan S. Bhanuse",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Catering Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Shweta N. Jain",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Catering Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Sharyau R. Kawale",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Catering Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Shraddha G. Vaidya",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Catering Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Priyanka Pitale",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Catering Management"
-      },
-      {
-         img: "/images/defaultImage.jpg",
-        name: "Vibhakti N. Bagade",
-        designation: "Assistant Professor, Computer Science and Engineering",
-        link: "",
-        department: "Catering Management"
-      }
-    ]
-  }
+    {
+        title: "Registration and Budgeting",
+        members: [
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Praful V. Barekar",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Prachi A. Bainwalwar",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Rupa A. Fadnavis",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Amita P. Meshram",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            }
+        ]
+    },
+    {
+        title: "Technical Session Arrangement and Support",
+        members: [
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Ganesh Yenurkar",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Praful V. Barekar",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Nilesh U. Sambhe",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Fazil A. Sheikh",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Jiwan N. Dehankar",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Amruta T. Paul",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            }
+        ]
+    },
+    {
+        title: "Transport and Accommodation",
+        members: [
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Sanjay P. Pande",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Transport and Accommodation"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Milind C. Tote",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Transport and Accommodation"
+            }
+        ]
+    },
+    {
+        title: "Hall and Venue Management",
+        members: [
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Smita R. Kapse",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Supriya S. Thombre",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Shweta A. Gode",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Bharati A. Karare",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Renuka D. Kadu",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Chanchla A. Tripathi",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Hall and Venue Management"
+            }
+        ]
+    },
+    {
+        title: "Catering Management",
+        members: [
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Roshan S. Bhanuse",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Catering Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Shweta N. Jain",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Catering Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Sharyau R. Kawale",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Catering Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Shraddha G. Vaidya",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Catering Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Priyanka Pitale",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Catering Management"
+            },
+            {
+                img: "/images/defaultImage.jpg",
+                name: "Vibhakti N. Bagade",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Catering Management"
+            }
+        ]
+    }
 ]
 
 
@@ -1422,10 +1428,10 @@ export const stayIns = [
     {
         name: "Orange Tree Hotel",
         image: "11. Orange-Tree.webp",
-       
+
         description: "Orange Tree Hotels, a 3-star Nagpur lodging, offers comfort, features like dry cleaning, laundry, and concierge service, and is conveniently located near attractions like Sitabuldi Fort and Gandhisagar Lake."
     },
-    
+
 ]
 
 export const sites = [
