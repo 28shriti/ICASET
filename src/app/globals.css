@@ -86,6 +86,6 @@ html {
   scroll-behavior: smooth;
 }
 
-*::-webkit-scrollbar{
+/* *::-webkit-scrollbar{
   display: none;
-}
+} */
