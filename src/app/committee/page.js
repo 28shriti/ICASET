@@ -51,7 +51,7 @@ const page = () => {
                 <div style={{ display: "hidden" }} id="techProgramChairs"></div> {/* Anchor */}
 
                 <Title>Technical Program Chairs</Title>
-                <ProfileGrid data={techProgramChairs} hybrid />
+                <ProfileGrid data={technicalProgramChairs} hybrid />
 
 
                 <div style={{ display: "hidden" }} id="ipc"></div> {/* Anchor */}
@@ -70,7 +70,7 @@ const page = () => {
 
                 <div style={{ display: "hidden" }} id="publicationChairs"></div> {/* Anchor */}
                 <Title>Publication Chairs</Title>
-                <ProfileGrid data={publication} hybrid />
+                <ProfileGrid data={publicationChairs} hybrid />
 
                 <div style={{ display: "hidden" }} id="digitalChairs"></div> {/* Anchor */}
                 <Title>Digital Chairs</Title>
