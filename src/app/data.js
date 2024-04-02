@@ -255,7 +255,7 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img: "/images/chairs/rameshchandra.jpg",
+        img: "/images/defaultImage.jpg",
         name: "Ramesh Chandra",
         designation: "Wegrow India Research & Innovation LLP Dhenkanal",
         country: "DHENKANAL",
@@ -269,28 +269,28 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
     {
-        img: "/images/chairs/mihirmohanty.jpg",
+        img: "/images/chairs/mihirMonanty.jpg",
         name: "Mihir Narayan Mohanty",
         designation: "Siksha O Anusandhan University",
         country: "BHUBANESHWAR",
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
     },
     {
-        img: "/images/chairs/joyeetasingha.jpg",
+        img: "/images/chairs/jyoteeSingha.jpg",
         name: "Joyeeta Singha",
         designation: "LNM Institute of Information Technology ",
         country: "JAIPUR",
         link: "https://scholar.google.co.in/citations?user=mAFopwsAAAAJ&hl=en"
     },
     {
-        // img: "/images/chairs/.jpg",
+        img: "/images/chairs/ghanapriyaSingh.jpg",
         name: "Ghanapriya Singh",
         designation: "National Institute of Technology",
         country: "KURUKSHETRA",
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
     },
     {
-        //  img: "/images/defaultImage.jpg",
+         img: "/images/chairs/amitkant.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University",
         country: "KATRA",
@@ -314,21 +314,21 @@ export const internationalPublicityChair = [
         link: 'https://scholar.google.co.in/citations?hl=en&user=6R2kZeYAAAAJ'
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/chairs/roshanRagel.jpg",
         name: "Roshan G Ragel",
         designation: "University of Peradeniya",
         country: 'SRILANKA',
         link: "https://scholar.google.com/citations?user=UTYj8usAAAAJ&hl=en"
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/chairs/bayram.jpg",
         name: "Gül Erkol Bayram",
         designation: "Sinop University",
         country: 'TURKEY',
         link: "https://scholar.google.com.tr/citations?user=-r3PQ4IAAAAJ&hl=tr"
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/chairs/mohammadjpg.jpg",
         name: "Mohammad Sajid Mohammadi",
         designation: "Onaizah Colleges",
         country: 'SAUDI ARABIA',
@@ -539,28 +539,28 @@ export const publicationChairs = [
         link: ""
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/ctech/prarthanaDeshkar.jpg",
         name: "Prarthana A. Deshkar",
         designation: "YCCE",
         country: "INDIA",
         link: ""
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/ctech/RoshniKhedgaonkar.jpg",
         name: "Roshani S. Khedgaonkar",
         designation: "YCCE",
         country : "INDIA",
         link: ""
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/cse/pratibhaWagale.jpg",
         name: "Pratibha P. Waghale",
         designation: "YCCE",
         country : "INDIA",
         link: ""
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/cse/nikitaGiradkar.jpeg",
         name: "Nikita P. Giradkar",
         designation: "YCCE",
         country : "INDIA",
@@ -1083,14 +1083,14 @@ export const nationalTechProgramCommittee = [
 
 export const digitalChairs = [
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/ctech/NikhilSir.jpeg",
         name: "Nikhil S. Mangrulkar",
         designation: "YCCE",
         country: 'NAGPUR',
         link: ""
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/cse/priyankaKhandekar.jpeg",
         name: "Priyanka P. More",
         designation: "YCCE",
         country: 'NAGPUR',
@@ -1103,14 +1103,14 @@ export const organizingCommitte = [
         title: "Registration and Budgeting",
         members: [
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/prafulBarekar.jpg",
                 name: "Praful V. Barekar",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Registration and Budgeting"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/prachiBainalwar.jpg",
                 name: "Prachi A. Bainwalwar",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
@@ -1136,42 +1136,42 @@ export const organizingCommitte = [
         title: "Technical Session Arrangement and Support",
         members: [
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/ganeshYenurkar.jpg",
                 name: "Ganesh Yenurkar",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/prafulBarekar.jpg",
                 name: "Praful V. Barekar",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/nileshSambhe.jpg",
                 name: "Nilesh U. Sambhe",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/fazilSheikh.jpg",
                 name: "Fazil A. Sheikh",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/jivanDhenkar.jpeg",
                 name: "Jiwan N. Dehankar",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/amrutaPaul.jpeg",
                 name: "Amruta T. Paul",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1183,7 +1183,7 @@ export const organizingCommitte = [
         title: "Transport and Accommodation",
         members: [
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/sanjayPande.jpg",
                 name: "Sanjay P. Pande",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
@@ -1202,28 +1202,28 @@ export const organizingCommitte = [
         title: "Hall and Venue Management",
         members: [
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/smitaKapase.jpg",
                 name: "Smita R. Kapse",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/Supriya Thombre.jpg",
                 name: "Supriya S. Thombre",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/shwetaGhode.jpg",
                 name: "Shweta A. Gode",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/BharatiKarare.jpeg",
                 name: "Bharati A. Karare",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1237,8 +1237,8 @@ export const organizingCommitte = [
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/defaultImage.jpg",
-                name: "Chanchla A. Tripathi",
+                img: "/images/cse/kavitaKathane.jpeg",
+                name: "Kavita A. Kathane",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Hall and Venue Management"
@@ -1249,21 +1249,21 @@ export const organizingCommitte = [
         title: "Catering Management",
         members: [
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/roshanSir.jpg",
                 name: "Roshan S. Bhanuse",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/jainMam.jpg",
                 name: "Shweta N. Jain",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/ctech/SharayuKawale.jpg",
                 name: "Sharyau R. Kawale",
                 designation: "Assistant Professor, Computer Technology",
                 link: "",
@@ -1277,14 +1277,14 @@ export const organizingCommitte = [
                 department: "Catering Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/priyankaPitale.jpeg",
                 name: "Priyanka Pitale",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/vibhaktiBagade.jpeg",
                 name: "Vibhakti N. Bagade",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
