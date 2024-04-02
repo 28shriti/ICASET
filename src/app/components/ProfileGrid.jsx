@@ -14,6 +14,7 @@ export default function ProfileGrid({
     designation,
     country,
   }) {
+    
     return (
       <Link href={link} target={link != "#" ? "_blank" : "_self"}>
         <div
@@ -35,7 +36,7 @@ export default function ProfileGrid({
               {designation}
             </h4>
             <h4 className="font-medium text-opacity-[0.6] text-white">
-              {country}
+              {country.toUpperCase()}
             </h4>
           </div>
         </div>

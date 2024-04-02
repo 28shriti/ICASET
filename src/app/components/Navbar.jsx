@@ -103,7 +103,7 @@ const Navbar = () => {
     return (
       <Link
         href={href}
-        className={`item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}`}
+        className={"item item flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline ${className}"}
       >
         <p className="w-full">{trigger}</p>
       </Link>
@@ -130,85 +130,81 @@ const Navbar = () => {
   }
 
   return (
-    <div className="sticky top-0 z-20">
-      <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline">
-        <div className="sticky top-0 z-20 mb-10 lg:mb-0">
-          <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
-            <Link href="/" className="item">
-              Home
-            </Link>
-            <Dropdown dropdown={about} />
-            <Dropdown dropdown={board} />
-            <Dropdown dropdown={committee} />
+    <div className="sticky top-0 z-20 mb-10 lg:mb-0">
+      <div className="hidden lg:flex justify-around bg-[#222831] p-5 text-white w-full hover:cursor-pointer no-underline sticky top-0 z-10">
+        <Link href="/" className="item">
+          Home
+        </Link>
+        <Dropdown dropdown={about} />
+        <Dropdown dropdown={board} />
+        <Dropdown dropdown={committee} />
 
-            <Link href="/speakers" className="item">
-              Keynote Speakers
-            </Link>
+        <Link href="/speakers" className="item">
+          Keynote Speakers
+        </Link>
 
-            <Dropdown dropdown={forAuthors} />
+        <Dropdown dropdown={forAuthors} />
 
-            <Link href="/registration" className="item">
-              Registration
-            </Link>
-            <Link href="/schedule" className="item">
-              Programme Schedule
-            </Link>
-            <Link href="/contact" className="item">
-              Contact Us
-            </Link>
-          </div>
-
-          <Sheet>
-            <div className="flex lg:hidden bg-[#222831] w-full py-3 pr-2 p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
-              <SheetTrigger className="flex flex-col gap-[0.3vh]">
-                <div className="w-[30px] h-1 bg-white rounded"></div>
-                <div className="w-[30px] h-1 bg-white rounded"></div>
-                <div className="w-[30px] h-1 bg-white rounded"></div>
-              </SheetTrigger>
-            </div>
-            <SheetContent className="bg-[#222831] overflow-x-auto no-scrollbar">
-              <SheetHeader>
-                <SheetTitle className="text-white">IC-ASET-2024</SheetTitle>
-                <SheetDescription>
-                  International Conference on Applications of Science, Engineering
-                  and Technology - 2024
-                </SheetDescription>
-              </SheetHeader>
-
-              <Accordion type="single" collapsible className="my-10">
-                <AccordionLink href="/" trigger="Home" className="text-white" />
-                <CustomAccordionItem dropdown={about} className="text-white" />
-                <CustomAccordionItem dropdown={board} className="text-white" />
-                <CustomAccordionItem dropdown={committee} className="text-white" />
-                <AccordionLink
-                  href="/speakers"
-                  trigger="Keynote Speakers"
-                  className="text-white"
-                />
-
-                <CustomAccordionItem dropdown={forAuthors} className="text-white" />
-                <AccordionLink
-                  href="/registration"
-                  trigger="Registration"
-                  className="text-white"
-                />
-
-                <AccordionLink
-                  href="/schedule"
-                  trigger="Programme Schedule"
-                  className="text-white"
-                />
-
-                <AccordionLink
-                  href="/contact"
-                  trigger="Contact Us"
-                  className="text-white"
-                />
-              </Accordion>
-            </SheetContent>
-          </Sheet>
-        </div>
+        <Link href="/registration" className="item">
+          Registration
+        </Link>
+        <Link href="/schedule" className="item">
+          Programme Schedule
+        </Link>
+        <Link href="/contact" className="item">
+          Contact Us
+        </Link>
       </div>
+
+      <Sheet>
+        <div className="flex lg:hidden bg-[#222831] w-full py-3 pr-2 p-3 lg:-0 justify-end z-10 absolute top-0 right-0">
+          <SheetTrigger className="flex flex-col gap-[0.3vh]">
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+            <div className="w-[30px] h-1 bg-white rounded"></div>
+          </SheetTrigger>
+        </div>
+        <SheetContent className="bg-[#222831] overflow-x-auto no-scrollbar">
+          <SheetHeader>
+            <SheetTitle className="text-white">IC-ASET-2024</SheetTitle>
+            <SheetDescription>
+              International Conference on Applications of Science, Engineering
+              and Technology - 2024
+            </SheetDescription>
+          </SheetHeader>
+
+          <Accordion type="single" collapsible className="my-10">
+            <AccordionLink href="/" trigger="Home" className="text-white" />
+            <CustomAccordionItem dropdown={about} className="text-white" />
+            <CustomAccordionItem dropdown={board} className="text-white" />
+            <CustomAccordionItem dropdown={committee} className="text-white" />
+            <AccordionLink
+              href="/speakers"
+              trigger="Keynote Speakers"
+              className="text-white"
+            />
+
+            <CustomAccordionItem dropdown={forAuthors} className="text-white" />
+            <AccordionLink
+              href="/registration"
+              trigger="Registration"
+              className="text-white"
+            />
+
+            <AccordionLink
+              href="/schedule"
+              trigger="Programme Schedule"
+              className="text-white"
+            />
+
+            <AccordionLink
+              href="/contact"
+              trigger="Contact Us"
+              className="text-white"
+            />
+          </Accordion>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 };
