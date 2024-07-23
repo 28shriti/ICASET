@@ -14,11 +14,11 @@ const page = () => {
       <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
         <div className='h-[80vh] bg-opacity-70 backdrop-blur-sm flex flex-col items-center gap-10'>
           <Title>Contact Us</Title>
-          <div className='w-full flex justify-center items-center px-10'>
+          <div className='w-full flex justify-center items-center px-3'>
             <ContactCard img='/images/kavitaMamImg.jpg' name='Kavita Singh' mobile='+91 8275783031' email='ksingh@ycce.edu' />
           </div>
 
-          <div className='w-full flex justify-center items-center px-10'>
+          <div className='w-full flex justify-center items-center px-3'>
             <ContactCard img='/images/ctech/NikhilSir.jpeg' name='Nikhil Mangrulkar' mobile='+91 776788776' email='nikhil.mangrulkar@ycce.edu' />
           </div>
         </div>
