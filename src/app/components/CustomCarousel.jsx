@@ -36,7 +36,7 @@ function CustomCarousel() {
         <div className="flex flex-col">
             <Carousel plugins={[plugin.current]} opts={{ align: "start", loop: true }} setApi={setApi}>
                 <CarouselContent >
-                    {Array.from({ length: 3 }).map((_, index) => (
+                    {Array.from({ length: 4 }).map((_, index) => (
                         <CarouselItem key={index} onClick={() => console.log(index)} className="h-[30vh] md:h-[50vh]">
                             <div className="p-5 w-full h-full">
                                 <Image src={`/images/back${index + 1}.jpg`} className="w-full h-full object-center object-cover rounded-lg" width={500} height={500} alt="Carousel Image" loading="eager" />
@@ -49,6 +49,7 @@ function CustomCarousel() {
                 <div className="rounded-full h-2 w-2 border border-white border-solid cursor-pointer" style={{ backgroundColor: current === 0 ? "white" : "transparent" }} onClick={() => api.scrollTo(0)}></div>
                 <div className="rounded-full h-2 w-2 border border-white border-solid cursor-pointer" style={{ backgroundColor: current === 1 ? "white" : "transparent" }} onClick={() => api.scrollTo(1)}></div>
                 <div className="rounded-full h-2 w-2 border border-white border-solid cursor-pointer" style={{ backgroundColor: current === 2 ? "white" : "transparent" }} onClick={() => api.scrollTo(2)}></div>
+                <div className="rounded-full h-2 w-2 border border-white border-solid cursor-pointer" style={{ backgroundColor: current === 3 ? "white" : "transparent" }} onClick={() => api.scrollTo(3)}></div>
             </div>
         </div>
     )

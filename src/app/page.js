@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import data from "./data";
 import Notice from "./components/Notice";
-// import CustomCarousel from "./components/CustomCarousel";
 import dynamic from "next/dynamic"
 import Sponsors from "./components/Sponsors";
 import MainContainer from "./components/MainContainer";
@@ -24,19 +23,28 @@ const Home = () => {
               and Technology - 2024
             </h2>
             <p style={{ margin: "2px 0" }}>
-              Jointly Organized by: Computer Technology and Computer
+              Jointly Organized by:
+            </p>
+            <p>
+              Computer Technology
+            </p>
+            <p>
+              and
+            </p>
+            <p>
+              Computer
               Science & Engineering
             </p>
             <p>
               Yeshwantrao Chavan College of Engineering, Hingna, Nagpur,
-              Maharashtra, India
+              Maharashtra, India and IDES
             </p>
 
             <div className="mt-10 md:mt-auto w-auto rounded-3xl flex items-center justify-center md:justify-start text-lg">
               <div className="text-2xl text-white">
                 <FontAwesomeIcon icon={faCalendarDays} />
               </div>
-              <p className="ml-3">Date: {data.conferenceDate}</p>
+              <p className="ml-3">Date : {data.conferenceDate}</p>
             </div>
           </div>
           <div className="w-full md:w-1/2 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white no-scrollbar realative flex flex-col overflow-hidden">

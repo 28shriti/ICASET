@@ -1,6 +1,6 @@
 const data = {
     notice: "Important information will appear here.",
-    conferenceDate: "22-23 November, 2024",
+    conferenceDate: " November, 2025",
 }
 
 export const dates = [
