@@ -1,5 +1,5 @@
 const data = {
-    notice: "Important information will be appeared here.",
+    notice: "Important information will appear here.",
     conferenceDate: "22-23 November, 2024",
 }
 
@@ -437,7 +437,7 @@ export const nationalAdvisoryBoard = [
         link: 'https://scholar.google.ca/citations?user=moDpyKkAAAAJ&hl=en'
     },
     {
-        img: '/images/defaultImage.jpg',
+        img: '/images/nab/santoshKumar.jpg',
         name: 'Santosh Kumar',
         designation: 'Institute of Information Technology',
         country: 'NAYA RAIPUR',
@@ -1117,14 +1117,14 @@ export const organizingCommitte = [
                 department: "Registration and Budgeting"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/rupaFadnavis.jpg",
                 name: "Rupa A. Fadnavis",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Registration and Budgeting"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/amitaMeshram.jpg",
                 name: "Amita P. Meshram",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1190,7 +1190,7 @@ export const organizingCommitte = [
                 department: "Transport and Accommodation"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/milindTote.jpg",
                 name: "Milind C. Tote",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1270,7 +1270,7 @@ export const organizingCommitte = [
                 department: "Catering Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/shraddhaVaidya.jpg",
                 name: "Shraddha G. Vaidya",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
