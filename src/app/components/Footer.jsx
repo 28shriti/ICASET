@@ -34,9 +34,8 @@ export default function Footer() {
         </div>
         
         <div className="bg-[#222831] text-white p-10">
-           
-            <h1 style={{ fontSize: "20px", color: "cyan" ,display : "flex" ,justifyContent : "space-evenly",padding : "10px"}}>Developer Team </h1>
-            <div className="flex-wrap" style={{display : "flex" ,justifyContent : "space-evenly"}}>
+            <h1 className="text-[20px] text-cyan-300 flex justify-evenly p-[10px]">Developer Team </h1>
+            <div className="flex-wrap flex justify-evenly m-5">
                  <Link href='https://www.linkedin.com/in/shriti-nandanwar-ba9b06257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>Shriti Nandanwar</Link>
                    <Link href='https://www.linkedin.com/in/rushikeshmunne/'>Rushikesh Munne</Link> 
                    <Link href='https://www.linkedin.com/in/om-mane-20479a25b/'>Om Mane</Link> 
@@ -45,7 +44,7 @@ export default function Footer() {
                    <Link href='http://portfolio-yashghogre.vercel.app'>Yash Ghogre</Link> 
             </div>
         </div>
-        <div className=" flex justify-center items-center p-5 bg-[#222831] text-white">
+        <div className=" flex justify-center items-center p-2 bg-white text-[#222831]">
                     Copyright © 2024 IC-ASET - All Rights Reserved 
             </div>
             
