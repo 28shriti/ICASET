@@ -1,30 +1,32 @@
-import React from 'react'
-import MainContainer from '../components/MainContainer'
-import ContactCard from '../components/ContactCard'
-import Title from '../components/Title'
+import dynamic from 'next/dynamic';
+import MainContainer from '../components/MainContainer';
+import ContactCard from '../components/ContactCard';
+import SiteCard from '../components/SiteCards';
+import HotelCard from '../components/HotelCard';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Contact Us',
   description: 'Contact us with the given contact info on this page.'
 }
 
-const page = () => {
+const DynamicMap = dynamic(() => import('../components/Map'), { ssr: false });
+
+const Page = () => {
   return (
     <MainContainer>
-      <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
-        <div className='h-[80vh] bg-opacity-70 backdrop-blur-sm flex flex-col items-center gap-10'>
-          <Title>Contact Us</Title>
-          <div className='w-full flex justify-center items-center px-3'>
-            <ContactCard img='/images/kavitaMamImg.jpg' name='Kavita Singh' mobile='+91 8275783031' email='ksingh@ycce.edu' />
-          </div>
-
-          <div className='w-full flex justify-center items-center px-3'>
-            <ContactCard img='/images/ctech/NikhilSir.jpeg' name='Nikhil Mangrulkar' mobile='+91 776788776' email='nikhil.mangrulkar@ycce.edu' />
-          </div>
+      <div className='flex flex-col md:flex-row items-center md:items-start'>
+        <div className='md:order-1 order-2 flex flex-col m-7'>
+          <ContactCard name='Kavita Singh' mobile='+91 999999999' email='ksingh@ycce.edu' />
+          <Link href="/contact/site"><SiteCard /></Link>
+          <Link href="/contact/stayin"><HotelCard /></Link>
+        </div>
+        <div className='md:order-2 order-1 md:ml-5 md:mt-0 mt-5 w-full'>
+          <DynamicMap />
         </div>
       </div>
-    </MainContainer >
-  )
+    </MainContainer>
+  );
 }
 
-export default page
+export default Page;
