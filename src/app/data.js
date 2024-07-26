@@ -81,8 +81,8 @@ export const ourVisionary = [
 export const chiefPatrons = [
     {
         img: "/images/patrons/sameermeghe.jpg",
-        name: "Shri Sameerji  Meghe  ",
-        designation: "MLA-Hingna Constituency, Nagpur & Treasurer, Nagar Yuvak Shikshan Sanstha"
+        name: "Shri. Sameerji  Meghe  ",
+        designation: "Treasurer, Nagar Yuvak Shikshan Sanstha"
     },
     {
         img: "/images/patrons/ravimeghe.jpg",
@@ -111,7 +111,7 @@ export const patrons = [
     },
     {
         img: "/images/patrons/ManaliKshirsagar.jpg",
-        name: "Dr. Manali M. Kshirsagar",
+        name: "Dr. M.M. Kshirsagar",
         designation: "Technical Advisor, MGI",
         country: "NAGPUR"
     },
@@ -222,7 +222,7 @@ export const nationalPublicityChair = [
     {
         img: "/images/chairs/rajeshwarisridhar.jpg",
         name: "Rajeswari Sridhar",
-        designation: "National Institute of Technology Tiruchirappalli",
+        designation: "National Institute of Technology",
         country: "TIRUCHIRAPALLI",
         link: "https://scholar.google.co.in/citations?hl=en&user=4ScZIsEAAAAJ"
     },
@@ -264,13 +264,13 @@ export const nationalPublicityChair = [
     {
         img: "/images/chairs/shailajapatil.jpg",
         name: "Shaileja Patil",
-        designation: "Jayawant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering",
-        country: "PIMPRI-CHINCHWAD",
+        designation: "Rajarshi Shahu College of Engineering",
+        country: "PIMPRI CHINCHWAD",
         link: "https://scholar.google.co.in/citations?hl=en&user=CHk3cPgAAAAJ"
     },
     {
         img: "/images/chairs/mihirMonanty.jpg",
-        name: "Mihir Narayan Mohanty",
+        name: "Mihir N. Mohanty",
         designation: "Siksha O Anusandhan University",
         country: "BHUBANESHWAR",
         link: "https://scholar.google.co.in/citations?user=BwelOgMAAAAJ&hl=en"
@@ -524,7 +524,7 @@ export const nationalAdvisoryBoard = [
 ]
 
 export const publicationChairs = [
-    {
+    /*{
         img: "/images/chairs/thakurSirImg.png",
         name: "Nileshsingh V. Thakur",
         designation: "YCCE",
@@ -537,7 +537,7 @@ export const publicationChairs = [
         designation: "YCCE",
         country: "INDIA",
         link: ""
-    },
+    },*/
     {
         img: "/images/ctech/prarthanaDeshkar.jpg",
         name: "Prarthana A. Deshkar",
@@ -608,7 +608,7 @@ export const internationalTechProgramCommittee = [
 
     {
         name: "Simona Verde",
-        designation: "Institute for the electromagnetic sensing of the environment IREA-CNR",
+        designation: "IREA-CNR",
         country: "ITALY",
         link: "https://scholar.google.it/citations?user=XS3LZTAAAAAJ&hl=it"
     },
@@ -759,11 +759,11 @@ export const nationalTechProgramCommittee = [
         name: "Santosh Srivastava",
         designation: "GNIOT, Greater Noida"
     },
-    {
+    /*{
         img: "/images/tech-committee/national/image9.jpeg",
         name: "Deepshikha Tiwari",
         designation: "Thapar Institute of Engineering and Technology, Punjab"
-    },
+    },*/
     {
         img: "/images/tech-committee/national/image10.png",
         name: "Amit Garg",
@@ -1090,7 +1090,7 @@ export const digitalChairs = [
         link: ""
     },
     {
-        img: "/images/cse/priyankaKhandekar.jpeg",
+        img: "/images/cse/priyankaMore.jpg",
         name: "Priyanka P. More",
         designation: "YCCE",
         country: 'NAGPUR',
@@ -1164,14 +1164,14 @@ export const organizingCommitte = [
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/jivanDhenkar.jpeg",
+                img: "/images/cse/jivanDhenkar.jpg",
                 name: "Jiwan N. Dehankar",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpeg",
+                img: "/images/cse/amrutaPaul.jpg",
                 name: "Amruta T. Paul",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1223,14 +1223,14 @@ export const organizingCommitte = [
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/cse/BharatiKarare.jpeg",
+                img: "/images/cse/BharatiKarare.jpg",
                 name: "Bharati A. Karare",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/defaultImage.jpg",
+                img: "/images/cse/renukaKadu.jpg",
                 name: "Renuka D. Kadu",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
