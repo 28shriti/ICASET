@@ -255,7 +255,7 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
     {
-        img: "/images/defaultImage.jpg",
+        img: "/images/chairs/rameshChandra.jpg",
         name: "Ramesh Chandra",
         designation: "Wegrow India Research & Innovation LLP Dhenkanal",
         country: "DHENKANAL",
