@@ -1,5 +1,6 @@
 import { dates } from "@/app/data"
 import MainContainer from "@/app/components/MainContainer"
+import ComingSoon from "@/app/components/ComingSoon"
 
 export const metadata = {
     title: "Important Dates",
@@ -10,6 +11,8 @@ export const metadata = {
 export default function ImportantDates() {
     return (
         <MainContainer>
+            <ComingSoon />
+            {/*
             <div className='pb-10 bg-black bg-opacity-70'>
                 {/* <div className="flex justify-center items-center w-[50vw] gap-7 flex-col">
                 {dates.map((value, key) => {
@@ -20,7 +23,7 @@ export default function ImportantDates() {
                         </div>
                     )
                 })}
-            </div> */}
+            </div> /}
                 <h3 className='text-white text-center font-black py-10 text-3xl'>Important Dates</h3>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li className='text-white'>
@@ -73,10 +76,11 @@ export default function ImportantDates() {
                             <time className="font-mono italic">{dates[4].date}</time>
                             <div className="text-lg font-black">{dates[4].event}</div>
                         </div>
-                        {/* <hr className='bg-white' /> */}
                     </li>
                 </ul>
             </div>
+            */}
+
         </MainContainer>
     )
 }
