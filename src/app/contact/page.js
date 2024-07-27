@@ -15,13 +15,13 @@ const DynamicMap = dynamic(() => import('../components/Map'), { ssr: false });
 const Page = () => {
   return (
     <MainContainer>
-      <div className='flex flex-col md:flex-row items-center'>
-        <div className='md:order-1 order-2 flex flex-col m-7'>
-          <ContactCard name='Kavita Singh' mobile='+91 999999999' email='ksingh@ycce.edu' />
-          <Link href="/contact/site"><SiteCard /></Link>
-          <Link href="/contact/stayin"><HotelCard /></Link>
-        </div>
-        <div className='flex items-center md:order-2 order-1 m-7'>
+      <div className='flex flex-col md:flex-row gap-10 md:ml-[100px]'>
+          <div className='md:order-1 order-2 flex flex-col'>
+            <ContactCard name='Kavita Singh' mobile='+91 999999999' email='ksingh@ycce.edu' />
+            <Link href="/contact/site"><SiteCard /></Link>
+            <Link href="/contact/stayin"><HotelCard /></Link>
+          </div>
+        <div className='flex md:order-2 order-1'>
           <DynamicMap />
         </div>
       </div>
