@@ -15,7 +15,7 @@ const DynamicMap = dynamic(() => import('../components/Map'), { ssr: false });
 const Page = () => {
   return (
     <MainContainer>
-      <div className='flex flex-col md:flex-row gap-10 md:ml-[100px]'>
+      <div className='flex flex-col md:flex-row gap-10 md:ml-[100px] p-7 items-center md:items-start'>
           <div className='md:order-1 order-2 flex flex-col'>
             <ContactCard name='Kavita Singh' mobile='+91 999999999' email='ksingh@ycce.edu' />
             <Link href="/contact/site"><SiteCard /></Link>
