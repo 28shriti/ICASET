@@ -1297,11 +1297,24 @@ export const organizingCommitte = [
 
 
 export const faq = [
-    { question: "question ", answer: "answer" },
-    { question: "question ", answer: "answer" },
-    { question: "question ", answer: "answer" },
-    { question: "question ", answer: "answer" }
-]
+  { question: "When and where will ICASET-2024 take place?", answer: "" },
+  { question: "How do I register for the conference?", answer: "You can register for ICASET-2024 through the official conference website by completing the registration form and paying the applicable fees." },
+  { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "" },
+  { question: "What will the conference program include?", answer: "" },
+  { question: "Is there an early bird discount?", answer: "" },
+  { question: "What are the benefits of attending these conferences?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. These events also provide a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements" },
+  { question: "What is the International Conference on Applications of Science, Engineering, and Technology (ICASET-2024)?", answer: "ICASET-2024 is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
+  { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science and technology." },
+  { question: "How can I pay the registration fee?", answer: "You can pay the registration fee online via credit card, debit card, or bank transfer." },
+  { question: "Will the conference be recorded?", answer: "Yes, sessions will be recorded and made available to registered participants after the conference." },
+  { question: "How can I contact the organizers if I have more questions?", answer: "You can contact us via email at [insert contact email] or phone at [insert contact number]. Our team will be happy to assist you. Feel free to modify the information according to the specifics of your conference." },
+  { question: "What if I have technical issues during the conference?", answer: "Technical support will be available throughout the event. Contact details for support will be provided with your login information." },
+  { question: "Can I switch between in-person and virtual attendance?", answer: "Yes, you can switch your attendance mode by contacting our support team. Please note that changes may be subject to availability." },
+  { question: "How do I ask questions during sessions?", answer: "In-person attendees can use microphones or designated question areas. Virtual attendees can submit questions via the Q&A feature on the platform." },
+  { question: "How do I provide feedback about the conference?", answer: "Feedback forms will be available on the conference app and virtual platform. We appreciate your input to improve future events." },
+  { question: "Will meals be provided?", answer: "Yes, meals and refreshments will be provided." }
+];
+
 
 export const aboutYCCE = [
     "Yeshwantrao Chavan College of Engineering (YCCE) is a renowned institution for engineering education and research, having nurtured young engineering professionals for over 36 years. As a premier institute, YCCE was one of the few selected well-performing colleges for the Government of India's Technical Education Quality Improvement Program (TEQIP Phase I), funded by the World Bank. With TEQIP financial aid, the institution has created state-of-the-art infrastructure, laboratories, computational facilities, and libraries.YCCE became the first private engineering college to acquire 'Autonomous' status in Central India, allowing the first batch of students to commence their B.E. and M.Tech. courses from the academic session 2010-2011. In 2016-17, the UGC peer team granted 'Extension of Autonomy' for 6 years (2016-2022).The institution has received quality assurance through accreditation and re-accreditation of UG & PG programs by the National Board of Accreditation (NBA), New Delhi since 2003. The B.E. Mechanical Engg., B.E. Civil Engg., B.E. Electrical Engg., B.E. Electronics & Telecomm. Engg., B.E. Electronics Engg., and B.E. Information Tech. programs are accredited by NBA up to June 2023.YCCE has received numerous awards, including the ISTE National Award 2014 for being the 'Best Private Engineering College' in the Country, All India 32nd Rank, 23rd Rank amongst Self-Financing & 4th Rank in West Zone by DataQuest-CMR Ranking-2020, All India 134th Rank amongst IITs, NITs, Government and Autonomous Engineering Institutions by NIRF, MHRD, Govt. of India, 2019.Over the last five years, the institute has received financial assistance of Rs. 5.5 Cr. from various funding agencies like AICTE, DST, and UGC."
