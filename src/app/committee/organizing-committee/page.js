@@ -22,7 +22,7 @@ const OrganizingCommittee = () => {
                             <h1 id="convenors" className="title font-black text-4xl text-center my-5 mx-0 md:my-14 md:mx-5 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Convenors</h1>
                         </div>
                         <div className='flex w-full justify-left md:justify-evenly gap-5 items-center flex-col sm:flex-row h-auto'>
-                            <ConvenorCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'Head'} dep={'Computer Technology'} />
+                            <ConvenorCard img={'/images/kavitaMamImg.jpg'} name={'Kavita R. Singh'} des={'Head'} dep={'Computer Technology'} />
                             <ConvenorCard img={'/images/lalitSirImg.jpeg'} name={'Lalit B. Damahe'} des={'Head'} dep={'Computer Science and Engineering'} />
                         </div>
                     </div>
@@ -32,8 +32,8 @@ const OrganizingCommittee = () => {
                             <h1 id="organizing-secretary" className="title font-black text-4xl text-center my-5 mx-0 md:my-14 md:mx-5 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Organizing Secretary</h1>
                         </div>
                         <div className='flex w-full justify-left md:justify-evenly gap-5 items-center flex-col sm:flex-row'>
+                            <ConvenorCard img={'/images/rakhimamimg.jpeg'} name={'Rakhi D. Wajgi'} des={'Assistant Professor'} dep={'Computer Technology'} />
                             <ConvenorCard img={'/images/thakurSirImg.png'} name={'Nileshsingh V. Thakur'} des={'Professor'} dep={'Computer Science and Engineering'} />
-                            <ConvenorCard img={'/images/kavitaMamImg.jpg'} name={'Kavita R. Singh'} des={'Professor'} dep={'Computer Technology'} />
                         </div>
                     </div>
                 </div>

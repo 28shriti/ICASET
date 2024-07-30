@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+ 
 export default function Footer() {
     return (
         <footer>
@@ -10,7 +12,7 @@ export default function Footer() {
                 <Image src={'/images/ic-aset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
                 <p className='md:text-left text-md px-3 text-center'>
                     International Conference on Applications of Science, Engineering and
-                    Technology - 2024</p>
+                    Technology - 2025</p>
             </div>
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Quick Links </h1>
@@ -25,7 +27,7 @@ export default function Footer() {
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Get in Touch </h1>
                 <ul>
-                    <li><Link href="https://ycce.edu/" className="item">YCCE official website</Link></li>
+                    <li><Link href="https://ycce.edu/" className="item"><FontAwesomeIcon icon={faLocationDot} /> YCCE official website</Link></li>
                     <li>Phone no : +91-8275783031 </li>
                     <li>Email : ksingh@ycce.edu</li>
 

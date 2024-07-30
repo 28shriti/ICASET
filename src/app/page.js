@@ -20,7 +20,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 flex flex-col h-auto md:h-[50vh] text-center p-3 md:p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white">
             <h2 className="text-center text-lg font-bold mb-5">
               International Conference on Applications of Science, Engineering
-              and Technology - 2024
+              and Technology - 2025
             </h2>
             <p style={{ margin: "2px 0" }}>
               Jointly Organized by:
@@ -40,7 +40,7 @@ const Home = () => {
               Maharashtra, India and IDES
             </p>
 
-            <div className="mt-10 md:mt-auto w-auto rounded-3xl flex items-center justify-center md:justify-start text-lg">
+            <div className="mt-10 md:mt-15 w-auto rounded-3xl flex items-center justify-center md:justify-start text-lg">
               <div className="text-2xl text-white">
                 <FontAwesomeIcon icon={faCalendarDays} />
               </div>
