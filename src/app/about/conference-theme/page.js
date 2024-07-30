@@ -1,3 +1,4 @@
+import MainContainer from '@/app/components/MainContainer'
 import { dsmlTheme } from '@/app/data'
 import { moTheme } from '@/app/data'
 import { iotTheme } from '@/app/data'
@@ -5,6 +6,7 @@ import { tidmTheme } from '@/app/data'
 
 const page = () => {
     return (
+        <MainContainer>
         <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50">
             <div className="w-auto flex justify-center">
                 <h1 className="title font-black text-4xl text-center mt-10 py-3 px-5 text-white w-fit rounded-2xl bg-[#222831] bg-opacity-70 font-serif">Conference Theme</h1>
@@ -69,6 +71,7 @@ const page = () => {
                 </div>
             </div>
         </div>
+        </MainContainer>
     )
 }
 

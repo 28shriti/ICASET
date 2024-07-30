@@ -1,5 +1,5 @@
 const data = {
-    notice: "Important information will appear here.",
+    notice: "IC-ASET is going to be conducted in the Hybrid mode.",
     conferenceDate: "7-8 February, 2025",
 }
 
@@ -1523,6 +1523,8 @@ export const sites = [
 export default data;
 
 
-//TODO: (1) styling committee conveyors
-//TODO: (2) Sponsors component
-//TODO: (1) Carousel
+//TODO: (1) running line (notice)
+//TODO: (2) paper format + date + conference theme
+//TODO: (1) call for sponsor
+// TODO: Remove Dr. from TPC
+// TODO: Paper format download
