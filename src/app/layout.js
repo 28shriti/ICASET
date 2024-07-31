@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: "ICASET-2024",
-    template: '%s - ICASET-2024',
+    default: "ICASET-2025",
+    template: '%s - ICASET-2025',
   },
   description: " Welcome to the official website of International Conference on Applications of Science, Engineering and Technology",
 };

@@ -167,10 +167,10 @@ const Navbar = () => {
         </div>
         <SheetContent className="bg-[#222831] overflow-x-auto no-scrollbar">
           <SheetHeader>
-            <SheetTitle className="text-white">IC-ASET-2024</SheetTitle>
+            <SheetTitle className="text-white">IC-ASET-2025</SheetTitle>
             <SheetDescription>
               International Conference on Applications of Science, Engineering
-              and Technology - 2024
+              and Technology - 2025
             </SheetDescription>
           </SheetHeader>
 
