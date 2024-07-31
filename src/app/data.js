@@ -637,7 +637,7 @@ export const internationalTechProgramCommittee = [
         link: ""
     },
     {
-        name: "Dr. Tariq Masood",
+        name: "Tariq Masood",
         designation: "",
         country: "",
         link: ""
@@ -936,7 +936,7 @@ export const nationalTechProgramCommittee = [
         link: ""
     },
     {
-        name: "DrSiva Ganesh Malla",
+        name: "Siva Ganesh Malla",
         designation: "",
         country: "INDIA",
         link: ""
@@ -966,13 +966,13 @@ export const nationalTechProgramCommittee = [
         link: ""
     },
     {
-        name: "DrSudipta Das",
+        name: "Sudipta Das",
         designation: "",
         country: "INDIA",
         link: ""
     },
     {
-        name: "Dr-Santar Singh",
+        name: "Santar Singh",
         designation: "",
         country: "INDIA",
         link: ""
@@ -990,13 +990,13 @@ export const nationalTechProgramCommittee = [
         link: ""
     },
     {
-        name: "DrDinesh H A",
+        name: "Dinesh H A",
         designation: "",
         country: "INDIA",
         link: ""
     },
     {
-        name: "Dr-Kapil K Wankhade",
+        name: "Kapil K Wankhade",
         designation: "",
         country: "INDIA",
         link: ""
@@ -1038,7 +1038,7 @@ export const nationalTechProgramCommittee = [
         link: ""
     },
     {
-        name: "DrJagannath Samanta",
+        name: "Jagannath Samanta",
         designation: "",
         country: "INDIA",
         link: ""
