@@ -4,7 +4,7 @@ import MainContainer from "@/app/components/MainContainer";
 export const metadata = {
   title: "About Conference",
   description:
-    "Get all the information about the ICASET - 2024 happening in YCCE",
+    "Get all the information about the ICASET - 2025 happening in YCCE",
 };
 
 export default function Conference() {
@@ -13,28 +13,28 @@ export default function Conference() {
       <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
         <div className=" bg-white p-10 bg-opacity-80 lg:mb-10 rounded-3xl">
           <h1 className=" flex justify-center font-bold pb-10 text-center text-2xl md:text-5xl text-[#333]">
-            WELCOME TO IC-ASET24
+            WELCOME TO IC-ASET25
           </h1>
 
           <p className="text-justify leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg lg:px-20">
             We are happy to inform you that the maiden International Conference
-            on Applications of Science, Engineering and Technology (IC-ASET24)
-            is going to take place on November 22-23, 2024 at Yeshwantrao Chavan
+            on Applications of Science, Engineering and Technology (IC-ASET25)
+            is going to take place on November 22-23, 2025 at Yeshwantrao Chavan
             College of Engineering, Nagpur, INDIA. On behalf of the Organizing
-            Committee of first IC-ASET24, we take the pleasure to invite you to
-            participate and attend the first IC-ASET24 (Hybrid Mode) with
+            Committee of first IC-ASET25, we take the pleasure to invite you to
+            participate and attend the first IC-ASET25 (Hybrid Mode) with
             opportunities to discuss and explore areas related to the
             advancement in science, engineering and technology from various
             application domain point of view with fellow students, academicians,
             researchers and practitioners. Conference may concern any topic
-            within the conference scope. IC-ASET24 is dedicated to magnify the
+            within the conference scope. IC-ASET25 is dedicated to magnify the
             understanding role of advancement in science, engineering and
             technology, how these advancements are applied and evolved for
             various real-life application domain problems. This conference will
             provide a platform for bringing the prominent literature and
             substantial research across the applications of the science,
             engineering and technology and provide a synopsis of the recent
-            advanced happenings. IC-ASET24 is an opportunity for the
+            advanced happenings. IC-ASET25 is an opportunity for the
             participants to share their research work and to listen the eminent
             academicians, researchers and practitioners through keynote talks
             and to get the insight of their carried research work and
