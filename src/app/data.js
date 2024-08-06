@@ -1297,11 +1297,11 @@ export const organizingCommitte = [
 
 
 export const faq = [
-  { question: "When and where will ICASET-2024 take place?", answer: "" },
+  { question: "When and where will ICASET-2024 take place?", answer: "Dates: Venue: Hybrid Mode (YCCE, Nagpur, MS, India)" },
   { question: "How do I register for the conference?", answer: "You can register for ICASET-2024 through the official conference website by completing the registration form and paying the applicable fees." },
-  { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "" },
-  { question: "What will the conference program include?", answer: "" },
-  { question: "Is there an early bird discount?", answer: "" },
+  { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "YES" },
+  { question: "What will the conference program include?", answer: "Conf. Schedule pdf" },
+  { question: "Is there an early bird discount?", answer: "YES …URI…." },
   { question: "What are the benefits of attending these conferences?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. These events also provide a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements" },
   { question: "What is the International Conference on Applications of Science, Engineering, and Technology (ICASET-2024)?", answer: "ICASET-2024 is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
   { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science and technology." },
@@ -1320,71 +1320,107 @@ export const aboutYCCE = [
     "Yeshwantrao Chavan College of Engineering (YCCE) is a renowned institution for engineering education and research, having nurtured young engineering professionals for over 36 years. As a premier institute, YCCE was one of the few selected well-performing colleges for the Government of India's Technical Education Quality Improvement Program (TEQIP Phase I), funded by the World Bank. With TEQIP financial aid, the institution has created state-of-the-art infrastructure, laboratories, computational facilities, and libraries.YCCE became the first private engineering college to acquire 'Autonomous' status in Central India, allowing the first batch of students to commence their B.E. and M.Tech. courses from the academic session 2010-2011. In 2016-17, the UGC peer team granted 'Extension of Autonomy' for 6 years (2016-2022).The institution has received quality assurance through accreditation and re-accreditation of UG & PG programs by the National Board of Accreditation (NBA), New Delhi since 2003. The B.E. Mechanical Engg., B.E. Civil Engg., B.E. Electrical Engg., B.E. Electronics & Telecomm. Engg., B.E. Electronics Engg., and B.E. Information Tech. programs are accredited by NBA up to June 2023.YCCE has received numerous awards, including the ISTE National Award 2014 for being the 'Best Private Engineering College' in the Country, All India 32nd Rank, 23rd Rank amongst Self-Financing & 4th Rank in West Zone by DataQuest-CMR Ranking-2020, All India 134th Rank amongst IITs, NITs, Government and Autonomous Engineering Institutions by NIRF, MHRD, Govt. of India, 2019.Over the last five years, the institute has received financial assistance of Rs. 5.5 Cr. from various funding agencies like AICTE, DST, and UGC."
 ]
 
-export const dsmlTheme = [
-    "Volume Growth of Analytic Data",
-    "Managing Data Analytics",
-    "Data Analysis, Debugging",
-    "Data Manipulation, Data Cleansing",
-    "Unsupervised Learning",
-    "Supervised learning",
-    "Human Intelligence",
-    "Machine Learning Engineering Stack",
-    "Database Mining and Statistical Analysis",
-    "Advanced Machine Learning",
-    "Reinforcement Learning",
-    "Artificial Neural Network",
-    "Generative Artificial Intelligence",
-    "Natural Language Processing",
-    "Deep Learning",
-    "Python Programming",
-    'Multi-Task Learning',
+export const asn=[
+    "Nanomaterials and Nanotechnology",
+   " Smart Materials and Structures",
+   " Composites and Biomaterials",
+    "Material Characterization and Testing",
+    "Applied Physics and Mathematics",
+    "Computational Physics and Simulation",
+   " Mathematical Modelling and Optimization",
+    "Quantum Mechanics and Quantum Computing",
+    "Applied Statistics and Data Science",
+    "Bio-inspired Composite Materials"
+]
+export const res =[
+    "Solar and Wind Energy",
+    "Bioenergy and Biofuels",
+    "Energy Storage Systems",
+    "Sustainable Infrastructure and Development",
+    "Power Systems and Renewable Energy",
+    "Microelectronics and Embedded Systems",
+    "Signal Processing and Telecommunications",
+    "Control Systems and Automation"
 ]
 
-export const moTheme = [
-    "High Performance Computing and Simulation",
-    "Mathematical and Numerical methods",
-    "Real-time modeling and simulation",
-    "Simulation Application in Industry",
-    "Statistical and Probabilistic Modeling",
-    "Mathematical and Numerical methods",
-    "IoT modeling and simulation",
-    "Mathematical and Numerical methods",
-    "Simulation Application in Industry",
-    "Adaptive and intelligent control",
-    "Artificial intelligence",
-    "Modeling of energy system"
+export const ict =[
+    "Artificial Intelligence and Machine Learning",
+   " Big Data and Data Analytics",
+    "Internet of Things (IoT)",
+    "Cybersecurity and Blockchain Technology",
+    "Software Engineering and Development",
+    "Computer Networks, Network Security and Distributed Systems",
+    "Cloud Computing and Virtualization",
+    "Human-Computer Interaction",
+    "3-D Object Modelling",
+    "Augmented Reality",
+   " Image Processing"
+
 ]
 
-export const iotTheme = [
-    "IoT architecture design and optimization",
-    "Security and privacy of IoT devices and services",
-    "Standardized semantic data description framework and technologies",
-    "IoT communication procedure enhancements",
-    "IoT standards for platform interworking",
-    "IoT standards gap analysis",
-    "Low Power Wide Area (LPWA) networks",
-    "Software Defined Network (SDN) and IoT",
-    "Industrial Internet of Things",
-    "Internet of Mobile Things (IoMT) architecture design and protocols",
-    "Massive data transportation and analysis through IoT",
-    "Cloud Computing and IoT",
-    "IoT data protocol: MQTT-SN, COAP, XMPP-IoT, AMQP"
+export const ra = [
+    "Autonomous Systems and Robotics",
+   " Industrial Automation and Control",
+   " Human-Robot Interaction",
+    "Applications of AI in Robotics",
+   " 3D Printing"
 ]
 
-export const tidmTheme = [
-    "IoT architecture design and optimization",
-    "Security and privacy of IoT devices and services",
-    "Standardized semantic data description framework and technologies",
-    "IoT communication procedure enhancements",
-    "IoT standards for platform interworking",
-    "IoT standards gap analysis",
-    "Low Power Wide Area (LPWA) networks",
-    "Software Defined Network (SDN) and IoT",
-    "Industrial Internet of Things",
-    "Internet of Mobile Things (IoMT) architecture design and protocols",
-    "Massive data transportation and analysis through IoT",
-    "Cloud Computing and IoT",
-    "IoT data protocol: MQTT-SN, COAP, XMPP-IoT, AMQP"
+export const beht = [
+    "Medical Imaging and Diagnostics",
+    "Wearable Health Monitoring Systems",
+    "Biomechanics and Rehabilitation Engineering",
+    "Telemedicine and Health Informatics"
+]
+
+export const cee=[
+    "Waste Management and Recycling",
+    "Water and Air Quality Management",
+    "Climate Change Mitigation and Adaptation",
+    "Environmental Impact Assessment",
+    "Smart Cities and Urban Development",
+    "Structural Engineering and Mechanics",
+    "Transportation Engineering and Traffic Management",
+    "Geotechnical and Earthquake Engineering"
+]
+
+export const mae =[
+    "Fluid Mechanics and Heat Transfer",
+    "Thermodynamics and Energy Systems",
+    "Aerospace Engineering and Technology",
+    "Additive Manufacturing and 3D Printing"
+]
+
+export const cept =[
+    "Chemical Reaction Engineering",
+    "Process Design and Optimization",
+    "Petrochemical and Refinery Engineering",
+    "Biotechnology and Biochemical Engineering"
+    ]
+
+export const iem =[
+    "Operations Research and Supply Chain Management",
+    "Quality Control and Process Improvement",
+    "Ergonomics and Human Factors",
+    "Project Management and Industrial Innovation",
+
+]
+
+export const reviewProcess = [
+    "The IC-ASET25 peer review process will be a crucial aspect of scholarly publishing that will ensure the quality and validity of research articles before they are accepted for publication. It involves subjecting submitted manuscripts to evaluation by experts in the same field as the research, known as peer reviewers. Here's an overview of the typical steps involved in the peer review process:",
+    "Submission: Authors submit their unpublished research manuscript to IC-ASET24 for consideration. The manuscript typically includes either a review paper or research paper with research findings, methodology, results, discussion, and conclusions.",
+    "Editorial Assessment: Upon receiving the manuscript, the IC-ASET24 editorial team consisting of technical program chairs/publication chairs perform an initial assessment. They evaluate whether the manuscript aligns with the conference’s scope and meets basic formatting and ethical standards. If it passes this initial screening, the manuscript proceeds to the next step.",
+    "Assignment of Reviewers: The editor selects meta reviewer who are experts in the relevant field who will further assign the papers to peer reviewers. These reviewers are typically researchers, academics, or professionals who have expertise in the subject matter of the manuscript.",
+    "Peer Review: The selected peer reviewers thoroughly evaluate the manuscript. They assess its originality, significance, methodology, clarity, and adherence to ethical standards. Reviewers may provide comments, suggestions, and criticisms to help improve the manuscript.",
+    "Decision Making: Based on the feedback from the peer reviewers, the meta reviewer decides regarding the manuscript. The possible decisions include:",
+    "Acceptance: The manuscript is accepted for publication without further revisions.",
+    "Minor Revisions: The manuscript requires minor revisions to address specific concerns raised by the reviewers.",
+    "Major Revisions: The manuscript needs significant revisions and additional experimentation before it can be accepted for publication.",
+    "Rejection: The manuscript does not meet the conference's standards and is rejected for publication.",
+    "Revisions and Resubmission: If the manuscript requires revisions, the authors are typically given a specified period to address the reviewers' comments and make the necessary changes. They then resubmit the revised manuscript to the journal.",
+    "Final Decision: After receiving the revised manuscript, the editorial team and/or reviewers reassess it to ensure that the revisions adequately address the concerns raised during the initial review. The editorial team then makes a final decision on whether to accept the manuscript for publication.",
+    "Publication: If the manuscript is accepted, it undergoes copyediting and formatting to prepare it for publication. Once finalized, the article is published in the conference proceedings and made available to the scientific community.",
+    "Overall, the peer review process plays a critical role in maintaining the quality, integrity, and credibility of scholarly literature by subjecting papers to rigorous evaluation by experts in the field."
 ]
 
 export const stayIns = [
