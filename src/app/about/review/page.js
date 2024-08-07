@@ -8,7 +8,7 @@ export default function Review(){
             </h1>
             <div className="text-justify leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg">
                 {reviewProcess.map((value,index)=>{
-                    return <p className="p-2">{value}</p>
+                    return <p key={index} className="p-2">{value}</p>
                 })}
             </div>
             </div>
