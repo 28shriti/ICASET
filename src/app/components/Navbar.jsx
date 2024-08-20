@@ -22,7 +22,7 @@ const Navbar = () => {
     items: [
       { name: "YCCE", href: "/about/YCCE" },
       { name: "Patrons", href: "/about/YCCE#patrons" },
-      { name: "Welcome to IC-ASET25", href: "/about/conference" },
+      { name: "Welcome to ACT-25", href: "/about/conference" },
       {
         name: "Conference Theme and Scope",
         href: "/about/conference#themeAndScope",
@@ -88,7 +88,8 @@ const Navbar = () => {
     items: [
       { name: "Call for Paper", href: "/authors/cfp" },
       { name: "Important Dates", href: "/authors/dates" },
-      { name: "Paper Format", href: "/authors/format" },
+      { name: "Paper Format", href: "/documents/grenze_template.docx" },
+      // { name: "Paper Format", href: "/authors/format" },
       { name: "Paper Submission", href: "/authors/submission" },
       { name: "Publication", href: "/authors/publication" },
     ],

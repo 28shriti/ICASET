@@ -1,9 +1,9 @@
 import MainContainer from "@/app/components/MainContainer"
 
 export default function CallForPaper() {
-    return (
-        <MainContainer>
-            <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
+  return (
+    <MainContainer>
+      {/* <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
         <div className=" bg-white p-10 bg-opacity-80 lg:mb-10 rounded-3xl">
                 <h1 className=" flex justify-center font-bold pb-10 text-2xl md:text-5xl text-center text-[#333]">
             CALL FOR PAPERS
@@ -172,7 +172,34 @@ export default function CallForPaper() {
             </em>
           </p>
                 </div>
-            </div>
-        </MainContainer>
-    )
+            </div> */}
+      <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
+        <div className=" bg-white p-10 bg-opacity-80 lg:mb-10 rounded-3xl">
+          <h1 className=" flex justify-center font-bold pb-10 text-2xl md:text-5xl text-center text-[#333]">
+            CALL FOR PAPERS
+          </h1>
+          <p className="text-justify leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg lg:px-20">
+            Dear Professor, <br /> <br />
+            International Conference on Advances in Computing, Control & Telecommunication Technologies - 2025 (Phase - I) will be held during February 7-8, 2025; Yeshwantrao Chavan College of Engineering (YCCE) Nagpur, India.  IC-ASET25, is to bring together innovative academics and industrial experts in the field of Applied Sciences and Nanotechnology, Renewable Energy and Sustainability, Information and Communication Technology, Robotics and Automation, Biomedical Engineering and Healthcare Technology, Civil and Environmental Engineering, Mechanical and Aerospace Engineering, Chemical Engineering and Process Technology and Industrial Engineering and Management.
+            The ACT25 conference is jointly organized by the IDES and YCCE. <br />
+            https://www.act-ycce.in/ <br />
+            All the accepted registered papers will be published by the {" "}<a href="https://mbox.theides.org/l/Umn5VjBSrxMpCQXVaqUNrA/C4nTgqQiSmFl5OvMRH2ZTw/a1INeKaDiDlV8ruK2149cg" className="underline">Grenze Scientific Society</a> and it will be made available in the {" "}<a href="https://mbox.theides.org/l/Umn5VjBSrxMpCQXVaqUNrA/PE892y892QMyWTO8v2gNMZ3rDw/a1INeKaDiDlV8ruK2149cg" className="underline">GRENZE International Journal of Engineering and Technology (GIJET)</a>, and will be indexed in <b>Scopus</b>. <br />
+            {/* <b>Previous Scopus indexed issue » <a href="/" className="underline">Link</a></b> <br /> */}
+            Prospective authors are invited to submit full (original) research papers; which are NOT submitted or published or under consideration anywhere in other conferences or journals; in electronic (Doc only) format through the email cmt link <br />
+            {/* <b>Last Date of Paper Submission: 30 September 2025</b> <br /> */}
+            If this call for paper is not of your area of interest; please forward to a researcher who is working in this area. <br /> <br />
+            Thanking you and Best Regards, <br />
+            -- <br />
+            Organisers <br />
+            ACT-25 (Phase-I) <br />
+            Email:
+
+
+
+          </p>
+
+        </div>
+      </div>
+    </MainContainer>
+  )
 }
