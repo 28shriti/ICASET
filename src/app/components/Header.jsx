@@ -6,9 +6,9 @@ const Header = () => {
   return (<>
     <div className="hidden md:flex bg-[#31363F] text-white w-full m-0 p-3 lg:px-[3rem] justify-between items-center">
       <ProgressBar />
-      <Image src={'/images/ic-aset_logo.png'} width={250} height={150} alt="icaset_Logo" className=" hidden md:block mix-blend-screen object-cover object-center" />
+      <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className=" hidden md:block  object-cover object-center mx-10" />
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center md:mx-5 lg:mx-10 my-[1rem]" style={{ fontFamily: "Times New Roman" }} >
-        International Conference on Applications of Science, Engineering and Technology - 2025
+        International Conference on Advances in Computing, Control & Telecommunication Technologies - 2025 (Phase - I)
       </h1>
       <Image src={'/images/YCCElogo-removebg-preview.png'} alt="ycce_Logo" className="hidden md:block mix-blend-screen object-cover object-center" height={150} width={230} />
     </div>

@@ -9,10 +9,9 @@ export default function Footer() {
         <footer>
         <div className="w-full bg-[#31363F]  text-white md:p-2 py-5 flex flex-col md:flex-row justify-center items-center">
             <div className=" m-auto md:mr-[60px] md:w-[400px] md:h-[200px] flex flex-col items-center">
-                <Image src={'/images/ic-aset_logo.png'} width={300} height={150} alt="icaset_Logo" className=" md:block mix-blend-screen object-cover object-center" />
-                <p className='md:text-left text-md px-3 text-center'>
-                    International Conference on Applications of Science, Engineering and
-                    Technology - 2025</p>
+                <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className=" md:block object-cover object-center mb-2" />
+                <p className='md:text-center text-md px-3 text-center'>
+                International Conference on Advances in Computing, Control & Telecommunication Technologies - 2025 (Phase - I)</p>
             </div>
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Quick Links </h1>
@@ -29,7 +28,7 @@ export default function Footer() {
                 <ul>
                     <li><Link href="https://ycce.edu/" className="item"><FontAwesomeIcon icon={faLocationDot} /> YCCE official website</Link></li>
                     <li>Phone no : +91-8275783031 </li>
-                    <li>Email : ksingh@ycce.edu</li>
+                    <li>Email : act_phase1@outlook.com</li>
 
                 </ul>
             </div>
