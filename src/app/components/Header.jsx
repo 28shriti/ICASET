@@ -18,7 +18,7 @@ const Header = () => {
       International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase I)
       </h1>
       <div className="grid grid-cols-2 gap-3 items-center justify-center">
-        <Image src={'/images/act_logo.png'} width={80} height={50} alt="icaset_Logo" className="mix-blend-screen object-contain object-center h-full" />
+        <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className="mix-blend-screen object-contain object-center" />
         <Image src={'/images/YCCElogo-removebg-preview.png'} alt="ycce_Logo" className="mix-blend-screen object-contain object-center w-[10rem] h-full m-auto" height={150} width={230} />
       </div>
     </div>
