@@ -7,7 +7,7 @@ export const metadata = {
 }
 
 export default function Registration() {
-    return (
+    return ( 
         <MainContainer>
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
                 <div className=" bg-white p-10 bg-opacity-80 lg:mb-10 rounded-3xl">

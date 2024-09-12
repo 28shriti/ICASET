@@ -35,12 +35,12 @@ const Home = () => {
             <p>
               Department of Computer Science & Engineering
             </p>
-            <p>
+            <p className="text-xl">
               Yeshwantrao Chavan College of Engineering, Hingna, Nagpur,
               Maharashtra, India
             </p>
             <p>and</p>
-            <p>Institute of Doctors, Engineers and Scientist (IDES)</p>
+            <p className="text-xl">Institute of Doctors, Engineers and Scientist (IDES)</p>
             {/* <p className="mt-5 mb-2">
               In Association with:
             </p>
