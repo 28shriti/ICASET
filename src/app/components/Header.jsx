@@ -6,7 +6,7 @@ const Header = () => {
   return (<>
     <div className="hidden md:flex bg-[#31363F] text-white w-full m-0 p-3 lg:px-[3rem] justify-between items-center">
       <ProgressBar />
-      <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className=" hidden md:block  object-cover object-center mx-10" />
+      <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className=" hidden md:block  object-cover object-center" />
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center md:mx-5 lg:mx-10 my-[1rem]" style={{ fontFamily: "Times New Roman" }} >
         International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase I)
       </h1>
