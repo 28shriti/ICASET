@@ -7,12 +7,11 @@ export const metadata = {
     description: 'This page contains all the important dates for the conference'
 }
 
+// https://github.com/mailtop/horizontal-timeline
 
 export default function ImportantDates() {
     return (
         <MainContainer>
-            <ComingSoon />
-            {/*
             <div className='pb-10 bg-black bg-opacity-70'>
                 {/* <div className="flex justify-center items-center w-[50vw] gap-7 flex-col">
                 {dates.map((value, key) => {
@@ -23,7 +22,7 @@ export default function ImportantDates() {
                         </div>
                     )
                 })}
-            </div> /}
+            </div> */}
                 <h3 className='text-white text-center font-black py-10 text-3xl'>Important Dates</h3>
                 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                     <li className='text-white'>
@@ -79,8 +78,6 @@ export default function ImportantDates() {
                     </li>
                 </ul>
             </div>
-            */}
-
         </MainContainer>
     )
 }

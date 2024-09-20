@@ -6,23 +6,23 @@ const data = {
 export const dates = [
     {
         event: "Last date of Paper Submission",
-        date: "15 July, 2024",
+        date: "15 November 2024",
     },
     {
         event: "Paper Acceptance Notification",
-        date: "30 August, 2024",
+        date: "15 December 2024",
     },
     {
         event: "Camera Ready Paper Submission",
-        date: "30 September, 2024",
+        date: "25 December 2024",
     },
     {
-        event: "Last date of Paper Registration",
-        date: "15 October, 2024",
+        event: "Last date of Registration",
+        date: "25 December 2024",
     },
     {
         event: "Conference Date",
-        date: "November 22-23, 2024",
+        date: "07-08 February 2025",
     },
 ]
 
@@ -1556,6 +1556,44 @@ export const sites = [
         description: "It is famous for its ferocious Bengal Tigers that boasts a significant amount of tourism in the park. At present, there are around 50 tigers residing in the prey-rich woodlands of park's region. Besides this, the park also has 39 species of mammals 13 species of reptiles and 3 species of amphibians."
     }
 ]
+
+
+export const topics = [
+    "Analog ad Digital devices and Services", "Data Structures and Algorithms",
+    "Applied Statistics and Data Science", "Digital Communication and Security",
+    "Artificial Intelligence, Deep Learning and Machine Learning", "Digital Electronics",
+    "Autonomous Systems and Robotics", "Digital Signal Processing",
+    "Big Data and Analytics", "Expert and AI-enabled Systems",
+    "Bioinformatics and Scientific Computing", "Field Theory",
+    "Bio-inspired Composite Materials", "High Performance Computing",
+    "Biomechanics and Rehabilitation Engineering", "High Voltage Engineering and Insulation Technology",
+    "Cloud Computing and Virtualization", "Human-Robot Interaction",
+    "Communication Systems", "Image and Video Processing, Computer Vision and Robotics",
+    "Compilers and Natural Language Processing", "Industrial Automation and Control",
+    "Computational Intelligence in Various Domains", "Information Systems and Retrieval",
+    "Computational Mathematics", "Information Technology Application",
+    "Computational Physics and Simulation", "Intelligent Systems and Approach",
+    "Computer Architecture and Embedded Systems", "Internet of Things (IoT)",
+    "Computer Games and Animation", "Knowledge Management",
+    "Computer Graphics, Modeling & Virtual Reality", "Mathematical Modelling and Optimization",
+    "Computer Networks, Security, Cryptography & Distributed Computing", "Mechatronics",
+    "Computer-aided Design and Manufacturing", "Medical Imaging and Diagnostics",
+    "Computing and Control in Additive Manufacturing and 3D Printing", "Microprocessor based Technologies",
+    "Computing and Control in Ergonomics and Human Factors", "Mobile Computing and Multimedia Applications",
+    "Computing and Control in Fluid Mechanics and Heat Transfer", "Operation Research and Optimization",
+    "Computing and Control in Project Management and Industrial Innovation", "Parallel and Distributed Computing",
+    "Computing and Control in Quality Control and Process Improvement", "Power System Planning and Scheduling",
+    "Computing and Control in Supply Chain Management", "Power System Protection, Operation and Control",
+    "Computing and Control in Thermodynamics and Energy Systems", "Quantum Mechanics and Quantum Computing",
+    "Computing in Geotechnical and Earthquake Engineering", "Semiconductor Technology",
+    "Computing in Structural Engineering and Mechanics", "Smart Cities and Urban Development",
+    "Computing in Transportation Engineering and Traffic Management", "Software Architecture and Engineering",
+    "Computing Practices & Applications in Various Domains", "Telecommunication Technologies",
+    "Control Theory and Application", "Telemedicine and Health Informatics",
+    "Cybersecurity and Blockchain Technology", "VLSI Technology",
+    "Data Communications, Compression and Encryption", "Wearable Health Monitoring Systems"
+];
+
 
 export default data;
 

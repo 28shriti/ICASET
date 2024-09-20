@@ -89,15 +89,10 @@ const Navbar = () => {
       { name: "Call for Paper", href: "/authors/cfp" },
       { name: "Important Dates", href: "/authors/dates" },
       { name: "Paper Format", href: "/documents/grenze_template.docx" },
-      // { name: "Paper Format", href: "/authors/format" },
       { name: "Paper Submission", href: "/authors/submission" },
       { name: "Publication", href: "/authors/publication" },
+      { name: "Download CFP", href: "/documents/CALL FOR PAPERS.pdf" }
     ],
-  };
-
-  const contact = {
-    name: "Contact Us",
-    href: "/contact",
   };
 
   function AccordionLink({ href, trigger, className, newTab }) {

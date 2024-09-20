@@ -1,7 +1,7 @@
 "use client";
 export default function Map() {
   return (
-    <div className='md:h-[550px] md:w-[800px] h-[300px] w-[360px]'>
+    <div className='h-full w-full'>
      <iframe
       width='100%'
       height='100%'
