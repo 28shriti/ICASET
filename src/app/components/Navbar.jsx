@@ -22,7 +22,7 @@ const Navbar = () => {
     items: [
       { name: "YCCE", href: "/about/YCCE" },
       { name: "Patrons", href: "/about/YCCE#patrons" },
-      { name: "Welcome to ACT-25", href: "/about/conference" },
+      { name: "Welcome to ACT-2025", href: "/about/conference" },
       {
         name: "Conference Theme and Scope",
         href: "/about/conference#themeAndScope",

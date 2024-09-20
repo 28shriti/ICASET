@@ -1295,23 +1295,24 @@ export const organizingCommitte = [
 ]
 
 
+import Link from 'next/link';
 
 export const faq = [
-  { question: "When and where will ICASET-2024 take place?", answer: "Dates: Venue: Hybrid Mode (YCCE, Nagpur, MS, India)" },
-  { question: "How do I register for the conference?", answer: "You can register for ICASET-2024 through the official conference website by completing the registration form and paying the applicable fees." },
+  { question: "When and where will ACT-2025 (Phase I) take place?", answer: "Dates: 07-08 February 2025, Venue: Hybrid Mode (YCCE, Nagpur, MS, India)" },
+  { question: "How do I register for the conference?", answer: "Once your paper is accepted, you can register for ACT-2025 (Phase I) through the official conference website by paying the applicable fees and filling and submitting the registration form." },
   { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "YES" },
-  { question: "What will the conference program include?", answer: "Conf. Schedule pdf" },
-  { question: "Is there an early bird discount?", answer: "YES …URI…." },
-  { question: "What are the benefits of attending these conferences?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. These events also provide a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements" },
-  { question: "What is the International Conference on Applications of Science, Engineering, and Technology (ICASET-2024)?", answer: "ICASET-2024 is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
-  { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science and technology." },
-  { question: "How can I pay the registration fee?", answer: "You can pay the registration fee online via credit card, debit card, or bank transfer." },
+  { question: "What will the conference program include?", answer: <Link href='/schedule' className='underline font-bold'>Conf. Schedule pdf</Link> },
+  { question: "Is there an early bird discount?", answer: "NO" },
+  { question: "What are the benefits of attending the conference?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. This event also provides a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements." },
+  { question: "What is the International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase 1)?", answer: "ACT-2025 (Phase I) is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
+  { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science, engineering and technology." },
+  { question: "How can I pay the registration fee?", answer: <p>You can pay the registration fees online via credit card, debit card, or bank transfer through <Link href="/registration" className='underline font-bold'>payment link.</Link></p> },
   { question: "Will the conference be recorded?", answer: "Yes, sessions will be recorded and made available to registered participants after the conference." },
-  { question: "How can I contact the organizers if I have more questions?", answer: "You can contact us via email at [insert contact email] or phone at [insert contact number]. Our team will be happy to assist you. Feel free to modify the information according to the specifics of your conference." },
-  { question: "What if I have technical issues during the conference?", answer: "Technical support will be available throughout the event. Contact details for support will be provided with your login information." },
+  { question: "How can I contact the organizers if I have more questions?", answer: "You can contact us via email at [insert contact email] or phone at [insert contact number]. Our team will be happy to assist you." },
+  { question: "What if I have technical issues during the conference?", answer: "Technical support will be available throughout the event. Contact details for support will be provided with your paper acceptance information." },
   { question: "Can I switch between in-person and virtual attendance?", answer: "Yes, you can switch your attendance mode by contacting our support team. Please note that changes may be subject to availability." },
   { question: "How do I ask questions during sessions?", answer: "In-person attendees can use microphones or designated question areas. Virtual attendees can submit questions via the Q&A feature on the platform." },
-  { question: "How do I provide feedback about the conference?", answer: "Feedback forms will be available on the conference app and virtual platform. We appreciate your input to improve future events." },
+  { question: "How do I provide feedback about the conference?", answer: "Feedback forms will be available after completion of your presentation. We appreciate your input to improve future events." },
   { question: "Will meals be provided?", answer: "Yes, meals and refreshments will be provided." }
 ];
 
