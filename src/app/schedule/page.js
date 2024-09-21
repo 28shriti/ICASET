@@ -10,14 +10,14 @@ export default function Schedule() {
     return (
         <MainContainer>
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
-                <div className=" bg-white py-10 px-2 md:p-10 bg-opacity-80 lg:mb-10 rounded-3xl">
-                    <h1 className=" flex justify-center font-bold pb-10 text-2xl md:text-5xl text-center text-[#333]">
+                <div className="bg-[#222831] bg-opacity-70 py-10 px-2 md:p-10 lg:mb-10 rounded-3xl">
+                    <h1 className=" flex justify-center font-bold pb-10 text-2xl md:text-5xl text-center text-white">
                         Program Schedule
                     </h1>
 
-                    <table className="w-full lg:w-3/4 mx-auto">
+                    <table className="w-full lg:w-3/4 mx-auto text-white">
 
-                        <thead className="border-2 border-black w-full">
+                        <thead className="border-2 border-white w-full">
                             <tr>
                                 <th colSpan={2} className="py-5 px-3">
                                     <div className="flex justify-center items-center">
@@ -34,91 +34,91 @@ export default function Schedule() {
                             </tr>
                         </thead>
 
-                        <tbody className="border-2 border-black w-full">
-                            <tr className="border-2 border-black">
-                                <th className="border-r-2 border-black">Date: 07/02/2025</th>
+                        <tbody className="border-2 border-white w-full">
+                            <tr className="border-2 border-white">
+                                <th className="border-r-2 border-white">Date: 07/02/2025</th>
                                 <th>Agenda</th>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">09:00 - 10:00 am</td>
+                                <td className="border-r-2 border-white p-3">09:00 - 10:00 am</td>
                                 <td className="p-3">Registration and Tea</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">10:00 - 10:30 am</td>
+                                <td className="border-r-2 border-white p-3">10:00 - 10:30 am</td>
                                 <td className="p-3">Inaugration</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">10:30 - 11:00 am</td>
+                                <td className="border-r-2 border-white p-3">10:30 - 11:00 am</td>
                                 <td className="p-3">Keynote Address - 1</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">11:00 - 1:00 pm</td>
+                                <td className="border-r-2 border-white p-3">11:00 - 1:00 pm</td>
                                 <td className="p-3">Session A1, A2, A3, A4, A5, A6</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">1:00 - 1:30 pm</td>
+                                <td className="border-r-2 border-white p-3">1:00 - 1:30 pm</td>
                                 <td className="p-3">Lunch Break</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">1:30 - 2:00 pm</td>
+                                <td className="border-r-2 border-white p-3">1:30 - 2:00 pm</td>
                                 <td className="p-3">Ketnote Address - 2</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">2:00 - 4:00 pm</td>
+                                <td className="border-r-2 border-white p-3">2:00 - 4:00 pm</td>
                                 <td className="p-3">Session B1, B2, B3, B4, B5, B6</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">4:00 - 5:00 pm</td>
+                                <td className="border-r-2 border-white p-3">4:00 - 5:00 pm</td>
                                 <td className="p-3">High Tea and Networking</td>
                             </tr>
 
                             {/* =========== Day 2 =============*/}
 
-                            <tr className="border-2 border-black">
-                                <th className="border-r-2 border-black">Date: 08/02/2025</th>
+                            <tr className="border-2 border-white">
+                                <th className="border-r-2 border-white">Date: 08/02/2025</th>
                                 <th>Agenda</th>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">10:00 - 10:30 am</td>
+                                <td className="border-r-2 border-white p-3">10:00 - 10:30 am</td>
                                 <td className="p-3">Tea, Coffee</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">10:30 - 11:00 am</td>
+                                <td className="border-r-2 border-white p-3">10:30 - 11:00 am</td>
                                 <td className="p-3">Keynote Address - 3</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">11:00 - 1:00 pm</td>
+                                <td className="border-r-2 border-white p-3">11:00 - 1:00 pm</td>
                                 <td className="p-3">Session C1, C2, C3, C4, C5, C6</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">1:00 - 1:30 pm</td>
+                                <td className="border-r-2 border-white p-3">1:00 - 1:30 pm</td>
                                 <td className="p-3">Lunch Break</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">1:30 - 2:00 pm</td>
+                                <td className="border-r-2 border-white p-3">1:30 - 2:00 pm</td>
                                 <td className="p-3">Ketnote Address - 4</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">2:00 - 4:00 pm</td>
+                                <td className="border-r-2 border-white p-3">2:00 - 4:00 pm</td>
                                 <td className="p-3">Session D1, D2, D3, D4, D5, D6</td>
                             </tr>
 
                             <tr>
-                                <td className="border-r-2 border-black p-3">4:00 - 5:00 pm</td>
+                                <td className="border-r-2 border-white p-3">4:00 - 5:00 pm</td>
                                 <td className="p-3">Valedictory Function</td>
                             </tr>
 
