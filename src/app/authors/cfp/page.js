@@ -35,7 +35,7 @@ export default function CallForPaper() {
 
                     <div className='grid sm:grid-cols-2 gap-0 text-white my-10 lg:mx-20 border-b-2'>
                         {topics.map((topic, index) => {
-                            return <p className={`border-x-2 sm:border-x-0 sm:border-r-2 border-t-2 sm:${index % 2 === 0 && "border-l-2"} border-white p-2`} key={index}>{topic}</p>
+                            return <p className={`border-x-2 border-t-2 ${index % 2 === 0 ? "sm:border-l-2" : "sm:border-l-0"} border-white p-2`} key={index}>{topic}</p>
                         })}
                     </div>
 
