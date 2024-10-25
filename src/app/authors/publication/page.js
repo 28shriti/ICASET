@@ -6,7 +6,7 @@ export default function Publication() {
         <MainContainer>
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
                 <div className="p-10 lg:mb-10 rounded-3xl bg-[#222831] bg-opacity-70">
-                    <h1 className=" flex justify-center font-bold pb-10 text-2xl md:text-5xl text-center font-extrabold text-white">
+                    <h1 className=" flex justify-center pb-10 text-2xl md:text-5xl text-center font-extrabold text-white">
                         Publication
                     </h1>
 

@@ -39,7 +39,7 @@ export default function CallForPaper() {
                         })}
                     </div>
 
-                    <h3 className="flex justify-center font-bold pb-10 text-white text-justify text-xl font-bold md:text-2xl lg:text-3xl lg:px-20 pt-5">
+                    <h3 className="flex justify-center pb-10 text-white text-justify text-xl font-bold md:text-2xl lg:text-3xl lg:px-20 pt-5">
                         Important Dates
                     </h3>
 
@@ -48,19 +48,19 @@ export default function CallForPaper() {
                             <tbody>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Paper Submission</td>
-                                    <td className='px-3 py-2 border-2 border-white'>15 November 2024</td>
+                                    <td className='px-3 py-2 border-2 border-white'>30 November 2024</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Acceptance Notification</td>
-                                    <td className='px-3 py-2 border-2 border-white'>15 December 2024</td>
+                                    <td className='px-3 py-2 border-2 border-white'>30 December 2024</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Camera Ready Paper Submission</td>
-                                    <td className='px-3 py-2 border-2 border-white'>25 December 2024</td>
+                                    <td className='px-3 py-2 border-2 border-white'>15 January 2025</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Registration</td>
-                                    <td className='px-3 py-2 border-2 border-white'>25 December 2024</td>
+                                    <td className='px-3 py-2 border-2 border-white'>15 January 2025</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Conference Date</td>

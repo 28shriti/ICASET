@@ -19,9 +19,9 @@ const Home = () => {
       <div className="pb-10">
         <Notice />
         <div className="flex flex-col md:flex-row w-full justify-between p-5 md:p-10 mt-0 gap-5">
-          <div className="w-full md:w-1/2 flex flex-col h-auto md:h-[50vh] text-center p-3 md:p-10 rounded-xl backdrop-blur-sm backdrop-contrast-50 text-white">
-            <h2 className="text-center text-lg font-bold mb-5">
-            International Conference on Advances in Computing, Control & Telecommunication Technologies - 2025 (Phase - I)
+          <div className="w-full md:w-1/2 flex flex-col h-auto md:h-[50vh] text-center p-3 md:p-10 rounded-xl backdrop-blur-md backdrop-contrast-50 text-white">
+            <h2 className="text-center text-xl font-bold mb-5">
+            International Conference on Advances in Computing, Control & Telecommunication Technologies - 2025 (Phase I)
             </h2>
             <p>
               Jointly Organized by:
