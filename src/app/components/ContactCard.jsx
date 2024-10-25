@@ -7,8 +7,8 @@ const ContactCard = (props) => {
       <h1 className="text-white text-xl p-2 ">Contact Us:</h1>
 
       <div className=" rounded-lg">
-        <div className="rounded-t-lg h-[180px] flex items-center justify-center">
-            <h2 className="text-white text-2xl font-bold ">Dr. {props.name}</h2>
+        <div className="rounded-t-lg h-[120px] flex items-center justify-center">
+            <h2 className="text-white text-2xl font-bold ">{props.name}</h2>
         </div>
         <div>
           <ol>

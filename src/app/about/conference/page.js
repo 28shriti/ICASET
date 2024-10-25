@@ -13,7 +13,7 @@ export default function Conference() {
             <div className="overflow-x-hidden backdrop-blur-md backdrop-contrast-50 p-2 md:p-10">
                 <div className="bg-[#222831] bg-opacity-70 p-10 lg:mb-10 rounded-3xl">
                     <h1 className=" flex justify-center font-bold pb-10 text-center text-2xl md:text-5xl text-white">
-                        WELCOME TO IC-ASET25
+                        WELCOME TO ACT-2025 (Phase I)
                     </h1>
 
                     <p className="text-justify text-white leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg lg:px-20">

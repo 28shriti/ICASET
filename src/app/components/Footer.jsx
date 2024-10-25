@@ -11,7 +11,7 @@ export default function Footer() {
             <div className=" m-auto md:mr-[60px] md:w-[400px] md:h-[200px] flex flex-col items-center">
                 <Image src={'/images/act_logo.png'} width={100} height={100} alt="act_Logo" className=" md:block object-cover object-center mb-2" />
                 <p className='md:text-center text-md px-3 text-center'>
-                International Conference on Advances in Computing Control and Telecommunication Technologies,ACT-2025 (Phase I)</p>
+                International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase I)</p>
             </div>
             <div className='m-auto md:m-[60px] md:w-[400px] md:h-[200px]' >
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Quick Links </h1>
@@ -27,7 +27,7 @@ export default function Footer() {
                 <h1 className='text-cyan p-[30px]' style={{ fontSize: "30px", color: "cyan", padding: "30px" }}>Get in Touch </h1>
                 <ul>
                     <li><Link href="https://ycce.edu/" className="item"><FontAwesomeIcon icon={faLocationDot} /> YCCE official website</Link></li>
-                    <li>Phone no : +91-8275783031 </li>
+                    <li>Phone no : +91-7767888776 </li>
                     <li>Email : act_phase1@outlook.com</li>
 
                 </ul>
@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
         </div>
         <div className=" flex justify-center items-center p-2 bg-white text-[#222831]">
-                    Copyright © 2025 ICT-ACT - All Rights Reserved 
+                    Copyright © ACT-2025 (Phase I) - All Rights Reserved 
             </div>
             
         </footer>

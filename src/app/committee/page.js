@@ -1,4 +1,4 @@
-import { generalChair, internationalPublicityChair, nationalPublicityChair, technicalProgramChairs, publicationChairs, digitalChairs } from "@/app/data"
+import { generalChair, internationalPublicityChair, nationalPublicityChair, technicalProgramChairs, publicationChairs, digitalChairs, financeChairs } from "@/app/data"
 import BoardMember from "@/app/components/BoardMember"
 import Title from "@/app/components/Title";
 import MainContainer from "@/app/components/MainContainer";
@@ -28,6 +28,10 @@ const page = () => {
     });
 
     const digital = Array.from(digitalChairs).sort((a, b) => {
+        return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
+    });
+
+    const finance = Array.from(financeChairs).sort((a, b) => {
         return a.name.localeCompare(b.name, 'en', { sensitivity: 'base' });
     });
 
@@ -73,11 +77,12 @@ const page = () => {
                 <ProfileGrid data={publication} hybrid />
 
                 <div style={{ display: "hidden" }} id="digitalChairs"></div> {/* Anchor */}
-                <Title>Digital Chairs</Title>
+                <Title>Digital Chair</Title>
                 <ProfileGrid data={digital} hybrid />
 
                 <div style={{ display: "hidden" }} id="financeChairs"></div> {/* Anchor */}
-                <Title className="hidden">Finance Chairs</Title>
+                <Title>Finance Chair</Title>
+                <ProfileGrid data={finance} hybrid />
 
             </div>
         </MainContainer>

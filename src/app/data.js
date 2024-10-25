@@ -6,19 +6,19 @@ const data = {
 export const dates = [
     {
         event: "Last date of Paper Submission",
-        date: "15 November 2024",
+        date: "30 November 2024",
     },
     {
         event: "Paper Acceptance Notification",
-        date: "15 December 2024",
+        date: "30 December 2024",
     },
     {
         event: "Camera Ready Paper Submission",
-        date: "25 December 2024",
+        date: "15 January 2024",
     },
     {
         event: "Last date of Registration",
-        date: "25 December 2024",
+        date: "15 January 2024",
     },
     {
         event: "Conference Date",
@@ -254,13 +254,13 @@ export const nationalPublicityChair = [
         country: "VELLORE",
         link: "https://scholar.google.co.in/citations?user=I19waVEAAAAJ&hl=en"
     },
-    {
-        img: "/images/chairs/rameshChandra.jpg",
-        name: "Ramesh Chandra",
-        designation: "Wegrow India Research & Innovation LLP Dhenkanal",
-        country: "DHENKANAL",
-        link: "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
-    },
+    // {
+    //     img: "/images/chairs/rameshChandra.jpg",
+    //     name: "Ramesh Chandra",
+    //     designation: "Wegrow India Research & Innovation LLP Dhenkanal",
+    //     country: "DHENKANAL",
+    //     link: "https://www.linkedin.com/in/dr-ramesh-chandra-highest-research-patent-holder-in-world-16485919b/"
+    // },
     {
         img: "/images/chairs/shailajapatil.jpg",
         name: "Shaileja Patil",
@@ -290,7 +290,7 @@ export const nationalPublicityChair = [
         link: "https://scholar.google.com/citations?user=8N6KioAAAAAJ&hl=en"
     },
     {
-         img: "/images/chairs/amitkant.jpg",
+        img: "/images/chairs/amitkant.jpg",
         name: "Amit Kant Pandit",
         designation: "Shri Mata Vaishno Devi University",
         country: "KATRA",
@@ -338,6 +338,13 @@ export const internationalPublicityChair = [
 ]
 
 export const nationalAdvisoryBoard = [
+    {
+        img: '/images/nab/SujithraMuthuswamy.jpg',
+        name: 'Dr. Sujithra Muthuswamy',
+        designation: 'Coimbatore Institute of Technology',
+        country: 'COIMBATORE (IDES Representative)',
+        link: 'https://scholar.google.com/citations?user=spY4b-gAAAAJ&hl=en'
+    },
     {
         img: '/images/nab/MukeshAZaveri.png',
         name: 'Mukesh A Zaveri',
@@ -549,23 +556,31 @@ export const publicationChairs = [
         img: "/images/ctech/RoshniKhedgaonkar.jpg",
         name: "Roshani S. Khedgaonkar",
         designation: "YCCE",
-        country : "INDIA",
+        country: "INDIA",
         link: ""
     },
     {
-        img: "/images/cse/pratibhaWagale.jpg",
-        name: "Pratibha P. Waghale",
-        designation: "YCCE",
-        country : "INDIA",
-        link: ""
+        img: "/images/ctech/ganeshYenurkar.jpg",
+        name: "Ganesh Yenurkar",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Technical Session Arrangement and Support"
     },
-    {
-        img: "/images/cse/nikitaGiradkar.jpeg",
-        name: "Nikita P. Giradkar",
-        designation: "YCCE",
-        country : "INDIA",
-        link: ""
-    }
+
+    // {
+    //     img: "/images/cse/pratibhaWagale.jpg",
+    //     name: "Pratibha P. Waghale",
+    //     designation: "YCCE",
+    //     country : "INDIA",
+    //     link: ""
+    // },
+    // {
+    //     img: "/images/cse/nikitaGiradkar.jpeg",
+    //     name: "Nikita P. Giradkar",
+    //     designation: "YCCE",
+    //     country : "INDIA",
+    //     link: ""
+    // }
 ]
 
 export const internationalTechProgramCommittee = [
@@ -1089,33 +1104,43 @@ export const digitalChairs = [
         country: 'NAGPUR',
         link: ""
     },
+    // {
+    //     img: "/images/cse/priyankaMore.jpg",
+    //     name: "Priyanka P. More",
+    //     designation: "YCCE",
+    //     country: 'NAGPUR',
+    //     link: ""
+    // }
+]
+
+export const financeChairs = [
     {
-        img: "/images/cse/priyankaMore.jpg",
-        name: "Priyanka P. More",
-        designation: "YCCE",
-        country: 'NAGPUR',
-        link: ""
-    }
+        img: "/images/ctech/roshanSir.jpg",
+        name: "Roshan S. Bhanuse",
+        designation: "Assistant Professor, Computer Technology",
+        link: "",
+        department: "Catering Management"
+    },
 ]
 
 export const organizingCommitte = [
     {
-        title: "Registration and Budgeting",
+        title: "Registration",
         members: [
-            {
-                img: "/images/ctech/prafulBarekar.jpg",
-                name: "Praful V. Barekar",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Registration and Budgeting"
-            },
-            {
-                img: "/images/ctech/prachiBainalwar.jpg",
-                name: "Prachi A. Bainwalwar",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Registration and Budgeting"
-            },
+            // {
+            //     img: "/images/ctech/prafulBarekar.jpg",
+            //     name: "Praful V. Barekar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // },
+            // {
+            //     img: "/images/ctech/prachiBainalwar.jpg",
+            //     name: "Prachi A. Bainwalwar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // },
             {
                 img: "/images/cse/rupaFadnavis.jpg",
                 name: "Rupa A. Fadnavis",
@@ -1123,39 +1148,39 @@ export const organizingCommitte = [
                 link: "",
                 department: "Registration and Budgeting"
             },
-            {
-                img: "/images/cse/amitaMeshram.jpg",
-                name: "Amita P. Meshram",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Registration and Budgeting"
-            }
+            // {
+            //     img: "/images/cse/amitaMeshram.jpg",
+            //     name: "Amita P. Meshram",
+            //     designation: "Assistant Professor, Computer Science and Engineering",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // }
         ]
     },
     {
-        title: "Technical Session Arrangement and Support",
+        title: "Session Arrangement",
         members: [
-            {
-                img: "/images/ctech/ganeshYenurkar.jpg",
-                name: "Ganesh Yenurkar",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Technical Session Arrangement and Support"
-            },
-            {
-                img: "/images/ctech/prafulBarekar.jpg",
-                name: "Praful V. Barekar",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Technical Session Arrangement and Support"
-            },
-            {
-                img: "/images/ctech/nileshSambhe.jpg",
-                name: "Nilesh U. Sambhe",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Technical Session Arrangement and Support"
-            },
+            // {
+            //     img: "/images/ctech/ganeshYenurkar.jpg",
+            //     name: "Ganesh Yenurkar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Technical Session Arrangement and Support"
+            // },
+            // {
+            //     img: "/images/ctech/prafulBarekar.jpg",
+            //     name: "Praful V. Barekar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Technical Session Arrangement and Support"
+            // },
+            // {
+            //     img: "/images/ctech/nileshSambhe.jpg",
+            //     name: "Nilesh U. Sambhe",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Technical Session Arrangement and Support"
+            // },
             {
                 img: "/images/cse/fazilSheikh.jpg",
                 name: "Fazil A. Sheikh",
@@ -1190,38 +1215,52 @@ export const organizingCommitte = [
                 department: "Transport and Accommodation"
             },
             {
-                img: "/images/cse/milindTote.jpg",
-                name: "Milind C. Tote",
-                designation: "Assistant Professor, Computer Science and Engineering",
+                img: "/images/ctech/prafulBarekar.jpg",
+                name: "Praful V. Barekar",
+                designation: "Assistant Professor, Computer Technology",
                 link: "",
-                department: "Transport and Accommodation"
-            }
+                department: "Technical Session Arrangement and Support"
+            },
+            {
+                img: "/images/ctech/nileshSambhe.jpg",
+                name: "Nilesh U. Sambhe",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Technical Session Arrangement and Support"
+            },
+            // {
+            //     img: "/images/cse/milindTote.jpg",
+            //     name: "Milind C. Tote",
+            //     designation: "Assistant Professor, Computer Science and Engineering",
+            //     link: "",
+            //     department: "Transport and Accommodation"
+            // }
         ]
     },
     {
         title: "Hall and Venue Management",
         members: [
-            {
-                img: "/images/ctech/smitaKapase.jpg",
-                name: "Smita R. Kapse",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Hall and Venue Management"
-            },
-            {
-                img: "/images/ctech/Supriya Thombre.jpg",
-                name: "Supriya S. Thombre",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Hall and Venue Management"
-            },
-            {
-                img: "/images/ctech/shwetaGhode.jpg",
-                name: "Shweta A. Gode",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Hall and Venue Management"
-            },
+            // {
+            //     img: "/images/ctech/smitaKapase.jpg",
+            //     name: "Smita R. Kapse",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Hall and Venue Management"
+            // },
+            // {
+            //     img: "/images/ctech/Supriya Thombre.jpg",
+            //     name: "Supriya S. Thombre",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Hall and Venue Management"
+            // },
+            // {
+            //     img: "/images/ctech/shwetaGhode.jpg",
+            //     name: "Shweta A. Gode",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Hall and Venue Management"
+            // },
             {
                 img: "/images/cse/BharatiKarare.jpg",
                 name: "Bharati A. Karare",
@@ -1248,27 +1287,27 @@ export const organizingCommitte = [
     {
         title: "Catering Management",
         members: [
-            {
-                img: "/images/ctech/roshanSir.jpg",
-                name: "Roshan S. Bhanuse",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Catering Management"
-            },
-            {
-                img: "/images/ctech/jainMam.jpg",
-                name: "Shweta N. Jain",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Catering Management"
-            },
-            {
-                img: "/images/ctech/SharayuKawale.jpg",
-                name: "Sharyau R. Kawale",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Catering Management"
-            },
+            // {
+            //     img: "/images/ctech/roshanSir.jpg",
+            //     name: "Roshan S. Bhanuse",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Catering Management"
+            // },
+            // {
+            //     img: "/images/ctech/jainMam.jpg",
+            //     name: "Shweta N. Jain",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Catering Management"
+            // },
+            // {
+            //     img: "/images/ctech/SharayuKawale.jpg",
+            //     name: "Sharyau R. Kawale",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Catering Management"
+            // },
             {
                 img: "/images/cse/shraddhaVaidya.jpg",
                 name: "Shraddha G. Vaidya",
@@ -1291,6 +1330,32 @@ export const organizingCommitte = [
                 department: "Catering Management"
             }
         ]
+    },
+    {
+        title: "Hospitality",
+        members: [
+            {
+                img: "/images/ctech/smitaKapase.jpg",
+                name: "Smita R. Kapse",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/ctech/Supriya Thombre.jpg",
+                name: "Supriya S. Thombre",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+            {
+                img: "/images/ctech/shwetaGhode.jpg",
+                name: "Shweta A. Gode",
+                designation: "Assistant Professor, Computer Technology",
+                link: "",
+                department: "Hall and Venue Management"
+            },
+        ]
     }
 ]
 
@@ -1298,22 +1363,22 @@ export const organizingCommitte = [
 import Link from 'next/link';
 
 export const faq = [
-  { question: "When and where will ACT-2025 (Phase I) take place?", answer: "Dates: 07-08 February 2025, Venue: Hybrid Mode (YCCE, Nagpur, MS, India)" },
-  { question: "How do I register for the conference?", answer: "Once your paper is accepted, you can register for ACT-2025 (Phase I) through the official conference website by paying the applicable fees and filling and submitting the registration form." },
-  { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "YES" },
-  { question: "What will the conference program include?", answer: <Link href='/schedule' className='underline font-bold'>Conf. Schedule pdf</Link> },
-  { question: "Is there an early bird discount?", answer: "NO" },
-  { question: "What are the benefits of attending the conference?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. This event also provides a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements." },
-  { question: "What is the International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase 1)?", answer: "ACT-2025 (Phase I) is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
-  { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science, engineering and technology." },
-  { question: "How can I pay the registration fee?", answer: <p>You can pay the registration fees online via credit card, debit card, or bank transfer through <Link href="/registration" className='underline font-bold'>payment link.</Link></p> },
-  { question: "Will the conference be recorded?", answer: "Yes, sessions will be recorded and made available to registered participants after the conference." },
-  { question: "How can I contact the organizers if I have more questions?", answer: "You can contact us via email at [insert contact email] or phone at [insert contact number]. Our team will be happy to assist you." },
-  { question: "What if I have technical issues during the conference?", answer: "Technical support will be available throughout the event. Contact details for support will be provided with your paper acceptance information." },
-  { question: "Can I switch between in-person and virtual attendance?", answer: "Yes, you can switch your attendance mode by contacting our support team. Please note that changes may be subject to availability." },
-  { question: "How do I ask questions during sessions?", answer: "In-person attendees can use microphones or designated question areas. Virtual attendees can submit questions via the Q&A feature on the platform." },
-  { question: "How do I provide feedback about the conference?", answer: "Feedback forms will be available after completion of your presentation. We appreciate your input to improve future events." },
-  { question: "Will meals be provided?", answer: "Yes, meals and refreshments will be provided." }
+    { question: "When and where will ACT-2025 (Phase I) take place?", answer: "Dates: 07-08 February 2025, Venue: Hybrid Mode (YCCE, Nagpur, MS, India)" },
+    { question: "How do I register for the conference?", answer: "Once your paper is accepted, you can register for ACT-2025 (Phase I) through the official conference website by paying the applicable fees and filling and submitting the registration form." },
+    { question: "Will I receive a certificate for attending or presenting at the conference?", answer: "YES" },
+    { question: "What will the conference program include?", answer: <Link href='/schedule' className='underline font-bold'>Conf. Schedule pdf</Link> },
+    { question: "Is there an early bird discount?", answer: "NO" },
+    { question: "What are the benefits of attending the conference?", answer: "Attendees can benefit from gaining insights into the latest research, networking with peers, and exploring opportunities for collaboration. This event also provides a platform for presenting one's work, receiving feedback, and staying updated with industry trends and advancements." },
+    { question: "What is the International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase 1)?", answer: "ACT-2025 (Phase I) is a global conference aimed at bringing together innovative academics and industrial experts to discuss and share advancements in science, engineering, and technology. It will feature lectures, poster sessions, and networking opportunities." },
+    { question: "Who can attend the conference?", answer: "The conference is open to researchers, scientists, academicians, students, and professionals in the field of science, engineering and technology." },
+    { question: "How can I pay the registration fee?", answer: <p>You can pay the registration fees online via credit card, debit card, or bank transfer through <Link href="/registration" className='underline font-bold'>payment link.</Link></p> },
+    { question: "Will the conference be recorded?", answer: "Yes, sessions will be recorded and made available to registered participants after the conference." },
+    { question: "How can I contact the organizers if I have more questions?", answer: "You can contact us via email at [insert contact email] or phone at [insert contact number]. Our team will be happy to assist you." },
+    { question: "What if I have technical issues during the conference?", answer: "Technical support will be available throughout the event. Contact details for support will be provided with your paper acceptance information." },
+    { question: "Can I switch between in-person and virtual attendance?", answer: "Yes, you can switch your attendance mode by contacting our support team. Please note that changes may be subject to availability." },
+    { question: "How do I ask questions during sessions?", answer: "In-person attendees can use microphones or designated question areas. Virtual attendees can submit questions via the Q&A feature on the platform." },
+    { question: "How do I provide feedback about the conference?", answer: "Feedback forms will be available after completion of your presentation. We appreciate your input to improve future events." },
+    { question: "Will meals be provided?", answer: "Yes, meals and refreshments will be provided." }
 ];
 
 
@@ -1321,19 +1386,19 @@ export const aboutYCCE = [
     "Yeshwantrao Chavan College of Engineering (YCCE) is a renowned institution for engineering education and research, having nurtured young engineering professionals for over 36 years. As a premier institute, YCCE was one of the few selected well-performing colleges for the Government of India's Technical Education Quality Improvement Program (TEQIP Phase I), funded by the World Bank. With TEQIP financial aid, the institution has created state-of-the-art infrastructure, laboratories, computational facilities, and libraries.YCCE became the first private engineering college to acquire 'Autonomous' status in Central India, allowing the first batch of students to commence their B.E. and M.Tech. courses from the academic session 2010-2011. In 2016-17, the UGC peer team granted 'Extension of Autonomy' for 6 years (2016-2022).The institution has received quality assurance through accreditation and re-accreditation of UG & PG programs by the National Board of Accreditation (NBA), New Delhi since 2003. The B.E. Mechanical Engg., B.E. Civil Engg., B.E. Electrical Engg., B.E. Electronics & Telecomm. Engg., B.E. Electronics Engg., and B.E. Information Tech. programs are accredited by NBA up to June 2023.YCCE has received numerous awards, including the ISTE National Award 2014 for being the 'Best Private Engineering College' in the Country, All India 32nd Rank, 23rd Rank amongst Self-Financing & 4th Rank in West Zone by DataQuest-CMR Ranking-2020, All India 134th Rank amongst IITs, NITs, Government and Autonomous Engineering Institutions by NIRF, MHRD, Govt. of India, 2019.Over the last five years, the institute has received financial assistance of Rs. 5.5 Cr. from various funding agencies like AICTE, DST, and UGC."
 ]
 
-export const asn=[
+export const asn = [
     "Nanomaterials and Nanotechnology",
-   " Smart Materials and Structures",
-   " Composites and Biomaterials",
+    " Smart Materials and Structures",
+    " Composites and Biomaterials",
     "Material Characterization and Testing",
     "Applied Physics and Mathematics",
     "Computational Physics and Simulation",
-   " Mathematical Modelling and Optimization",
+    " Mathematical Modelling and Optimization",
     "Quantum Mechanics and Quantum Computing",
     "Applied Statistics and Data Science",
     "Bio-inspired Composite Materials"
 ]
-export const res =[
+export const res = [
     "Solar and Wind Energy",
     "Bioenergy and Biofuels",
     "Energy Storage Systems",
@@ -1344,9 +1409,9 @@ export const res =[
     "Control Systems and Automation"
 ]
 
-export const ict =[
+export const ict = [
     "Artificial Intelligence and Machine Learning",
-   " Big Data and Data Analytics",
+    " Big Data and Data Analytics",
     "Internet of Things (IoT)",
     "Cybersecurity and Blockchain Technology",
     "Software Engineering and Development",
@@ -1355,16 +1420,16 @@ export const ict =[
     "Human-Computer Interaction",
     "3-D Object Modelling",
     "Augmented Reality",
-   " Image Processing"
+    " Image Processing"
 
 ]
 
 export const ra = [
     "Autonomous Systems and Robotics",
-   " Industrial Automation and Control",
-   " Human-Robot Interaction",
+    " Industrial Automation and Control",
+    " Human-Robot Interaction",
     "Applications of AI in Robotics",
-   " 3D Printing"
+    " 3D Printing"
 ]
 
 export const beht = [
@@ -1374,7 +1439,7 @@ export const beht = [
     "Telemedicine and Health Informatics"
 ]
 
-export const cee=[
+export const cee = [
     "Waste Management and Recycling",
     "Water and Air Quality Management",
     "Climate Change Mitigation and Adaptation",
@@ -1385,21 +1450,21 @@ export const cee=[
     "Geotechnical and Earthquake Engineering"
 ]
 
-export const mae =[
+export const mae = [
     "Fluid Mechanics and Heat Transfer",
     "Thermodynamics and Energy Systems",
     "Aerospace Engineering and Technology",
     "Additive Manufacturing and 3D Printing"
 ]
 
-export const cept =[
+export const cept = [
     "Chemical Reaction Engineering",
     "Process Design and Optimization",
     "Petrochemical and Refinery Engineering",
     "Biotechnology and Biochemical Engineering"
-    ]
+]
 
-export const iem =[
+export const iem = [
     "Operations Research and Supply Chain Management",
     "Quality Control and Process Improvement",
     "Ergonomics and Human Factors",
