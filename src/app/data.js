@@ -549,22 +549,22 @@ export const publicationChairs = [
         img: "/images/ctech/prarthanaDeshkar.jpg",
         name: "Prarthana A. Deshkar",
         designation: "YCCE",
-        country: "INDIA",
+        country: "NAGPUR",
         link: ""
     },
     {
         img: "/images/ctech/RoshniKhedgaonkar.jpg",
         name: "Roshani S. Khedgaonkar",
         designation: "YCCE",
-        country: "INDIA",
+        country: "NAGPUR",
         link: ""
     },
     {
         img: "/images/ctech/ganeshYenurkar.jpg",
         name: "Ganesh Yenurkar",
-        designation: "Assistant Professor, Computer Technology",
-        link: "",
-        department: "Technical Session Arrangement and Support"
+        designation: "YCCE",
+        country: "NAGPUR",
+        link: ""
     },
 
     // {
@@ -1117,9 +1117,9 @@ export const financeChairs = [
     {
         img: "/images/ctech/roshanSir.jpg",
         name: "Roshan S. Bhanuse",
-        designation: "Assistant Professor, Computer Technology",
+        designation: "YCCE",
+        country: 'NAGPUR',
         link: "",
-        department: "Catering Management"
     },
 ]
 
