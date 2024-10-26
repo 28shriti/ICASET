@@ -561,7 +561,7 @@ export const publicationChairs = [
     },
     {
         img: "/images/ctech/ganeshYenurkar.jpg",
-        name: "Ganesh Yenurkar",
+        name: "Ganesh K. Yenurkar",
         designation: "YCCE",
         country: "NAGPUR",
         link: ""
