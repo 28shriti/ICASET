@@ -163,7 +163,7 @@ const Navbar = () => {
         </div>
         <SheetContent className="bg-[#222831] overflow-x-auto no-scrollbar">
           <SheetHeader>
-            <SheetTitle className="text-white">ICT-ACT-2025</SheetTitle>
+            <SheetTitle className="text-white">ACT-2025</SheetTitle>
             <SheetDescription>
               International Conference on Advances in Computing Control and Telecommunication Technologies, ACT-2025 (Phase I) 
             </SheetDescription>

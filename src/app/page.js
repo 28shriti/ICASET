@@ -53,7 +53,7 @@ const Home = () => {
             </div> */}
 
 
-            <div className="mt-10 md:mt-15 w-auto rounded-3xl flex items-center justify-center md:justify-start text-lg">
+            <div className="mt-5 md:mt-15 w-auto rounded-3xl flex items-center justify-center md:justify-start text-lg">
               <div className="text-2xl text-white">
                 <FontAwesomeIcon icon={faCalendarDays} />
               </div>
