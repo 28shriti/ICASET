@@ -334,7 +334,13 @@ export const internationalPublicityChair = [
         country: 'SAUDI ARABIA',
         link: "https://scholar.google.com/citations?user=b94AAeMAAAAJ&hl=en"
     },
-
+    {
+        img: "/images/chairs/silvanceAbela.jpg",
+        name: "Silvance O. Abeka",
+        designation: "Jaramogi Oginga Odinga University",
+        country: 'KENYA',
+        link: "https://scholar.google.com/citations?user=rCjtLToAAAAJ&hl=en"
+    },
 ]
 
 export const nationalAdvisoryBoard = [
@@ -527,6 +533,13 @@ export const nationalAdvisoryBoard = [
         designation: 'Nirma University',
         country: 'AHMEDABAD',
         link: 'https://scholar.google.com/citations?user=i3XuX9AAAAAJ&hl=en'
+    },
+    {
+        img: '/images/nab/tanmoySom.jpg',
+        name: 'Tanmoy Som',
+        designation: 'Indian Institute of Technology (BHU)',
+        country: 'VARANASI',
+        link: 'https://scholar.google.com/citations?user=ZVw1nywAAAAJ&hl=en'
     },
 ]
 
