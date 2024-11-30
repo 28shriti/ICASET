@@ -67,7 +67,7 @@ const Home = () => {
 
         <div className="w-full flex flex-wrap px-5 md:px-10 gap-3">
           <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
-            <a href="/documents/grenze_template.docx">Paper Submission</a>
+            <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICACT2025">Paper Submission</a>
             {/* <a href="/papersubmission">Paper Submission</a> */}
           </Button>
           <Button className="text-white bg-[#31363F] hover:bg-[#222831]">
