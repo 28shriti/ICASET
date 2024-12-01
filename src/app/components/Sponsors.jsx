@@ -1,5 +1,6 @@
 import { Accordion, AccordionItem, AccordionContent, AccordionTrigger } from '@/components/ui/accordion'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Sponsors = () => {
@@ -7,8 +8,8 @@ const Sponsors = () => {
         <div className='w-[100vw] bg-[url("/images/sponsorsBg.png")] text-white p-10'>
             <h3 className='font-black text-4xl text-center pb-10'>Our Associates</h3>
             <div className='flex flex-col gap-5'>
-                <div className='flex flex-col md:flex-row justify-evenly gap-5'>
-                    <div className='flex flex-col gap-1'>
+                <div className='flex flex-col lg:flex-row justify-evenly gap-5'>
+                    <div className='flex flex-col gap-1 items-center'>
                         <p className='text-center text-xl font-medium'>Sponsors</p>
                         <div className='flex flex-col md:flex-row gap-10 items-center'>
                             <Image src={'/images/sponsors/EliteGlobalPvtLtd.jpeg'} className='rounded-md' width={300} height={90} alt='sponsor' />
@@ -20,7 +21,10 @@ const Sponsors = () => {
                         <div>
                             <p className='text-center font-medium text-xl'>Media Partner</p>
                         </div>
-                        <Image src={'/images/sponsors/Lokmat.png'} className='rounded-md' width={200} height={100} alt='sponsor' />
+                        <div className='flex flex-col md:flex-row gap-10 shrink-0 items-center'>
+                            <Image src={'/images/sponsors/Lokmat.png'} className='rounded-md' width={200} height={100} alt='sponsor' />
+                            <Link href="https://conferencealerts.co.in/" className='shrink-0 h-3/4'><Image src={'/images/sponsors/CA1.jpg'} className='rounded-md' width={300} height={100} alt='sponsor' /></Link>
+                        </div>
                     </div>
                 </div>
                 <div className='flex flex-col gap-2 mt-10'>

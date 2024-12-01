@@ -17,7 +17,7 @@ const Page = () => {
     <MainContainer>
       <div className='flex flex-col lg:flex-row gap-20 py-7 px-20 items-center lg:items-start'>
           <div className='lg:order-1 order-2 flex flex-col'>
-            <ContactCard name='Nikhil S. Mangrulkar' mobile='+91-7767888776' email='act_phase1@outlook.com' />
+            <ContactCard name='Nikhil S. Mangrulkar' mobile='+91-7767888776' email='actphase1@outlook.com' />
             <Link href="/contact/site"><SiteCard /></Link>
             <Link href="/contact/stayin"><HotelCard /></Link>
           </div>
