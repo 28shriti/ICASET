@@ -28,7 +28,7 @@ export default function Footer() {
                 <ul>
                     <li><Link href="https://ycce.edu/" className="item"><FontAwesomeIcon icon={faLocationDot} /> YCCE official website</Link></li>
                     <li>Phone no : +91-7767888776 </li>
-                    <li>Email : act_phase1@outlook.com</li>
+                    <li>Email : actphase1@outlook.com</li>
 
                 </ul>
             </div>
