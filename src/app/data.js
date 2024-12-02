@@ -5,9 +5,9 @@ const data = {
 
 export const dates = [
     {
-        event: "Last date of Paper Submission",
-        date: "30 November 2024 [Extended: 10-12-2024]",
-    },
+        "event": "Last date of Paper Submission",
+        "date": "<del>30 November 2024</del><br>10 December 2024"
+    },    
     {
         event: "Paper Acceptance Notification",
         date: "30 December 2024",
