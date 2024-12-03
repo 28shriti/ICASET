@@ -1,5 +1,5 @@
 const data = {
-    notice: "ACT-25(Phase I) is going to be conducted in the Hybrid mode.",
+    notice: "ACT-2025 (Phase I) is going to be conducted in the Hybrid mode.",
     conferenceDate: "7-8 February, 2025",
 }
 

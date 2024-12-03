@@ -46,7 +46,7 @@ const Sponsors = () => {
 
                             <div className="flex flex-col gap-5 justify-center items-center mt-10 self-center bg-[#31363F] rounded-xl xl:p-7 xl:backdrop-blur-sm xl:backdrop-contrast-[.5] bg-opacity-60 text-[#ffffff] max-sm:bg-transparent">
                                 <h2 className='text-3xl font-bold text-center'>Call for a Sponsor</h2>
-                                <h3 className='text-xl text-center w-full'>IC-ASET25 offer a range of sponsorship packages to suit different levels of participation and investment, including but not limited to:</h3>
+                                <h3 className='text-xl text-center w-full'>ACT-2025 (Phase I) offer a range of sponsorship packages to suit different levels of participation and investment, including but not limited to:</h3>
                                 <div className='flex justify-center max-sm:w-full'>
                                     <ul className=' list-disc flex flex-col gap-4'>
                                         <li>
