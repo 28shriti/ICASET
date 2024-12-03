@@ -48,7 +48,7 @@ export default function CallForPaper() {
                             <tbody>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Paper Submission</td>
-                                    <td className='px-3 py-2 border-2 border-white'>30 November 2024</td>
+                                    <td className='px-3 py-2 border-2 border-white'>10 December 2024</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Acceptance Notification</td>

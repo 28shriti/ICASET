@@ -91,7 +91,7 @@ const Navbar = () => {
       { name: "Paper Format", href: "/documents/grenze_template.docx" },
       { name: "Paper Submission", href: "/authors/submission" },
       { name: "Publication", href: "/authors/publication" },
-      { name: "Download CFP", href: "/documents/CALL FOR PAPERS.pdf"}
+      { name: "Download CFP", href: "/documents/CALL_FOR_PAPERS.pdf"}
     ],
   };
 
