@@ -1170,14 +1170,14 @@ export const organizingCommitte = [
             // }
             ,
             {
-                img: "/images/cse/rupaFadnavis.jpg",
+                img: "/images/cse/kavitaKathane.jpeg",
                 name: "Kavita A. Kathane",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Registration and Budgeting"
             },
             {
-                img: "/images/cse/rupaFadnavis.jpg",
+                img: "/images/cse/vibhaktiBagade.jpeg",
                 name: "Vibhakti N. Bagade",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1191,7 +1191,7 @@ export const organizingCommitte = [
                 department: "Registration and Budgeting"
             },
             {
-                img: "/images/cse/rupaFadnavis.jpg",
+                img: "/images/cse/priyankaMore.jpg",
                 name: "Priyanka More (Khandekar)",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1231,14 +1231,14 @@ export const organizingCommitte = [
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/renukaKadu.jpg",
                 name: "Renuka Dhanraj Kadu",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/shraddhaVaidya.jpg",
                 name: "Shraddha G. Vaidya",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1252,7 +1252,7 @@ export const organizingCommitte = [
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/SmitaDhote.jpeg",
                 name: "Smita Dhote",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1266,21 +1266,21 @@ export const organizingCommitte = [
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/AnuradhaHiwase.jpeg",
                 name: "Anuradha Hiwase",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/ChanchlaTripathi.jpeg",
                 name: "Chanchla A. Tripathi",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Technical Session Arrangement and Support"
             },
             {
-                img: "/images/cse/amrutaPaul.jpg",
+                img: "/images/cse/RoshniBhave.jpeg",
                 name: "Roshni M. Bhave",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1353,14 +1353,14 @@ export const organizingCommitte = [
             //     department: "Hall and Venue Management"
             // },
             {
-                img: "/images/cse/BharatiKarare.jpg",
+                img: "/images/cse/pratibhaWagale.jpg",
                 name: "Pratibha P. Waghale",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/cse/BharatiKarare.jpg",
+                img: "/images/cse/nikitaGiradkar.jpeg",
                 name: "Nikita P. Giradkar",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1374,14 +1374,14 @@ export const organizingCommitte = [
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/cse/BharatiKarare.jpg",
+                img: "/images/cse/Rponmalar.jpg",
                 name: "R.Ponmalar",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Hall and Venue Management"
             },
             {
-                img: "/images/cse/BharatiKarare.jpg",
+                img: "/images/cse/SnehalDongre.jpeg",
                 name: "Snehal Dongre",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1414,21 +1414,21 @@ export const organizingCommitte = [
             //     department: "Catering Management"
             // },
             {
-                img: "/images/cse/shraddhaVaidya.jpg",
+                img: "/images/cse/jivanDhenkar.jpg",
                 name: "Jiwan N. Dehankar",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/cse/shraddhaVaidya.jpg",
+                img: "/images/cse/milindTote.jpg",
                 name: "Milind c. Tote",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/cse/shraddhaVaidya.jpg",
+                img: "/images/cse/EkantTekam.jpeg",
                 name: "Ekant R. Tekam",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
@@ -1436,13 +1436,13 @@ export const organizingCommitte = [
             },
             {
                 img: "/images/cse/shraddhaVaidya.jpg",
-                name: "Priva Meshram",
+                name: "Priya Meshram",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
                 department: "Catering Management"
             },
             {
-                img: "/images/cse/shraddhaVaidya.jpg",
+                img: "/images/cse/KanchanJha.jpeg",
                 name: "Kanchan Jha",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
