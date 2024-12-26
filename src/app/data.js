@@ -10,7 +10,7 @@ export const dates = [
     },    
     {
         event: "Paper Acceptance Notification",
-        date: "30 December 2024",
+        date: "31 December 2024",
     },
     {
         event: "Camera Ready Paper Submission",
