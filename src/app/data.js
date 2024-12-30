@@ -14,11 +14,11 @@ export const dates = [
     },
     {
         event: "Camera Ready Paper Submission",
-        date: "15 January 2025",
+        date: "20 January 2025",
     },
     {
         event: "Last date of Registration",
-        date: "15 January 2025",
+        date: "25 January 2025",
     },
     {
         event: "Conference Date",

@@ -56,11 +56,11 @@ export default function CallForPaper() {
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Camera Ready Paper Submission</td>
-                                    <td className='px-3 py-2 border-2 border-white'>15 January 2025</td>
+                                    <td className='px-3 py-2 border-2 border-white'>20 January 2025</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Registration</td>
-                                    <td className='px-3 py-2 border-2 border-white'>15 January 2025</td>
+                                    <td className='px-3 py-2 border-2 border-white'>25 January 2025</td>
                                 </tr>
                                 <tr>
                                     <td className='px-3 py-2 font-bold border-2 border-white'>Conference Date</td>
