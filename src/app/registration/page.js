@@ -147,7 +147,7 @@ export default function Registration() {
                         <div>
                             <strong className="text-xl">Step 4 - Camera Ready Paper (CRP) Submission</strong><br />
                             Authors submitting their papers may use the following template. The failure in adhering to the specific format norms  will result in rejection. All camera ready papers must be submitted in MS WORD file format only <b>(PDF is NOT accepted)</b>.<br/>
-                            <div className="mt-2">The CAMERA-READY PAPER common TEMPLATE, available at <a href="https://www.ycce-act.com/documents/grenze_template.docx" className=" font-bold underline">DOC</a>. </div>
+                            <div className="mt-2">The CAMERA-READY PAPER common TEMPLATE, available at <a href="/documents/Copyright.doc" className=" font-bold underline">DOC</a>. </div>
                             <div className="mt-3 font-bold">Submit your camera-ready papers through the google form (Link will be communicated after acceptance of paper).
                             </div>
                         </div>
