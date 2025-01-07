@@ -181,7 +181,7 @@ export default function Registration() {
                             <p className="text-justify">
                                 Authors submitting their papers may use the following template. The failure in adhering to the specific format norms  will result in rejection. All camera ready papers must be submitted in MS WORD file format only <b>(PDF is NOT accepted)</b>.<br />
                             </p>
-                            <div className="mt-2 text-justify">The CAMERA-READY PAPER common TEMPLATE, available at <a href="https://www.ycce-act.com/documents/grenze_template.docx" className=" font-bold underline">DOC</a>. </div>
+                            <div className="mt-2 text-justify">The CAMERA-READY PAPER common TEMPLATE, available at <a href="/documents/Copyright.doc" className=" font-bold underline">DOC</a>. </div>
                             <div className="mt-3 font-bold text-justify">Submit your camera-ready papers through the google form (Link will be communicated after acceptance of paper).
                             </div>
                         </div>
