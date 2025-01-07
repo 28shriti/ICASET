@@ -170,7 +170,7 @@ export default function Registration() {
                     <div className="text-justify leading-4 md:leading-5 lg:leading-normal text-sm md:text-md lg:text-lg lg:px-20">
                         <p><strong className="text-xl">Step 3 - Copyright Transfer</strong><br />
                             All Authors have to sign (for their individual paper) Copyright Transfer Agreement Form, which is in PDF format. Print-Fill-Sign-Scan and send to <b>actphase1@outlook.com</b><br />
-                            The Conference Copyright form, available at <a href="/" className=" underline font-bold ">DOC</a>.
+                            The Conference Copyright form, available at <a href="/documents/Copyright.doc" className=" underline font-bold ">DOC</a>.
                         </p>
                     </div>
                     <br /><br />
