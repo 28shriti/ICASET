@@ -58,6 +58,24 @@ const OrganizingCommittee = () => {
                     return (
                         <div key={index}>
                             <Title>{committee.title}</Title>
+                            {committee.headDesignation ?
+                            <div>
+                                <Title>{committee.headDesignation }</Title>
+                            
+                            <div className='flex w-full justify-left md:justify-evenly gap-5 items-center flex-col sm:flex-row h-auto mt-8'>
+                                {
+                                    committee.headMembers.map((headMembers,index2)=>{
+                                        return (
+                                            <ConvenorCard key={index2} img={headMembers.img} name={headMembers.name} des={""} dep={headMembers.department} />
+                                        )
+                                    })
+                                }                    
+                            </div>   
+                                <Title>{committee.memberDesignation}</Title>
+                            </div>
+                            :
+                            <div></div>
+                            }
                             <ProfileGrid data={committee.members} hybrid />
                         </div>
                     )
