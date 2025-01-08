@@ -579,6 +579,13 @@ export const publicationChairs = [
         country: "NAGPUR",
         link: ""
     },
+    {
+        img: "/images/ctech/prafulBarekar.jpg",
+        name: "Praful V. Barekar",
+        designation: "Assistant Professor, Computer Technology",
+        country: "NAGPUR",
+        link: "",
+    },
 
     // {
     //     img: "/images/cse/pratibhaWagale.jpg",
@@ -1138,69 +1145,25 @@ export const financeChairs = [
 
 export const organizingCommitte = [
     {
-        title: "Registration",
-        members: [
-            // {
-            //     img: "/images/ctech/prafulBarekar.jpg",
-            //     name: "Praful V. Barekar",
-            //     designation: "Assistant Professor, Computer Technology",
-            //     link: "",
-            //     department: "Registration and Budgeting"
-            // },
-            // {
-            //     img: "/images/ctech/prachiBainalwar.jpg",
-            //     name: "Prachi A. Bainwalwar",
-            //     designation: "Assistant Professor, Computer Technology",
-            //     link: "",
-            //     department: "Registration and Budgeting"
-            // },
-            {
-                img: "/images/cse/rupaFadnavis.jpg",
-                name: "Rupa A. Fadnavis",
-                designation: "Assistant Professor, Computer Science and Engineering",
+        title: "Technical Session Arrangement",
+        headDesignation : "Heads",
+        headMembers :[
+             {
+                img: "/images/ctech/DrGauriDhopavkar.png",
+                name: "Dr. Gauri Dhopavkar",
+                designation: "",
                 link: "",
-                department: "Registration and Budgeting"
-            },
-            // {
-            //     img: "/images/cse/amitaMeshram.jpg",
-            //     name: "Amita P. Meshram",
-            //     designation: "Assistant Professor, Computer Science and Engineering",
-            //     link: "",
-            //     department: "Registration and Budgeting"
-            // }
-            ,
-            {
-                img: "/images/cse/kavitaKathane.jpeg",
-                name: "Kavita A. Kathane",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Registration and Budgeting"
+                department: "Computer Technology"  
             },
             {
-                img: "/images/cse/vibhaktiBagade.jpeg",
-                name: "Vibhakti N. Bagade",
+                img: "/images/cse/fazilSheikh.jpg",
+                name: "Fazil Ahmad M. K. Sheikh",
                 designation: "Assistant Professor, Computer Science and Engineering",
                 link: "",
-                department: "Registration and Budgeting"
+                department: "Computer Science and Engineering"
             },
-            {
-                img: "/images/cse/ayushiJain.jpg",
-                name: "Ayushi Jain",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Registration and Budgeting"
-            },
-            {
-                img: "/images/cse/priyankaMore.jpg",
-                name: "Priyanka More (Khandekar)",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Registration and Budgeting"
-            }
-        ]
-    },
-    {
-        title: "Session Arrangement",
+        ],
+        memberDesignation : "Members",
         members: [
             // {
             //     img: "/images/ctech/ganeshYenurkar.jpg",
@@ -1223,13 +1186,6 @@ export const organizingCommitte = [
             //     link: "",
             //     department: "Technical Session Arrangement and Support"
             // },
-            {
-                img: "/images/cse/fazilSheikh.jpg",
-                name: "Fazil Ahmad M. K. Sheikh",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Technical Session Arrangement and Support"
-            },
             {
                 img: "/images/cse/renukaKadu.jpg",
                 name: "Renuka Dhanraj Kadu",
@@ -1296,6 +1252,68 @@ export const organizingCommitte = [
         ]
     },
     {
+        title: "Registration",
+        members: [
+            // {
+            //     img: "/images/ctech/prafulBarekar.jpg",
+            //     name: "Praful V. Barekar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // },
+            // {
+            //     img: "/images/ctech/prachiBainalwar.jpg",
+            //     name: "Prachi A. Bainwalwar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // },
+            {
+                img: "/images/cse/rupaFadnavis.jpg",
+                name: "Rupa A. Fadnavis",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            // {
+            //     img: "/images/cse/amitaMeshram.jpg",
+            //     name: "Amita P. Meshram",
+            //     designation: "Assistant Professor, Computer Science and Engineering",
+            //     link: "",
+            //     department: "Registration and Budgeting"
+            // }
+            ,
+            {
+                img: "/images/cse/kavitaKathane.jpeg",
+                name: "Kavita A. Kathane",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/cse/vibhaktiBagade.jpeg",
+                name: "Vibhakti N. Bagade",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/cse/ayushiJain.jpg",
+                name: "Ayushi Jain",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            },
+            {
+                img: "/images/cse/priyankaMore.jpg",
+                name: "Priyanka More (Khandekar)",
+                designation: "Assistant Professor, Computer Science and Engineering",
+                link: "",
+                department: "Registration and Budgeting"
+            }
+        ]
+    },
+    {
         title: "Transport and Accommodation",
         members: [
             {
@@ -1305,13 +1323,13 @@ export const organizingCommitte = [
                 link: "",
                 department: "Transport and Accommodation"
             },
-            {
-                img: "/images/ctech/prafulBarekar.jpg",
-                name: "Praful V. Barekar",
-                designation: "Assistant Professor, Computer Technology",
-                link: "",
-                department: "Technical Session Arrangement and Support"
-            },
+            // {
+            //     img: "/images/ctech/prafulBarekar.jpg",
+            //     name: "Praful V. Barekar",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Technical Session Arrangement and Support"
+            // },
             {
                 img: "/images/ctech/nileshSambhe.jpg",
                 name: "Nilesh U. Sambhe",
@@ -1467,6 +1485,18 @@ export const organizingCommitte = [
                 link: "",
                 department: "Hall and Venue Management"
             },
+            // {
+            //     img: "/images/ctech/shwetaGhode.jpg",
+            //     name: "Shweta A. Gode",
+            //     designation: "Assistant Professor, Computer Technology",
+            //     link: "",
+            //     department: "Hall and Venue Management"
+            // },
+        ]
+    },
+    {
+        title : "Design Team",
+        members :[
             {
                 img: "/images/ctech/shwetaGhode.jpg",
                 name: "Shweta A. Gode",
@@ -1477,7 +1507,6 @@ export const organizingCommitte = [
         ]
     }
 ]
-
 
 import Link from 'next/link';
 
