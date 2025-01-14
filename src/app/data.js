@@ -809,11 +809,11 @@ export const nationalTechProgramCommittee = [
         name: "Sunil Kumar Maakar",
         designation: "GNIOT, Greater Noida"
     },
-    {
+    /* {
         img: "/images/tech-committee/national/image12.jpeg",
         name: "Shalini Goel",
         designation: "Tecnia Institute of Advanced Studies, Delhi"
-    },
+    }, */
     {
         name: "Tushar Champaneria",
         designation: "Government Engineering College, Modasa",
