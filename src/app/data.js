@@ -1268,13 +1268,13 @@ export const organizingCommitte = [
             //     link: "",
             //     department: "Registration and Budgeting"
             // },
-            {
-                img: "/images/cse/rupaFadnavis.jpg",
-                name: "Rupa A. Fadnavis",
-                designation: "Assistant Professor, Computer Science and Engineering",
-                link: "",
-                department: "Registration and Budgeting"
-            },
+           // {
+           //     img: "/images/cse/rupaFadnavis.jpg",
+           //     name: "Rupa A. Fadnavis",
+           //     designation: "Assistant Professor, Computer Science and Engineering",
+           //     link: "",
+           //     department: "Registration and Budgeting"
+           // },
             // {
             //     img: "/images/cse/amitaMeshram.jpg",
             //     name: "Amita P. Meshram",
